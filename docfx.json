@@ -50,8 +50,8 @@
       "_enableSearch": true,
       "_gitContribute": {
         "orgName": "nopSolutions",
-        "repoName": "nopCommerce-Docs",
-        "repo": "https://github.com/nopSolutions/nopCommerce-Docs.git",
+        "repoName": "nopCommerceDocs",
+        "repo": "https://github.com/nopSolutions/nopCommerceDocs.git",
         "branch": "master"
       },
       "searchScope": [
