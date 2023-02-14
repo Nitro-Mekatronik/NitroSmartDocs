@@ -45,17 +45,17 @@
       "_navPath": "/",
       "_navRel": "/",
       "improveTranslationEnabled": false,
-      "_officialSiteUrl": "https://www.nopcommerce.com/",
+      "_officialSiteUrl": "https://preprod.nitrosmart.app/",
       "_appLogoPath": "logo.png",
       "_enableSearch": true,
       "_gitContribute": {
-        "orgName": "nopSolutions",
-        "repoName": "nopCommerceDocs",
-        "repo": "https://github.com/nopSolutions/nopCommerceDocs.git",
+        "orgName": "NitroSmart",
+        "repoName": "NitroSmartDocs",
+        "repo": "https://github.com/nopSolutions/NitroSmartDocs.git",
         "branch": "master"
       },
       "searchScope": [
-        "nopCommerceDocs"
+        "NitroSmartDocs"
       ]
     },
     "template": [

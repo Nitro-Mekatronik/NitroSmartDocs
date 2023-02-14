@@ -50,7 +50,7 @@ If you want to contribute some changes to the nopCommerce documentation (article
 
 ## Redirects
 
-If you delete an article, change its file name or move it to another folder, create a redirect so that people who bookmarked the article don't receive a 404 Not Found error. Add redirects to the [web.config file](https://github.com/nopSolutions/nopCommerce-Docs/blob/master/web.config).
+If you delete an article, change its file name or move it to another folder, create a redirect so that people who bookmarked the article don't receive a 404 Not Found error. Add redirects to the [web.config file](https://github.com/nopSolutions/NitroSmartDocs/blob/master/web.config).
 
 ## Microsoft writing style guide
 

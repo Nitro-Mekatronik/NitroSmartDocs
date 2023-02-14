@@ -18,7 +18,7 @@
       "output": {
         ".html": {
           "relative_path": "CONTRIBUTING.html",
-          "hash": "Yc0tLpubgRs63Qr5wx7IaLHEOETNFAJiuOlSyqhS6C4="
+          "hash": "peEVeqTIkhKgwNblKnCoNtbgiguMPCLHDplUTBS9VyU="
         }
       },
       "is_incremental": false,
@@ -30,7 +30,7 @@
       "output": {
         ".html": {
           "relative_path": "en/developer/contribute/index.html",
-          "hash": "WH2Gd7oQxShnQdVAMUWEJKCnzedxX0e4lee9mRzvB5g="
+          "hash": "oEXDGKcpIDKunGZkvITT1y5zHCOlTHDPAT82zqPLTZM="
         }
       },
       "is_incremental": false,
@@ -42,7 +42,7 @@
       "output": {
         ".html": {
           "relative_path": "en/developer/contribute/possible-ways.html",
-          "hash": "EY3m9LgtTFBf60oX93UvGqszBEQWUfnPWuJdlCDHs5U="
+          "hash": "UmSqs5NZ1fkGzvmp/NTCpSDC/zLokEEDJ1hxe7X9PDk="
         }
       },
       "is_incremental": false,
@@ -54,7 +54,7 @@
       "output": {
         ".html": {
           "relative_path": "en/developer/contribute/sharing.html",
-          "hash": "olbTZkSF4Qt7ZUfopnVwRkMLQwoMkjL87mPhml5iySg="
+          "hash": "6ymA0yAuqFeADRhVuddtaxkr/oHaVMl26pOB/GqskN0="
         }
       },
       "is_incremental": false,
@@ -66,7 +66,7 @@
       "output": {
         ".html": {
           "relative_path": "en/developer/contribute/source-code.html",
-          "hash": "JzU7WcO1HT/czwv14KDmL9RkFTO3sc7EeVjuibBdNXA="
+          "hash": "SrjzAoX0i8+nGooRxoERM+rTqvQcsDq3XHO5zVY7XhI="
         }
       },
       "is_incremental": false,
@@ -78,7 +78,7 @@
       "output": {
         ".html": {
           "relative_path": "en/developer/copyright-notice.html",
-          "hash": "uzSI1hk3Umr+Rhd+ZwTATrarFLFYBr5Yypsd3TJXemE="
+          "hash": "4TBf60FAlJramPLvhDH2QKgEaas9RQuDXn3jKj2sEfk="
         }
       },
       "is_incremental": false,
@@ -288,7 +288,7 @@
       "output": {
         ".html": {
           "relative_path": "en/developer/design/contributing-theme.html",
-          "hash": "ZxRPYwLGBpzsoydLv/1wQw7342P8uhDNKXaADL1pb1Y="
+          "hash": "/2d2aY1iRd/DPbKzyV8d9ZnzMN5mXyX+zo7lsCSeZz8="
         }
       },
       "is_incremental": false,
@@ -300,7 +300,7 @@
       "output": {
         ".html": {
           "relative_path": "en/developer/design/customizing-theme.html",
-          "hash": "2k2dV0hUWvhEYMryE4nYF2hvpc8civSqZGRDEyhsHNM="
+          "hash": "iDscYMKPFkesDsq7xwlXlRj9G/arhl51h22CkMxBGE8="
         }
       },
       "is_incremental": false,
@@ -312,7 +312,7 @@
       "output": {
         ".html": {
           "relative_path": "en/developer/design/entity-events-system.html",
-          "hash": "KFE0EHmdIDHXk56ZLpwS9/fcR0x3F06yu3xRV8QRmnA="
+          "hash": "HDcRhkLu850xStpXcFm+YLglFTC6mYisjvPwDcoZaTM="
         }
       },
       "is_incremental": false,
@@ -324,7 +324,7 @@
       "output": {
         ".html": {
           "relative_path": "en/developer/design/index.html",
-          "hash": "EYFhCqQLw7BXxj1GvZwDgF7Dlr+TPYksVhRt878/znk="
+          "hash": "gTi4KQjYi6jIeBhi0iAIJzJ1I1Hqsukfhs8MfD7ihX4="
         }
       },
       "is_incremental": false,
@@ -336,7 +336,7 @@
       "output": {
         ".html": {
           "relative_path": "en/developer/design/installing-theme.html",
-          "hash": "PzeOJhvg5FNWvsI07G3AlCPBcCKk0OaRkSsYAxE/zoA="
+          "hash": "Ea8jeJQQuN+A5nERj2fc+ln5hRsUCNDOgoWPjY04nyw="
         }
       },
       "is_incremental": false,
@@ -348,7 +348,7 @@
       "output": {
         ".html": {
           "relative_path": "en/developer/design/new-theme.html",
-          "hash": "z2KfvlkkLtsQeMtuRYNIKan+E5mqxWh3W4GcLqHf4zM="
+          "hash": "1k4J8OZOSRgWCAV/wQlL7W+6V7IeFBzDBmztHVnsXsc="
         }
       },
       "is_incremental": false,
@@ -360,7 +360,7 @@
       "output": {
         ".html": {
           "relative_path": "en/developer/design/overview.html",
-          "hash": "OWpmbpmcPqlahBzZefIygZJar1ukMYF5aaHoggFjqpM="
+          "hash": "c1mTGmn4a1tXESebLAoMzdxITt1oKHObWrLZQNlB25s="
         }
       },
       "is_incremental": false,
@@ -372,7 +372,7 @@
       "output": {
         ".html": {
           "relative_path": "en/developer/design/responsive.html",
-          "hash": "nLlHGWnI2xK6ixmJs2o4EW1pFjnO0uX6BMrWTJYbOCs="
+          "hash": "PDCxcUE77M19rY4uoEKjTXzn84G3Vm6PKLkPHaEWm6k="
         }
       },
       "is_incremental": false,
@@ -384,7 +384,7 @@
       "output": {
         ".html": {
           "relative_path": "en/developer/design/right-to-left-theme.html",
-          "hash": "1/oJe/nVNTq0rw6RQ93gOv8+srlDOkwvmi32tRQVCm4="
+          "hash": "Mqzmo7B8pZFOjEYfRLvUD+lyZ7ZQEtarM6qO3PhAxNc="
         }
       },
       "is_incremental": false,
@@ -396,7 +396,7 @@
       "output": {
         ".html": {
           "relative_path": "en/developer/design/tips-and-tricks.html",
-          "hash": "L4qlWAmhcy8XhTwOoQeLeNlSs/qb2yYLDfWF6aUlqyw="
+          "hash": "4uQ3Ipv/LSRVj1hoOg7/n+nya3g6onp1ERzQzNoeUgU="
         }
       },
       "is_incremental": false,
@@ -408,7 +408,7 @@
       "output": {
         ".html": {
           "relative_path": "en/developer/design/understanding-layout.html",
-          "hash": "SLhWbc7Y1nG2cjif1mL5YqxX5Ofr4xMUVKd2bq0KYzM="
+          "hash": "5A5rsRD2gMOo7IWf7Y0ZI+K+Ehj5ESAfLZ2+LKodgDw="
         }
       },
       "is_incremental": false,
@@ -420,7 +420,7 @@
       "output": {
         ".html": {
           "relative_path": "en/developer/design/widgets.html",
-          "hash": "EIvYv+BI4dC15FQuwi/2+EjfVSoVTd7KiOJDBeb+DVk="
+          "hash": "qcoXo8+zuIuuYUJNECUW0zSzpZyo4BnelHcZ9XFVGyw="
         }
       },
       "is_incremental": false,
@@ -432,7 +432,7 @@
       "output": {
         ".html": {
           "relative_path": "en/developer/index.html",
-          "hash": "TsGlXI8X/S02Tq6PGzjECAPC8CU8B+L1n2rzN4OaU0g="
+          "hash": "/F7KhYtYENcKdwb1Up9vIkh0z9CE/ZRo4CPH3AazPF4="
         }
       },
       "is_incremental": false,
@@ -488,7 +488,7 @@
       "output": {
         ".html": {
           "relative_path": "en/developer/mobile-app/index.html",
-          "hash": "YYHtmYui38ml1C0LIW3qoSw0D7x6pZPZVbIvHV96WtQ="
+          "hash": "heL9gMTRqS8vHZa/nvoyx3Z7u6PZwTBmnIJT3yNQeR4="
         }
       },
       "is_incremental": false,
@@ -962,7 +962,7 @@
       "output": {
         ".html": {
           "relative_path": "en/developer/plugins/how-to-write-plugin-3.90.html",
-          "hash": "VMjIHTb/csPrB+uQMJebqz9ndqNua3pivTfxd0RvyfQ="
+          "hash": "FAoE+/aI9LMLuddcMLkrkgX8ETGH24Uq1DHSFvwm090="
         }
       },
       "is_incremental": false,
@@ -974,7 +974,7 @@
       "output": {
         ".html": {
           "relative_path": "en/developer/plugins/how-to-write-plugin-4.00.html",
-          "hash": "xMRDTCMebqsmRYGgKsAh9a21jXkELyi05uRzzjpWEF0="
+          "hash": "JPll5YyriSXFMFYCB6dE1cTTv4GXlYj0KWSqriu+z94="
         }
       },
       "is_incremental": false,
@@ -986,7 +986,7 @@
       "output": {
         ".html": {
           "relative_path": "en/developer/plugins/how-to-write-plugin-4.10.html",
-          "hash": "3d0ca85zb7rpYK4h8ifbsOIqXQAjWK83wN/DPC4pXPU="
+          "hash": "M1HR5NTIVVlTPyFhWIb/lVIbyxeM0Qj+9dHe+Ip6RwQ="
         }
       },
       "is_incremental": false,
@@ -998,7 +998,7 @@
       "output": {
         ".html": {
           "relative_path": "en/developer/plugins/how-to-write-plugin-4.20.html",
-          "hash": "mpjowPHEKo6Lo+wuuGBbf1q30vKAa183FWpjymkjOKY="
+          "hash": "/WRsGGXlJHSlCYpuZAjaZB27Xt2SMDoYEkutNUlr7MM="
         }
       },
       "is_incremental": false,
@@ -1010,7 +1010,7 @@
       "output": {
         ".html": {
           "relative_path": "en/developer/plugins/how-to-write-plugin-4.30.html",
-          "hash": "o8KOt6WQ7aHvGcXHq7atlWPK+DwHM5DcZHYfav7phFQ="
+          "hash": "ynRAYWgmJDPplhPPrs+A+WvHyfvzrBeqLhRh+23kpdg="
         }
       },
       "is_incremental": false,
@@ -1022,7 +1022,7 @@
       "output": {
         ".html": {
           "relative_path": "en/developer/plugins/how-to-write-plugin-4.40.html",
-          "hash": "vD5K+GxgL9jUpU2Zi4k+nL1N/YT6PNcLRT+4s68y0m0="
+          "hash": "/BX6dvJ+yF0W3QQg/p0YfdIwIolfojH+wjbv9tAQPew="
         }
       },
       "is_incremental": false,
@@ -1034,7 +1034,7 @@
       "output": {
         ".html": {
           "relative_path": "en/developer/plugins/how-to-write-plugin-4.50.html",
-          "hash": "XCueeJRLPIfx8OV9DVHTErAA+514HcqoHgp8v2b5z+o="
+          "hash": "yuVu+mrQn6Gld8duiGJOJVRd+YdRhgZV+crJeajALv0="
         }
       },
       "is_incremental": false,
@@ -1046,7 +1046,7 @@
       "output": {
         ".html": {
           "relative_path": "en/developer/plugins/how-to-write-plugin-4.60.html",
-          "hash": "spGM6ySHtrCK/TPt9E1ANCg6YPeQiKKS0a9DCbcF/TA="
+          "hash": "M4J4ULYutkkM2RrYBlLv9qGvWT/i4Kgn041czUZhdIY="
         }
       },
       "is_incremental": false,
@@ -1058,7 +1058,7 @@
       "output": {
         ".html": {
           "relative_path": "en/developer/plugins/how-to-write-tax-plugin-4.20.html",
-          "hash": "O47jy88chjEir6lR0qJl7N7eYb9y4UASWGXbk2cykfU="
+          "hash": "TDpUX3sD70iBDpQSCxN2mcITmIBLWzXFPzwXds2++34="
         }
       },
       "is_incremental": false,
@@ -1070,7 +1070,7 @@
       "output": {
         ".html": {
           "relative_path": "en/developer/plugins/how-to-write-widget-for-nopCommerce.html",
-          "hash": "akcQQ82sgCYkmbU6snpl8uRnVUA19J9Y1v9n7Qe/uU0="
+          "hash": "h61JvPh0klQ5gD+7Gx3l0CxW0/HaE8yEJxsxknh7KUw="
         }
       },
       "is_incremental": false,
@@ -1082,7 +1082,7 @@
       "output": {
         ".html": {
           "relative_path": "en/developer/plugins/index.html",
-          "hash": "G6qvREQBbqvPXc4H2vwz8QDi+lPBy5R76S1QHS4bD+0="
+          "hash": "S5cprMfke1a6j5qq8JAl4uzjQ1fcOoOq+0JWIs4BUFk="
         }
       },
       "is_incremental": false,
@@ -1094,7 +1094,7 @@
       "output": {
         ".html": {
           "relative_path": "en/developer/plugins/menu-item.html",
-          "hash": "8UunQhl4b2mjSn4mlZEdlgzNxUwQcxSeKvnRGEjFR1Q="
+          "hash": "hbEDudnIsuw8FS1TGtj5mNYwjF1+oQ5usTuqxaaOXvg="
         }
       },
       "is_incremental": false,
@@ -1106,7 +1106,7 @@
       "output": {
         ".html": {
           "relative_path": "en/developer/plugins/payment-method.html",
-          "hash": "JtdT+LFg5kToVyqeJY+ne40+QdgYlL+uZQS2LMSD1eE="
+          "hash": "V8nJqaCfODE2KRXXr3m+zjdPdnBTDkaj3vYIGo63Of4="
         }
       },
       "is_incremental": false,
@@ -1118,7 +1118,7 @@
       "output": {
         ".html": {
           "relative_path": "en/developer/plugins/plugin-with-data-access-4.20.html",
-          "hash": "r4oD8zClaKoXnI7sZpjdG8HAuJu5bWnqwBRypjG/2OU="
+          "hash": "PVuHm0e3/6oPGlkm+dOZaqgXB2/jrHNJynG0TXhFJBY="
         }
       },
       "is_incremental": false,
@@ -1130,7 +1130,7 @@
       "output": {
         ".html": {
           "relative_path": "en/developer/plugins/plugin-with-data-access.html",
-          "hash": "TwvvxqpdiuZQTXXkUDkxOBQxLsXvzOJqw8mdtdtdBC4="
+          "hash": "YFnEia4048im6Pj9A1lBM5TpONCkS1g9CHrRqsLbsgY="
         }
       },
       "is_incremental": false,
@@ -1142,7 +1142,7 @@
       "output": {
         ".html": {
           "relative_path": "en/developer/plugins/plugin.json.html",
-          "hash": "Vcx+AdB+viVA6n4XijBcrkMQWOhSGTf57omgu8LFa9U="
+          "hash": "RUQyR8gO25SD4TdtznARaQl87siA6jz/MyqLatSMohE="
         }
       },
       "is_incremental": false,
@@ -1154,7 +1154,7 @@
       "output": {
         ".html": {
           "relative_path": "en/developer/plugins/resource-files.html",
-          "hash": "DmVBx4gd41FU96axOJ765/hdkgJPm8+psF/L6jDViX4="
+          "hash": "GGid5gdAKpBE3ZZE+05mhknDvWdqSLhwC02AohGJod0="
         }
       },
       "is_incremental": false,
@@ -1166,7 +1166,7 @@
       "output": {
         ".html": {
           "relative_path": "en/developer/plugins/shipping-plugin.html",
-          "hash": "owWC4yKg4xqeJgf6U9RVvBo/gGKND2R22aTXbW0v+Lo="
+          "hash": "6Pjd6EfEVm8jFgcJvJDKzgWZe6B2vBsSSIHq2qED2nk="
         }
       },
       "is_incremental": false,
@@ -1794,7 +1794,7 @@
       "output": {
         ".html": {
           "relative_path": "en/developer/tutorials/appsettings-json-file.html",
-          "hash": "RyyHRpTDict1c+6Dx9GfsoMcuPhJyli5TVgT7Q9RZfs="
+          "hash": "QO9a75nqDL6DVrF4jZX1hVxqU4TVAFMgYKB6zY3sPE8="
         }
       },
       "is_incremental": false,
@@ -1806,7 +1806,7 @@
       "output": {
         ".html": {
           "relative_path": "en/developer/tutorials/architecture-of-nopCommerce.html",
-          "hash": "y1dYJY1Umb1igekeo1jwaw4BeI49ElXI6zIIC0YD3Ws="
+          "hash": "LHhiuFgyIYwwTF21mTmAafZVFBplxTDoF42p+qs2dm8="
         }
       },
       "is_incremental": false,
@@ -1818,7 +1818,7 @@
       "output": {
         ".html": {
           "relative_path": "en/developer/tutorials/azure-deploy.html",
-          "hash": "pUyM4FIBA6RJ2g0AsEEAW6E06+/YkUhjUfiDnrnScXc="
+          "hash": "ryek1+LdePDv/81PDLl72QCm17ZfTdjSBJLbXF4vlHQ="
         }
       },
       "is_incremental": false,
@@ -1830,7 +1830,7 @@
       "output": {
         ".html": {
           "relative_path": "en/developer/tutorials/azure-publish.html",
-          "hash": "uHL+KumAOLTnt5nfRhuCMrVHC47GhLcDbKLF6EpKP1s="
+          "hash": "abh1XAlP+fVrhV2TZF6Sj3S5fDYUv/QjnkGZmN41EZQ="
         }
       },
       "is_incremental": false,
@@ -1842,7 +1842,7 @@
       "output": {
         ".html": {
           "relative_path": "en/developer/tutorials/code-style.html",
-          "hash": "IghJSyE9NE2fCrgnYW4dPYXL6OzlGM2/okJ0UBtpbyk="
+          "hash": "vUO6cGurKYaH9IKMIuXWHUbFekMS6QPP0aJcb4Wh/2A="
         }
       },
       "is_incremental": false,
@@ -1854,7 +1854,7 @@
       "output": {
         ".html": {
           "relative_path": "en/developer/tutorials/coding-standards.html",
-          "hash": "ZEdMNh8eWh+YX4KNfWZnBVFTGOMN4bZ6DqnkdpR/hYs="
+          "hash": "x1JPTd1tJzftUPlP5NPWHwI2Sb5ehEYxXFZ+tait0uY="
         }
       },
       "is_incremental": false,
@@ -1866,7 +1866,7 @@
       "output": {
         ".html": {
           "relative_path": "en/developer/tutorials/csp-headers.html",
-          "hash": "03M8jsIZrnY8N6SIqjxM7d9GejlW1s6xvy9+VBiFtmY="
+          "hash": "5Nc0/xyRAp2anwPAXyNQqt6fFZ9gOGFrUcJqbWVUrM0="
         }
       },
       "is_incremental": false,
@@ -1878,7 +1878,7 @@
       "output": {
         ".html": {
           "relative_path": "en/developer/tutorials/data-validation.html",
-          "hash": "P8L6kXbUVRUb5b0XjKbxJhjmdrap/KXNrcyA380K/Kw="
+          "hash": "BasTusRpKorXGpJxVR5r8PxD/lyu6yMGUi/+WKaafj8="
         }
       },
       "is_incremental": false,
@@ -1890,7 +1890,7 @@
       "output": {
         ".html": {
           "relative_path": "en/developer/tutorials/db-schema.html",
-          "hash": "iGPMT/egsU7wZxDWQ4ucW6n/yiz6QvtfA5TIBBNyTAs="
+          "hash": "UFIOMyzK56hmU6FoTzh1ndeiNXwmHGprbP0x2tA+EeQ="
         }
       },
       "is_incremental": false,
@@ -1902,7 +1902,7 @@
       "output": {
         ".html": {
           "relative_path": "en/developer/tutorials/description-of-plugin-system.html",
-          "hash": "PgRCDoO7eRKO4FxGJaYqMKHr9JImPA3+GFtRVV6co08="
+          "hash": "qxSfJPQOKZ78YgZPNHKkvNvntQ+Ma+v9v1NSd/WU+Q8="
         }
       },
       "is_incremental": false,
@@ -1914,7 +1914,7 @@
       "output": {
         ".html": {
           "relative_path": "en/developer/tutorials/description-of-the-web-config-file-in-project.html",
-          "hash": "Jzw8JYLDtbY5I4i8/VL4StLrUHlVq5LFR6VhVoRaE4U="
+          "hash": "u4HOb9yy7Du9qEmoHn1/8uLN31i6G6FLKsEiLNbrMw0="
         }
       },
       "is_incremental": false,
@@ -1926,7 +1926,7 @@
       "output": {
         ".html": {
           "relative_path": "en/developer/tutorials/docker.html",
-          "hash": "fYUALRkTw6ucVi15cpyQxFrRolUq5+ubA+InPDjDeKo="
+          "hash": "BfcwVMaSozQ3hkEW+phxJpEYfAx3ftqX/BX95RY0cqE="
         }
       },
       "is_incremental": false,
@@ -1938,7 +1938,7 @@
       "output": {
         ".html": {
           "relative_path": "en/developer/tutorials/entity-event.html",
-          "hash": "7SNYjG9DJWbJDs0FPTwXeN4oNiH17kY8Wn9rHW+YvAw="
+          "hash": "ZXh9GJANmnp4jzgz6iLmNXBvj0IufYxUN73A53XlUBA="
         }
       },
       "is_incremental": false,
@@ -1950,7 +1950,7 @@
       "output": {
         ".html": {
           "relative_path": "en/developer/tutorials/events.html",
-          "hash": "kWXLn/k4SHt4A0pbZZCjua1y8h+q0BhjNoM7NTqmjJ0="
+          "hash": "lutO0eKkthQJ28A2ldn5O4QloViFnznXEnVy6apVN3U="
         }
       },
       "is_incremental": false,
@@ -1962,7 +1962,7 @@
       "output": {
         ".html": {
           "relative_path": "en/developer/tutorials/guide-to-creating-a-page-containing-a-reporting-table-of-datatables.html",
-          "hash": "TlEYYVutVUMOizm636W3ugg0R2Ji172d2mfhGfrW178="
+          "hash": "E8Bp+YbU3FoGu3JUSgl5ixAWmaVlxIapT8BJFrd+m5Q="
         }
       },
       "is_incremental": false,
@@ -1974,7 +1974,7 @@
       "output": {
         ".html": {
           "relative_path": "en/developer/tutorials/guide-to-expanding-the-functionality-of-the-basic-functions-of-nop-commerce-through-a-plugin.html",
-          "hash": "F35z+TBPxP+vTZVlvRh1FSGQJ7E/7RqEOaZqZPgHyw4="
+          "hash": "FxnpYUavFYLMRdp+3KsTalncCDRA1FM//PRNTmD0PCQ="
         }
       },
       "is_incremental": false,
@@ -1986,7 +1986,7 @@
       "output": {
         ".html": {
           "relative_path": "en/developer/tutorials/index.html",
-          "hash": "O3CtOndcRFODKLxj0NyWVn0TxWdUyIsTuxpQhsmrxlg="
+          "hash": "JJy6uP+qrmX2LrnTwp2j8QTP5Vtu5Nb6PUVGf1qdp+w="
         }
       },
       "is_incremental": false,
@@ -1998,7 +1998,7 @@
       "output": {
         ".html": {
           "relative_path": "en/developer/tutorials/instruction-on-how-to-start-developing-on-nopcommerce.html",
-          "hash": "cGsjG5i90o7fXWUc31r9BybD3W5ipSFTSpSvyIFRZvA="
+          "hash": "rD34wK2a3ozaOqBmhT8PSD56fVqRU8Qv5QDKiINpbNQ="
         }
       },
       "is_incremental": false,
@@ -2010,7 +2010,7 @@
       "output": {
         ".html": {
           "relative_path": "en/developer/tutorials/inversion-of-control.html",
-          "hash": "RA5FhTXVs0HbDsXHFMCHfBprp9VzyW+LcMGcuVU/NmI="
+          "hash": "LuRW3QpqlG+V5Z+fULOxMrwAEWeTyCQCwLkyxc1unTA="
         }
       },
       "is_incremental": false,
@@ -2022,7 +2022,7 @@
       "output": {
         ".html": {
           "relative_path": "en/developer/tutorials/migrations.html",
-          "hash": "mVxTROvztIhCE1DlAZDyD72kNxo57ZsnaZc2E+pEEDo="
+          "hash": "raL4bN7XdbuW1C1x7gA6+2tYuqU7IGyO8XJiUBfnxqE="
         }
       },
       "is_incremental": false,
@@ -2034,7 +2034,7 @@
       "output": {
         ".html": {
           "relative_path": "en/developer/tutorials/register-new-routes.html",
-          "hash": "SzZaC82uomkn4Wv5g9lSgusMvh56MIaRYHZJbWyqjYA="
+          "hash": "RKtrblNwAPDi+0Wr0cC1aV3b+ebSb3wqRa6td5U8ff0="
         }
       },
       "is_incremental": false,
@@ -2046,7 +2046,7 @@
       "output": {
         ".html": {
           "relative_path": "en/developer/tutorials/scheduled-tasks.html",
-          "hash": "cEpYjT/bjaSuhUjhX21lqvv4NTm5Swwj+kbWyh9xc/Y="
+          "hash": "XFlyazATcPMBOB9cQ7trGTY+RgAP9D1dOL6T211tmC0="
         }
       },
       "is_incremental": false,
@@ -2058,7 +2058,7 @@
       "output": {
         ".html": {
           "relative_path": "en/developer/tutorials/settings.html",
-          "hash": "pv+n2x98IU33f/bzHaErGGOibx0MBnUIQPGsviGWuWU="
+          "hash": "srnYEpBx/BevcuqtieWor5rqWaVddp/fXAPLvIykmio="
         }
       },
       "is_incremental": false,
@@ -2070,7 +2070,7 @@
       "output": {
         ".html": {
           "relative_path": "en/developer/tutorials/source-code-organization.html",
-          "hash": "R01J4tXl+veCshdy+OJIIl00yramsD+8t/TSM5ozaWk="
+          "hash": "2LpqQMLJ/PLDgubXaAqv5Xsvz1er+Pwbp05znhosjbk="
         }
       },
       "is_incremental": false,
@@ -2082,7 +2082,7 @@
       "output": {
         ".html": {
           "relative_path": "en/developer/tutorials/system-requirements-for-developing.html",
-          "hash": "B4aeeLoyXKy3hQQWuNEHQGAC4mUpbFMW8Ng+do7/ZJk="
+          "hash": "Mxme/FnieA24giKCzSB98k3RGSxaZciM1Hq72DZX+Ys="
         }
       },
       "is_incremental": false,
@@ -2094,7 +2094,7 @@
       "output": {
         ".html": {
           "relative_path": "en/developer/tutorials/type-finder.html",
-          "hash": "Y1m0EXaPB4oaKKCWBJ6yFOyRDYpThBe95pgqFpKoi6g="
+          "hash": "59+dy4T9xHpgMxZ+QhxjUHFI9P61K2Yhr8Azq25r2X8="
         }
       },
       "is_incremental": false,
@@ -2106,7 +2106,7 @@
       "output": {
         ".html": {
           "relative_path": "en/developer/tutorials/unit-tests.html",
-          "hash": "ojrSiCRFyQxnd4bLwmL4duPo8XWyMsNXwI7F9HUhK5U="
+          "hash": "ESPuQCwPb7mgqO5XklhCZcRfhaPDEU+Czx4ZF/DHVSw="
         }
       },
       "is_incremental": false,
@@ -2118,7 +2118,7 @@
       "output": {
         ".html": {
           "relative_path": "en/developer/tutorials/update-existing-entity.html",
-          "hash": "PBYOeBC89Bdkx+19OrlIz5XczL5X8Sf2nuVVn1mZ1+M="
+          "hash": "+B7tepJrky86UT7enT357MCXlDgiJIgAOd3cbTOwq7M="
         }
       },
       "is_incremental": false,
@@ -2174,7 +2174,7 @@
       "output": {
         ".html": {
           "relative_path": "en/developer/web-api/index.html",
-          "hash": "IUyL1F+H2V4+GXXpmZMwJvvHqOSKoDZaI8PFTie7BJs="
+          "hash": "ZZQuaLKVJUYXGi5wJVP6KjCc69MD6nFoaxBY6mfOVN8="
         }
       },
       "is_incremental": false,
@@ -2384,7 +2384,7 @@
       "output": {
         ".html": {
           "relative_path": "en/getting-started/admin-area-overview.html",
-          "hash": "peS2NLUOySTuz7f5wvOKLuAhGS8ASw2vtqH1pa8unoU="
+          "hash": "BSs0cdkBJEScO22TRaerP3xkZxVjpDLKMwpdvHrUFcY="
         }
       },
       "is_incremental": false,
@@ -2924,7 +2924,7 @@
       "output": {
         ".html": {
           "relative_path": "en/getting-started/advanced-configuration/all-settings.html",
-          "hash": "EFAls90vSq/xHi2/yDka79hNmraua0Lpqj64TjFEZ4Q="
+          "hash": "4VlJW1huLDPHveYTc7gEOUHsNvKlAVYGSAHYeekOSDY="
         }
       },
       "is_incremental": false,
@@ -2936,7 +2936,7 @@
       "output": {
         ".html": {
           "relative_path": "en/getting-started/advanced-configuration/configure-analytics.html",
-          "hash": "P7BOEWy4k4ZH1LmWb3H1778SMwA9CCWMgaeC/so3ZYs="
+          "hash": "Cz7X3srAC5zHWtlSqh7ffYisFciyRRpNIl9IiCXHLTc="
         }
       },
       "is_incremental": false,
@@ -2948,7 +2948,7 @@
       "output": {
         ".html": {
           "relative_path": "en/getting-started/advanced-configuration/custom-html.html",
-          "hash": "LpR+shboVz1SPB/yav5lXD1tkVEfoFlrTmbQLF0dEo0="
+          "hash": "zd6HMTBOsXlFjGfJgZKuRc6NuUUfEYEH0jHnFsggkhU="
         }
       },
       "is_incremental": false,
@@ -2960,7 +2960,7 @@
       "output": {
         ".html": {
           "relative_path": "en/getting-started/advanced-configuration/external-authentication-methods.html",
-          "hash": "DJ9IFbcXYa38iaS7hgy/7RLsgnEG0QeMF0JiCZq3EH4="
+          "hash": "lhzxEjM6Y51rwoKHA+cwX6TtaUN8p2sOWcRGmLmEu20="
         }
       },
       "is_incremental": false,
@@ -2972,7 +2972,7 @@
       "output": {
         ".html": {
           "relative_path": "en/getting-started/advanced-configuration/gdpr-settings.html",
-          "hash": "Tk1VU4dxV/gpsXrsQoGp1Dkbt61HttskiYh07jVTedA="
+          "hash": "Vm6g0YahIQhm3lIrlf5VXyALg6+qvXWggKgqvBFQ8A0="
         }
       },
       "is_incremental": false,
@@ -2984,7 +2984,7 @@
       "output": {
         ".html": {
           "relative_path": "en/getting-started/advanced-configuration/how-to-install-and-configure-ssl-certificates.html",
-          "hash": "aM7hewmnfVD5ZgqnfqE1z+ROUL8K2tynNakLrbNaElo="
+          "hash": "NqESwlZI7M/+qfgRCUF380qHalTx+41mxgSd+hg2wJg="
         }
       },
       "is_incremental": false,
@@ -2996,7 +2996,7 @@
       "output": {
         ".html": {
           "relative_path": "en/getting-started/advanced-configuration/index.html",
-          "hash": "kVK3dQ1Rq+/HQRmrPr05z3yvUyAx5HA2B5xDPv9Aupo="
+          "hash": "ZKx7S2MLvMP4UCZ1DtyYSh+YOAX35MhZNDtY7i8//wE="
         }
       },
       "is_incremental": false,
@@ -3008,7 +3008,7 @@
       "output": {
         ".html": {
           "relative_path": "en/getting-started/advanced-configuration/localization.html",
-          "hash": "9tI21LpqblKkHfangtMUqJm7rhGfi9T/HUO1Qkxn6s4="
+          "hash": "Oyb/mU6tfWAjPqSW8ScSYvYics4exaehrcikbBIksU8="
         }
       },
       "is_incremental": false,
@@ -3020,7 +3020,7 @@
       "output": {
         ".html": {
           "relative_path": "en/getting-started/advanced-configuration/multi-factor-authentication.html",
-          "hash": "jnZtg/LOS0qUbDPDT28v8jfiWb/t8RdeMUToV1mDleY="
+          "hash": "u7wd6CAMu1tATrtqttLlahAp5bDAzpPzpTZbasCGy00="
         }
       },
       "is_incremental": false,
@@ -3032,7 +3032,7 @@
       "output": {
         ".html": {
           "relative_path": "en/getting-started/advanced-configuration/multi-store.html",
-          "hash": "H4Vr0axSu6cWSMtBU7ejLGJuXf85i8woyVODMUvbHGc="
+          "hash": "237Ho6agBTvP67K4iov+F6VDlrbCpC4ZvDdjh12SWXM="
         }
       },
       "is_incremental": false,
@@ -3044,7 +3044,7 @@
       "output": {
         ".html": {
           "relative_path": "en/getting-started/advanced-configuration/pdf-settings.html",
-          "hash": "t0t5uAeq9lnMOjJf9agswmESws3q4HUYhX57W/hZHpo="
+          "hash": "GRVuLsgjRyhLSHSKPnlV6/EbhWBtTtgRGI1KGbwn29I="
         }
       },
       "is_incremental": false,
@@ -3056,7 +3056,7 @@
       "output": {
         ".html": {
           "relative_path": "en/getting-started/advanced-configuration/plugins-in-nopcommerce.html",
-          "hash": "qLsPppzP6biqkV1hitpmfLqnhWuoAAxKnPGyx5FWsd8="
+          "hash": "soAr8N6NctrmMTiJD5jWkw1mJGiCx6GlzGRjdqd/Rn4="
         }
       },
       "is_incremental": false,
@@ -3068,7 +3068,7 @@
       "output": {
         ".html": {
           "relative_path": "en/getting-started/advanced-configuration/robots-txt.html",
-          "hash": "OWV9GnUB86coighJXKhpAJ+EHs1oUZkH46YIRCsEHDw="
+          "hash": "eXomgOJgsylfDDBRgCAMzmc6kTBpV921m6yL4fSdPA0="
         }
       },
       "is_incremental": false,
@@ -3080,7 +3080,7 @@
       "output": {
         ".html": {
           "relative_path": "en/getting-started/advanced-configuration/security-settings.html",
-          "hash": "xDUI00yKbgDSTrKn/LZfiZYRIa9Xm84Q/5kd0/s8obo="
+          "hash": "3yMnrq5Z2MvmFadk0XnBK4mdx3AgaHI1qTutfya0UUo="
         }
       },
       "is_incremental": false,
@@ -3092,7 +3092,7 @@
       "output": {
         ".html": {
           "relative_path": "en/getting-started/advanced-configuration/your-store-information.html",
-          "hash": "2S9hd+qYz8z0m1C/J+T5eSybSuCU+v59y5NnQ5af+2I="
+          "hash": "ThZnSztIfh3/0LrPNEc7L1yI2fkLx71oW1PLIzzOUCk="
         }
       },
       "is_incremental": false,
@@ -3170,7 +3170,7 @@
       "output": {
         ".html": {
           "relative_path": "en/getting-started/configure-payments/advanced-configuration/currencies.html",
-          "hash": "uLfSNGB5vVrVMLmp8ZT53msUk+xpPUzdwzgVJvYwXII="
+          "hash": "a8BwZaW8CTuYl6Bcft2DiBtH3fOK/V/XKqxEVpA/qUw="
         }
       },
       "is_incremental": false,
@@ -3182,7 +3182,7 @@
       "output": {
         ".html": {
           "relative_path": "en/getting-started/configure-payments/advanced-configuration/index.html",
-          "hash": "AXf4psT6Gtc35i2ws9rfZtFOy/+MCyuu0ouCTITEmdg="
+          "hash": "i9SY3DjcYSmbtLhgl66P4sqaTOAIFUPe6QaKvTQFPlw="
         }
       },
       "is_incremental": false,
@@ -3194,7 +3194,7 @@
       "output": {
         ".html": {
           "relative_path": "en/getting-started/configure-payments/advanced-configuration/payment-method-restrictions.html",
-          "hash": "qlvWEQQok/KDMahaQPV4CGuXsq9drxR/2ZjFEtkFJfw="
+          "hash": "d0g/PO//d/BbRQW2d7uQPHk69YWe95jRJWGAIGzUQkc="
         }
       },
       "is_incremental": false,
@@ -3206,7 +3206,7 @@
       "output": {
         ".html": {
           "relative_path": "en/getting-started/configure-payments/index.html",
-          "hash": "OMVFJvpoi32d3iotsmEtxqkKSJiouf9CTVXblEFUhzg="
+          "hash": "YosAc3Ve+6rDHRb6ivtSoXyWkmCbyDlxeL5YlHbgXtg="
         }
       },
       "is_incremental": false,
@@ -4065,7 +4065,7 @@
       "output": {
         ".html": {
           "relative_path": "en/getting-started/configure-payments/payment-methods/check-money-order.html",
-          "hash": "jZVAO2SuTqFveOyRSxarwrDqTYD/mZ2vTm+9rjkqSHo="
+          "hash": "NTe1sZrkO8MuGPIxtE3EI6aR148D0n4TRvbW5fADaHA="
         }
       },
       "is_incremental": false,
@@ -4077,7 +4077,7 @@
       "output": {
         ".html": {
           "relative_path": "en/getting-started/configure-payments/payment-methods/credit-card-manual-processing.html",
-          "hash": "xW0xTyC/TFBo/567gd65ndJPA0KgMQnvHQ6UkZwqHi8="
+          "hash": "Y1ZErUzlcFi/sbht9195Fjtr2JL3AU5zrS0ZBuezidU="
         }
       },
       "is_incremental": false,
@@ -4089,7 +4089,7 @@
       "output": {
         ".html": {
           "relative_path": "en/getting-started/configure-payments/payment-methods/cybersource.html",
-          "hash": "goZzm+xyVh0r/IkGulR9f5EAOG/kpTrM36Xqh397woY="
+          "hash": "hJKPUUKHn675QoSvpYk0MydBD8xcK1XXNyc6kbzV6lc="
         }
       },
       "is_incremental": false,
@@ -4101,7 +4101,7 @@
       "output": {
         ".html": {
           "relative_path": "en/getting-started/configure-payments/payment-methods/index.html",
-          "hash": "ajyhK6gWMzjL8DMGIJ1YSk0PjCjGZQtjpYxAXEuVtWI="
+          "hash": "F4iHZR46KO4zgrFNaaJFo7zWXNS6O+GQ+7sBdjzWfpo="
         }
       },
       "is_incremental": false,
@@ -4113,7 +4113,7 @@
       "output": {
         ".html": {
           "relative_path": "en/getting-started/configure-payments/payment-methods/paypal-commerce.html",
-          "hash": "qX4f1thV7GQM7hUde6NvJRrs8LOjPawoO6usb2tnSFQ="
+          "hash": "ZrYXmvvHlgcR2aRiM+zo16VXlgeWIcFqsqqOXRuS2sU="
         }
       },
       "is_incremental": false,
@@ -4125,7 +4125,7 @@
       "output": {
         ".html": {
           "relative_path": "en/getting-started/configure-payments/payment-methods/paypal-smart-payment-buttons.html",
-          "hash": "tnJnRo4mabepHMs5GOV9K7CaHIPxeIxkL30dKpXlTcY="
+          "hash": "+CWeCoPWOHo1Rhg2rz3fIaGZcqkRcaifYq4+h99tWcs="
         }
       },
       "is_incremental": false,
@@ -4137,7 +4137,7 @@
       "output": {
         ".html": {
           "relative_path": "en/getting-started/configure-payments/payment-methods/paypal-standard.html",
-          "hash": "HPKmUJnrs5nAKT3xo5UvprKdPPw1Cngbqhew2LaAaYA="
+          "hash": "FSqSMhbnIUMLMkuPckG6TIgMuXiCIVThHkegnayr6Yo="
         }
       },
       "is_incremental": false,
@@ -4149,7 +4149,7 @@
       "output": {
         ".html": {
           "relative_path": "en/getting-started/configure-payments/payment-methods/paypal-zettle.html",
-          "hash": "cFcxZyliJv+9LO1e1Qlacmlto3s7x6nczHzYtPtaMpg="
+          "hash": "3oqcqd2/OMy/DANQHO5x/LaipyL4jSeyvv6qkBYCiFY="
         }
       },
       "is_incremental": false,
@@ -4425,7 +4425,7 @@
       "output": {
         ".html": {
           "relative_path": "en/getting-started/configure-shipping/advanced-configuration/countries-states.html",
-          "hash": "bRVvnvjhePPd+hMearuAZQERrdSvHHrBGq1/zpXxyR0="
+          "hash": "zVZA3m7M1je6HIj7mdp9p8djRIxn3kKKSMvCjx+cNrw="
         }
       },
       "is_incremental": false,
@@ -4437,7 +4437,7 @@
       "output": {
         ".html": {
           "relative_path": "en/getting-started/configure-shipping/advanced-configuration/dates-and-ranges.html",
-          "hash": "+5rUjCoYEfqrJaD8Ia1TBgjBylfOCHQhCBfvJgfQozk="
+          "hash": "rp5K8BtSRo7Fu03dgTn8oa3yFbMC/uFy+Qak7eiDgWs="
         }
       },
       "is_incremental": false,
@@ -4449,7 +4449,7 @@
       "output": {
         ".html": {
           "relative_path": "en/getting-started/configure-shipping/advanced-configuration/index.html",
-          "hash": "TVqrM/bXOxvxOirGG5fVUI5ofBSPtq+nd9M4l6SeAmk="
+          "hash": "vEct4HU/DbFx8b0IGLD9YafW2fs3dtNmWqO4N63oZj0="
         }
       },
       "is_incremental": false,
@@ -4461,7 +4461,7 @@
       "output": {
         ".html": {
           "relative_path": "en/getting-started/configure-shipping/advanced-configuration/measures.html",
-          "hash": "Y6oyBnvXypB9r88buE83aFsH/zaaIna31q8PH8xKa7k="
+          "hash": "v36HCa1JIRYq4HjxTnJY763BhEyTtec9WixrIx3DXu0="
         }
       },
       "is_incremental": false,
@@ -4473,7 +4473,7 @@
       "output": {
         ".html": {
           "relative_path": "en/getting-started/configure-shipping/advanced-configuration/pickup-points.html",
-          "hash": "DRX7sT878xri91GychlJuFO7FXjW6iexzXyhEqW5iBI="
+          "hash": "gDgwZyPXbRlQtQ+NC2r/z/typHk7A4eJAyyzWa3yw2Y="
         }
       },
       "is_incremental": false,
@@ -4485,7 +4485,7 @@
       "output": {
         ".html": {
           "relative_path": "en/getting-started/configure-shipping/advanced-configuration/warehouses.html",
-          "hash": "Cau1rNI1niD73qfFldnsBfg0EU01mgDr+Z+npS10YZk="
+          "hash": "+AsONvow6pgLl1ai7ahOa65dHFUznei8mzvT+O/IxAc="
         }
       },
       "is_incremental": false,
@@ -4497,7 +4497,7 @@
       "output": {
         ".html": {
           "relative_path": "en/getting-started/configure-shipping/index.html",
-          "hash": "2n2BOHI0H+J/7agaWBG0aunvCxq7pr6pw2RNDqdwlIo="
+          "hash": "yF8c5aDhi66t9HLngZ67UTNpnYjs/tckdDk2NTVHKmw="
         }
       },
       "is_incremental": false,
@@ -4839,7 +4839,7 @@
       "output": {
         ".html": {
           "relative_path": "en/getting-started/configure-shipping/shipping-providers/index.html",
-          "hash": "haXJDTL/6RbN2OGfU4BDOJvDAsmT5D5ClGwQL2XsWmw="
+          "hash": "/+3OClJOMcGpDpsCaOd+lfUzoNue4zHOtUDQj2CMzKs="
         }
       },
       "is_incremental": false,
@@ -4851,7 +4851,7 @@
       "output": {
         ".html": {
           "relative_path": "en/getting-started/configure-shipping/shipping-providers/manual.html",
-          "hash": "s6dwS9aEfVllRr4wgrlAVFOdweLS81VB0hdpd7u8SGU="
+          "hash": "CWeyfoUyBLd+BTKsXU7GUt2ZitA/rz5PoJaNUdfhddQ="
         }
       },
       "is_incremental": false,
@@ -4863,7 +4863,7 @@
       "output": {
         ".html": {
           "relative_path": "en/getting-started/configure-shipping/shipping-providers/ups.html",
-          "hash": "dLWlpWYItfiPj76xDeajaDCGyizHldYZV4GEhEbgjqY="
+          "hash": "T5FXxRo/h0cqcG/4SoBS2cU5wLEK94jaIXgVBECMojs="
         }
       },
       "is_incremental": false,
@@ -4875,7 +4875,7 @@
       "output": {
         ".html": {
           "relative_path": "en/getting-started/configure-shipping/shipping-settings.html",
-          "hash": "DdYfWeIWzvxiJ5lbxgad6RbW3uJcp5/QiQpiY5bKTGs="
+          "hash": "QQijXyLbCppJdDfmpFXMx5Y7cROjg6TegG+6Q9aa0Tw="
         }
       },
       "is_incremental": false,
@@ -4953,7 +4953,7 @@
       "output": {
         ".html": {
           "relative_path": "en/getting-started/configure-taxes/index.html",
-          "hash": "MabW4eFZ5ficbE5w5SfaLxh9IVNHI5sX7MsDVWsV8/c="
+          "hash": "gY4a1SJKUAuAqYP2ojwEvvIPUMup+bXqdLO/BGfwRtg="
         }
       },
       "is_incremental": false,
@@ -5207,7 +5207,7 @@
       "output": {
         ".html": {
           "relative_path": "en/getting-started/configure-taxes/tax-providers/avalara.html",
-          "hash": "U9cHLkV6z5IaCDsKOXhYwC6UuiAdhsAJ6eGw97xtxa0="
+          "hash": "wSOGOEyhynCxCF3bJF3CQ8Tw23zf+ExF7/3tJUpRBnQ="
         }
       },
       "is_incremental": false,
@@ -5219,7 +5219,7 @@
       "output": {
         ".html": {
           "relative_path": "en/getting-started/configure-taxes/tax-providers/index.html",
-          "hash": "tIJpwVCD+S2mlmlaXzyAr1gHKtcviiEuAqoBJ09UKlo="
+          "hash": "aFPkPg/h4hoKgs8+wI9lrUeN53sOMDb8TdI+JcoVbpQ="
         }
       },
       "is_incremental": false,
@@ -5231,7 +5231,7 @@
       "output": {
         ".html": {
           "relative_path": "en/getting-started/configure-taxes/tax-providers/manual.html",
-          "hash": "oKdovbgvuKvEhiCN/1pJDCnon/6f5BLBXVDkWRgWBY0="
+          "hash": "B4h6OX06u8YnEP1BKsqRZT3/eX43OaVgu0KDdtYme7Y="
         }
       },
       "is_incremental": false,
@@ -5243,7 +5243,7 @@
       "output": {
         ".html": {
           "relative_path": "en/getting-started/configure-taxes/tax-settings.html",
-          "hash": "XuUne59ptCPy9fywbtn9zayoDilyD4xz+ixY7Sio5qc="
+          "hash": "vYqEq+bYb/zWB+Mx3cWGfOC0ID03rQ8Ma3sl51n6e9c="
         }
       },
       "is_incremental": false,
@@ -5563,7 +5563,7 @@
       "output": {
         ".html": {
           "relative_path": "en/getting-started/design-your-store/adding-a-favicon.html",
-          "hash": "OovQX1q7asXX5wc0Szx9w9jzcfW1hzEQR3Qyua00KAw="
+          "hash": "/RH8eVbx95C6EhBabp/6ezykyU+aZYx67xqfUvpIIDA="
         }
       },
       "is_incremental": false,
@@ -5575,7 +5575,7 @@
       "output": {
         ".html": {
           "relative_path": "en/getting-started/design-your-store/choose-and-install-a-theme.html",
-          "hash": "PqoILVyZJ3+3tRQibJT/Qnl0gZGpxKCq7FAeR1bzpns="
+          "hash": "wTtkRTDot6pu4erX8jJG8IzFUdnmqnm4M6bA6wT48Lo="
         }
       },
       "is_incremental": false,
@@ -5587,7 +5587,7 @@
       "output": {
         ".html": {
           "relative_path": "en/getting-started/design-your-store/index.html",
-          "hash": "EGRdI6b1elnjRaK33X9E3QvViIZiuGAb+Ee+hp3am4c="
+          "hash": "8rXizA+NegddQBPYhpvxfm6cC8HovCKvFETiaubrkuQ="
         }
       },
       "is_incremental": false,
@@ -5599,7 +5599,7 @@
       "output": {
         ".html": {
           "relative_path": "en/getting-started/design-your-store/media-settings.html",
-          "hash": "6+wnCytZESdzR/dFB7f7t7AUz7npcgmaMIyXxKzFkDk="
+          "hash": "J9EItg2+AVE7lk/r9BX6gfMyns/9hPwPvw8zihXijaU="
         }
       },
       "is_incremental": false,
@@ -5611,7 +5611,7 @@
       "output": {
         ".html": {
           "relative_path": "en/getting-started/design-your-store/nivo-slider.html",
-          "hash": "iYYIOwIISlhArC9LGXgFwKKuCy55COWjtrb7RpdCQMg="
+          "hash": "t7umSMlW8+1g3Ju+ZCVmJEyT6egG/6Jh4Znb64ytbGE="
         }
       },
       "is_incremental": false,
@@ -5623,7 +5623,7 @@
       "output": {
         ".html": {
           "relative_path": "en/getting-started/design-your-store/top-menu-and-footer.html",
-          "hash": "yNGL41qKxt7AHnayDCEyuE4i7eybS+nF5bcXPvYJ6b0="
+          "hash": "2MllZAb7FFAYCRUTtdiHjYP3G8BKU8Ct/GtyLGUu9UE="
         }
       },
       "is_incremental": false,
@@ -5635,7 +5635,7 @@
       "output": {
         ".html": {
           "relative_path": "en/getting-started/design-your-store/uploading-your-logo.html",
-          "hash": "I+cjZurkes1Ps8ij/Y8/OrS+g4lhZQRXQLujxHVuXJ4="
+          "hash": "CsfrZh9Fe2/CQDC2XuDOp/Rtc6EON0EPkxDc7di+5N4="
         }
       },
       "is_incremental": false,
@@ -5647,7 +5647,7 @@
       "output": {
         ".html": {
           "relative_path": "en/getting-started/email-accounts.html",
-          "hash": "YVLQrO87ySTWGSadOqfJnRv3VXc2POUM/qo+X5DhoPQ="
+          "hash": "+5zM7hSdMNXX1gtCcliHBAXpzoIvunBbO5y63sOe9EA="
         }
       },
       "is_incremental": false,
@@ -5659,7 +5659,7 @@
       "output": {
         ".html": {
           "relative_path": "en/getting-started/index.html",
-          "hash": "j9Oo+Yht6Rnx7kLh8vVGPqFSm1acrB4PftxwjOrcHTk="
+          "hash": "UKZg7LnrO48SJj2Q7MSjHI767J5C3LJQSpfHRE71Ldk="
         }
       },
       "is_incremental": false,
@@ -5671,7 +5671,7 @@
       "output": {
         ".html": {
           "relative_path": "en/index.html",
-          "hash": "zf8lo++lBJKHLBko/023Xt9vefJxcH0kT8JcIkeYIM4="
+          "hash": "8dyujMjOWxkqU4xL7NxVzrFvIbrNuImxrgDNI6fGzvw="
         }
       },
       "is_incremental": false,
@@ -5683,7 +5683,7 @@
       "output": {
         ".html": {
           "relative_path": "en/installation-and-upgrading/index.html",
-          "hash": "q31Sx64+0wnmRHl0C+XeN+Ccy0dR1Gzk+4q2sC9ME90="
+          "hash": "R3z9GUCTzG0M/Y3p6h0WyDkp1atM/5wPLIVNaLKB0H0="
         }
       },
       "is_incremental": false,
@@ -5794,7 +5794,7 @@
       "output": {
         ".html": {
           "relative_path": "en/installation-and-upgrading/installing-nopcommerce/choose-a-hosting-company.html",
-          "hash": "1LUm/VSndXstF8nQUAsuj0hOOTTxNQ/VPmdAI3qO+r4="
+          "hash": "ESkuGgzj3G4Fyi/u81IWvKjk6SGjyb1cuvQl88p5osw="
         }
       },
       "is_incremental": false,
@@ -5806,7 +5806,7 @@
       "output": {
         ".html": {
           "relative_path": "en/installation-and-upgrading/installing-nopcommerce/everleap-fully-managed-hosting.html",
-          "hash": "8+w9l4eqaqjOPHpvCQd4xqyUijnzGzCJeM7wlmpqc2E="
+          "hash": "Adb5WorQo6iqIf6IMjnsHqgZu4a6hnKMtYieuim+/Os="
         }
       },
       "is_incremental": false,
@@ -5818,7 +5818,7 @@
       "output": {
         ".html": {
           "relative_path": "en/installation-and-upgrading/installing-nopcommerce/index.html",
-          "hash": "0f0LVUdr/hpKUjPApkN5bBjsPUXsa7I5IO/8gOnpenI="
+          "hash": "4zhRx3RevbrMv+uAkIHP+QYpJCRMdMLjNbdRlfu91AA="
         }
       },
       "is_incremental": false,
@@ -5830,7 +5830,7 @@
       "output": {
         ".html": {
           "relative_path": "en/installation-and-upgrading/installing-nopcommerce/installing-local.html",
-          "hash": "V0aWyKnjjoME3YMQj4rqxUIHvszKYXs6cb86LsThCmE="
+          "hash": "9rL7bfVY1k1KDO172rf6Zn5WGc6kJnrUdTzE/OnXWII="
         }
       },
       "is_incremental": false,
@@ -5842,7 +5842,7 @@
       "output": {
         ".html": {
           "relative_path": "en/installation-and-upgrading/installing-nopcommerce/installing-on-linux.html",
-          "hash": "cXujujglVlMHEFjLIxuXK/C4WEYvUQbWfGO+d9rm5Y8="
+          "hash": "18kUfufzvHHI0m67Gzfx/0F5SlcrmwLDA/yhnyOQVDA="
         }
       },
       "is_incremental": false,
@@ -5854,7 +5854,7 @@
       "output": {
         ".html": {
           "relative_path": "en/installation-and-upgrading/installing-nopcommerce/installing-on-microsoft-azure.html",
-          "hash": "L8PPuDlq3TR/rL3UqU/aph6I6V8JT/4aPADIFvsRF/k="
+          "hash": "vJsrcIL9jvN6mgmUCIyDk2wxDGhJ5RuVMqzM9XL0Pow="
         }
       },
       "is_incremental": false,
@@ -5866,7 +5866,7 @@
       "output": {
         ".html": {
           "relative_path": "en/installation-and-upgrading/installing-nopcommerce/installing-on-windows.html",
-          "hash": "aOHtYH4vuuh1VzIJoN510xotj/QNASBI3M5G2hyufoI="
+          "hash": "EMOwlSBUQQvK3mIMiXpfgI50XBbkTAp1+5Fi8YVXI8s="
         }
       },
       "is_incremental": false,
@@ -5878,7 +5878,7 @@
       "output": {
         ".html": {
           "relative_path": "en/installation-and-upgrading/installing-nopcommerce/pre-installed-nopcommerce.html",
-          "hash": "usGG4qwW1nHcbQI2dd7cY7AJ5yFOqGv2xDCgezHjecg="
+          "hash": "NwWRE3XOkPzeDx/Dcr0LEOwsJ1udDtBTlt5iYJ3q5UI="
         }
       },
       "is_incremental": false,
@@ -5890,7 +5890,7 @@
       "output": {
         ".html": {
           "relative_path": "en/installation-and-upgrading/installing-nopcommerce/web-farms.html",
-          "hash": "Ee39+orXwpZJ0vmbUrbLOF/boCVmv2Yhnp+8U4G+gjk="
+          "hash": "tUhHoWP0/WKnQLLtsak5s2KTl/ajH2cebDY78I3YZ4E="
         }
       },
       "is_incremental": false,
@@ -5902,7 +5902,7 @@
       "output": {
         ".html": {
           "relative_path": "en/installation-and-upgrading/technology-and-system-requirements.html",
-          "hash": "r1d0WQyw2nwXDF65RsmyoKxlHUeDotgoltTdfPBfoxM="
+          "hash": "iFaytU7E3F9qu/0bwmrQSTmCayC4ZjXz8hEArMcytSo="
         }
       },
       "is_incremental": false,
@@ -5914,7 +5914,7 @@
       "output": {
         ".html": {
           "relative_path": "en/installation-and-upgrading/upgrading-nopcommerce.html",
-          "hash": "N/sQn53gPTmYx89sI963jb+DD0I/6kCItJVRtvdklIM="
+          "hash": "8RlkQEg0roPSwUz91boug1J45p8jGRBfPfSXo8iO6kQ="
         }
       },
       "is_incremental": false,
@@ -6762,7 +6762,7 @@
       "output": {
         ".html": {
           "relative_path": "en/running-your-store/catalog/catalog-settings.html",
-          "hash": "t/qN4TPEvDTgUV8e1yw0xj5xmYGxN26uiQKIwn5csC0="
+          "hash": "uix/0LLCQbynAkiaG18It7WEYZz0a24DGp0gPxemVRE="
         }
       },
       "is_incremental": false,
@@ -6774,7 +6774,7 @@
       "output": {
         ".html": {
           "relative_path": "en/running-your-store/catalog/categories.html",
-          "hash": "cSmxmkMakq9Fx/EQROywTXcsrgdmyV/veh6/eTHoL3U="
+          "hash": "5wg/+w6uOZMqPlURLXlEeL/mQGoOjvtL/W4lbBHGy9s="
         }
       },
       "is_incremental": false,
@@ -6786,7 +6786,7 @@
       "output": {
         ".html": {
           "relative_path": "en/running-your-store/catalog/index.html",
-          "hash": "XuQBR5sp0NzPFKuM7WhYTGquljxyrXMp+EV4tpGtLpQ="
+          "hash": "fcqj2BYSyyinyRLHLk4fDzKCzACrV2B0I3OJkUm6S8I="
         }
       },
       "is_incremental": false,
@@ -6798,7 +6798,7 @@
       "output": {
         ".html": {
           "relative_path": "en/running-your-store/catalog/manufacturers.html",
-          "hash": "zWtMibj+GSaotqWvXzdmEumcAQZGaAsprCgjZkVYDZc="
+          "hash": "pXm3PR9Z6y1Teqx15pdDV1z85aeU9XRcq4JDa+iXOi8="
         }
       },
       "is_incremental": false,
@@ -7415,7 +7415,7 @@
       "output": {
         ".html": {
           "relative_path": "en/running-your-store/catalog/products/add-products.html",
-          "hash": "G2Gx+dxWzIn+RZLmxnDmU6RhkBzsBbSOQAIwQcKacbo="
+          "hash": "85rb7mHsDnOqXoqXAwNIYkHfRmAsUW0k9AXppp1VSxU="
         }
       },
       "is_incremental": false,
@@ -7427,7 +7427,7 @@
       "output": {
         ".html": {
           "relative_path": "en/running-your-store/catalog/products/downloadable-products.html",
-          "hash": "WbU6VsqtFkUxsfG0abkAw41xax8sf75KQWkcHrLHle0="
+          "hash": "OZb7iNsBUpMB656VtwTN35BGLH7nIu0ESOumM6rVqjM="
         }
       },
       "is_incremental": false,
@@ -7439,7 +7439,7 @@
       "output": {
         ".html": {
           "relative_path": "en/running-your-store/catalog/products/grouped-products-variants.html",
-          "hash": "yQrZv/s9GKSdEMbj4WWZRnLvn5UGStQ8/YF//xY3QAo="
+          "hash": "zhGQzAzCb6P85+wYMgvIA1ZrYMOPpckUzAoJ39osQR0="
         }
       },
       "is_incremental": false,
@@ -7451,7 +7451,7 @@
       "output": {
         ".html": {
           "relative_path": "en/running-your-store/catalog/products/import-export-products.html",
-          "hash": "zraQCDVUI4B7Q+gs5DVJDbdDGfBiJGirH4Iz2vVgWzM="
+          "hash": "xP2ui8qV8hxz54wILMsq9jJXCDQMlhF/vvS/e1F5eVY="
         }
       },
       "is_incremental": false,
@@ -7463,7 +7463,7 @@
       "output": {
         ".html": {
           "relative_path": "en/running-your-store/catalog/products/index.html",
-          "hash": "r7XPwwRPwhS/3Y9OhRg4gjY3dYpcQOgjhfiatcjezD4="
+          "hash": "2kD2s0rtPTG2CDm5lTArmxFw5z49ODRkHZCENcsIdwo="
         }
       },
       "is_incremental": false,
@@ -7475,7 +7475,7 @@
       "output": {
         ".html": {
           "relative_path": "en/running-your-store/catalog/products/product-attributes.html",
-          "hash": "j8fsDWjliEeX9/61EMiIxPSb7al4bVqifrnYXvGl4Po="
+          "hash": "LEcA1oN+YHWYebC3LuaCyWlp4UQhEWmk0wbSoEj/6oM="
         }
       },
       "is_incremental": false,
@@ -7487,7 +7487,7 @@
       "output": {
         ".html": {
           "relative_path": "en/running-your-store/catalog/products/product-reviews.html",
-          "hash": "jBTbhyg6zQ1IomQrwBq6j7AT0/yutfi0oWlY1aXpWno="
+          "hash": "hrTbHXO3MISF2SIc+9f5Zg/A1sKuZOIihmJz0d9SpB8="
         }
       },
       "is_incremental": false,
@@ -7499,7 +7499,7 @@
       "output": {
         ".html": {
           "relative_path": "en/running-your-store/catalog/products/product-tags.html",
-          "hash": "QFinQM/VwvoimR70s8uC3RSeNssqxUY6/gSbWLe2v38="
+          "hash": "vMbs7/574jMKNTI83/zOCgaNFytMUFxsbb9nvbbG4Qw="
         }
       },
       "is_incremental": false,
@@ -7511,7 +7511,7 @@
       "output": {
         ".html": {
           "relative_path": "en/running-your-store/catalog/products/recurring-products.html",
-          "hash": "YgHdi6oc6BHOboCcD9BKQ6xm3sjFUWLsnnPqMWPX4FM="
+          "hash": "itAhNXnnlf9kQRa6jGYx7i9ZNBHtVqfCMO3rckoAvZU="
         }
       },
       "is_incremental": false,
@@ -7523,7 +7523,7 @@
       "output": {
         ".html": {
           "relative_path": "en/running-your-store/catalog/products/rental-products.html",
-          "hash": "sZzc7OO9f75LzfYDKeZY5ZioR2weijEIqynj1/t300Q="
+          "hash": "xKvh0wVDs6KFQWmhrYC6C1OObKyfwfUqZREczDWeWbQ="
         }
       },
       "is_incremental": false,
@@ -7535,7 +7535,7 @@
       "output": {
         ".html": {
           "relative_path": "en/running-your-store/catalog/products/specification-attributes.html",
-          "hash": "qY9pSUIzwGp3iM8LavxES+sgQ6lEqdB95r5zul9x1yo="
+          "hash": "wJBh8afCROpM9TgowaM65Ip4qS4Sba458wQ6w0L4lqo="
         }
       },
       "is_incremental": false,
@@ -7910,7 +7910,7 @@
       "output": {
         ".html": {
           "relative_path": "en/running-your-store/content-management/blog.html",
-          "hash": "jzvNoIRwDtihFp5Bm16F2YQ3gLj+oppLTf37oLK4NQk="
+          "hash": "AIdfWydO5UPI35TmGhckbacKKJMtew9PMJYzdwoW3PE="
         }
       },
       "is_incremental": false,
@@ -7922,7 +7922,7 @@
       "output": {
         ".html": {
           "relative_path": "en/running-your-store/content-management/forums.html",
-          "hash": "or5z5jqk9uy/5TF9GgjBz0psHeDAnNhmhR1+1PmJmAE="
+          "hash": "vZpWG1AkrmUNjuLlGF0Sm0WoPK3fxfX7Cfv0Ddx93+s="
         }
       },
       "is_incremental": false,
@@ -7934,7 +7934,7 @@
       "output": {
         ".html": {
           "relative_path": "en/running-your-store/content-management/index.html",
-          "hash": "UYNvdhT6llEG0SUQ9Bnjb1f75RrJ2D5cfJaxTe6Bdms="
+          "hash": "M+6thmcGMKx3TEQim8lPYcMF3btDLL00oehBi+K7FW4="
         }
       },
       "is_incremental": false,
@@ -7946,7 +7946,7 @@
       "output": {
         ".html": {
           "relative_path": "en/running-your-store/content-management/message-templates.html",
-          "hash": "hUQRLXtnyCaWDqhfBEcfpWfSZX+guzlaV3lWApmJBHI="
+          "hash": "GW6E455VTN2CUgx/G5xwIfsE1bnshVrvIaVG0vlhff8="
         }
       },
       "is_incremental": false,
@@ -7958,7 +7958,7 @@
       "output": {
         ".html": {
           "relative_path": "en/running-your-store/content-management/news.html",
-          "hash": "3wJaYXnPYECkM2fWYUsgkhFX5nFExZcg/jb5MVN3tFQ="
+          "hash": "0D6SwjlYZju2TGcJb0Is8OaX0E/YH5lnztFP4Xu/SwE="
         }
       },
       "is_incremental": false,
@@ -7970,7 +7970,7 @@
       "output": {
         ".html": {
           "relative_path": "en/running-your-store/content-management/polls.html",
-          "hash": "OEzi1SWvrK1PX2mL8ftLdGLINpHCTTyJQkUjglipuLE="
+          "hash": "r/zHB3Z+2zBQGcas5dBp0Jn0i4BiDbEvSLV8O/H2Lew="
         }
       },
       "is_incremental": false,
@@ -7982,7 +7982,7 @@
       "output": {
         ".html": {
           "relative_path": "en/running-your-store/content-management/topics-pages.html",
-          "hash": "JzBc5YDiE3OvZdMXgnIkSx71KYgK2Lt17TWt0I4mK2Q="
+          "hash": "qWqB+AFkiixG/PZbPNVUI31TuKK0rApD5lodT0BjvIw="
         }
       },
       "is_incremental": false,
@@ -8225,7 +8225,7 @@
       "output": {
         ".html": {
           "relative_path": "en/running-your-store/customer-management/access-control-list.html",
-          "hash": "cJgkMVXnX3RcMlyZhE5nm8ItrHdSanvmXp0vfomxkpQ="
+          "hash": "ibXjs4fsWYMgxm8ZfCypB0EJM3HI30Kq1Unjosu1+44="
         }
       },
       "is_incremental": false,
@@ -8237,7 +8237,7 @@
       "output": {
         ".html": {
           "relative_path": "en/running-your-store/customer-management/activity-log.html",
-          "hash": "xIydBYtnXGIgVQYVni4Ox86F7LKQHoxa8ln+4jkxBaY="
+          "hash": "jeojjf0paFNiTm68rvBfs9Uk2LmEkSonE/3NF20gMJk="
         }
       },
       "is_incremental": false,
@@ -8249,7 +8249,7 @@
       "output": {
         ".html": {
           "relative_path": "en/running-your-store/customer-management/customer-roles.html",
-          "hash": "y+ahE4hjJezXGpg6Speo28imR4xMDOz7AH10CHQK2TQ="
+          "hash": "pFMZxPodvwBQC+DVTA0Lb3ka1DqGaSJzutLgUEUd0hk="
         }
       },
       "is_incremental": false,
@@ -8261,7 +8261,7 @@
       "output": {
         ".html": {
           "relative_path": "en/running-your-store/customer-management/customer-settings.html",
-          "hash": "Fjw/NgkgKT3WHYvdwegce0zqwQlSI4gXMVs1TLUOigg="
+          "hash": "pDY+mcn5NJlLsf7ql7K2LqDcHh0hY41ethGKh2L6VXg="
         }
       },
       "is_incremental": false,
@@ -8273,7 +8273,7 @@
       "output": {
         ".html": {
           "relative_path": "en/running-your-store/customer-management/index.html",
-          "hash": "5avRQoNqa2JdiFsN274Os4VTQtAXFDa3YgGTSFnbLn0="
+          "hash": "Fz6DTz38j3c0XbW1ccvrqbJXC79vdIph09hzN5vdqOw="
         }
       },
       "is_incremental": false,
@@ -8285,7 +8285,7 @@
       "output": {
         ".html": {
           "relative_path": "en/running-your-store/customer-management/managing-customers.html",
-          "hash": "xH6jZtIII9GrEyJm82vIn2GCNLRUK+VdLqY4RIGPoXc="
+          "hash": "qQTxEX45BKvlSLL9GMzL7p5RTEsSgVYYGggRJX1zUC0="
         }
       },
       "is_incremental": false,
@@ -8297,7 +8297,7 @@
       "output": {
         ".html": {
           "relative_path": "en/running-your-store/customer-management/online-customers.html",
-          "hash": "dcvB3nmoRWomqI34L9YYVvQSJVzDSvM004NyrrSHwU4="
+          "hash": "r5F4WZYyNzXIDnfJSz+W5V2VfJVCNgIA6w5zA5BEs+k="
         }
       },
       "is_incremental": false,
@@ -8309,7 +8309,7 @@
       "output": {
         ".html": {
           "relative_path": "en/running-your-store/index.html",
-          "hash": "weJ44l7BaeWieTUtHXKao8jPebWXZlyU53IlY1fNnJI="
+          "hash": "Cs93A/KRUnkRWLIeK4b8Eh3V5aobOtT505MDMtrT20c="
         }
       },
       "is_incremental": false,
@@ -8959,7 +8959,7 @@
       "output": {
         ".html": {
           "relative_path": "en/running-your-store/order-management/checkout-attributes.html",
-          "hash": "wzgYFSsAd4vR+AUYoDpfGINrQkohPkDiWxtqzMoYtmw="
+          "hash": "feJffaeiAe3ZHggDL2eVN+bC3Ybg83XxYTl8mMF9/Xg="
         }
       },
       "is_incremental": false,
@@ -8971,7 +8971,7 @@
       "output": {
         ".html": {
           "relative_path": "en/running-your-store/order-management/index.html",
-          "hash": "CoxK6cs4wPRFjeIr3QO5EM2kMy7nIM3rxng7byvqhOc="
+          "hash": "6VHfv0VByTeikUBBYxTfXFUu8Aop8JtRsTH2YjRS78k="
         }
       },
       "is_incremental": false,
@@ -8983,7 +8983,7 @@
       "output": {
         ".html": {
           "relative_path": "en/running-your-store/order-management/inventory-management.html",
-          "hash": "2gJI2RXkTPyav2q7AI1LDaGrfsBLtUWemP8tYEJnG9U="
+          "hash": "CYXVQh4RuZJ26Rl3Ssjiw+WBJz5OjUu2HDHT69Dckyw="
         }
       },
       "is_incremental": false,
@@ -8995,7 +8995,7 @@
       "output": {
         ".html": {
           "relative_path": "en/running-your-store/order-management/order-settings.html",
-          "hash": "0FhmMQ5vuE9Xv6aXFnkPOaEQUPWmcdWTF5AhTWqCVF8="
+          "hash": "25GtyjF3pksFUNt+ed5v7Ng9dwfOXxILzcCFP7TRXOQ="
         }
       },
       "is_incremental": false,
@@ -9007,7 +9007,7 @@
       "output": {
         ".html": {
           "relative_path": "en/running-your-store/order-management/orders.html",
-          "hash": "gT7HXlwg6uGW/BTiVHAzxuFqpOoHdpPHJF4CiTMK1wo="
+          "hash": "eyoe9QH1cgWRG6DgoO7UjHtUcthCplhzAe23fpPtVfQ="
         }
       },
       "is_incremental": false,
@@ -9019,7 +9019,7 @@
       "output": {
         ".html": {
           "relative_path": "en/running-your-store/order-management/return-requests.html",
-          "hash": "jV0MjJNKpCu/AsUeWSKRKbnj0D9nK5A0ZqGjbmMmdBk="
+          "hash": "a8FXXhZVgpEE3LHam6ELPHmBj6fMoZgBZiKSdyqAtcU="
         }
       },
       "is_incremental": false,
@@ -9031,7 +9031,7 @@
       "output": {
         ".html": {
           "relative_path": "en/running-your-store/order-management/shipping-management.html",
-          "hash": "yRbNob7ShEUP37kE4x/RjBrFXZd9IndkHyqSF/tmne8="
+          "hash": "1MaRBEBYfnVOsBf05gN9a/yuOqLu8rlWt7xpsZWqx+o="
         }
       },
       "is_incremental": false,
@@ -9043,7 +9043,7 @@
       "output": {
         ".html": {
           "relative_path": "en/running-your-store/order-management/shopping-carts-and-wishlists.html",
-          "hash": "mi+o8e3TpIg2pyhRnitbujwAlvRtLCzsbRwJ051TgwY="
+          "hash": "HaaJEWrg1/ZkPJQRFQ0b/RMF2qWDjtyAylxmqMXSfm4="
         }
       },
       "is_incremental": false,
@@ -9539,7 +9539,7 @@
       "output": {
         ".html": {
           "relative_path": "en/running-your-store/promotional-tools/affiliates.html",
-          "hash": "uTD611ze4rwqZHxycMMeGLvSsljsCRzjZ+1aYBhWOUU="
+          "hash": "vkGptpa/89FETUCYfJYv8NqRe8dlIs41V7NtER94mSg="
         }
       },
       "is_incremental": false,
@@ -9551,7 +9551,7 @@
       "output": {
         ".html": {
           "relative_path": "en/running-your-store/promotional-tools/cross-sells-and-related-products.html",
-          "hash": "fzYwVCVYOjbadiVX+ruI6owbUMNryT47SB9tfNXvV38="
+          "hash": "sVWMIA5/OjbE8x1muE8YwuNuj2JWuhBZ5/8KQFJfG/E="
         }
       },
       "is_incremental": false,
@@ -9563,7 +9563,7 @@
       "output": {
         ".html": {
           "relative_path": "en/running-your-store/promotional-tools/discounts.html",
-          "hash": "nNNJgBFzBEYQQCENecKhL7OwxwzA76q+kvy7g/pw/Lo="
+          "hash": "mAHeuQ8I234NacU0WXX9Kuqwq46fwo0wcZnDEml6UNs="
         }
       },
       "is_incremental": false,
@@ -9575,7 +9575,7 @@
       "output": {
         ".html": {
           "relative_path": "en/running-your-store/promotional-tools/email-campaigns.html",
-          "hash": "y5yG9DUYVcKxDC01yZBM9ryEFVrKoboVpECkeVruFvg="
+          "hash": "0mB/SHtTmJ09WY+QDQIQ2T4DVwwwQBMOz4jAIuBbcMA="
         }
       },
       "is_incremental": false,
@@ -9587,7 +9587,7 @@
       "output": {
         ".html": {
           "relative_path": "en/running-your-store/promotional-tools/facebook-pixel.html",
-          "hash": "KivQX6WZa5aJrg6HgN6YETgFJNZEViW7ixnd8K1bupE="
+          "hash": "gGlDLA0SzB3dR4qlq7HQopA/5W8GUNkCYnlvsCATPG0="
         }
       },
       "is_incremental": false,
@@ -9599,7 +9599,7 @@
       "output": {
         ".html": {
           "relative_path": "en/running-your-store/promotional-tools/gift-cards.html",
-          "hash": "DrJOjA2iddygjNWqhYFFcJEE7hmjzmNlzmCTBD+CN94="
+          "hash": "culuuPOChmCKluVSXSYXrsU7HLIjEtaLtW7Yppg1IGo="
         }
       },
       "is_incremental": false,
@@ -9611,7 +9611,7 @@
       "output": {
         ".html": {
           "relative_path": "en/running-your-store/promotional-tools/index.html",
-          "hash": "GyaonTNynGdhSGWCwhTJ7FaaYLoL+olXNLl3ctHYGCo="
+          "hash": "qr/aTWGL2XLHd8Ghm2iE3FbffJ7AcWC9Q/OQC8uExzY="
         }
       },
       "is_incremental": false,
@@ -9623,7 +9623,7 @@
       "output": {
         ".html": {
           "relative_path": "en/running-your-store/promotional-tools/reward-points.html",
-          "hash": "ocgwxyrbpSGRfdHmq4eqyJ32iY+Z/opld8c43qC5A9M="
+          "hash": "lC8fU5nQVm8EzvvxsRNE5rGqybMF9YgoQj9uGqWFIDo="
         }
       },
       "is_incremental": false,
@@ -9965,7 +9965,7 @@
       "output": {
         ".html": {
           "relative_path": "en/running-your-store/promotional-tools/sendinblue-integration/index.html",
-          "hash": "42iHpo3jX8vayo/Kp1zOl6A1aG5dsEf/+IJ419QedtA="
+          "hash": "hik/0znOcI5GUbUf09DoJ8jceBgUfH7rBDZ8E+DL0yY="
         }
       },
       "is_incremental": false,
@@ -9977,7 +9977,7 @@
       "output": {
         ".html": {
           "relative_path": "en/running-your-store/promotional-tools/sendinblue-integration/recover-abandoned-carts.html",
-          "hash": "cR7LXKNNlIyxFtiXdW6JcbjFaACXnDV5OuB1gZjKhIM="
+          "hash": "eyC7pB9ePNlGx3gg2PP2YDnxVz1rOLkOQKjal53+g5I="
         }
       },
       "is_incremental": false,
@@ -9989,7 +9989,7 @@
       "output": {
         ".html": {
           "relative_path": "en/running-your-store/promotional-tools/sendinblue-integration/send-an-order-confirmation-email.html",
-          "hash": "2SYkOncc4VUjNac6P9yH4NrozLIRmKySmqrFm0k7Rs8="
+          "hash": "PWWBNYFEcU1zKRS6THHPmc25hcdZJdr6WrQZ+QCNl74="
         }
       },
       "is_incremental": false,
@@ -10001,7 +10001,7 @@
       "output": {
         ".html": {
           "relative_path": "en/running-your-store/promotional-tools/sendinblue-integration/set-up-sendinblue-plugin.html",
-          "hash": "/CW9kWXpYD9xfdaiB7vI6y/Xrv2FA7ZbvN3uA5K76AE="
+          "hash": "elPjgrnrpDMxyxWg/asRQHNBA2IwUTcxG/bGM6I3OuA="
         }
       },
       "is_incremental": false,
@@ -10013,7 +10013,7 @@
       "output": {
         ".html": {
           "relative_path": "en/running-your-store/promotional-tools/tier-prices.html",
-          "hash": "8+ggpBGGoKRxXQ7CXfXrg2YPH6ze36j1vIyhJxSZG0A="
+          "hash": "Pbikg1qXpaAoNDWnrdEjC9mXZd0bSMjnrkwdiJud0D8="
         }
       },
       "is_incremental": false,
@@ -10025,7 +10025,7 @@
       "output": {
         ".html": {
           "relative_path": "en/running-your-store/reports.html",
-          "hash": "IE9Kh5YrRJdQOEKKrDgz8/F2at//l+aPRoz8zn3WXdc="
+          "hash": "hYj9ZifDIH2mebKC7obSIdZesXAgtiNbZUAs61byBiY="
         }
       },
       "is_incremental": false,
@@ -10037,7 +10037,7 @@
       "output": {
         ".html": {
           "relative_path": "en/running-your-store/search-engine-optimization.html",
-          "hash": "dIJiNIII4dTJLOyViPbFhEvx5JZTShHEkXa3US1cde8="
+          "hash": "S+rW3c6v1iqxj8G4gKH/nTmbPY/h0c5z4hfVnR79CNI="
         }
       },
       "is_incremental": false,
@@ -10247,7 +10247,7 @@
       "output": {
         ".html": {
           "relative_path": "en/running-your-store/system-administration/index.html",
-          "hash": "aZarzx2unnguiNIgJ8dd+oY1XE45aHhmmupM+utBkxI="
+          "hash": "zIwkqdVjGmRJ1uo8SZmzDDL8Uk1CkTipgtiP0tY2Ouw="
         }
       },
       "is_incremental": false,
@@ -10259,7 +10259,7 @@
       "output": {
         ".html": {
           "relative_path": "en/running-your-store/system-administration/log.html",
-          "hash": "rXxNfhMSY2szoDYOzlYodPhmKzXQ6vB4ec/bDZ2+QQ8="
+          "hash": "BzixYX7YkYmxsgw2MiyJ9NGAMk2zzB4PoS1/biw9N9w="
         }
       },
       "is_incremental": false,
@@ -10271,7 +10271,7 @@
       "output": {
         ".html": {
           "relative_path": "en/running-your-store/system-administration/maintenance.html",
-          "hash": "1Kn2Gm9PeNIdky6KZaiigE0ovjTEuU3vya/G/FOTOjI="
+          "hash": "9llFB2buguJZEX0urkjSj4gYLXSMs44fDt8LN1oxgbI="
         }
       },
       "is_incremental": false,
@@ -10283,7 +10283,7 @@
       "output": {
         ".html": {
           "relative_path": "en/running-your-store/system-administration/message-queue.html",
-          "hash": "wAftRVf/ATCmcKaKX7w+gE3eaaJShIGuL6aw704fphU="
+          "hash": "DWQZg5OKzb+TqJVdw+hx/e9lQHDlsn1LYPS9C86A294="
         }
       },
       "is_incremental": false,
@@ -10295,7 +10295,7 @@
       "output": {
         ".html": {
           "relative_path": "en/running-your-store/system-administration/schedule-tasks.html",
-          "hash": "PERN6iwCTv+ILi91t1nA7g5mHu6nmxMHGd8bHhNfZ6w="
+          "hash": "DP1JGLtqtgLKTjF3ECSj1NpWV/ObR2xcgr1fsGk47ak="
         }
       },
       "is_incremental": false,
@@ -10307,7 +10307,7 @@
       "output": {
         ".html": {
           "relative_path": "en/running-your-store/system-administration/system-information.html",
-          "hash": "xFkS7K1QaM3qx6B6UTxWZl5GJY/wHfrZRkm5jM8p6Pg="
+          "hash": "fcVVo/MDx9GS+35G5ZyUDaRyzX+zKlIkKFKUyp9U1yY="
         }
       },
       "is_incremental": false,
@@ -10319,7 +10319,7 @@
       "output": {
         ".html": {
           "relative_path": "en/running-your-store/system-administration/templates.html",
-          "hash": "crbCzCRaEzOqkcmED2V3cairo1Iy5IX+Ea6tumkBVaQ="
+          "hash": "okO9rRossyS8FnknBtg+nCyC5MJpEptfhZ6pWcW2+bI="
         }
       },
       "is_incremental": false,
@@ -10331,7 +10331,7 @@
       "output": {
         ".html": {
           "relative_path": "en/running-your-store/system-administration/warnings.html",
-          "hash": "BDAFCxeDIZWz/KuqK0IKXWQ3TtQsAWsbj8VorJtTDdo="
+          "hash": "fel6KeCItnD098WsrgILLry+/TNMT+2j0qCqlS2krSA="
         }
       },
       "is_incremental": false,
@@ -10343,7 +10343,7 @@
       "output": {
         ".html": {
           "relative_path": "en/running-your-store/vendor-management.html",
-          "hash": "lfurz+hpazcbOtdABf0XfQQP0Ktq+JgbPkXvfu2BN4M="
+          "hash": "aQhyxtHEZwS5Uy5p+5x/12Jn+JNx+NyXlvQPdrZTMX4="
         }
       },
       "is_incremental": false,
@@ -10355,7 +10355,7 @@
       "output": {
         ".html": {
           "relative_path": "en/toc.html",
-          "hash": "hLLIEPyvFMiiLESw0jRp42o5wixhDSrWNGZg5ZSm2w4="
+          "hash": "ySto/LH9+3YuqmSLXiQHGnIenZ3D49zhWt7rhlVGrQ8="
         }
       },
       "is_incremental": false,
@@ -10620,7 +10620,7 @@
       "output": {
         ".html": {
           "relative_path": "toc.html",
-          "hash": "gCCkhoOfk3b0YXILN8nRBIrtvLVW3jmXiy7Py7VevGs="
+          "hash": "NMne67332RKlQpAeiDp3stvmwB+lnMQdIBpIhplN6WU="
         }
       },
       "is_incremental": false,
@@ -10641,19 +10641,17 @@
   "incremental_info": [
     {
       "status": {
-        "can_incremental": false,
-        "details": "Cannot build incrementally because config changed.",
+        "can_incremental": true,
         "incrementalPhase": "build",
         "total_file_count": 0,
-        "skipped_file_count": 0,
-        "full_build_reason_code": "ConfigChanged"
+        "skipped_file_count": 0
       },
       "processors": {
         "ConceptualDocumentProcessor": {
-          "can_incremental": false,
+          "can_incremental": true,
           "incrementalPhase": "build",
           "total_file_count": 195,
-          "skipped_file_count": 0
+          "skipped_file_count": 195
         },
         "ResourceDocumentProcessor": {
           "can_incremental": false,
