@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Web API documentation </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Web API documentation ">
+    <meta name="generator" content="docfx 2.59.4.0">
+    
+    <link rel="shortcut icon" href="../../../favicon.ico">
+    <link rel="stylesheet" href="../../../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../../../styles/docfx.css">
+    <link rel="stylesheet" href="../../../styles/main.css">
+    <link rel="preload" href="../../../fonts/fonts.css" )"="" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <meta property="docfx:navrel" content="/">
+    <meta property="docfx:tocrel" content="../../toc.html">
+    
+    <meta property="docfx:rel" content="../../../">
+    
+    <script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-7490022-8"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'UA-7490022-8');
+    </script>
+    <script>
+      /*! loadCSS. [c]2017 Filament Group, Inc. MIT License
+      - testing support for link[rel=preload]
+      - enabling async CSS loading in browsers that do not support rel=preload
+      - applying rel preload css once loaded, whether supported or not.
+      */
+      !function(n){"use strict";n.loadCSS||(n.loadCSS=function(){});var o=loadCSS.relpreload={};if(o.support=function(){var e;try{e=n.document.createElement("link").relList.supports("preload")}catch(t){e=!1}return function(){return e}}(),o.bindMediaToggle=function(t){var e=t.media||"all";function a(){t.addEventListener?t.removeEventListener("load",a):t.attachEvent&&t.detachEvent("onload",a),t.setAttribute("onload",null),t.media=e}t.addEventListener?t.addEventListener("load",a):t.attachEvent&&t.attachEvent("onload",a),setTimeout(function(){t.rel="stylesheet",t.media="only x"}),setTimeout(a,3e3)},o.poly=function(){if(!o.support())for(var t=n.document.getElementsByTagName("link"),e=0;e<t.length;e++){var a=t[e];"preload"!==a.rel||"style"!==a.getAttribute("as")||a.getAttribute("data-loadcss")||(a.setAttribute("data-loadcss",!0),o.bindMediaToggle(a))}},!o.support()){o.poly();var t=n.setInterval(o.poly,500);n.addEventListener?n.addEventListener("load",function(){o.poly(),n.clearInterval(t)}):n.attachEvent&&n.attachEvent("onload",function(){o.poly(),n.clearInterval(t)})}"undefined"!=typeof exports?exports.loadCSS=loadCSS:n.loadCSS=loadCSS}("undefined"!=typeof global?global:this);
+    </script>
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="170">
+    <div id="wrapper">
+      <header>
+        <div class="container">
+          <div id="header" class="header navbar-header">
+            <div class="header-logo">
+              <a href="https://www.nopcommerce.com/">
+                <img id="logo" class="svg" src="../../../logo.png" alt="">
+              </a>
+            </div>  </div>
+          <div class="navbar-collapse collapse in">
+            <form class="navbar-form navbar-right" role="search" id="search">
+              <div class="form-group">
+                <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+              </div>
+        
+              <div class="form-group lang-container">
+                    
+                    <select id="lang-switcher" class="select-css">
+                        <option value="/en/index.html" selected="">
+                          English
+                        
+                    </select>        </div>
+            </form>
+          </div>
+        </div>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div class="container body-content">
+        
+        <div id="search-results">
+          <div class="search-list">Search Results for <span></span></div>
+          <div class="sr-items">
+            <p><i class="glyphicon glyphicon-refresh index-loading"></i></p>
+          </div>
+          <ul id="pagination" data-first="First" data-prev="Previous" data-next="Next" data-last="Last"></ul>
+        </div>
+      </div>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="en/developer/web-api/index">
+<h1 id="web-api-documentation" sourcefile="en/developer/web-api/index.md" sourcestartlinenumber="8">Web API documentation</h1>
+
+<h2 id="introduction" sourcefile="en/developer/web-api/index.md" sourcestartlinenumber="10">Introduction</h2>
+<p sourcefile="en/developer/web-api/index.md" sourcestartlinenumber="12"><a href="https://www.nopcommerce.com/web-api" sourcefile="en/developer/web-api/index.md" sourcestartlinenumber="12">Web API</a> for nopCommerce provides access to all platform functions as well as full control over database entities. It is a RESTful API built according to the <a href="https://swagger.io/" sourcefile="en/developer/web-api/index.md" sourcestartlinenumber="12">OpenAPI 3.0 specification (OAS)</a>. Using a tool like Swagger UI or within the <a href="https://swagger.io/tools/swaggerhub/" sourcefile="en/developer/web-api/index.md" sourcestartlinenumber="12">SwaggerHub platform</a> you can convert your OAS contract into an interactive API console that developers can use to interact with the API and quickly learn how the API is supposed to behave. nopCommerce offers a suite of APIs that allow developers to use and extend the platform’s built-in features. These APIs allow developers to read and write merchant data, interoperate with other systems and platforms, and add new functionality to nopCommerce.</p>
+<h2 id="available-apis-method-coverage" sourcefile="en/developer/web-api/index.md" sourcestartlinenumber="14">Available APIs (method coverage)</h2>
+<p sourcefile="en/developer/web-api/index.md" sourcestartlinenumber="16">The Web API framework provides integrators and developers the means to use web services that communicate with the nopCommerce system.</p>
+<h3 id="frontend-methods" sourcefile="en/developer/web-api/index.md" sourcestartlinenumber="18">Frontend methods</h3>
+<p sourcefile="en/developer/web-api/index.md" sourcestartlinenumber="20">The Web API Frontend offers you a way to implement the nopCommerce buying capabilities in any application, whenever it is a website or mobile app. Using the API is essential when sellers want to reach a wider audience and their requirements go beyond the standard nopCommerce functionality. The Web API Frontend provides methods that allow using the built-in public store functionality outside of the nopCommerce store. Even if you have customizations in your nopCommerce store you will be able to use this plugin since it is provided with the source code.</p>
+<p sourcefile="en/developer/web-api/index.md" sourcestartlinenumber="22">After installing the plugin you will be able to see a list of the existing API methods using the following Swagger UI endpoint:
+<strong sourcefile="en/developer/web-api/index.md" sourcestartlinenumber="23"><code sourcefile="en/developer/web-api/index.md" sourcestartlinenumber="23">{store location}/api/index.html</code></strong></p>
+<div class="TIP" sourcefile="en/developer/web-api/index.md" sourcestartlinenumber="25">
+<h5>Tip</h5>
+<p sourcefile="en/developer/web-api/index.md" sourcestartlinenumber="26">You can't use multi-factor authentication (MFA) through the Frontend API.</p>
+</div>
+<h3 id="backend-methods" sourcefile="en/developer/web-api/index.md" sourcestartlinenumber="28">Backend methods</h3>
+<p sourcefile="en/developer/web-api/index.md" sourcestartlinenumber="30">The Web API Backend provides access to all nopCommerce admin area functionality. Meaning, using the Web API Backend methods you can get full control over such functionality as customer management, creating and updating products, sales monitoring, and actually whatever you want to control in the admin area of the nopCommerce store. Use this API to build such applications as CRM and ERP systems, social network integrations, and other apps that require accessing the store business processes.</p>
+<p sourcefile="en/developer/web-api/index.md" sourcestartlinenumber="32">After installing the plugin you will be able to see a list of the existing API methods using the following Swagger UI endpoint:
+<strong sourcefile="en/developer/web-api/index.md" sourcestartlinenumber="33"><code sourcefile="en/developer/web-api/index.md" sourcestartlinenumber="33">{store location}/api/index.html</code></strong></p>
+<div class="IMPORTANT" sourcefile="en/developer/web-api/index.md" sourcestartlinenumber="35">
+<h5>Important</h5>
+<p sourcefile="en/developer/web-api/index.md" sourcestartlinenumber="36">After installing the backend and frontend APIs, switching between them is implemented directly through the Swagger UI page in the dropdown list of available definitions.
+<img src="_static/index/SwaggerUI_1.png" sourcefile="en/developer/web-api/index.md" sourcestartlinenumber="37" alt="image"></p>
+</div>
+<h4 id="scopes-and-permissions" sourcefile="en/developer/web-api/index.md" sourcestartlinenumber="39">Scopes and permissions</h4>
+<p sourcefile="en/developer/web-api/index.md" sourcestartlinenumber="41">To use the API, the client application should have appropriate permissions (ACL) in a nopCommerce store where the API plugin is installed. For example, to access backend (admin panel) methods through the API, a special &quot;Access Web API Backend&quot; permission is required. By default, this permission is provided for the administrator role only. You can change these settings through the standard ACL used in nopCommerce.</p>
+<h2 id="authentication" sourcefile="en/developer/web-api/index.md" sourcestartlinenumber="43">Authentication</h2>
+<p sourcefile="en/developer/web-api/index.md" sourcestartlinenumber="45">To keep transactions on the nopCommerce platform safe and secure, all apps connecting with our APIs must authenticate when making API calls.</p>
+<p sourcefile="en/developer/web-api/index.md" sourcestartlinenumber="47">To make a web API call from a client such as a mobile application, an API client has to prove its identity. To do this, the API provides an access token with each request in the Authorization header using the Bearer HTTP authorization scheme. This token acts like an electronic key that lets you access the API.</p>
+<p sourcefile="en/developer/web-api/index.md" sourcestartlinenumber="49">After you install the Web API plugin, you need to generate a secret key on the plugin configuration page. This key will be used to sign and verify each JWT token.</p>
+<h3 id="request-a-token" sourcefile="en/developer/web-api/index.md" sourcestartlinenumber="51">Request a token</h3>
+<ol sourcefile="en/developer/web-api/index.md" sourcestartlinenumber="53">
+<li sourcefile="en/developer/web-api/index.md" sourcestartlinenumber="53"><p sourcefile="en/developer/web-api/index.md" sourcestartlinenumber="53">Endpoint</p>
+<p sourcefile="en/developer/web-api/index.md" sourcestartlinenumber="55">For each API, there is an unsecured endpoint that serves to obtain an access token:</p>
+<ul sourcefile="en/developer/web-api/index.md" sourcestartlinenumber="56">
+<li sourcefile="en/developer/web-api/index.md" sourcestartlinenumber="56"><strong sourcefile="en/developer/web-api/index.md" sourcestartlinenumber="56"><code sourcefile="en/developer/web-api/index.md" sourcestartlinenumber="56">/api-backend/Authenticate/GetToken</code></strong></li>
+<li sourcefile="en/developer/web-api/index.md" sourcestartlinenumber="57"><strong sourcefile="en/developer/web-api/index.md" sourcestartlinenumber="57"><code sourcefile="en/developer/web-api/index.md" sourcestartlinenumber="57">/api-frontend/Authenticate/GetToken</code></strong></li>
+</ul>
+</li>
+<li sourcefile="en/developer/web-api/index.md" sourcestartlinenumber="59"><p sourcefile="en/developer/web-api/index.md" sourcestartlinenumber="59">Content type</p>
+<p sourcefile="en/developer/web-api/index.md" sourcestartlinenumber="61">The content type of the request body. Set this value to either <code sourcefile="en/developer/web-api/index.md" sourcestartlinenumber="61">Content-Type:application/json-patch+json</code></p>
+</li>
+<li sourcefile="en/developer/web-api/index.md" sourcestartlinenumber="63"><p sourcefile="en/developer/web-api/index.md" sourcestartlinenumber="63">Credentials</p>
+<p sourcefile="en/developer/web-api/index.md" sourcestartlinenumber="65">The username and password for a nopCommerce account. To specify these credentials in a JSON request body, include code similar to the following in the call:</p>
+<pre><code class="lang-json" sourcefile="en/developer/web-api/index.md" sourcestartlinenumber="67">{
+    &quot;username&quot;:&quot;&lt;user name&gt;&quot;, 
+    &quot;email&quot;:&quot;&lt;Email&gt;&quot;, 
+    &quot;password&quot;:&quot;&lt;password&gt;&quot;
+}
+</code></pre>
+</li>
+</ol>
+<h4 id="examples" sourcefile="en/developer/web-api/index.md" sourcestartlinenumber="75">Examples</h4>
+<p sourcefile="en/developer/web-api/index.md" sourcestartlinenumber="77">The following example uses the curl command to request a token for a customer account:</p>
+<pre><code class="lang-rest" sourcefile="en/developer/web-api/index.md" sourcestartlinenumber="79">curl -X 'POST' \
+  'http://localhost:15536/api-backend/Authenticate/GetToken' \
+  -H 'accept: application/json' \
+  -H 'Content-Type: application/json-patch+json' \
+  -d '{
+   &quot;username&quot;: &quot;admin@yourstore.com&quot;,
+   &quot;email&quot;: &quot;admin@yourstore.com&quot;,
+   &quot;password&quot;: &quot;123456&quot;
+}'
+</code></pre>
+<h3 id="authentication-token-response" sourcefile="en/developer/web-api/index.md" sourcestartlinenumber="91">Authentication token response</h3>
+<p sourcefile="en/developer/web-api/index.md" sourcestartlinenumber="93">A successful request returns a response body with the token, as follows:</p>
+<pre><code class="lang-json" sourcefile="en/developer/web-api/index.md" sourcestartlinenumber="95">{
+  &quot;username&quot;: &quot;admin@yourStore.com&quot;,
+  &quot;customer_id&quot;: 1,
+  &quot;token&quot;: &lt;authentication token&gt;
+}
+</code></pre>
+<h3 id="using-the-token-in-a-web-api-request" sourcefile="en/developer/web-api/index.md" sourcestartlinenumber="103">Using the token in a Web API request</h3>
+<p sourcefile="en/developer/web-api/index.md" sourcestartlinenumber="105">Any web API call accessing a resource that requires a permission level higher than anonymous should contain an authentication token in the header. To do this, the HTTP header is sent in the following format:</p>
+<pre><code class="lang-rest" sourcefile="en/developer/web-api/index.md" sourcestartlinenumber="107">curl -X 'GET' \
+  'http://localhost:15536/api-backend/BlogPost/GetById/1' \
+  -H 'accept: application/json' \
+  -H 'Authorization: &lt;authentication token&gt;'
+</code></pre>
+<h2 id="testing" sourcefile="en/developer/web-api/index.md" sourcestartlinenumber="114">Testing</h2>
+<p sourcefile="en/developer/web-api/index.md" sourcestartlinenumber="116">The <em sourcefile="en/developer/web-api/index.md" sourcestartlinenumber="116">Developer mode</em> is provided especially for the convenience of testing API endpoints. By activating this mode on the plugin configuration page, the token verification is essentially disabled.
+You can test the APIs using the following tools:</p>
+<ol sourcefile="en/developer/web-api/index.md" sourcestartlinenumber="119">
+<li sourcefile="en/developer/web-api/index.md" sourcestartlinenumber="119"><a href="https://swagger.io/swagger-ui/" sourcefile="en/developer/web-api/index.md" sourcestartlinenumber="119">Swagger UI</a>. It offers a web-based UI that provides information about the service, using the generated OpenAPI specification.</li>
+<li sourcefile="en/developer/web-api/index.md" sourcestartlinenumber="120"><a href="https://www.getpostman.com/" sourcefile="en/developer/web-api/index.md" sourcestartlinenumber="120">Postman</a>. It is a tool for testing APIs.</li>
+</ol>
+<p sourcefile="en/developer/web-api/index.md" sourcestartlinenumber="122">Below are instructions on how to use Postman to authenticate a user to get a JWT token from the API, and then make an authenticated request with the JWT token to retrieve a list of topics from the API.</p>
+<h3 id="how-to-authenticate-a-user-with-postman" sourcefile="en/developer/web-api/index.md" sourcestartlinenumber="124">How to authenticate a user with Postman</h3>
+<p sourcefile="en/developer/web-api/index.md" sourcestartlinenumber="126">To authenticate a user and get a JWT token, follow these steps:</p>
+<ol sourcefile="en/developer/web-api/index.md" sourcestartlinenumber="128">
+<li sourcefile="en/developer/web-api/index.md" sourcestartlinenumber="128">Open a <em sourcefile="en/developer/web-api/index.md" sourcestartlinenumber="128">new request</em> tab by clicking the plus(+) button at the end of the tabs.</li>
+<li sourcefile="en/developer/web-api/index.md" sourcestartlinenumber="129">Change the HTTP request method to &quot;POST&quot; using the dropdown selector on the left of the URL input field.</li>
+<li sourcefile="en/developer/web-api/index.md" sourcestartlinenumber="130">In the URL field, enter the authentication URL of your API: <strong sourcefile="en/developer/web-api/index.md" sourcestartlinenumber="130"><code sourcefile="en/developer/web-api/index.md" sourcestartlinenumber="130">{storeURL}/api-backend/Authenticate/GetToken</code></strong>.</li>
+<li sourcefile="en/developer/web-api/index.md" sourcestartlinenumber="131">Select the &quot;Body&quot; tab below the URL field, change the body type radio button to &quot;raw&quot;, and change the format using the dropdown selector to &quot;JSON (application/json)&quot;.</li>
+<li sourcefile="en/developer/web-api/index.md" sourcestartlinenumber="132">Enter a JSON object containing the test username and password into the &quot;Body&quot; textarea.</li>
+<li sourcefile="en/developer/web-api/index.md" sourcestartlinenumber="133">Click the &quot;Send&quot; button. You should receive a &quot;200 OK&quot; response with the user details including a JWT token in the response body. Copy the token value because we'll be using it in the next step to make an authenticated request.</li>
+</ol>
+<p sourcefile="en/developer/web-api/index.md" sourcestartlinenumber="135">Here's a screenshot of Postman after the request is sent and the user has been authenticated:</p>
+<p sourcefile="en/developer/web-api/index.md" sourcestartlinenumber="137"><img src="_static/index/Postman_1.png" sourcefile="en/developer/web-api/index.md" sourcestartlinenumber="137" alt="image"></p>
+<h3 id="how-to-make-an-authenticated-request-to-retrieve-a-topic-by-id" sourcefile="en/developer/web-api/index.md" sourcestartlinenumber="139">How to make an authenticated request to retrieve a topic by ID</h3>
+<p sourcefile="en/developer/web-api/index.md" sourcestartlinenumber="141">To make an authenticated request using the JWT token from the previous step, follow these steps:</p>
+<ol sourcefile="en/developer/web-api/index.md" sourcestartlinenumber="143">
+<li sourcefile="en/developer/web-api/index.md" sourcestartlinenumber="143">Open a new request tab by clicking the plus (+) button at the end of the tabs.</li>
+<li sourcefile="en/developer/web-api/index.md" sourcestartlinenumber="144">Change the HTTP request method to &quot;GET&quot; using the dropdown selector on the left of the URL input field.</li>
+<li sourcefile="en/developer/web-api/index.md" sourcestartlinenumber="145">In the URL field, enter the “Get topic” URL of your API: <code sourcefile="en/developer/web-api/index.md" sourcestartlinenumber="145">{storeURL}/api-backend/Topic/GetById/:id</code>.</li>
+<li sourcefile="en/developer/web-api/index.md" sourcestartlinenumber="146">Select the &quot;Authorization&quot; tab below the URL field, change the type to &quot;Bearer Token&quot; in the type dropdown selector, and paste the JWT token from the previous authentication step into the &quot;Token&quot; field.
+<img src="_static/index/Postman_2.png" sourcefile="en/developer/web-api/index.md" sourcestartlinenumber="147" alt="image"></li>
+<li sourcefile="en/developer/web-api/index.md" sourcestartlinenumber="148">Click the &quot;Send&quot; button. You should receive a &quot;200 OK&quot; response containing a JSON array with all the user records in the system (just the one test user in the example).
+Here's a screenshot of Postman after making an authenticated request to get a topic by id:
+<img src="_static/index/Postman_3.png" sourcefile="en/developer/web-api/index.md" sourcestartlinenumber="150" alt="image"></li>
+</ol>
+<h2 id="license" sourcefile="en/developer/web-api/index.md" sourcestartlinenumber="152">License</h2>
+<p sourcefile="en/developer/web-api/index.md" sourcestartlinenumber="154">The Web API plugin is licensed under the <a href="https://www.nopcommerce.com/web-api-license-terms" sourcefile="en/developer/web-api/index.md" sourcestartlinenumber="154">following terms</a>.</p>
+
+                  <div class="course-banner">
+                      <a target="_blank" href="https://www.nopcommerce.com/training?utm_source=docs_nopcommerce&utm_medium=documentation&utm_campaign=course&utm_content=Developers_Guide">
+                          <div class="course-banner-left"></div>
+                          <div class="course-banner-center">
+                              <div class="course-banner-title"><span>nopCommerce training course</span></div>
+                              <div class="course-banner-description"><span>Start developing your skills and become a Certified Developer</span></div>
+                          </div>
+                          <div class="course-banner-right"></div>
+                      </a> 
+                  </div>            </article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/nopSolutions/nopCommerce-Docs/blob/master/en/developer/web-api/index.md/#L1" class="contribution-link">Improve this Doc</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../../../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../../../styles/docfx.js"></script>
+    <script type="text/javascript" src="../../../styles/main.js"></script>
+  </body>
+</html>

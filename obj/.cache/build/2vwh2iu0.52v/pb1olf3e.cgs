@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>News </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="News ">
+    <meta name="generator" content="docfx 2.59.4.0">
+    
+    <link rel="shortcut icon" href="../../../favicon.ico">
+    <link rel="stylesheet" href="../../../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../../../styles/docfx.css">
+    <link rel="stylesheet" href="../../../styles/main.css">
+    <link rel="preload" href="../../../fonts/fonts.css" )"="" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <meta property="docfx:navrel" content="/">
+    <meta property="docfx:tocrel" content="../../toc.html">
+    
+    <meta property="docfx:rel" content="../../../">
+    
+    <script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-7490022-8"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'UA-7490022-8');
+    </script>
+    <script>
+      /*! loadCSS. [c]2017 Filament Group, Inc. MIT License
+      - testing support for link[rel=preload]
+      - enabling async CSS loading in browsers that do not support rel=preload
+      - applying rel preload css once loaded, whether supported or not.
+      */
+      !function(n){"use strict";n.loadCSS||(n.loadCSS=function(){});var o=loadCSS.relpreload={};if(o.support=function(){var e;try{e=n.document.createElement("link").relList.supports("preload")}catch(t){e=!1}return function(){return e}}(),o.bindMediaToggle=function(t){var e=t.media||"all";function a(){t.addEventListener?t.removeEventListener("load",a):t.attachEvent&&t.detachEvent("onload",a),t.setAttribute("onload",null),t.media=e}t.addEventListener?t.addEventListener("load",a):t.attachEvent&&t.attachEvent("onload",a),setTimeout(function(){t.rel="stylesheet",t.media="only x"}),setTimeout(a,3e3)},o.poly=function(){if(!o.support())for(var t=n.document.getElementsByTagName("link"),e=0;e<t.length;e++){var a=t[e];"preload"!==a.rel||"style"!==a.getAttribute("as")||a.getAttribute("data-loadcss")||(a.setAttribute("data-loadcss",!0),o.bindMediaToggle(a))}},!o.support()){o.poly();var t=n.setInterval(o.poly,500);n.addEventListener?n.addEventListener("load",function(){o.poly(),n.clearInterval(t)}):n.attachEvent&&n.attachEvent("onload",function(){o.poly(),n.clearInterval(t)})}"undefined"!=typeof exports?exports.loadCSS=loadCSS:n.loadCSS=loadCSS}("undefined"!=typeof global?global:this);
+    </script>
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="170">
+    <div id="wrapper">
+      <header>
+        <div class="container">
+          <div id="header" class="header navbar-header">
+            <div class="header-logo">
+              <a href="https://www.nopcommerce.com/">
+                <img id="logo" class="svg" src="../../../logo.png" alt="">
+              </a>
+            </div>  </div>
+          <div class="navbar-collapse collapse in">
+            <form class="navbar-form navbar-right" role="search" id="search">
+              <div class="form-group">
+                <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+              </div>
+        
+              <div class="form-group lang-container">
+                    
+                    <select id="lang-switcher" class="select-css">
+                        <option value="/en/index.html" selected="">
+                          English
+                        
+                    </select>        </div>
+            </form>
+          </div>
+        </div>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div class="container body-content">
+        
+        <div id="search-results">
+          <div class="search-list">Search Results for <span></span></div>
+          <div class="sr-items">
+            <p><i class="glyphicon glyphicon-refresh index-loading"></i></p>
+          </div>
+          <ul id="pagination" data-first="First" data-prev="Previous" data-next="Next" data-last="Last"></ul>
+        </div>
+      </div>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="en/running-your-store/content-management/news">
+<h1 id="news" sourcefile="en/running-your-store/content-management/news.md" sourcestartlinenumber="8">News</h1>
+
+<p sourcefile="en/running-your-store/content-management/news.md" sourcestartlinenumber="10">nopCommerce allows you to post news in your store. There can be any important tidings, like nopCommerce latest release information, your company updates, and more.</p>
+<p sourcefile="en/running-your-store/content-management/news.md" sourcestartlinenumber="12">News will be displayed in your store on the home page or in the site footer menu.</p>
+<p sourcefile="en/running-your-store/content-management/news.md" sourcestartlinenumber="14"><img src="_static/news/news_1.png" sourcefile="en/running-your-store/content-management/news.md" sourcestartlinenumber="14" alt="p1"></p>
+<p sourcefile="en/running-your-store/content-management/news.md" sourcestartlinenumber="16">To manage news, go to <strong sourcefile="en/running-your-store/content-management/news.md" sourcestartlinenumber="16">Content management → News items</strong>. The list of all news will be displayed as follows:
+<img src="_static/news/list.jpg" sourcefile="en/running-your-store/content-management/news.md" sourcestartlinenumber="17" alt="News"></p>
+<h2 id="adding-news" sourcefile="en/running-your-store/content-management/news.md" sourcestartlinenumber="19">Adding news</h2>
+<p sourcefile="en/running-your-store/content-management/news.md" sourcestartlinenumber="21">To add a new news item, click the <strong sourcefile="en/running-your-store/content-management/news.md" sourcestartlinenumber="21">Edit</strong> button and fill in the information about the news item.</p>
+<p sourcefile="en/running-your-store/content-management/news.md" sourcestartlinenumber="23"><img src="_static/news/add-new.jpg" sourcefile="en/running-your-store/content-management/news.md" sourcestartlinenumber="23" alt="Adding news"></p>
+<h3 id="info" sourcefile="en/running-your-store/content-management/news.md" sourcestartlinenumber="25">Info</h3>
+<p sourcefile="en/running-your-store/content-management/news.md" sourcestartlinenumber="27">In the <em sourcefile="en/running-your-store/content-management/news.md" sourcestartlinenumber="27">Info</em> panel, define the following news item details:</p>
+<ul sourcefile="en/running-your-store/content-management/news.md" sourcestartlinenumber="29">
+<li sourcefile="en/running-your-store/content-management/news.md" sourcestartlinenumber="29"><p sourcefile="en/running-your-store/content-management/news.md" sourcestartlinenumber="29">If more than one language is enabled, from the <strong sourcefile="en/running-your-store/content-management/news.md" sourcestartlinenumber="29">Language</strong> dropdown list, select the language of this news item. Customers will only see news in their selected language.</p>
+</li>
+<li sourcefile="en/running-your-store/content-management/news.md" sourcestartlinenumber="30"><p sourcefile="en/running-your-store/content-management/news.md" sourcestartlinenumber="30">Enter the <strong sourcefile="en/running-your-store/content-management/news.md" sourcestartlinenumber="30">Title</strong> of this news item. For example: &quot;The launch of our new nopCommerce store.&quot;</p>
+</li>
+<li sourcefile="en/running-your-store/content-management/news.md" sourcestartlinenumber="31"><p sourcefile="en/running-your-store/content-management/news.md" sourcestartlinenumber="31">In the <strong sourcefile="en/running-your-store/content-management/news.md" sourcestartlinenumber="31">Short description</strong> field, enter an abstract of this news item. This is the text your visitors will see on the news list in the public store.</p>
+</li>
+<li sourcefile="en/running-your-store/content-management/news.md" sourcestartlinenumber="32"><p sourcefile="en/running-your-store/content-management/news.md" sourcestartlinenumber="32">In the <strong sourcefile="en/running-your-store/content-management/news.md" sourcestartlinenumber="32">Full description</strong> field, enter the text of this news item.</p>
+</li>
+<li sourcefile="en/running-your-store/content-management/news.md" sourcestartlinenumber="33"><p sourcefile="en/running-your-store/content-management/news.md" sourcestartlinenumber="33">Select the <strong sourcefile="en/running-your-store/content-management/news.md" sourcestartlinenumber="33">Allow comments</strong> checkbox to enable customers to add comments to the news item.</p>
+</li>
+<li sourcefile="en/running-your-store/content-management/news.md" sourcestartlinenumber="35"><p sourcefile="en/running-your-store/content-management/news.md" sourcestartlinenumber="35">Enter the <strong sourcefile="en/running-your-store/content-management/news.md" sourcestartlinenumber="35">Start date</strong> and <strong sourcefile="en/running-your-store/content-management/news.md" sourcestartlinenumber="35">End date</strong> for displaying this news item in Coordinated Universal Time (UTC).</p>
+<div class="NOTE" sourcefile="en/running-your-store/content-management/news.md" sourcestartlinenumber="37">
+<h5>Note</h5>
+<p sourcefile="en/running-your-store/content-management/news.md" sourcestartlinenumber="39">You can leave these fields empty if you do not want to define the news item's start and end dates.</p>
+</div>
+</li>
+<li sourcefile="en/running-your-store/content-management/news.md" sourcestartlinenumber="41"><p sourcefile="en/running-your-store/content-management/news.md" sourcestartlinenumber="41">Choose the stores in the <strong sourcefile="en/running-your-store/content-management/news.md" sourcestartlinenumber="41">Limited to stores</strong> field to enable this news item for specific stores only. Leave the field empty in case this functionality is not required.</p>
+<div class="NOTE" sourcefile="en/running-your-store/content-management/news.md" sourcestartlinenumber="43">
+<h5>Note</h5>
+<p sourcefile="en/running-your-store/content-management/news.md" sourcestartlinenumber="45">In order to use this functionality, you have to disable the following setting: <strong sourcefile="en/running-your-store/content-management/news.md" sourcestartlinenumber="45">Catalog settings → Ignore &quot;limit per store&quot; rules (sitewide)</strong>. Read more about multi-store functionality <a class="xref" href="../../getting-started/advanced-configuration/multi-store.html" sourcefile="en/running-your-store/content-management/news.md" sourcestartlinenumber="45">here</a>.</p>
+</div>
+</li>
+<li sourcefile="en/running-your-store/content-management/news.md" sourcestartlinenumber="47"><p sourcefile="en/running-your-store/content-management/news.md" sourcestartlinenumber="47">Select the <strong sourcefile="en/running-your-store/content-management/news.md" sourcestartlinenumber="47">Published</strong> checkbox to publish this news item in your store.</p>
+</li>
+</ul>
+<p sourcefile="en/running-your-store/content-management/news.md" sourcestartlinenumber="49">While editing an existing news item or after clicking the <strong sourcefile="en/running-your-store/content-management/news.md" sourcestartlinenumber="49">Save and continue edit</strong> button for a new one, you can click the <strong sourcefile="en/running-your-store/content-management/news.md" sourcestartlinenumber="49">Preview</strong> button in the top right to see how the news item will appear on the site.</p>
+<h3 id="seo" sourcefile="en/running-your-store/content-management/news.md" sourcestartlinenumber="51">SEO</h3>
+<p sourcefile="en/running-your-store/content-management/news.md" sourcestartlinenumber="53">In the <em sourcefile="en/running-your-store/content-management/news.md" sourcestartlinenumber="53">SEO</em> panel, define the following news item details:
+<img src="_static/news/seo.jpg" sourcefile="en/running-your-store/content-management/news.md" sourcestartlinenumber="54" alt="SEO for news item"></p>
+<ul sourcefile="en/running-your-store/content-management/news.md" sourcestartlinenumber="56">
+<li sourcefile="en/running-your-store/content-management/news.md" sourcestartlinenumber="56">Define the <strong sourcefile="en/running-your-store/content-management/news.md" sourcestartlinenumber="56">Search engine friendly page name</strong>. For example, enter &quot;the-best-news&quot; to make your URL <code sourcefile="en/running-your-store/content-management/news.md" sourcestartlinenumber="56">http://yourStore.com/the-best-news</code>. Leave this field empty to generate it automatically based on the title of the news item.</li>
+<li sourcefile="en/running-your-store/content-management/news.md" sourcestartlinenumber="57">Override the page title in the <strong sourcefile="en/running-your-store/content-management/news.md" sourcestartlinenumber="57">Meta title</strong> field (the default title is the title of the news item).</li>
+<li sourcefile="en/running-your-store/content-management/news.md" sourcestartlinenumber="58">Enter <strong sourcefile="en/running-your-store/content-management/news.md" sourcestartlinenumber="58">Meta keywords</strong> to be added to the news item's header. They represent a brief and concise list of the most important themes for the page.</li>
+<li sourcefile="en/running-your-store/content-management/news.md" sourcestartlinenumber="59">Enter <strong sourcefile="en/running-your-store/content-management/news.md" sourcestartlinenumber="59">Meta description</strong> to be added to the news item's header. The meta description tag is a brief and concise summary of the page content.</li>
+</ul>
+<h2 id="managing-news-comments" sourcefile="en/running-your-store/content-management/news.md" sourcestartlinenumber="61">Managing news comments</h2>
+<p sourcefile="en/running-your-store/content-management/news.md" sourcestartlinenumber="63">To manage news comments, go to <strong sourcefile="en/running-your-store/content-management/news.md" sourcestartlinenumber="63">Content management → News comments</strong>.</p>
+<p sourcefile="en/running-your-store/content-management/news.md" sourcestartlinenumber="65"><img src="_static/news/news-comments.jpg" sourcefile="en/running-your-store/content-management/news.md" sourcestartlinenumber="65" alt="News comments"></p>
+<p sourcefile="en/running-your-store/content-management/news.md" sourcestartlinenumber="67">Use the <strong sourcefile="en/running-your-store/content-management/news.md" sourcestartlinenumber="67">Approve selected</strong> button to approve the selected comments and <strong sourcefile="en/running-your-store/content-management/news.md" sourcestartlinenumber="67">Disapprove selected</strong> to disapprove ones.
+You can also edit or delete a comment. If deleted, the comment will be removed from the system.</p>
+<h2 id="news-settings" sourcefile="en/running-your-store/content-management/news.md" sourcestartlinenumber="70">News settings</h2>
+<p sourcefile="en/running-your-store/content-management/news.md" sourcestartlinenumber="72">You can manage news settings in <strong sourcefile="en/running-your-store/content-management/news.md" sourcestartlinenumber="72">Configuration → Settings → News settings</strong>. This page is available in 2 modes: <em sourcefile="en/running-your-store/content-management/news.md" sourcestartlinenumber="72">advanced</em> and <em sourcefile="en/running-your-store/content-management/news.md" sourcestartlinenumber="72">basic</em>.</p>
+<p sourcefile="en/running-your-store/content-management/news.md" sourcestartlinenumber="74">This page enables multi-store configuration; it means that the same settings can be defined for all stores or differ from store to store. If you want to manage settings for a certain store, choose its name from the multi-store configuration dropdown list and select all the checkboxes needed on the left to set custom values for them. For further details, refer to <a class="xref" href="../../getting-started/advanced-configuration/multi-store.html" sourcefile="en/running-your-store/content-management/news.md" sourcestartlinenumber="74">Multi-store</a>.</p>
+<p sourcefile="en/running-your-store/content-management/news.md" sourcestartlinenumber="76"><img src="_static/news/news-settings.jpg" sourcefile="en/running-your-store/content-management/news.md" sourcestartlinenumber="76" alt="News settings"></p>
+<h3 id="common" sourcefile="en/running-your-store/content-management/news.md" sourcestartlinenumber="78">Common</h3>
+<p sourcefile="en/running-your-store/content-management/news.md" sourcestartlinenumber="80">Define the following <em sourcefile="en/running-your-store/content-management/news.md" sourcestartlinenumber="80">Common</em> settings:</p>
+<ul sourcefile="en/running-your-store/content-management/news.md" sourcestartlinenumber="82">
+<li sourcefile="en/running-your-store/content-management/news.md" sourcestartlinenumber="82">Select the <strong sourcefile="en/running-your-store/content-management/news.md" sourcestartlinenumber="82">News enabled</strong> checkbox to enable the news functionality in your store.</li>
+<li sourcefile="en/running-your-store/content-management/news.md" sourcestartlinenumber="83">Select <strong sourcefile="en/running-your-store/content-management/news.md" sourcestartlinenumber="83">Show on home page</strong> to display your news items on your store home page.</li>
+<li sourcefile="en/running-your-store/content-management/news.md" sourcestartlinenumber="84">Enter the <strong sourcefile="en/running-your-store/content-management/news.md" sourcestartlinenumber="84">Number of items to display</strong> on the home page.</li>
+<li sourcefile="en/running-your-store/content-management/news.md" sourcestartlinenumber="85">Enter the <strong sourcefile="en/running-your-store/content-management/news.md" sourcestartlinenumber="85">News archive page size</strong>. It's the number of news displayed on one page.</li>
+<li sourcefile="en/running-your-store/content-management/news.md" sourcestartlinenumber="86">Select <strong sourcefile="en/running-your-store/content-management/news.md" sourcestartlinenumber="86">Display news RSS feed link in the browser address bar</strong> to enable the news RSS feed link in customers' browser address bar.</li>
+</ul>
+<h3 id="news-comments" sourcefile="en/running-your-store/content-management/news.md" sourcestartlinenumber="88">News comments</h3>
+<p sourcefile="en/running-your-store/content-management/news.md" sourcestartlinenumber="90">Define the following <em sourcefile="en/running-your-store/content-management/news.md" sourcestartlinenumber="90">News comments</em> settings:</p>
+<ul sourcefile="en/running-your-store/content-management/news.md" sourcestartlinenumber="92">
+<li sourcefile="en/running-your-store/content-management/news.md" sourcestartlinenumber="92">Select the <strong sourcefile="en/running-your-store/content-management/news.md" sourcestartlinenumber="92">Allow guests to leave comments</strong> checkbox to enable nonregistered users to add comments to news.</li>
+<li sourcefile="en/running-your-store/content-management/news.md" sourcestartlinenumber="93">Select the <strong sourcefile="en/running-your-store/content-management/news.md" sourcestartlinenumber="93">News comments must be approved</strong> checkbox if news comments must be approved by the administrator.</li>
+<li sourcefile="en/running-your-store/content-management/news.md" sourcestartlinenumber="94">Select the <strong sourcefile="en/running-your-store/content-management/news.md" sourcestartlinenumber="94">Notify about new news comments</strong> checkbox to notify the store owner about new news comments.</li>
+<li sourcefile="en/running-your-store/content-management/news.md" sourcestartlinenumber="95">Select the <strong sourcefile="en/running-your-store/content-management/news.md" sourcestartlinenumber="95">News comments per store</strong> checkbox to display news comments written in the current store only.</li>
+</ul>
+<p sourcefile="en/running-your-store/content-management/news.md" sourcestartlinenumber="97">Click <strong sourcefile="en/running-your-store/content-management/news.md" sourcestartlinenumber="97">Save</strong>.</p>
+<h2 id="tutorials" sourcefile="en/running-your-store/content-management/news.md" sourcestartlinenumber="99">Tutorials</h2>
+<ul sourcefile="en/running-your-store/content-management/news.md" sourcestartlinenumber="101">
+<li sourcefile="en/running-your-store/content-management/news.md" sourcestartlinenumber="101"><a href="https://www.youtube.com/watch?v=ztLlRXvBQK4" sourcefile="en/running-your-store/content-management/news.md" sourcestartlinenumber="101">Managing news in nopCommerce</a></li>
+</ul>
+            </article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/nopSolutions/nopCommerce-Docs/blob/master/en/running-your-store/content-management/news.md/#L1" class="contribution-link">Improve this Doc</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../../../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../../../styles/docfx.js"></script>
+    <script type="text/javascript" src="../../../styles/main.js"></script>
+  </body>
+</html>

@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Contribute to the nopCommerce documentation </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Contribute to the nopCommerce documentation ">
+    <meta name="generator" content="docfx 2.59.4.0">
+    
+    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="stylesheet" href="styles/docfx.vendor.css">
+    <link rel="stylesheet" href="styles/docfx.css">
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="preload" href="fonts/fonts.css" )"="" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <meta property="docfx:navrel" content="/">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    <meta property="docfx:rel" content="">
+    
+    <script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-7490022-8"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'UA-7490022-8');
+    </script>
+    <script>
+      /*! loadCSS. [c]2017 Filament Group, Inc. MIT License
+      - testing support for link[rel=preload]
+      - enabling async CSS loading in browsers that do not support rel=preload
+      - applying rel preload css once loaded, whether supported or not.
+      */
+      !function(n){"use strict";n.loadCSS||(n.loadCSS=function(){});var o=loadCSS.relpreload={};if(o.support=function(){var e;try{e=n.document.createElement("link").relList.supports("preload")}catch(t){e=!1}return function(){return e}}(),o.bindMediaToggle=function(t){var e=t.media||"all";function a(){t.addEventListener?t.removeEventListener("load",a):t.attachEvent&&t.detachEvent("onload",a),t.setAttribute("onload",null),t.media=e}t.addEventListener?t.addEventListener("load",a):t.attachEvent&&t.attachEvent("onload",a),setTimeout(function(){t.rel="stylesheet",t.media="only x"}),setTimeout(a,3e3)},o.poly=function(){if(!o.support())for(var t=n.document.getElementsByTagName("link"),e=0;e<t.length;e++){var a=t[e];"preload"!==a.rel||"style"!==a.getAttribute("as")||a.getAttribute("data-loadcss")||(a.setAttribute("data-loadcss",!0),o.bindMediaToggle(a))}},!o.support()){o.poly();var t=n.setInterval(o.poly,500);n.addEventListener?n.addEventListener("load",function(){o.poly(),n.clearInterval(t)}):n.attachEvent&&n.attachEvent("onload",function(){o.poly(),n.clearInterval(t)})}"undefined"!=typeof exports?exports.loadCSS=loadCSS:n.loadCSS=loadCSS}("undefined"!=typeof global?global:this);
+    </script>
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="170">
+    <div id="wrapper">
+      <header>
+        <div class="container">
+          <div id="header" class="header navbar-header">
+            <div class="header-logo">
+              <a href="https://www.nopcommerce.com/">
+                <img id="logo" class="svg" src="logo.png" alt="">
+              </a>
+            </div>  </div>
+          <div class="navbar-collapse collapse in">
+            <form class="navbar-form navbar-right" role="search" id="search">
+              <div class="form-group">
+                <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+              </div>
+        
+              <div class="form-group lang-container">
+                    
+                    <select id="lang-switcher" class="select-css">
+                        <option value="/en/index.html">
+                          English
+                        
+                    </select>        </div>
+            </form>
+          </div>
+        </div>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div class="container body-content">
+        
+        <div id="search-results">
+          <div class="search-list">Search Results for <span></span></div>
+          <div class="sr-items">
+            <p><i class="glyphicon glyphicon-refresh index-loading"></i></p>
+          </div>
+          <ul id="pagination" data-first="First" data-prev="Previous" data-next="Next" data-last="Last"></ul>
+        </div>
+      </div>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="">
+<h1 id="contribute-to-the-nopcommerce-documentation" sourcefile="CONTRIBUTING.md" sourcestartlinenumber="1">Contribute to the nopCommerce documentation</h1>
+
+<p sourcefile="CONTRIBUTING.md" sourcestartlinenumber="3">This document covers the process of contributing to the articles and code samples hosted on the <a href="http://docs.nopcommerce.com" sourcefile="CONTRIBUTING.md" sourcestartlinenumber="3">nopCommerce documentation site</a>. Typo corrections and new articles are welcome contributions.</p>
+<h2 id="how-to-make-a-simple-correction-or-suggestion" sourcefile="CONTRIBUTING.md" sourcestartlinenumber="5">How to make a simple correction or suggestion</h2>
+<p sourcefile="CONTRIBUTING.md" sourcestartlinenumber="7">Articles are stored in the repository as Markdown files. Simple changes to the content of a Markdown file are made in the browser by selecting the <strong sourcefile="CONTRIBUTING.md" sourcestartlinenumber="7">Edit</strong> link in the upper-right corner of the browser window (in a narrow browser window, expand the <strong sourcefile="CONTRIBUTING.md" sourcestartlinenumber="7">options</strong> bar to see the <strong sourcefile="CONTRIBUTING.md" sourcestartlinenumber="7">Edit</strong> link). Follow the directions to create a pull request (PR). We will review the PR and accept it or suggest changes.</p>
+<h2 id="docs-authoring-pack-extension-in-visual-studio-code" sourcefile="CONTRIBUTING.md" sourcestartlinenumber="9">Docs Authoring Pack extension in Visual Studio Code</h2>
+<p sourcefile="CONTRIBUTING.md" sourcestartlinenumber="11">If you use Visual Studio Code to contribute to the nopCommerce documentation, you can boost your productivity by installing the <a href="https://marketplace.visualstudio.com/items?itemName=docsmsft.docs-authoring-pack" sourcefile="CONTRIBUTING.md" sourcestartlinenumber="11">Docs Authoring Pack</a> extension. The extension provides a variety of tools that helps with Markdown linting, code spell checking, and article templates.</p>
+<h2 id="folder-structure-conventions" sourcefile="CONTRIBUTING.md" sourcestartlinenumber="13">Folder structure conventions</h2>
+<p sourcefile="CONTRIBUTING.md" sourcestartlinenumber="15">Structuring rules:</p>
+<ul sourcefile="CONTRIBUTING.md" sourcestartlinenumber="17">
+<li sourcefile="CONTRIBUTING.md" sourcestartlinenumber="17"><p sourcefile="CONTRIBUTING.md" sourcestartlinenumber="17">All resources related to an article (such as images, videos) should be stored in a separate folder. For example:</p>
+<pre><code class="lang-sh" sourcefile="CONTRIBUTING.md" sourcestartlinenumber="19">_static/[topic_file_name]/[Resource_name].png
+</code></pre>
+<p sourcefile="CONTRIBUTING.md" sourcestartlinenumber="23">where <code sourcefile="CONTRIBUTING.md" sourcestartlinenumber="23">[topic_file_name].md</code> is flush with the _static folder</p>
+</li>
+<li sourcefile="CONTRIBUTING.md" sourcestartlinenumber="25"><p sourcefile="CONTRIBUTING.md" sourcestartlinenumber="25">The folder that unites articles into a group should include the root file <code sourcefile="CONTRIBUTING.md" sourcestartlinenumber="25">index.md</code></p>
+</li>
+</ul>
+<p sourcefile="CONTRIBUTING.md" sourcestartlinenumber="27">So, an image in the <code sourcefile="CONTRIBUTING.md" sourcestartlinenumber="27">en/developer/tutorials/source-code-organization.md</code> file is rendered by the following Markdown:</p>
+<pre><code class="lang-md" sourcefile="CONTRIBUTING.md" sourcestartlinenumber="29">![description of image for alt attribute](en/developer/tutorials/_static/source-code-organization/imagename.png)
+</code></pre>
+<p sourcefile="CONTRIBUTING.md" sourcestartlinenumber="33">All images should have <a href="https://wikipedia.org/wiki/Alt_attribute" sourcefile="CONTRIBUTING.md" sourcestartlinenumber="33">alternative (alt) text</a>. For advice on specifying alt text, see online resources, such as <a href="https://webaim.org/techniques/alttext/" sourcefile="CONTRIBUTING.md" sourcestartlinenumber="33">WebAIM: Alternative Text</a>.</p>
+<p sourcefile="CONTRIBUTING.md" sourcestartlinenumber="35">Use lowercase for Markdown file names and image file names.</p>
+<h2 id="test-changes-with-docfx" sourcefile="CONTRIBUTING.md" sourcestartlinenumber="37">Test changes with DocFX</h2>
+<p sourcefile="CONTRIBUTING.md" sourcestartlinenumber="39">Test your changes with the <a href="https://dotnet.github.io/docfx/tutorial/docfx_getting_started.html#2-use-docfx-as-a-command-line-tool" sourcefile="CONTRIBUTING.md" sourcestartlinenumber="39">DocFX command-line tool</a>, which creates a locally hosted version of the site. DocFX doesn't render style and site extensions created for docs.microsoft.com.</p>
+<h2 id="forking-and-submitting-pull-requests" sourcefile="CONTRIBUTING.md" sourcestartlinenumber="41">Forking and submitting pull requests</h2>
+<p sourcefile="CONTRIBUTING.md" sourcestartlinenumber="43">If you want to contribute some changes to the nopCommerce documentation (article fix or new post), then you should follow the approach below. Here is a short list of steps to contribute:</p>
+<ul sourcefile="CONTRIBUTING.md" sourcestartlinenumber="45">
+<li sourcefile="CONTRIBUTING.md" sourcestartlinenumber="45">First of all, you have to create a fork. Please find more about repository forking on GitHub at <a href="https://help.github.com/articles/fork-a-repo/" sourcefile="CONTRIBUTING.md" sourcestartlinenumber="45">https://help.github.com/articles/fork-a-repo/</a>.</li>
+<li sourcefile="CONTRIBUTING.md" sourcestartlinenumber="46">Clone it locally.</li>
+<li sourcefile="CONTRIBUTING.md" sourcestartlinenumber="47">Create a new branch from &quot;master.&quot; Please always create a new branch for each contribution. You should create it from our &quot;master&quot; branch only.</li>
+<li sourcefile="CONTRIBUTING.md" sourcestartlinenumber="48">Write the code and push back to your GitHub fork.</li>
+<li sourcefile="CONTRIBUTING.md" sourcestartlinenumber="49">Create a pull request. Please read more about it at <a href="https://help.github.com/articles/using-pull-requests/" sourcefile="CONTRIBUTING.md" sourcestartlinenumber="49">https://help.github.com/articles/using-pull-requests/</a>. And please always sync with our repository before doing it.</li>
+</ul>
+<h2 id="redirects" sourcefile="CONTRIBUTING.md" sourcestartlinenumber="51">Redirects</h2>
+<p sourcefile="CONTRIBUTING.md" sourcestartlinenumber="53">If you delete an article, change its file name or move it to another folder, create a redirect so that people who bookmarked the article don't receive a 404 Not Found error. Add redirects to the <a href="https://github.com/nopSolutions/nopCommerce-Docs/blob/master/web.config" sourcefile="CONTRIBUTING.md" sourcestartlinenumber="53">web.config file</a>.</p>
+<h2 id="microsoft-writing-style-guide" sourcefile="CONTRIBUTING.md" sourcestartlinenumber="55">Microsoft writing style guide</h2>
+<p sourcefile="CONTRIBUTING.md" sourcestartlinenumber="57">The <a href="https://docs.microsoft.com/style-guide/welcome/" sourcefile="CONTRIBUTING.md" sourcestartlinenumber="57">Microsoft Writing Style Guide</a> provides writing style and terminology guidance for all forms of technology communication, including the nopCommerce documentation.</p>
+<h2 id="markdown-syntax" sourcefile="CONTRIBUTING.md" sourcestartlinenumber="59">Markdown syntax</h2>
+<p sourcefile="CONTRIBUTING.md" sourcestartlinenumber="61">Articles are written in <a href="https://dotnet.github.io/docfx/spec/docfx_flavored_markdown.html" sourcefile="CONTRIBUTING.md" sourcestartlinenumber="61">DocFx-flavored Markdown</a>, which is a superset of <a href="https://guides.github.com/features/mastering-markdown/" sourcefile="CONTRIBUTING.md" sourcestartlinenumber="61">GitHub-flavored Markdown (GFM)</a>.</p>
+<h2 id="nopcommerce-documentation-style-guide" sourcefile="CONTRIBUTING.md" sourcestartlinenumber="63">nopCommerce documentation style guide</h2>
+<p sourcefile="CONTRIBUTING.md" sourcestartlinenumber="65">Please follow these simple rules to make the docs consistent and easy to read. These rules are conventions to ensure a homogeneous style throughout the document.</p>
+<h3 id="images-and-screenshots" sourcefile="CONTRIBUTING.md" sourcestartlinenumber="67">Images and screenshots</h3>
+<p sourcefile="CONTRIBUTING.md" sourcestartlinenumber="69">Do not use images to publish source code.</p>
+<p sourcefile="CONTRIBUTING.md" sourcestartlinenumber="71">This restriction reduces the size of the repository.</p>
+<p sourcefile="CONTRIBUTING.md" sourcestartlinenumber="73">As an optional step, ensure that any images and screenshots used in the documentation are compressed, which helps with file size and page load performance. A few popular tools include TinyPNG (using the <a href="https://tinypng.com/" sourcefile="CONTRIBUTING.md" sourcestartlinenumber="73">TinyPNG website</a> or the <a href="https://tinypng.com/developers" sourcefile="CONTRIBUTING.md" sourcestartlinenumber="73">TinyPNG API</a>) or the <a href="https://marketplace.visualstudio.com/items?itemName=MadsKristensen.ImageOptimizer" sourcefile="CONTRIBUTING.md" sourcestartlinenumber="73">Image Optimizer</a> Visual Studio extension.</p>
+<h3 id="internal-links" sourcefile="CONTRIBUTING.md" sourcestartlinenumber="75">Internal links</h3>
+<p sourcefile="CONTRIBUTING.md" sourcestartlinenumber="77">Internal links should use the uid of the target article with an xref link (link text is set to the linked content's title):</p>
+<pre><code class="lang-md" sourcefile="CONTRIBUTING.md" sourcestartlinenumber="79">&lt;xref:uid_of_the_topic&gt;
+</code></pre>
+<p sourcefile="CONTRIBUTING.md" sourcestartlinenumber="83">If the title of the article is unsuitable for link text (for example, a word or phrase in a sentence is a link text), specify the xref link and link text with the following:</p>
+<pre><code class="lang-md" sourcefile="CONTRIBUTING.md" sourcestartlinenumber="85">[link text](xref:uid_of_the_topic)
+</code></pre>
+<p sourcefile="CONTRIBUTING.md" sourcestartlinenumber="89">For more information, see the <a href="https://dotnet.github.io/docfx/spec/docfx_flavored_markdown.html#cross-reference" sourcefile="CONTRIBUTING.md" sourcestartlinenumber="89">DocFX Cross Reference</a>.</p>
+<p sourcefile="CONTRIBUTING.md" sourcestartlinenumber="91">Do use explicitly named anchors when building links to a specific section of the document. Anchors are automatically created for all headers from their title by lowercasing and removing spaces. Anchors can be linked using the following syntax:</p>
+<pre><code sourcefile="CONTRIBUTING.md" sourcestartlinenumber="93">[nopCommerce documentation style guide](#nopcommerce-documentation-style-guide)
+</code></pre>
+<p sourcefile="CONTRIBUTING.md" sourcestartlinenumber="97">If the anchor is in another document, use the uid and the anchor name like this:</p>
+<pre><code sourcefile="CONTRIBUTING.md" sourcestartlinenumber="99">[nopCommerce documentation style guide](xref:uid_of_the_topic#nopcommerce-documentation-style-guide)
+</code></pre>
+<div class="NOTE" sourcefile="CONTRIBUTING.md" sourcestartlinenumber="103">
+<h5>Note</h5>
+<p sourcefile="CONTRIBUTING.md" sourcestartlinenumber="105">Please note that anchor names are case-sensitive.</p>
+</div>
+<h3 id="markup-and-styles" sourcefile="CONTRIBUTING.md" sourcestartlinenumber="107">Markup and styles</h3>
+<p sourcefile="CONTRIBUTING.md" sourcestartlinenumber="109">Topics should use standard Markdown and avoid inline HTML, including styles.</p>
+<h4 id="how-to-highlight" sourcefile="CONTRIBUTING.md" sourcestartlinenumber="111">How to highlight</h4>
+<ol sourcefile="CONTRIBUTING.md" sourcestartlinenumber="113">
+<li sourcefile="CONTRIBUTING.md" sourcestartlinenumber="113"><p sourcefile="CONTRIBUTING.md" sourcestartlinenumber="113">Use <code sourcefile="CONTRIBUTING.md" sourcestartlinenumber="113">**double asterisks**</code> for strong emphasis, which will be rendered as bold. Use this style to highlight admin area paths, fields, buttons. For example:</p>
+<ul sourcefile="CONTRIBUTING.md" sourcestartlinenumber="115">
+<li sourcefile="CONTRIBUTING.md" sourcestartlinenumber="115">To configure the Avalara tax provider, go to <strong sourcefile="CONTRIBUTING.md" sourcestartlinenumber="115">Configuration → Tax providers</strong></li>
+<li sourcefile="CONTRIBUTING.md" sourcestartlinenumber="116">Assign appropriate code from the dropdown list in the <strong sourcefile="CONTRIBUTING.md" sourcestartlinenumber="116">Tax category</strong> field</li>
+<li sourcefile="CONTRIBUTING.md" sourcestartlinenumber="117">Click <strong sourcefile="CONTRIBUTING.md" sourcestartlinenumber="117">Configure</strong> beside the Avalara tax provider option in the list</li>
+</ul>
+</li>
+<li sourcefile="CONTRIBUTING.md" sourcestartlinenumber="119"><p sourcefile="CONTRIBUTING.md" sourcestartlinenumber="119">Use <code sourcefile="CONTRIBUTING.md" sourcestartlinenumber="119">*surrounding asterisks*</code> for emphasis, which will be rendered as italic. Use this style to highlight page titles, panel names, types. For example:</p>
+<ul sourcefile="CONTRIBUTING.md" sourcestartlinenumber="121">
+<li sourcefile="CONTRIBUTING.md" sourcestartlinenumber="121">To search for customers, in the <em sourcefile="CONTRIBUTING.md" sourcestartlinenumber="121">Customers</em> window, enter one or more of the following search criteria</li>
+<li sourcefile="CONTRIBUTING.md" sourcestartlinenumber="122">In the <em sourcefile="CONTRIBUTING.md" sourcestartlinenumber="122">Orders</em> panel, you can view the customer's orders details</li>
+<li sourcefile="CONTRIBUTING.md" sourcestartlinenumber="123">Since we have two product types, <em sourcefile="CONTRIBUTING.md" sourcestartlinenumber="123">Simple</em> and <em sourcefile="CONTRIBUTING.md" sourcestartlinenumber="123">Grouped (product with variants)</em>, we have two appropriate product templates</li>
+</ul>
+</li>
+<li sourcefile="CONTRIBUTING.md" sourcestartlinenumber="125"><p sourcefile="CONTRIBUTING.md" sourcestartlinenumber="125">Highlight file paths and names as follows: <code sourcefile="CONTRIBUTING.md" sourcestartlinenumber="125">_ViewImports.cshtml</code>. You can do this using `these ticks`.</p>
+</li>
+<li sourcefile="CONTRIBUTING.md" sourcestartlinenumber="127"><p sourcefile="CONTRIBUTING.md" sourcestartlinenumber="127">Make articles readable and easy to understand. Use headers, notes, tips, lists, screenshots, and other tools to make the article comprehensible.</p>
+<ul sourcefile="CONTRIBUTING.md" sourcestartlinenumber="128">
+<li sourcefile="CONTRIBUTING.md" sourcestartlinenumber="128"><h1 id="this-is-a-huge-header" sourcefile="CONTRIBUTING.md" sourcestartlinenumber="128">this is a huge header</h1>
+<h2 id="this-is-a-smaller-header" sourcefile="CONTRIBUTING.md" sourcestartlinenumber="129">this is a smaller header</h2>
+</li>
+<li sourcefile="CONTRIBUTING.md" sourcestartlinenumber="130">
+<blockquote sourcefile="CONTRIBUTING.md" sourcestartlinenumber="131">
+<p sourcefile="CONTRIBUTING.md" sourcestartlinenumber="131">[NOTE or TIP or IMPORTANT]</p>
+<p sourcefile="CONTRIBUTING.md" sourcestartlinenumber="133">This is a note or tip or important text</p>
+</blockquote>
+</li>
+</ul>
+</li>
+</ol>
+<div class="TIP" sourcefile="CONTRIBUTING.md" sourcestartlinenumber="135">
+<h5>Tip</h5>
+<p sourcefile="CONTRIBUTING.md" sourcestartlinenumber="137">You can look at the source of this document for many examples of the described features.</p>
+</div>
+<h4 id="code" sourcefile="CONTRIBUTING.md" sourcestartlinenumber="139">Code</h4>
+<p sourcefile="CONTRIBUTING.md" sourcestartlinenumber="141">Inline code should be surrounded by <code sourcefile="CONTRIBUTING.md" sourcestartlinenumber="141">ticks</code>, and multi-line code samples should be in paragraphs indented with 4 spaces.</p>
+<pre><code sourcefile="CONTRIBUTING.md" sourcestartlinenumber="143">This is a code block
+</code></pre>
+<p sourcefile="CONTRIBUTING.md" sourcestartlinenumber="147">Try to break code lines so that the code blocks have no horizontal scroll bars.</p>
+<h3 id="writing-style" sourcefile="CONTRIBUTING.md" sourcestartlinenumber="149">Writing style</h3>
+<ol sourcefile="CONTRIBUTING.md" sourcestartlinenumber="151">
+<li sourcefile="CONTRIBUTING.md" sourcestartlinenumber="151"><p sourcefile="CONTRIBUTING.md" sourcestartlinenumber="151">Write headers and button and field names as presented in the nopCommerce admin area or public site. Don't use capital letters and the CAPSLOCK key unnecessarily. For example:</p>
+<ul sourcefile="CONTRIBUTING.md" sourcestartlinenumber="152">
+<li sourcefile="CONTRIBUTING.md" sourcestartlinenumber="152">If you are referring to a message template list page, write: <strong sourcefile="CONTRIBUTING.md" sourcestartlinenumber="152">Content management → Message templates</strong> and not <strong sourcefile="CONTRIBUTING.md" sourcestartlinenumber="152">Content Management → Message Templates</strong></li>
+<li sourcefile="CONTRIBUTING.md" sourcestartlinenumber="153">Use the <strong sourcefile="CONTRIBUTING.md" sourcestartlinenumber="153">Edit</strong> button, not the <strong sourcefile="CONTRIBUTING.md" sourcestartlinenumber="153">EDIT</strong> button</li>
+<li sourcefile="CONTRIBUTING.md" sourcestartlinenumber="154">Follow correct brand name spelling: <strong sourcefile="CONTRIBUTING.md" sourcestartlinenumber="154">PayPal Smart Payment Buttons</strong></li>
+</ul>
+</li>
+<li sourcefile="CONTRIBUTING.md" sourcestartlinenumber="156"><p sourcefile="CONTRIBUTING.md" sourcestartlinenumber="156">Use the existing quotes style: &quot;correct&quot; or 'correct'. But these are incorrect:</p>
+<ul sourcefile="CONTRIBUTING.md" sourcestartlinenumber="157">
+<li sourcefile="CONTRIBUTING.md" sourcestartlinenumber="157">“Incorrect”</li>
+<li sourcefile="CONTRIBUTING.md" sourcestartlinenumber="158">«Incorrect»</li>
+<li sourcefile="CONTRIBUTING.md" sourcestartlinenumber="159">‘Incorrect’</li>
+</ul>
+</li>
+<li sourcefile="CONTRIBUTING.md" sourcestartlinenumber="161"><p sourcefile="CONTRIBUTING.md" sourcestartlinenumber="161">If you have any doubts regarding article styling, just see how it's already done on other documentation pages.</p>
+</li>
+</ol>
+            </article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/nopSolutions/nopCommerce-Docs/blob/master/CONTRIBUTING.md/#L1" class="contribution-link">Improve this Doc</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="styles/docfx.js"></script>
+    <script type="text/javascript" src="styles/main.js"></script>
+  </body>
+</html>
