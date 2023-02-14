@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Installing on Linux </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Installing on Linux ">
+    <meta name="generator" content="docfx 2.59.4.0">
+    
+    <link rel="shortcut icon" href="../../../favicon.ico">
+    <link rel="stylesheet" href="../../../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../../../styles/docfx.css">
+    <link rel="stylesheet" href="../../../styles/main.css">
+    <link rel="preload" href="../../../fonts/fonts.css" )"="" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <meta property="docfx:navrel" content="/">
+    <meta property="docfx:tocrel" content="../../toc.html">
+    
+    <meta property="docfx:rel" content="../../../">
+    
+    <script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-7490022-8"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'UA-7490022-8');
+    </script>
+    <script>
+      /*! loadCSS. [c]2017 Filament Group, Inc. MIT License
+      - testing support for link[rel=preload]
+      - enabling async CSS loading in browsers that do not support rel=preload
+      - applying rel preload css once loaded, whether supported or not.
+      */
+      !function(n){"use strict";n.loadCSS||(n.loadCSS=function(){});var o=loadCSS.relpreload={};if(o.support=function(){var e;try{e=n.document.createElement("link").relList.supports("preload")}catch(t){e=!1}return function(){return e}}(),o.bindMediaToggle=function(t){var e=t.media||"all";function a(){t.addEventListener?t.removeEventListener("load",a):t.attachEvent&&t.detachEvent("onload",a),t.setAttribute("onload",null),t.media=e}t.addEventListener?t.addEventListener("load",a):t.attachEvent&&t.attachEvent("onload",a),setTimeout(function(){t.rel="stylesheet",t.media="only x"}),setTimeout(a,3e3)},o.poly=function(){if(!o.support())for(var t=n.document.getElementsByTagName("link"),e=0;e<t.length;e++){var a=t[e];"preload"!==a.rel||"style"!==a.getAttribute("as")||a.getAttribute("data-loadcss")||(a.setAttribute("data-loadcss",!0),o.bindMediaToggle(a))}},!o.support()){o.poly();var t=n.setInterval(o.poly,500);n.addEventListener?n.addEventListener("load",function(){o.poly(),n.clearInterval(t)}):n.attachEvent&&n.attachEvent("onload",function(){o.poly(),n.clearInterval(t)})}"undefined"!=typeof exports?exports.loadCSS=loadCSS:n.loadCSS=loadCSS}("undefined"!=typeof global?global:this);
+    </script>
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="170">
+    <div id="wrapper">
+      <header>
+        <div class="container">
+          <div id="header" class="header navbar-header">
+            <div class="header-logo">
+              <a href="https://www.nopcommerce.com/">
+                <img id="logo" class="svg" src="../../../logo.png" alt="">
+              </a>
+            </div>  </div>
+          <div class="navbar-collapse collapse in">
+            <form class="navbar-form navbar-right" role="search" id="search">
+              <div class="form-group">
+                <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+              </div>
+        
+              <div class="form-group lang-container">
+                    
+                    <select id="lang-switcher" class="select-css">
+                        <option value="/en/index.html" selected="">
+                          English
+                        
+                    </select>        </div>
+            </form>
+          </div>
+        </div>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div class="container body-content">
+        
+        <div id="search-results">
+          <div class="search-list">Search Results for <span></span></div>
+          <div class="sr-items">
+            <p><i class="glyphicon glyphicon-refresh index-loading"></i></p>
+          </div>
+          <ul id="pagination" data-first="First" data-prev="Previous" data-next="Next" data-last="Last"></ul>
+        </div>
+      </div>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="en/installation-and-upgrading/installing-nopcommerce/installing-on-linux">
+<h1 id="installing-on-linux" sourcefile="en/installation-and-upgrading/installing-nopcommerce/installing-on-linux.md" sourcestartlinenumber="8">Installing on Linux</h1>
+
+<p sourcefile="en/installation-and-upgrading/installing-nopcommerce/installing-on-linux.md" sourcestartlinenumber="10">This chapter describes how to install the nopCommerce software on Linux system on the example of <em sourcefile="en/installation-and-upgrading/installing-nopcommerce/installing-on-linux.md" sourcestartlinenumber="10">Xubuntu 20.04</em>:</p>
+<ul sourcefile="en/installation-and-upgrading/installing-nopcommerce/installing-on-linux.md" sourcestartlinenumber="12">
+<li sourcefile="en/installation-and-upgrading/installing-nopcommerce/installing-on-linux.md" sourcestartlinenumber="12"><a href="#installing-on-linux" sourcefile="en/installation-and-upgrading/installing-nopcommerce/installing-on-linux.md" sourcestartlinenumber="12">Installing on Linux</a>
+<ul sourcefile="en/installation-and-upgrading/installing-nopcommerce/installing-on-linux.md" sourcestartlinenumber="13">
+<li sourcefile="en/installation-and-upgrading/installing-nopcommerce/installing-on-linux.md" sourcestartlinenumber="13"><a href="#install-and-configure-software" sourcefile="en/installation-and-upgrading/installing-nopcommerce/installing-on-linux.md" sourcestartlinenumber="13">Install and configure software</a>
+<ul sourcefile="en/installation-and-upgrading/installing-nopcommerce/installing-on-linux.md" sourcestartlinenumber="14">
+<li sourcefile="en/installation-and-upgrading/installing-nopcommerce/installing-on-linux.md" sourcestartlinenumber="14"><a href="#register-microsoft-key-and-feed" sourcefile="en/installation-and-upgrading/installing-nopcommerce/installing-on-linux.md" sourcestartlinenumber="14">Register Microsoft key and feed</a></li>
+<li sourcefile="en/installation-and-upgrading/installing-nopcommerce/installing-on-linux.md" sourcestartlinenumber="15"><a href="#install-the-net-core-runtime" sourcefile="en/installation-and-upgrading/installing-nopcommerce/installing-on-linux.md" sourcestartlinenumber="15">Install the .NET Core Runtime</a></li>
+<li sourcefile="en/installation-and-upgrading/installing-nopcommerce/installing-on-linux.md" sourcestartlinenumber="16"><a href="#install-mysql-server" sourcefile="en/installation-and-upgrading/installing-nopcommerce/installing-on-linux.md" sourcestartlinenumber="16">Install MySql Server</a></li>
+<li sourcefile="en/installation-and-upgrading/installing-nopcommerce/installing-on-linux.md" sourcestartlinenumber="17"><a href="#install-nginx" sourcefile="en/installation-and-upgrading/installing-nopcommerce/installing-on-linux.md" sourcestartlinenumber="17">Install nginx</a></li>
+</ul>
+</li>
+<li sourcefile="en/installation-and-upgrading/installing-nopcommerce/installing-on-linux.md" sourcestartlinenumber="18"><a href="#get-nopcommerce" sourcefile="en/installation-and-upgrading/installing-nopcommerce/installing-on-linux.md" sourcestartlinenumber="18">Get nopCommerce</a></li>
+<li sourcefile="en/installation-and-upgrading/installing-nopcommerce/installing-on-linux.md" sourcestartlinenumber="19"><a href="#create-the-nopcommerce-service" sourcefile="en/installation-and-upgrading/installing-nopcommerce/installing-on-linux.md" sourcestartlinenumber="19">Create the nopCommerce service</a></li>
+<li sourcefile="en/installation-and-upgrading/installing-nopcommerce/installing-on-linux.md" sourcestartlinenumber="20"><a href="#installation-process" sourcefile="en/installation-and-upgrading/installing-nopcommerce/installing-on-linux.md" sourcestartlinenumber="20">Installation process</a></li>
+<li sourcefile="en/installation-and-upgrading/installing-nopcommerce/installing-on-linux.md" sourcestartlinenumber="21"><a href="#troubleshooting" sourcefile="en/installation-and-upgrading/installing-nopcommerce/installing-on-linux.md" sourcestartlinenumber="21">Troubleshooting</a>
+<ul sourcefile="en/installation-and-upgrading/installing-nopcommerce/installing-on-linux.md" sourcestartlinenumber="22">
+<li sourcefile="en/installation-and-upgrading/installing-nopcommerce/installing-on-linux.md" sourcestartlinenumber="22"><a href="#gdip" sourcefile="en/installation-and-upgrading/installing-nopcommerce/installing-on-linux.md" sourcestartlinenumber="22">Gdip</a></li>
+<li sourcefile="en/installation-and-upgrading/installing-nopcommerce/installing-on-linux.md" sourcestartlinenumber="23"><a href="#ssl" sourcefile="en/installation-and-upgrading/installing-nopcommerce/installing-on-linux.md" sourcestartlinenumber="23">SSL</a></li>
+</ul>
+</li>
+<li sourcefile="en/installation-and-upgrading/installing-nopcommerce/installing-on-linux.md" sourcestartlinenumber="24"><a href="#see-also" sourcefile="en/installation-and-upgrading/installing-nopcommerce/installing-on-linux.md" sourcestartlinenumber="24">See also</a></li>
+</ul>
+</li>
+</ul>
+<h2 id="install-and-configure-software" sourcefile="en/installation-and-upgrading/installing-nopcommerce/installing-on-linux.md" sourcestartlinenumber="26">Install and configure software</h2>
+<p sourcefile="en/installation-and-upgrading/installing-nopcommerce/installing-on-linux.md" sourcestartlinenumber="28">Before installing .NET Core, we'll need to register the Microsoft key and install the required dependencies. This needs to be done once per machine.</p>
+<h3 id="register-microsoft-key-and-feed" sourcefile="en/installation-and-upgrading/installing-nopcommerce/installing-on-linux.md" sourcestartlinenumber="30">Register Microsoft key and feed</h3>
+<p sourcefile="en/installation-and-upgrading/installing-nopcommerce/installing-on-linux.md" sourcestartlinenumber="32">Open a terminal and run the following commands:</p>
+<pre><code class="lang-cmd" sourcefile="en/installation-and-upgrading/installing-nopcommerce/installing-on-linux.md" sourcestartlinenumber="34">wget https://packages.microsoft.com/config/ubuntu/20.04/packages-microsoft-prod.deb -O packages-microsoft-prod.deb
+
+sudo dpkg -i packages-microsoft-prod.deb
+</code></pre>
+<p sourcefile="en/installation-and-upgrading/installing-nopcommerce/installing-on-linux.md" sourcestartlinenumber="40"><img src="_static/installing-on-linux/register_key.jpg" sourcefile="en/installation-and-upgrading/installing-nopcommerce/installing-on-linux.md" sourcestartlinenumber="40" alt="nopCommerce installation"></p>
+<h3 id="install-the-net-core-runtime" sourcefile="en/installation-and-upgrading/installing-nopcommerce/installing-on-linux.md" sourcestartlinenumber="42">Install the .NET Core Runtime</h3>
+<p sourcefile="en/installation-and-upgrading/installing-nopcommerce/installing-on-linux.md" sourcestartlinenumber="44">Update the products available for installation, then install the .NET runtime:</p>
+<pre><code class="lang-cmd" sourcefile="en/installation-and-upgrading/installing-nopcommerce/installing-on-linux.md" sourcestartlinenumber="46">sudo apt-get update
+
+sudo apt-get install -y apt-transport-https aspnetcore-runtime-7.0
+</code></pre>
+<div class="NOTE" sourcefile="en/installation-and-upgrading/installing-nopcommerce/installing-on-linux.md" sourcestartlinenumber="52">
+<h5>Note</h5>
+<p sourcefile="en/installation-and-upgrading/installing-nopcommerce/installing-on-linux.md" sourcestartlinenumber="54">If you have an error, see the detailed information on the <a href="https://docs.microsoft.com/dotnet/core/install/linux-ubuntu" sourcefile="en/installation-and-upgrading/installing-nopcommerce/installing-on-linux.md" sourcestartlinenumber="54">Install the .NET SDK or the .NET Runtime on Ubuntu</a> page.</p>
+</div>
+<p sourcefile="en/installation-and-upgrading/installing-nopcommerce/installing-on-linux.md" sourcestartlinenumber="56">You can see all installed .Net Core runtimes by the following command:</p>
+<pre><code class="lang-cmd" sourcefile="en/installation-and-upgrading/installing-nopcommerce/installing-on-linux.md" sourcestartlinenumber="58">dotnet --list-runtimes
+</code></pre>
+<h3 id="install-mysql-server" sourcefile="en/installation-and-upgrading/installing-nopcommerce/installing-on-linux.md" sourcestartlinenumber="62">Install MySql Server</h3>
+<p sourcefile="en/installation-and-upgrading/installing-nopcommerce/installing-on-linux.md" sourcestartlinenumber="64">Install the MySql server 8.0 version:</p>
+<pre><code class="lang-cmd" sourcefile="en/installation-and-upgrading/installing-nopcommerce/installing-on-linux.md" sourcestartlinenumber="66">sudo apt-get install mysql-server
+</code></pre>
+<p sourcefile="en/installation-and-upgrading/installing-nopcommerce/installing-on-linux.md" sourcestartlinenumber="70"><img src="_static/installing-on-linux/install_mysql.jpg" sourcefile="en/installation-and-upgrading/installing-nopcommerce/installing-on-linux.md" sourcestartlinenumber="70" alt="nopCommerce installation"></p>
+<p sourcefile="en/installation-and-upgrading/installing-nopcommerce/installing-on-linux.md" sourcestartlinenumber="72">By default, the root password is empty; let's set it:</p>
+<pre><code class="lang-cmd" sourcefile="en/installation-and-upgrading/installing-nopcommerce/installing-on-linux.md" sourcestartlinenumber="74">sudo /usr/bin/mysql_secure_installation
+</code></pre>
+<p sourcefile="en/installation-and-upgrading/installing-nopcommerce/installing-on-linux.md" sourcestartlinenumber="78"><img src="_static/installing-on-linux/config_mysql.jpg" sourcefile="en/installation-and-upgrading/installing-nopcommerce/installing-on-linux.md" sourcestartlinenumber="78" alt="nopCommerce installation"></p>
+<div class="NOTE" sourcefile="en/installation-and-upgrading/installing-nopcommerce/installing-on-linux.md" sourcestartlinenumber="80">
+<h5>Note</h5>
+<p sourcefile="en/installation-and-upgrading/installing-nopcommerce/installing-on-linux.md" sourcestartlinenumber="82">If you have a problem with configuring root password on your MySql server, please read the following articles:
+<a href="https://dev.mysql.com/doc/refman/8.0/en/resetting-permissions.html" sourcefile="en/installation-and-upgrading/installing-nopcommerce/installing-on-linux.md" sourcestartlinenumber="83">How to Reset the Root Password</a> and
+<a href="https://stackoverflow.com/questions/41645309/mysql-error-access-denied-for-user-rootlocalhost" sourcefile="en/installation-and-upgrading/installing-nopcommerce/installing-on-linux.md" sourcestartlinenumber="84">MySQL Error: 'Access denied for user 'root'@'localhost'</a>.</p>
+</div>
+<h3 id="install-nginx" sourcefile="en/installation-and-upgrading/installing-nopcommerce/installing-on-linux.md" sourcestartlinenumber="86">Install nginx</h3>
+<p sourcefile="en/installation-and-upgrading/installing-nopcommerce/installing-on-linux.md" sourcestartlinenumber="88">Install the nginx package:</p>
+<pre><code class="lang-cmd" sourcefile="en/installation-and-upgrading/installing-nopcommerce/installing-on-linux.md" sourcestartlinenumber="90">sudo apt-get install nginx
+</code></pre>
+<p sourcefile="en/installation-and-upgrading/installing-nopcommerce/installing-on-linux.md" sourcestartlinenumber="94"><img src="_static/installing-on-linux/Install_nginx.jpg" sourcefile="en/installation-and-upgrading/installing-nopcommerce/installing-on-linux.md" sourcestartlinenumber="94" alt="nopCommerce installation"></p>
+<p sourcefile="en/installation-and-upgrading/installing-nopcommerce/installing-on-linux.md" sourcestartlinenumber="96">Run the nginx service:</p>
+<pre><code class="lang-cmd" sourcefile="en/installation-and-upgrading/installing-nopcommerce/installing-on-linux.md" sourcestartlinenumber="98">sudo systemctl start nginx
+</code></pre>
+<p sourcefile="en/installation-and-upgrading/installing-nopcommerce/installing-on-linux.md" sourcestartlinenumber="102">and check its status:</p>
+<pre><code class="lang-cmd" sourcefile="en/installation-and-upgrading/installing-nopcommerce/installing-on-linux.md" sourcestartlinenumber="104">sudo systemctl status nginx
+</code></pre>
+<p sourcefile="en/installation-and-upgrading/installing-nopcommerce/installing-on-linux.md" sourcestartlinenumber="108"><img src="_static/installing-on-linux/status_nginx.jpg" sourcefile="en/installation-and-upgrading/installing-nopcommerce/installing-on-linux.md" sourcestartlinenumber="108" alt="nopCommerce installation"></p>
+<p sourcefile="en/installation-and-upgrading/installing-nopcommerce/installing-on-linux.md" sourcestartlinenumber="110">To configure nginx as a reverse proxy to forward requests to your ASP.NET Core app, modify /etc/nginx/sites-available/default. Open it in a text editor and replace the contents with the following:</p>
+<pre><code class="lang-cmd" sourcefile="en/installation-and-upgrading/installing-nopcommerce/installing-on-linux.md" sourcestartlinenumber="112"># Default server configuration
+#
+server {
+    listen 80 default_server;
+    listen [::]:80 default_server;
+
+    server_name   nopCommerce.com;
+
+    location / {
+    proxy_pass         http://localhost:5000;
+    proxy_http_version 1.1;
+    proxy_set_header   Upgrade $http_upgrade;
+    proxy_set_header   Connection keep-alive;
+    proxy_set_header   Host $host;
+    proxy_cache_bypass $http_upgrade;
+    proxy_set_header   X-Forwarded-For $proxy_add_x_forwarded_for;
+    proxy_set_header   X-Forwarded-Proto $scheme;
+    }
+
+    # SSL configuration
+    #
+    # listen 443 ssl default_server;
+    # listen [::]:443 ssl default_server;
+    #
+    # Note: You should disable gzip for SSL traffic.
+    # See: https://bugs.debian.org/773332
+    #
+    # Read up on ssl_ciphers to ensure a secure configuration.
+    # See: https://bugs.debian.org/765782
+    #
+    # Self signed certs generated by the ssl-cert package
+    # Don't use them in a production server!
+    #
+    # include snippets/snakeoil.conf;
+}
+</code></pre>
+<h2 id="get-nopcommerce" sourcefile="en/installation-and-upgrading/installing-nopcommerce/installing-on-linux.md" sourcestartlinenumber="150">Get nopCommerce</h2>
+<p sourcefile="en/installation-and-upgrading/installing-nopcommerce/installing-on-linux.md" sourcestartlinenumber="152">Create a directory:</p>
+<pre><code class="lang-cmd" sourcefile="en/installation-and-upgrading/installing-nopcommerce/installing-on-linux.md" sourcestartlinenumber="154">mkdir /var/www/nopCommerce
+</code></pre>
+<p sourcefile="en/installation-and-upgrading/installing-nopcommerce/installing-on-linux.md" sourcestartlinenumber="158">Download and unpack nopCommerce:</p>
+<pre><code class="lang-cmd" sourcefile="en/installation-and-upgrading/installing-nopcommerce/installing-on-linux.md" sourcestartlinenumber="160">cd /var/www/nopCommerce
+
+sudo wget https://github.com/nopSolutions/nopCommerce/releases/download/release-4.60.2/nopCommerce_4.60.2_NoSource_linux_x64.zip
+
+sudo apt-get install unzip
+
+sudo unzip nopCommerce_4.60.2_NoSource_linux_x64.zip
+</code></pre>
+<p sourcefile="en/installation-and-upgrading/installing-nopcommerce/installing-on-linux.md" sourcestartlinenumber="170">Create couple directories to run nopCommerce:</p>
+<pre><code class="lang-cmd" sourcefile="en/installation-and-upgrading/installing-nopcommerce/installing-on-linux.md" sourcestartlinenumber="172">sudo mkdir bin
+sudo mkdir logs
+</code></pre>
+<p sourcefile="en/installation-and-upgrading/installing-nopcommerce/installing-on-linux.md" sourcestartlinenumber="177">Change the file permissions:</p>
+<pre><code class="lang-cmd" sourcefile="en/installation-and-upgrading/installing-nopcommerce/installing-on-linux.md" sourcestartlinenumber="179">cd ..
+sudo chgrp -R www-data nopCommerce/
+sudo chown -R www-data nopCommerce/
+</code></pre>
+<h2 id="create-the-nopcommerce-service" sourcefile="en/installation-and-upgrading/installing-nopcommerce/installing-on-linux.md" sourcestartlinenumber="185">Create the nopCommerce service</h2>
+<p sourcefile="en/installation-and-upgrading/installing-nopcommerce/installing-on-linux.md" sourcestartlinenumber="187">Create the <em sourcefile="en/installation-and-upgrading/installing-nopcommerce/installing-on-linux.md" sourcestartlinenumber="187">/etc/systemd/system/nopCommerce.service</em> file with the following contents:</p>
+<pre><code class="lang-cmd" sourcefile="en/installation-and-upgrading/installing-nopcommerce/installing-on-linux.md" sourcestartlinenumber="189">[Unit]
+Description=Example nopCommerce app running on Xubuntu
+
+[Service]
+WorkingDirectory=/var/www/nopCommerce
+ExecStart=/usr/bin/dotnet /var/www/nopCommerce/Nop.Web.dll
+Restart=always
+# Restart service after 10 seconds if the dotnet service crashes:
+RestartSec=10
+KillSignal=SIGINT
+SyslogIdentifier=nopCommerce-example
+User=www-data
+Environment=ASPNETCORE_ENVIRONMENT=Production
+Environment=DOTNET_PRINT_TELEMETRY_MESSAGE=false
+
+[Install]
+WantedBy=multi-user.target
+</code></pre>
+<p sourcefile="en/installation-and-upgrading/installing-nopcommerce/installing-on-linux.md" sourcestartlinenumber="209">Start the service:</p>
+<pre><code class="lang-cmd" sourcefile="en/installation-and-upgrading/installing-nopcommerce/installing-on-linux.md" sourcestartlinenumber="211">sudo systemctl start nopCommerce.service
+</code></pre>
+<p sourcefile="en/installation-and-upgrading/installing-nopcommerce/installing-on-linux.md" sourcestartlinenumber="215">Check the nopCommerce service status:</p>
+<pre><code class="lang-cmd" sourcefile="en/installation-and-upgrading/installing-nopcommerce/installing-on-linux.md" sourcestartlinenumber="217">sudo systemctl status nopCommerce.service
+</code></pre>
+<p sourcefile="en/installation-and-upgrading/installing-nopcommerce/installing-on-linux.md" sourcestartlinenumber="221"><img src="_static/installing-on-linux/status_nopCommerce.png" sourcefile="en/installation-and-upgrading/installing-nopcommerce/installing-on-linux.md" sourcestartlinenumber="221" alt="nopCommerce installation"></p>
+<p sourcefile="en/installation-and-upgrading/installing-nopcommerce/installing-on-linux.md" sourcestartlinenumber="223">Restart the nginx server:</p>
+<pre><code class="lang-cmd" sourcefile="en/installation-and-upgrading/installing-nopcommerce/installing-on-linux.md" sourcestartlinenumber="225">sudo systemctl restart nginx
+</code></pre>
+<p sourcefile="en/installation-and-upgrading/installing-nopcommerce/installing-on-linux.md" sourcestartlinenumber="229">Now that everything is ready, you can proceed to install and configure the store.</p>
+<h2 id="installation-process" sourcefile="en/installation-and-upgrading/installing-nopcommerce/installing-on-linux.md" sourcestartlinenumber="231">Installation process</h2>
+<p sourcefile="en/installation-and-upgrading/installing-nopcommerce/installing-on-linux.md" sourcestartlinenumber="233">The further installation process for nopCommerce is the same as the installation process on Windows; you can see the instruction following <a class="xref" href="installing-on-windows.html#install-nopcommerce" sourcefile="en/installation-and-upgrading/installing-nopcommerce/installing-on-linux.md" sourcestartlinenumber="233">this link</a>.</p>
+<h2 id="troubleshooting" sourcefile="en/installation-and-upgrading/installing-nopcommerce/installing-on-linux.md" sourcestartlinenumber="235">Troubleshooting</h2>
+<h3 id="gdip" sourcefile="en/installation-and-upgrading/installing-nopcommerce/installing-on-linux.md" sourcestartlinenumber="237">Gdip</h3>
+<p sourcefile="en/installation-and-upgrading/installing-nopcommerce/installing-on-linux.md" sourcestartlinenumber="239"><em sourcefile="en/installation-and-upgrading/installing-nopcommerce/installing-on-linux.md" sourcestartlinenumber="239">If you have a problem with loading images in the RichText Box (The type initializer for 'Gdip' threw an exception), just install the libgdiplus library</em>:</p>
+<pre><code class="lang-cmd" sourcefile="en/installation-and-upgrading/installing-nopcommerce/installing-on-linux.md" sourcestartlinenumber="241">sudo apt-get install libgdiplus
+</code></pre>
+<h3 id="ssl" sourcefile="en/installation-and-upgrading/installing-nopcommerce/installing-on-linux.md" sourcestartlinenumber="245">SSL</h3>
+<p sourcefile="en/installation-and-upgrading/installing-nopcommerce/installing-on-linux.md" sourcestartlinenumber="247"><em sourcefile="en/installation-and-upgrading/installing-nopcommerce/installing-on-linux.md" sourcestartlinenumber="247">If you want to use SSL on your site, don't forget to set the <code sourcefile="en/installation-and-upgrading/installing-nopcommerce/installing-on-linux.md" sourcestartlinenumber="247">UseProxy</code> setting to <strong sourcefile="en/installation-and-upgrading/installing-nopcommerce/installing-on-linux.md" sourcestartlinenumber="247"><code sourcefile="en/installation-and-upgrading/installing-nopcommerce/installing-on-linux.md" sourcestartlinenumber="247">true</code></strong> in the <strong sourcefile="en/installation-and-upgrading/installing-nopcommerce/installing-on-linux.md" sourcestartlinenumber="247">appsettings.json</strong> file</em>.</p>
+<h2 id="see-also" sourcefile="en/installation-and-upgrading/installing-nopcommerce/installing-on-linux.md" sourcestartlinenumber="249">See also</h2>
+<ul sourcefile="en/installation-and-upgrading/installing-nopcommerce/installing-on-linux.md" sourcestartlinenumber="251">
+<li sourcefile="en/installation-and-upgrading/installing-nopcommerce/installing-on-linux.md" sourcestartlinenumber="251"><a href="https://www.nopcommerce.com/running-nopcommerce-on-linux-vps-part-2" sourcefile="en/installation-and-upgrading/installing-nopcommerce/installing-on-linux.md" sourcestartlinenumber="251">Running nopCommerce on Linux VPS. Part 2</a></li>
+</ul>
+            </article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/nopSolutions/nopCommerce-Docs/blob/master/en/installation-and-upgrading/installing-nopcommerce/installing-on-linux.md/#L1" class="contribution-link">Improve this Doc</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../../../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../../../styles/docfx.js"></script>
+    <script type="text/javascript" src="../../../styles/main.js"></script>
+  </body>
+</html>

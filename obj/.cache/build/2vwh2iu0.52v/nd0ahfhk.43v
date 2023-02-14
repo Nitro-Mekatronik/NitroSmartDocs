@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Inventory management </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Inventory management ">
+    <meta name="generator" content="docfx 2.59.4.0">
+    
+    <link rel="shortcut icon" href="../../../favicon.ico">
+    <link rel="stylesheet" href="../../../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../../../styles/docfx.css">
+    <link rel="stylesheet" href="../../../styles/main.css">
+    <link rel="preload" href="../../../fonts/fonts.css" )"="" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <meta property="docfx:navrel" content="/">
+    <meta property="docfx:tocrel" content="../../toc.html">
+    
+    <meta property="docfx:rel" content="../../../">
+    
+    <script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-7490022-8"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'UA-7490022-8');
+    </script>
+    <script>
+      /*! loadCSS. [c]2017 Filament Group, Inc. MIT License
+      - testing support for link[rel=preload]
+      - enabling async CSS loading in browsers that do not support rel=preload
+      - applying rel preload css once loaded, whether supported or not.
+      */
+      !function(n){"use strict";n.loadCSS||(n.loadCSS=function(){});var o=loadCSS.relpreload={};if(o.support=function(){var e;try{e=n.document.createElement("link").relList.supports("preload")}catch(t){e=!1}return function(){return e}}(),o.bindMediaToggle=function(t){var e=t.media||"all";function a(){t.addEventListener?t.removeEventListener("load",a):t.attachEvent&&t.detachEvent("onload",a),t.setAttribute("onload",null),t.media=e}t.addEventListener?t.addEventListener("load",a):t.attachEvent&&t.attachEvent("onload",a),setTimeout(function(){t.rel="stylesheet",t.media="only x"}),setTimeout(a,3e3)},o.poly=function(){if(!o.support())for(var t=n.document.getElementsByTagName("link"),e=0;e<t.length;e++){var a=t[e];"preload"!==a.rel||"style"!==a.getAttribute("as")||a.getAttribute("data-loadcss")||(a.setAttribute("data-loadcss",!0),o.bindMediaToggle(a))}},!o.support()){o.poly();var t=n.setInterval(o.poly,500);n.addEventListener?n.addEventListener("load",function(){o.poly(),n.clearInterval(t)}):n.attachEvent&&n.attachEvent("onload",function(){o.poly(),n.clearInterval(t)})}"undefined"!=typeof exports?exports.loadCSS=loadCSS:n.loadCSS=loadCSS}("undefined"!=typeof global?global:this);
+    </script>
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="170">
+    <div id="wrapper">
+      <header>
+        <div class="container">
+          <div id="header" class="header navbar-header">
+            <div class="header-logo">
+              <a href="https://www.nopcommerce.com/">
+                <img id="logo" class="svg" src="../../../logo.png" alt="">
+              </a>
+            </div>  </div>
+          <div class="navbar-collapse collapse in">
+            <form class="navbar-form navbar-right" role="search" id="search">
+              <div class="form-group">
+                <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+              </div>
+        
+              <div class="form-group lang-container">
+                    
+                    <select id="lang-switcher" class="select-css">
+                        <option value="/en/index.html" selected="">
+                          English
+                        
+                    </select>        </div>
+            </form>
+          </div>
+        </div>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div class="container body-content">
+        
+        <div id="search-results">
+          <div class="search-list">Search Results for <span></span></div>
+          <div class="sr-items">
+            <p><i class="glyphicon glyphicon-refresh index-loading"></i></p>
+          </div>
+          <ul id="pagination" data-first="First" data-prev="Previous" data-next="Next" data-last="Last"></ul>
+        </div>
+      </div>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="en/running-your-store/order-management/inventory-management">
+<h1 id="inventory-management" sourcefile="en/running-your-store/order-management/inventory-management.md" sourcestartlinenumber="8">Inventory management</h1>
+
+<p sourcefile="en/running-your-store/order-management/inventory-management.md" sourcestartlinenumber="10">Inventory management is a system of stock level control. In nopCommerce, it consists of setting up the inventory and tracking low stocks.</p>
+<p sourcefile="en/running-your-store/order-management/inventory-management.md" sourcestartlinenumber="12">To set up inventory, go to <strong sourcefile="en/running-your-store/order-management/inventory-management.md" sourcestartlinenumber="12">Catalog → Products → Edit a product</strong>. In the <em sourcefile="en/running-your-store/order-management/inventory-management.md" sourcestartlinenumber="12">Edit product details</em> window, go to the <em sourcefile="en/running-your-store/order-management/inventory-management.md" sourcestartlinenumber="12">Inventory</em> panel. In this panel, you can choose one of the three inventory methods:</p>
+<ol sourcefile="en/running-your-store/order-management/inventory-management.md" sourcestartlinenumber="14">
+<li sourcefile="en/running-your-store/order-management/inventory-management.md" sourcestartlinenumber="14"><a href="#dont-track-inventory" sourcefile="en/running-your-store/order-management/inventory-management.md" sourcestartlinenumber="14">Don't track inventory</a></li>
+<li sourcefile="en/running-your-store/order-management/inventory-management.md" sourcestartlinenumber="15"><a href="#track-inventory" sourcefile="en/running-your-store/order-management/inventory-management.md" sourcestartlinenumber="15">Track inventory</a></li>
+<li sourcefile="en/running-your-store/order-management/inventory-management.md" sourcestartlinenumber="16"><a href="#track-inventory-by-product-attributes" sourcefile="en/running-your-store/order-management/inventory-management.md" sourcestartlinenumber="16">Track inventory by product attributes</a></li>
+</ol>
+<p sourcefile="en/running-your-store/order-management/inventory-management.md" sourcestartlinenumber="18">In the next sections, we will see the difference between these methods.</p>
+<h2 id="dont-track-inventory" sourcefile="en/running-your-store/order-management/inventory-management.md" sourcestartlinenumber="20">Don't track inventory</h2>
+<p sourcefile="en/running-your-store/order-management/inventory-management.md" sourcestartlinenumber="22">Some products might not require inventory tracking. For example, services, second hand or custom-made goods. In this case, a store owner can opt for no tracking by choosing the <em sourcefile="en/running-your-store/order-management/inventory-management.md" sourcestartlinenumber="22">Don't track inventory</em> option in the <strong sourcefile="en/running-your-store/order-management/inventory-management.md" sourcestartlinenumber="22">Inventory method</strong> field.
+<img src="_static/inventory-management/inventory.png" sourcefile="en/running-your-store/order-management/inventory-management.md" sourcestartlinenumber="23" alt="Don't track inventory"></p>
+<p sourcefile="en/running-your-store/order-management/inventory-management.md" sourcestartlinenumber="25">In this case, the store owner can define:</p>
+<ul sourcefile="en/running-your-store/order-management/inventory-management.md" sourcestartlinenumber="27">
+<li sourcefile="en/running-your-store/order-management/inventory-management.md" sourcestartlinenumber="27"><strong sourcefile="en/running-your-store/order-management/inventory-management.md" sourcestartlinenumber="27">Warehouse</strong> that will be used when calculating shipping rates. Read more in the <a class="xref" href="../../getting-started/configure-shipping/advanced-configuration/warehouses.html" sourcefile="en/running-your-store/order-management/inventory-management.md" sourcestartlinenumber="27">Warehouses</a> chapter.</li>
+<li sourcefile="en/running-your-store/order-management/inventory-management.md" sourcestartlinenumber="28"><strong sourcefile="en/running-your-store/order-management/inventory-management.md" sourcestartlinenumber="28">Minimum cart qty</strong> is a quantity allowed in a customer's shopping cart, for example, set to 3 to only allow customers to purchase 3 or more items of this product.</li>
+<li sourcefile="en/running-your-store/order-management/inventory-management.md" sourcestartlinenumber="29"><strong sourcefile="en/running-your-store/order-management/inventory-management.md" sourcestartlinenumber="29">Maximum cart qty</strong> is a quantity allowed in a customer's shopping cart, for example, set to 5 to only allow customers to purchase 5 or fewer items of this product.</li>
+<li sourcefile="en/running-your-store/order-management/inventory-management.md" sourcestartlinenumber="30">In the <strong sourcefile="en/running-your-store/order-management/inventory-management.md" sourcestartlinenumber="30">Allowed quantities</strong> field, enter a comma-separated list of quantities you want this product to be restricted to. Instead of a quantity textbox that allows them to enter any quantity, they will receive a dropdown list of the values you enter here.</li>
+<li sourcefile="en/running-your-store/order-management/inventory-management.md" sourcestartlinenumber="31">Select the <strong sourcefile="en/running-your-store/order-management/inventory-management.md" sourcestartlinenumber="31">Not returnable</strong> checkbox if this product is not returnable. In this case, a customer won't be allowed to submit a return request.</li>
+</ul>
+<h2 id="track-inventory" sourcefile="en/running-your-store/order-management/inventory-management.md" sourcestartlinenumber="33">Track inventory</h2>
+<p sourcefile="en/running-your-store/order-management/inventory-management.md" sourcestartlinenumber="35">In case inventory tracking is required, the shop owner can select an <strong sourcefile="en/running-your-store/order-management/inventory-management.md" sourcestartlinenumber="35">Inventory method</strong> between two options: <em sourcefile="en/running-your-store/order-management/inventory-management.md" sourcestartlinenumber="35">Track inventory</em> (by product) or <em sourcefile="en/running-your-store/order-management/inventory-management.md" sourcestartlinenumber="35">Track inventory by product attributes</em>. The <em sourcefile="en/running-your-store/order-management/inventory-management.md" sourcestartlinenumber="35">Track inventory</em> option is for those who don't have product variants and simply need to know how many items are left. In this section, we will describe the <em sourcefile="en/running-your-store/order-management/inventory-management.md" sourcestartlinenumber="35">Track inventory</em> option.
+Once this option is chosen, the section expands, displaying new fields:</p>
+<p sourcefile="en/running-your-store/order-management/inventory-management.md" sourcestartlinenumber="38"><img src="_static/inventory-management/track-inventory.jpg" sourcefile="en/running-your-store/order-management/inventory-management.md" sourcestartlinenumber="38" alt="Track inventory"></p>
+<p sourcefile="en/running-your-store/order-management/inventory-management.md" sourcestartlinenumber="40">Set up inventory as follows:</p>
+<ul sourcefile="en/running-your-store/order-management/inventory-management.md" sourcestartlinenumber="42">
+<li sourcefile="en/running-your-store/order-management/inventory-management.md" sourcestartlinenumber="42"><p sourcefile="en/running-your-store/order-management/inventory-management.md" sourcestartlinenumber="42"><strong sourcefile="en/running-your-store/order-management/inventory-management.md" sourcestartlinenumber="42">Stock quantity</strong> is the total quantity. It is reduced whenever an order is shipped.</p>
+</li>
+<li sourcefile="en/running-your-store/order-management/inventory-management.md" sourcestartlinenumber="43"><p sourcefile="en/running-your-store/order-management/inventory-management.md" sourcestartlinenumber="43">Choose the <strong sourcefile="en/running-your-store/order-management/inventory-management.md" sourcestartlinenumber="43">Warehouse</strong> that will be used when calculating shipping rates. You can manage warehouses on the <strong sourcefile="en/running-your-store/order-management/inventory-management.md" sourcestartlinenumber="43">Configuration → Shipping → Warehouses</strong> page. For further details, refer to the <a class="xref" href="../../getting-started/configure-shipping/advanced-configuration/warehouses.html" sourcefile="en/running-your-store/order-management/inventory-management.md" sourcestartlinenumber="43">Warehouses</a> page.</p>
+</li>
+<li sourcefile="en/running-your-store/order-management/inventory-management.md" sourcestartlinenumber="44"><p sourcefile="en/running-your-store/order-management/inventory-management.md" sourcestartlinenumber="44">Select the <strong sourcefile="en/running-your-store/order-management/inventory-management.md" sourcestartlinenumber="44">Multiple warehouses</strong> checkbox if you want to support shipping and inventory management from multiple warehouses. This way, you can manage inventory per warehouse:
+<img src="_static/inventory-management/multiple-warehouses.jpg" sourcefile="en/running-your-store/order-management/inventory-management.md" sourcestartlinenumber="45" alt="Multiple warehouses">
+Click <strong sourcefile="en/running-your-store/order-management/inventory-management.md" sourcestartlinenumber="46">Use</strong> in the appropriate row if you want to use this warehouse for the product.</p>
+<ul sourcefile="en/running-your-store/order-management/inventory-management.md" sourcestartlinenumber="47">
+<li sourcefile="en/running-your-store/order-management/inventory-management.md" sourcestartlinenumber="47">Enter the <strong sourcefile="en/running-your-store/order-management/inventory-management.md" sourcestartlinenumber="47">Stock qty</strong>, which is the total quantity. It is reduced whenever an order is shipped.</li>
+<li sourcefile="en/running-your-store/order-management/inventory-management.md" sourcestartlinenumber="48">Enter the <strong sourcefile="en/running-your-store/order-management/inventory-management.md" sourcestartlinenumber="48">Reserved qty</strong>, which is the product quantity that is ordered but not shipped or added to a shipment yet.</li>
+<li sourcefile="en/running-your-store/order-management/inventory-management.md" sourcestartlinenumber="49">The <strong sourcefile="en/running-your-store/order-management/inventory-management.md" sourcestartlinenumber="49">Planned qty</strong> is the product quantity that is ordered and already added to a shipment but not shipped yet.</li>
+</ul>
+</li>
+<li sourcefile="en/running-your-store/order-management/inventory-management.md" sourcestartlinenumber="51"><p sourcefile="en/running-your-store/order-management/inventory-management.md" sourcestartlinenumber="51">To prevent customers from placing orders and then finding out that the product is out of stock, you can take certain actions. Select the <strong sourcefile="en/running-your-store/order-management/inventory-management.md" sourcestartlinenumber="51">Display availability</strong> checkbox to display stock availability in the public store.</p>
+<ul sourcefile="en/running-your-store/order-management/inventory-management.md" sourcestartlinenumber="52">
+<li sourcefile="en/running-your-store/order-management/inventory-management.md" sourcestartlinenumber="52"><p sourcefile="en/running-your-store/order-management/inventory-management.md" sourcestartlinenumber="52">If required, select the <strong sourcefile="en/running-your-store/order-management/inventory-management.md" sourcestartlinenumber="52">Display stock quantity</strong> checkbox to enable customers to see a product stock quantity on the product details page (this checkbox is only displayed when the <strong sourcefile="en/running-your-store/order-management/inventory-management.md" sourcestartlinenumber="52">Display availability</strong> checkbox is selected). The following screenshot demonstrates what a customer will see in the public store:</p>
+<p sourcefile="en/running-your-store/order-management/inventory-management.md" sourcestartlinenumber="54"><img src="_static/inventory-management/stock-quantity.png" sourcefile="en/running-your-store/order-management/inventory-management.md" sourcestartlinenumber="54" alt="Availability"></p>
+</li>
+</ul>
+</li>
+<li sourcefile="en/running-your-store/order-management/inventory-management.md" sourcestartlinenumber="56"><p sourcefile="en/running-your-store/order-management/inventory-management.md" sourcestartlinenumber="56">In the <strong sourcefile="en/running-your-store/order-management/inventory-management.md" sourcestartlinenumber="56">Minimum stock qty</strong> field, enter the minimum value below which further actions will be taken.</p>
+</li>
+<li sourcefile="en/running-your-store/order-management/inventory-management.md" sourcestartlinenumber="57"><p sourcefile="en/running-your-store/order-management/inventory-management.md" sourcestartlinenumber="57">From the <strong sourcefile="en/running-your-store/order-management/inventory-management.md" sourcestartlinenumber="57">Low stock activity</strong> dropdown list, select the action to be taken when the stock quantity falls below the minimum stock quantity value, as follows:</p>
+<ul sourcefile="en/running-your-store/order-management/inventory-management.md" sourcestartlinenumber="58">
+<li sourcefile="en/running-your-store/order-management/inventory-management.md" sourcestartlinenumber="58"><strong sourcefile="en/running-your-store/order-management/inventory-management.md" sourcestartlinenumber="58">Nothing</strong>: store owners can still choose to take no action. It means that customers can continue to order products.</li>
+<li sourcefile="en/running-your-store/order-management/inventory-management.md" sourcestartlinenumber="59"><strong sourcefile="en/running-your-store/order-management/inventory-management.md" sourcestartlinenumber="59">Disable buy button</strong>: the buy button becomes disabled when stock is low. Therefore, customers cannot buy this product but can still see it existing in the store.</li>
+<li sourcefile="en/running-your-store/order-management/inventory-management.md" sourcestartlinenumber="60"><strong sourcefile="en/running-your-store/order-management/inventory-management.md" sourcestartlinenumber="60">Unpublish</strong>: the product is not visible in the store anymore. Used when the product is going to be stopped entirely.</li>
+</ul>
+</li>
+<li sourcefile="en/running-your-store/order-management/inventory-management.md" sourcestartlinenumber="62"><p sourcefile="en/running-your-store/order-management/inventory-management.md" sourcestartlinenumber="62">In the <strong sourcefile="en/running-your-store/order-management/inventory-management.md" sourcestartlinenumber="62">Notify for qty below</strong> field, enter the value below which a notification email will be sent to the administrator.</p>
+</li>
+<li sourcefile="en/running-your-store/order-management/inventory-management.md" sourcestartlinenumber="63"><p sourcefile="en/running-your-store/order-management/inventory-management.md" sourcestartlinenumber="63">Store owners can set up <strong sourcefile="en/running-your-store/order-management/inventory-management.md" sourcestartlinenumber="63">Backorders</strong>, that is, orders that can not be fulfilled at the moment of purchase. From the backorders dropdown list, select the required backorder mode as follows:</p>
+<ul sourcefile="en/running-your-store/order-management/inventory-management.md" sourcestartlinenumber="64">
+<li sourcefile="en/running-your-store/order-management/inventory-management.md" sourcestartlinenumber="64"><strong sourcefile="en/running-your-store/order-management/inventory-management.md" sourcestartlinenumber="64">No backorders</strong>: customers can't purchase this product when there is no stock available.</li>
+<li sourcefile="en/running-your-store/order-management/inventory-management.md" sourcestartlinenumber="65"><strong sourcefile="en/running-your-store/order-management/inventory-management.md" sourcestartlinenumber="65">Allow qty below 0</strong>: customers can purchase this product even when there is no stock available.</li>
+<li sourcefile="en/running-your-store/order-management/inventory-management.md" sourcestartlinenumber="66"><strong sourcefile="en/running-your-store/order-management/inventory-management.md" sourcestartlinenumber="66">Allow qty below 0 and notify customer</strong>: customers can purchase this product even when there is no stock available. In addition, they get a notification with the following message: <em sourcefile="en/running-your-store/order-management/inventory-management.md" sourcestartlinenumber="66">Out of stock - on backorder and will be dispatched once in stock (<strong sourcefile="en/running-your-store/order-management/inventory-management.md" sourcestartlinenumber="66">Display availability</strong> option should also be enabled in this case)</em>.</li>
+</ul>
+</li>
+<li sourcefile="en/running-your-store/order-management/inventory-management.md" sourcestartlinenumber="68"><p sourcefile="en/running-your-store/order-management/inventory-management.md" sourcestartlinenumber="68">Select <strong sourcefile="en/running-your-store/order-management/inventory-management.md" sourcestartlinenumber="68">Allow back in stock subscriptions</strong>, to enable customers to subscribe for notifications about product availability, as on the screenshot below:</p>
+<p sourcefile="en/running-your-store/order-management/inventory-management.md" sourcestartlinenumber="70"><img src="_static/inventory-management/stock-subscription.png" sourcefile="en/running-your-store/order-management/inventory-management.md" sourcestartlinenumber="70" alt="Subscribe"></p>
+</li>
+<li sourcefile="en/running-your-store/order-management/inventory-management.md" sourcestartlinenumber="72"><p sourcefile="en/running-your-store/order-management/inventory-management.md" sourcestartlinenumber="72">Choose the <strong sourcefile="en/running-your-store/order-management/inventory-management.md" sourcestartlinenumber="72">Product availability range</strong> that will be displayed for customers when the product is not available at the moment. You can set up availability ranges in the <em sourcefile="en/running-your-store/order-management/inventory-management.md" sourcestartlinenumber="72">Product availability ranges</em> panel of the <strong sourcefile="en/running-your-store/order-management/inventory-management.md" sourcestartlinenumber="72">Configuration → Shipping → Dates and ranges</strong> page. For further details, refer to the <a class="xref" href="../../getting-started/configure-shipping/advanced-configuration/dates-and-ranges.html" sourcefile="en/running-your-store/order-management/inventory-management.md" sourcestartlinenumber="72">Dates and ranges</a> page.</p>
+</li>
+<li sourcefile="en/running-your-store/order-management/inventory-management.md" sourcestartlinenumber="74"><p sourcefile="en/running-your-store/order-management/inventory-management.md" sourcestartlinenumber="74"><strong sourcefile="en/running-your-store/order-management/inventory-management.md" sourcestartlinenumber="74">Minimum cart qty</strong> is a quantity allowed in a customer's shopping cart, for example, set to 3 to only allow customers to purchase 3 or more items of this product.</p>
+</li>
+<li sourcefile="en/running-your-store/order-management/inventory-management.md" sourcestartlinenumber="75"><p sourcefile="en/running-your-store/order-management/inventory-management.md" sourcestartlinenumber="75"><strong sourcefile="en/running-your-store/order-management/inventory-management.md" sourcestartlinenumber="75">Maximum cart qty</strong> is a quantity allowed in a customer's shopping cart, for example, set to 5 to only allow customers to purchase 5 or fewer items of this product.</p>
+</li>
+<li sourcefile="en/running-your-store/order-management/inventory-management.md" sourcestartlinenumber="76"><p sourcefile="en/running-your-store/order-management/inventory-management.md" sourcestartlinenumber="76">In the <strong sourcefile="en/running-your-store/order-management/inventory-management.md" sourcestartlinenumber="76">Allowed quantities</strong> field, enter a comma-separated list of quantities you want this product to be restricted to. Instead of a quantity textbox that allows them to enter any quantity, they will receive a dropdown list of the values you enter here.</p>
+</li>
+<li sourcefile="en/running-your-store/order-management/inventory-management.md" sourcestartlinenumber="77"><p sourcefile="en/running-your-store/order-management/inventory-management.md" sourcestartlinenumber="77">Select the <strong sourcefile="en/running-your-store/order-management/inventory-management.md" sourcestartlinenumber="77">Not returnable</strong> checkbox if this product is not returnable. In this case, a customer won't be allowed to submit a return request.</p>
+</li>
+</ul>
+<h2 id="track-inventory-by-product-attributes" sourcefile="en/running-your-store/order-management/inventory-management.md" sourcestartlinenumber="79">Track inventory by product attributes</h2>
+<p sourcefile="en/running-your-store/order-management/inventory-management.md" sourcestartlinenumber="81">In the case you have various product attribute combinations and need to track their stock quantity, select the <em sourcefile="en/running-your-store/order-management/inventory-management.md" sourcestartlinenumber="81">Track inventory by product attributes</em> inventory method.
+Once this option is chosen, the section expands, displaying new fields:</p>
+<p sourcefile="en/running-your-store/order-management/inventory-management.md" sourcestartlinenumber="84"><img src="_static/inventory-management/track-inventory-attributes.jpg" sourcefile="en/running-your-store/order-management/inventory-management.md" sourcestartlinenumber="84" alt="Track inventory by product attributes"></p>
+<ul sourcefile="en/running-your-store/order-management/inventory-management.md" sourcestartlinenumber="86">
+<li sourcefile="en/running-your-store/order-management/inventory-management.md" sourcestartlinenumber="86"><p sourcefile="en/running-your-store/order-management/inventory-management.md" sourcestartlinenumber="86">Choose the <strong sourcefile="en/running-your-store/order-management/inventory-management.md" sourcestartlinenumber="86">Warehouse</strong> that will be used when calculating shipping rates. You can manage warehouses on the <strong sourcefile="en/running-your-store/order-management/inventory-management.md" sourcestartlinenumber="86">Configuration → Shipping → Warehouses</strong> page. For further details, refer to the <a class="xref" href="../../getting-started/configure-shipping/advanced-configuration/warehouses.html" sourcefile="en/running-your-store/order-management/inventory-management.md" sourcestartlinenumber="86">Warehouses</a> page.</p>
+</li>
+<li sourcefile="en/running-your-store/order-management/inventory-management.md" sourcestartlinenumber="87"><p sourcefile="en/running-your-store/order-management/inventory-management.md" sourcestartlinenumber="87">To prevent customers from placing orders and then finding out that the product is out of stock, you can take certain actions. Select the <strong sourcefile="en/running-your-store/order-management/inventory-management.md" sourcestartlinenumber="87">Display availability</strong> checkbox to display stock availability in the public store.</p>
+<ul sourcefile="en/running-your-store/order-management/inventory-management.md" sourcestartlinenumber="88">
+<li sourcefile="en/running-your-store/order-management/inventory-management.md" sourcestartlinenumber="88"><p sourcefile="en/running-your-store/order-management/inventory-management.md" sourcestartlinenumber="88">If required, select the <strong sourcefile="en/running-your-store/order-management/inventory-management.md" sourcestartlinenumber="88">Display stock quantity</strong> checkbox to enable customers to see a product stock quantity on the product details page (this checkbox is only displayed when the <strong sourcefile="en/running-your-store/order-management/inventory-management.md" sourcestartlinenumber="88">Display availability</strong> checkbox is selected). The following screenshot demonstrates what a customer will see in the public store:</p>
+<p sourcefile="en/running-your-store/order-management/inventory-management.md" sourcestartlinenumber="90"><img src="_static/inventory-management/stock-quantity.png" sourcefile="en/running-your-store/order-management/inventory-management.md" sourcestartlinenumber="90" alt="Availability"></p>
+</li>
+</ul>
+</li>
+<li sourcefile="en/running-your-store/order-management/inventory-management.md" sourcestartlinenumber="92"><p sourcefile="en/running-your-store/order-management/inventory-management.md" sourcestartlinenumber="92">Choose the <strong sourcefile="en/running-your-store/order-management/inventory-management.md" sourcestartlinenumber="92">Product availability range</strong> that will be displayed for customers when the product is not available at the moment. You can set up availability ranges in the <em sourcefile="en/running-your-store/order-management/inventory-management.md" sourcestartlinenumber="92">Product availability ranges</em> panel of the <strong sourcefile="en/running-your-store/order-management/inventory-management.md" sourcestartlinenumber="92">Configuration → Shipping → Dates and ranges</strong> page. For further details, refer to the <a class="xref" href="../../getting-started/configure-shipping/advanced-configuration/dates-and-ranges.html" sourcefile="en/running-your-store/order-management/inventory-management.md" sourcestartlinenumber="92">Dates and ranges</a> page.</p>
+</li>
+<li sourcefile="en/running-your-store/order-management/inventory-management.md" sourcestartlinenumber="94"><p sourcefile="en/running-your-store/order-management/inventory-management.md" sourcestartlinenumber="94"><strong sourcefile="en/running-your-store/order-management/inventory-management.md" sourcestartlinenumber="94">Minimum cart qty</strong> is a quantity allowed in a customer's shopping cart, for example, set to 3 to only allow customers to purchase 3 or more of items this product.</p>
+</li>
+<li sourcefile="en/running-your-store/order-management/inventory-management.md" sourcestartlinenumber="95"><p sourcefile="en/running-your-store/order-management/inventory-management.md" sourcestartlinenumber="95"><strong sourcefile="en/running-your-store/order-management/inventory-management.md" sourcestartlinenumber="95">Maximum cart qty</strong> is a quantity allowed in a customer's shopping cart, for example, set to 5 to only allow customers to purchase 5 or fewer items of this product.</p>
+</li>
+<li sourcefile="en/running-your-store/order-management/inventory-management.md" sourcestartlinenumber="96"><p sourcefile="en/running-your-store/order-management/inventory-management.md" sourcestartlinenumber="96">In the <strong sourcefile="en/running-your-store/order-management/inventory-management.md" sourcestartlinenumber="96">Allowed quantities</strong> field, enter a comma-separated list of quantities you want this product to be restricted to. Instead of a quantity textbox that allows them to enter any quantity, they will receive a dropdown list of the values you enter here.</p>
+</li>
+<li sourcefile="en/running-your-store/order-management/inventory-management.md" sourcestartlinenumber="97"><p sourcefile="en/running-your-store/order-management/inventory-management.md" sourcestartlinenumber="97">Select <strong sourcefile="en/running-your-store/order-management/inventory-management.md" sourcestartlinenumber="97">Allow only existing attribute combinations</strong> to only allow adding to the cart/wishlist existing attribute combinations with stock quantities greater than 0. In this case, you have to create all product attribute combinations that you have in stock.</p>
+</li>
+<li sourcefile="en/running-your-store/order-management/inventory-management.md" sourcestartlinenumber="98"><p sourcefile="en/running-your-store/order-management/inventory-management.md" sourcestartlinenumber="98">Select the <strong sourcefile="en/running-your-store/order-management/inventory-management.md" sourcestartlinenumber="98">Not returnable</strong> checkbox if this product is not returnable. In this case, a customer won't be allowed to submit a return request.</p>
+</li>
+</ul>
+<div class="NOTE" sourcefile="en/running-your-store/order-management/inventory-management.md" sourcestartlinenumber="100">
+<h5>Note</h5>
+<p sourcefile="en/running-your-store/order-management/inventory-management.md" sourcestartlinenumber="102">To set <strong sourcefile="en/running-your-store/order-management/inventory-management.md" sourcestartlinenumber="102">Stock quantity</strong> for different attribute combinations, go to the <strong sourcefile="en/running-your-store/order-management/inventory-management.md" sourcestartlinenumber="102">Attribute combinations</strong> tab of the <em sourcefile="en/running-your-store/order-management/inventory-management.md" sourcestartlinenumber="102">Product attributes</em> panel on the edit product details page. In this tab, you can define whether to <strong sourcefile="en/running-your-store/order-management/inventory-management.md" sourcestartlinenumber="102">Allow out of stock</strong> for a certain attribute combination to enable orders to be approved even when the product is out of stock.
+<img src="_static/inventory-management/atribute-combinations.jpg" sourcefile="en/running-your-store/order-management/inventory-management.md" sourcestartlinenumber="103" alt="Attribute combinations"></p>
+</div>
+<div class="TIP" sourcefile="en/running-your-store/order-management/inventory-management.md" sourcestartlinenumber="105">
+<h5>Tip</h5>
+<p sourcefile="en/running-your-store/order-management/inventory-management.md" sourcestartlinenumber="107">To track products currently under stock, go to <strong sourcefile="en/running-your-store/order-management/inventory-management.md" sourcestartlinenumber="107">Reports → Low stock</strong>.
+A low stock report contains a list of products that are currently under stock, that is, the stock quantity is equal to or less than the minimum stock quantity set in the <em sourcefile="en/running-your-store/order-management/inventory-management.md" sourcestartlinenumber="108">Inventory</em> section on the product details page.
+<img src="_static/inventory-management/low-stock.png" sourcefile="en/running-your-store/order-management/inventory-management.md" sourcestartlinenumber="109" alt="Low stock">
+Click <strong sourcefile="en/running-your-store/order-management/inventory-management.md" sourcestartlinenumber="110">View</strong> to view the product details page, where these stock settings can be changed.
+For more details about reports in nopCommerce, visit the <a class="xref" href="../reports.html" sourcefile="en/running-your-store/order-management/inventory-management.md" sourcestartlinenumber="111">Reports</a> page.</p>
+</div>
+<h2 id="see-also" sourcefile="en/running-your-store/order-management/inventory-management.md" sourcestartlinenumber="113">See also</h2>
+<ul sourcefile="en/running-your-store/order-management/inventory-management.md" sourcestartlinenumber="115">
+<li sourcefile="en/running-your-store/order-management/inventory-management.md" sourcestartlinenumber="115"><a class="xref" href="../catalog/products/product-attributes.html" sourcefile="en/running-your-store/order-management/inventory-management.md" sourcestartlinenumber="115">Product attributes</a></li>
+<li sourcefile="en/running-your-store/order-management/inventory-management.md" sourcestartlinenumber="116"><a class="xref" href="../../getting-started/configure-shipping/advanced-configuration/warehouses.html" sourcefile="en/running-your-store/order-management/inventory-management.md" sourcestartlinenumber="116">Warehouses</a></li>
+</ul>
+<h2 id="tutorials" sourcefile="en/running-your-store/order-management/inventory-management.md" sourcestartlinenumber="118">Tutorials</h2>
+<ul sourcefile="en/running-your-store/order-management/inventory-management.md" sourcestartlinenumber="120">
+<li sourcefile="en/running-your-store/order-management/inventory-management.md" sourcestartlinenumber="120"><a href="https://www.youtube.com/watch?v=CMhQ39clCKM" sourcefile="en/running-your-store/order-management/inventory-management.md" sourcestartlinenumber="120">Managing backorders in nopCommerce</a></li>
+</ul>
+            </article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/nopSolutions/nopCommerce-Docs/blob/master/en/running-your-store/order-management/inventory-management.md/#L1" class="contribution-link">Improve this Doc</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../../../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../../../styles/docfx.js"></script>
+    <script type="text/javascript" src="../../../styles/main.js"></script>
+  </body>
+</html>

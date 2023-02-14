@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Import/export products </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Import/export products ">
+    <meta name="generator" content="docfx 2.59.4.0">
+    
+    <link rel="shortcut icon" href="../../../../favicon.ico">
+    <link rel="stylesheet" href="../../../../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../../../../styles/docfx.css">
+    <link rel="stylesheet" href="../../../../styles/main.css">
+    <link rel="preload" href="../../../../fonts/fonts.css" )"="" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <meta property="docfx:navrel" content="/">
+    <meta property="docfx:tocrel" content="../../../toc.html">
+    
+    <meta property="docfx:rel" content="../../../../">
+    
+    <script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-7490022-8"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'UA-7490022-8');
+    </script>
+    <script>
+      /*! loadCSS. [c]2017 Filament Group, Inc. MIT License
+      - testing support for link[rel=preload]
+      - enabling async CSS loading in browsers that do not support rel=preload
+      - applying rel preload css once loaded, whether supported or not.
+      */
+      !function(n){"use strict";n.loadCSS||(n.loadCSS=function(){});var o=loadCSS.relpreload={};if(o.support=function(){var e;try{e=n.document.createElement("link").relList.supports("preload")}catch(t){e=!1}return function(){return e}}(),o.bindMediaToggle=function(t){var e=t.media||"all";function a(){t.addEventListener?t.removeEventListener("load",a):t.attachEvent&&t.detachEvent("onload",a),t.setAttribute("onload",null),t.media=e}t.addEventListener?t.addEventListener("load",a):t.attachEvent&&t.attachEvent("onload",a),setTimeout(function(){t.rel="stylesheet",t.media="only x"}),setTimeout(a,3e3)},o.poly=function(){if(!o.support())for(var t=n.document.getElementsByTagName("link"),e=0;e<t.length;e++){var a=t[e];"preload"!==a.rel||"style"!==a.getAttribute("as")||a.getAttribute("data-loadcss")||(a.setAttribute("data-loadcss",!0),o.bindMediaToggle(a))}},!o.support()){o.poly();var t=n.setInterval(o.poly,500);n.addEventListener?n.addEventListener("load",function(){o.poly(),n.clearInterval(t)}):n.attachEvent&&n.attachEvent("onload",function(){o.poly(),n.clearInterval(t)})}"undefined"!=typeof exports?exports.loadCSS=loadCSS:n.loadCSS=loadCSS}("undefined"!=typeof global?global:this);
+    </script>
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="170">
+    <div id="wrapper">
+      <header>
+        <div class="container">
+          <div id="header" class="header navbar-header">
+            <div class="header-logo">
+              <a href="https://www.nopcommerce.com/">
+                <img id="logo" class="svg" src="../../../../logo.png" alt="">
+              </a>
+            </div>  </div>
+          <div class="navbar-collapse collapse in">
+            <form class="navbar-form navbar-right" role="search" id="search">
+              <div class="form-group">
+                <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+              </div>
+        
+              <div class="form-group lang-container">
+                    
+                    <select id="lang-switcher" class="select-css">
+                        <option value="/en/index.html" selected="">
+                          English
+                        
+                    </select>        </div>
+            </form>
+          </div>
+        </div>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div class="container body-content">
+        
+        <div id="search-results">
+          <div class="search-list">Search Results for <span></span></div>
+          <div class="sr-items">
+            <p><i class="glyphicon glyphicon-refresh index-loading"></i></p>
+          </div>
+          <ul id="pagination" data-first="First" data-prev="Previous" data-next="Next" data-last="Last"></ul>
+        </div>
+      </div>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="en/running-your-store/catalog/products/import-export-products">
+<h1 id="importexport-products" sourcefile="en/running-your-store/catalog/products/import-export-products.md" sourcestartlinenumber="8">Import/export products</h1>
+
+<p sourcefile="en/running-your-store/catalog/products/import-export-products.md" sourcestartlinenumber="10">nopCommerce supports importing from Excel format and exporting products in XML or Excel. You can download products from your catalog in PDF.
+You can find these options in <strong sourcefile="en/running-your-store/catalog/products/import-export-products.md" sourcestartlinenumber="11">Catalog → Products</strong> on the main page, top left.</p>
+<p sourcefile="en/running-your-store/catalog/products/import-export-products.md" sourcestartlinenumber="13"><img src="_static/import-export-products/buttons.jpg" sourcefile="en/running-your-store/catalog/products/import-export-products.md" sourcestartlinenumber="13" alt="Products"></p>
+<h2 id="exporting-products" sourcefile="en/running-your-store/catalog/products/import-export-products.md" sourcestartlinenumber="15">Exporting products</h2>
+<p sourcefile="en/running-your-store/catalog/products/import-export-products.md" sourcestartlinenumber="17">You can export products in XML or Excel formats by clicking the <strong sourcefile="en/running-your-store/catalog/products/import-export-products.md" sourcestartlinenumber="17">Export</strong> button. After clicking the <strong sourcefile="en/running-your-store/catalog/products/import-export-products.md" sourcestartlinenumber="17">Export</strong> button, you will see the dropdown menu enabling you to <strong sourcefile="en/running-your-store/catalog/products/import-export-products.md" sourcestartlinenumber="17">Export to XML (all found)</strong> or <strong sourcefile="en/running-your-store/catalog/products/import-export-products.md" sourcestartlinenumber="17">Export to XML (selected)</strong> and <strong sourcefile="en/running-your-store/catalog/products/import-export-products.md" sourcestartlinenumber="17">Export to Excel (all found)</strong> or <strong sourcefile="en/running-your-store/catalog/products/import-export-products.md" sourcestartlinenumber="17">Export to Excel (selected)</strong>.</p>
+<p sourcefile="en/running-your-store/catalog/products/import-export-products.md" sourcestartlinenumber="19"><img src="_static/import-export-products/exporting_product.png" sourcefile="en/running-your-store/catalog/products/import-export-products.md" sourcestartlinenumber="19" alt="Exporting product"></p>
+<p sourcefile="en/running-your-store/catalog/products/import-export-products.md" sourcestartlinenumber="21">If you don't need to download all the products, use the <em sourcefile="en/running-your-store/catalog/products/import-export-products.md" sourcestartlinenumber="21">Search</em> panel to find the required products or/and checkboxes to select the needed products. A file with the products you have chosen will be downloaded. The file will consist of all the products' characteristics from product editing page panels (Product info, SEO, Pictures, and more).</p>
+<div class="NOTE" sourcefile="en/running-your-store/catalog/products/import-export-products.md" sourcestartlinenumber="23">
+<h5>Note</h5>
+<p sourcefile="en/running-your-store/catalog/products/import-export-products.md" sourcestartlinenumber="25">If you use product attributes, an exported Excel table will be grouped by rows. To view attribute details, click + next to your product in the table.
+<img src="_static/import-export-products/simple_product.png" sourcefile="en/running-your-store/catalog/products/import-export-products.md" sourcestartlinenumber="26" alt="Simple product"></p>
+</div>
+<h2 id="importing-products" sourcefile="en/running-your-store/catalog/products/import-export-products.md" sourcestartlinenumber="28">Importing products</h2>
+<p sourcefile="en/running-your-store/catalog/products/import-export-products.md" sourcestartlinenumber="30">If you do not want to add all the products to your catalog manually, you can use the import option.</p>
+<div class="NOTE" sourcefile="en/running-your-store/catalog/products/import-export-products.md" sourcestartlinenumber="32">
+<h5>Note</h5>
+<p sourcefile="en/running-your-store/catalog/products/import-export-products.md" sourcestartlinenumber="34">Before you start importing, you should download a table template for import in Excel format, as it was described in the <a href="#exporting-products" sourcefile="en/running-your-store/catalog/products/import-export-products.md" sourcestartlinenumber="34">exporting products</a> section. For accurate and correct import of your products, it's crucial to name all the columns in the table properly (exactly as in the downloaded table).</p>
+</div>
+<p sourcefile="en/running-your-store/catalog/products/import-export-products.md" sourcestartlinenumber="36">It is not mandatory to fill all the table fields. The product will be created based on the filled fields.</p>
+<p sourcefile="en/running-your-store/catalog/products/import-export-products.md" sourcestartlinenumber="38">Imported products are distinguished by SKU. If the SKU already exists, then its corresponding product will be updated.</p>
+<p sourcefile="en/running-your-store/catalog/products/import-export-products.md" sourcestartlinenumber="40">Import requires a lot of memory resources. That's why it's not recommended to import more than 500–1000 records at once. If you have more records, it's better to split them into multiple Excel files and import them separately.</p>
+<h3 id="example" sourcefile="en/running-your-store/catalog/products/import-export-products.md" sourcestartlinenumber="42">Example</h3>
+<p sourcefile="en/running-your-store/catalog/products/import-export-products.md" sourcestartlinenumber="44">For example, we want to add Dancing shoes to our catalog. Let's create a new row in the table:</p>
+<p sourcefile="en/running-your-store/catalog/products/import-export-products.md" sourcestartlinenumber="46"><img src="_static/import-export-products/product_table.png" sourcefile="en/running-your-store/catalog/products/import-export-products.md" sourcestartlinenumber="46" alt="product table"></p>
+<p sourcefile="en/running-your-store/catalog/products/import-export-products.md" sourcestartlinenumber="48">Then click <strong sourcefile="en/running-your-store/catalog/products/import-export-products.md" sourcestartlinenumber="48">Import</strong>, choose the file, and click the <strong sourcefile="en/running-your-store/catalog/products/import-export-products.md" sourcestartlinenumber="48">Import from Excel</strong> button. Then check if you have a new product in the catalog.</p>
+<p sourcefile="en/running-your-store/catalog/products/import-export-products.md" sourcestartlinenumber="50"><img src="_static/import-export-products/product_catalog.png" sourcefile="en/running-your-store/catalog/products/import-export-products.md" sourcestartlinenumber="50" alt="product catalog"></p>
+<h2 id="importing-products-with-images-hosted-on-external-resources" sourcefile="en/running-your-store/catalog/products/import-export-products.md" sourcestartlinenumber="52">Importing products with images hosted on external resources</h2>
+<p sourcefile="en/running-your-store/catalog/products/import-export-products.md" sourcestartlinenumber="54">Sometimes it is necessary to import products with images that are hosted on external resources. nopCommerce supports such a scenario. However, this option is disabled by default for security purposes. You can enable it on the <strong sourcefile="en/running-your-store/catalog/products/import-export-products.md" sourcestartlinenumber="54">&quot;Catalog settings&quot;</strong> page in the administration area. Just enable the <strong sourcefile="en/running-your-store/catalog/products/import-export-products.md" sourcestartlinenumber="54">&quot;Export/import products. Allow download images&quot;</strong> setting.</p>
+<p sourcefile="en/running-your-store/catalog/products/import-export-products.md" sourcestartlinenumber="56">There is an address validation code provided by the .NET platform in this image loading method. This mechanism doesn't always correctly determine the correctness of addresses despite their full compliance with the <a href="https://datatracker.ietf.org/doc/html/rfc3986" sourcefile="en/running-your-store/catalog/products/import-export-products.md" sourcestartlinenumber="56">RFC3986</a> specification. Our recommendation is to avoid using special characters, such as <strong sourcefile="en/running-your-store/catalog/products/import-export-products.md" sourcestartlinenumber="56">^</strong> or <strong sourcefile="en/running-your-store/catalog/products/import-export-products.md" sourcestartlinenumber="56">~</strong>, in URLs. So please ensure that all specified URLs contain Latin chars only.</p>
+<h2 id="importing-product-with-categories-and-manufacturers" sourcefile="en/running-your-store/catalog/products/import-export-products.md" sourcestartlinenumber="58">Importing product with categories and manufacturers</h2>
+<p sourcefile="en/running-your-store/catalog/products/import-export-products.md" sourcestartlinenumber="60">The task of importing categories and manufacturers is specific because a product can belong to multiple categories or manufacturers. Each new value in this cell must be separated by the <strong sourcefile="en/running-your-store/catalog/products/import-export-products.md" sourcestartlinenumber="60">;</strong> character. Please avoid using spaces for formatting even though they should be ignored by the algorithm (for example, 1;2;3 is better than 1; 2; 3).</p>
+<p sourcefile="en/running-your-store/catalog/products/import-export-products.md" sourcestartlinenumber="62">The <strong sourcefile="en/running-your-store/catalog/products/import-export-products.md" sourcestartlinenumber="62">Categories</strong> and <strong sourcefile="en/running-your-store/catalog/products/import-export-products.md" sourcestartlinenumber="62">Manufacturers</strong> columns can contain both the identifiers of the corresponding objects and their names (you can use one approach or mix both options at your discretion). If you want to import categories by name, you may specify the name only or the entire category name hierarchy. In this case, the parent category will be separated from the child category by the <strong sourcefile="en/running-your-store/catalog/products/import-export-products.md" sourcestartlinenumber="62">&gt;&gt;</strong> symbols. For example, “Computers &gt;&gt; Desktops;”</p>
+<p sourcefile="en/running-your-store/catalog/products/import-export-products.md" sourcestartlinenumber="64">Importing categories and manufacturers by name is case sensitive, that is, “<strong sourcefile="en/running-your-store/catalog/products/import-export-products.md" sourcestartlinenumber="64">T</strong>est category/manufacturer <strong sourcefile="en/running-your-store/catalog/products/import-export-products.md" sourcestartlinenumber="64">n</strong>ame” is not the same as “<strong sourcefile="en/running-your-store/catalog/products/import-export-products.md" sourcestartlinenumber="64">t</strong>est category/manufacturer <strong sourcefile="en/running-your-store/catalog/products/import-export-products.md" sourcestartlinenumber="64">N</strong>ame”</p>
+<h2 id="setting-up-importexport" sourcefile="en/running-your-store/catalog/products/import-export-products.md" sourcestartlinenumber="66">Setting up import/export</h2>
+<p sourcefile="en/running-your-store/catalog/products/import-export-products.md" sourcestartlinenumber="68">The following section describes import/export settings: <a class="xref" href="../catalog-settings.html#exportimport" sourcefile="en/running-your-store/catalog/products/import-export-products.md" sourcestartlinenumber="68">Export/import</a>.</p>
+<h2 id="see-also" sourcefile="en/running-your-store/catalog/products/import-export-products.md" sourcestartlinenumber="70">See also</h2>
+<ul sourcefile="en/running-your-store/catalog/products/import-export-products.md" sourcestartlinenumber="72">
+<li sourcefile="en/running-your-store/catalog/products/import-export-products.md" sourcestartlinenumber="72"><a class="xref" href="add-products.html" sourcefile="en/running-your-store/catalog/products/import-export-products.md" sourcestartlinenumber="72">Adding products</a></li>
+</ul>
+            </article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/nopSolutions/nopCommerce-Docs/blob/master/en/running-your-store/catalog/products/import-export-products.md/#L1" class="contribution-link">Improve this Doc</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../../../../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../../../../styles/docfx.js"></script>
+    <script type="text/javascript" src="../../../../styles/main.js"></script>
+  </body>
+</html>

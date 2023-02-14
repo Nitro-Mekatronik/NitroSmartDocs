@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Order management </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Order management ">
+    <meta name="generator" content="docfx 2.59.4.0">
+    
+    <link rel="shortcut icon" href="../../../favicon.ico">
+    <link rel="stylesheet" href="../../../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../../../styles/docfx.css">
+    <link rel="stylesheet" href="../../../styles/main.css">
+    <link rel="preload" href="../../../fonts/fonts.css" )"="" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <meta property="docfx:navrel" content="/">
+    <meta property="docfx:tocrel" content="../../toc.html">
+    
+    <meta property="docfx:rel" content="../../../">
+    
+    <script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-7490022-8"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'UA-7490022-8');
+    </script>
+    <script>
+      /*! loadCSS. [c]2017 Filament Group, Inc. MIT License
+      - testing support for link[rel=preload]
+      - enabling async CSS loading in browsers that do not support rel=preload
+      - applying rel preload css once loaded, whether supported or not.
+      */
+      !function(n){"use strict";n.loadCSS||(n.loadCSS=function(){});var o=loadCSS.relpreload={};if(o.support=function(){var e;try{e=n.document.createElement("link").relList.supports("preload")}catch(t){e=!1}return function(){return e}}(),o.bindMediaToggle=function(t){var e=t.media||"all";function a(){t.addEventListener?t.removeEventListener("load",a):t.attachEvent&&t.detachEvent("onload",a),t.setAttribute("onload",null),t.media=e}t.addEventListener?t.addEventListener("load",a):t.attachEvent&&t.attachEvent("onload",a),setTimeout(function(){t.rel="stylesheet",t.media="only x"}),setTimeout(a,3e3)},o.poly=function(){if(!o.support())for(var t=n.document.getElementsByTagName("link"),e=0;e<t.length;e++){var a=t[e];"preload"!==a.rel||"style"!==a.getAttribute("as")||a.getAttribute("data-loadcss")||(a.setAttribute("data-loadcss",!0),o.bindMediaToggle(a))}},!o.support()){o.poly();var t=n.setInterval(o.poly,500);n.addEventListener?n.addEventListener("load",function(){o.poly(),n.clearInterval(t)}):n.attachEvent&&n.attachEvent("onload",function(){o.poly(),n.clearInterval(t)})}"undefined"!=typeof exports?exports.loadCSS=loadCSS:n.loadCSS=loadCSS}("undefined"!=typeof global?global:this);
+    </script>
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="170">
+    <div id="wrapper">
+      <header>
+        <div class="container">
+          <div id="header" class="header navbar-header">
+            <div class="header-logo">
+              <a href="https://www.nopcommerce.com/">
+                <img id="logo" class="svg" src="../../../logo.png" alt="">
+              </a>
+            </div>  </div>
+          <div class="navbar-collapse collapse in">
+            <form class="navbar-form navbar-right" role="search" id="search">
+              <div class="form-group">
+                <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+              </div>
+        
+              <div class="form-group lang-container">
+                    
+                    <select id="lang-switcher" class="select-css">
+                        <option value="/en/index.html" selected="">
+                          English
+                        
+                    </select>        </div>
+            </form>
+          </div>
+        </div>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div class="container body-content">
+        
+        <div id="search-results">
+          <div class="search-list">Search Results for <span></span></div>
+          <div class="sr-items">
+            <p><i class="glyphicon glyphicon-refresh index-loading"></i></p>
+          </div>
+          <ul id="pagination" data-first="First" data-prev="Previous" data-next="Next" data-last="Last"></ul>
+        </div>
+      </div>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="en/running-your-store/order-management/orders">
+<h1 id="orders" sourcefile="en/running-your-store/order-management/orders.md" sourcestartlinenumber="8">Orders</h1>
+
+<p sourcefile="en/running-your-store/order-management/orders.md" sourcestartlinenumber="10">To view and manage orders, go to <strong sourcefile="en/running-your-store/order-management/orders.md" sourcestartlinenumber="10">Sales → Orders</strong>. The orders page lists all current orders. After a customer completes a transaction, a new order appears on the orders page.</p>
+<p sourcefile="en/running-your-store/order-management/orders.md" sourcestartlinenumber="12">The top area of the page enables a store owner to search for orders. Enter specific search criteria and use a variety of filters to find any order placed in the store. Whenever a search is completed, the results of the search will be displayed in the lower half of the screen. You can click <strong sourcefile="en/running-your-store/order-management/orders.md" sourcestartlinenumber="12">View</strong> to view the order details.</p>
+<p sourcefile="en/running-your-store/order-management/orders.md" sourcestartlinenumber="14"><img src="_static/orders/search.jpg" sourcefile="en/running-your-store/order-management/orders.md" sourcestartlinenumber="14" alt="Order list"></p>
+<h2 id="search-for-orders" sourcefile="en/running-your-store/order-management/orders.md" sourcestartlinenumber="16">Search for orders</h2>
+<p sourcefile="en/running-your-store/order-management/orders.md" sourcestartlinenumber="18">To search for orders, enter one or more of the following search criteria:</p>
+<ul sourcefile="en/running-your-store/order-management/orders.md" sourcestartlinenumber="20">
+<li sourcefile="en/running-your-store/order-management/orders.md" sourcestartlinenumber="20"><strong sourcefile="en/running-your-store/order-management/orders.md" sourcestartlinenumber="20">Start date</strong> and <strong sourcefile="en/running-your-store/order-management/orders.md" sourcestartlinenumber="20">End date</strong> to define a period of orders' creation.</li>
+<li sourcefile="en/running-your-store/order-management/orders.md" sourcestartlinenumber="21"><strong sourcefile="en/running-your-store/order-management/orders.md" sourcestartlinenumber="21">Warehouse</strong> to load orders with products from a specified warehouse.</li>
+<li sourcefile="en/running-your-store/order-management/orders.md" sourcestartlinenumber="22"><strong sourcefile="en/running-your-store/order-management/orders.md" sourcestartlinenumber="22">Product</strong> — enter a product name</li>
+<li sourcefile="en/running-your-store/order-management/orders.md" sourcestartlinenumber="23"><strong sourcefile="en/running-your-store/order-management/orders.md" sourcestartlinenumber="23">Order statuses</strong> – select one of the following: <em sourcefile="en/running-your-store/order-management/orders.md" sourcestartlinenumber="23">All</em>, <em sourcefile="en/running-your-store/order-management/orders.md" sourcestartlinenumber="23">Pending</em>, <em sourcefile="en/running-your-store/order-management/orders.md" sourcestartlinenumber="23">Processing</em>, <em sourcefile="en/running-your-store/order-management/orders.md" sourcestartlinenumber="23">Complete</em>, <em sourcefile="en/running-your-store/order-management/orders.md" sourcestartlinenumber="23">Cancelled</em>.</li>
+<li sourcefile="en/running-your-store/order-management/orders.md" sourcestartlinenumber="24"><strong sourcefile="en/running-your-store/order-management/orders.md" sourcestartlinenumber="24">Payment statuses</strong> — select a specific payment status to search by: <em sourcefile="en/running-your-store/order-management/orders.md" sourcestartlinenumber="24">All</em>, <em sourcefile="en/running-your-store/order-management/orders.md" sourcestartlinenumber="24">Pending</em>, <em sourcefile="en/running-your-store/order-management/orders.md" sourcestartlinenumber="24">Authorized</em>, <em sourcefile="en/running-your-store/order-management/orders.md" sourcestartlinenumber="24">Paid</em>, <em sourcefile="en/running-your-store/order-management/orders.md" sourcestartlinenumber="24">Partially refunded</em>, <em sourcefile="en/running-your-store/order-management/orders.md" sourcestartlinenumber="24">Refunded</em>, <em sourcefile="en/running-your-store/order-management/orders.md" sourcestartlinenumber="24">Voided</em>.</li>
+<li sourcefile="en/running-your-store/order-management/orders.md" sourcestartlinenumber="25"><strong sourcefile="en/running-your-store/order-management/orders.md" sourcestartlinenumber="25">Shipping statuses</strong> — select a specific shipping status to search by: <em sourcefile="en/running-your-store/order-management/orders.md" sourcestartlinenumber="25">All</em>, <em sourcefile="en/running-your-store/order-management/orders.md" sourcestartlinenumber="25">Shipping not required</em>, <em sourcefile="en/running-your-store/order-management/orders.md" sourcestartlinenumber="25">Not yet shipped</em>, <em sourcefile="en/running-your-store/order-management/orders.md" sourcestartlinenumber="25">Partially shipped</em>, <em sourcefile="en/running-your-store/order-management/orders.md" sourcestartlinenumber="25">Shipped</em>, <em sourcefile="en/running-your-store/order-management/orders.md" sourcestartlinenumber="25">Delivered</em>.</li>
+<li sourcefile="en/running-your-store/order-management/orders.md" sourcestartlinenumber="26"><strong sourcefile="en/running-your-store/order-management/orders.md" sourcestartlinenumber="26">Store</strong> — set a specific store in which orders were placed.</li>
+<li sourcefile="en/running-your-store/order-management/orders.md" sourcestartlinenumber="27"><strong sourcefile="en/running-your-store/order-management/orders.md" sourcestartlinenumber="27">Vendor</strong> — search by a specific vendor. You'll see orders with products by a specified vendor.</li>
+<li sourcefile="en/running-your-store/order-management/orders.md" sourcestartlinenumber="28"><strong sourcefile="en/running-your-store/order-management/orders.md" sourcestartlinenumber="28">Billing phone number</strong> — customer's phone number.</li>
+<li sourcefile="en/running-your-store/order-management/orders.md" sourcestartlinenumber="29"><strong sourcefile="en/running-your-store/order-management/orders.md" sourcestartlinenumber="29">Billing email address</strong> — customer's email address.</li>
+<li sourcefile="en/running-your-store/order-management/orders.md" sourcestartlinenumber="30"><strong sourcefile="en/running-your-store/order-management/orders.md" sourcestartlinenumber="30">Billing last name</strong> — customer's last name.</li>
+<li sourcefile="en/running-your-store/order-management/orders.md" sourcestartlinenumber="31"><strong sourcefile="en/running-your-store/order-management/orders.md" sourcestartlinenumber="31">Billing country</strong> — customer's country.</li>
+<li sourcefile="en/running-your-store/order-management/orders.md" sourcestartlinenumber="32"><strong sourcefile="en/running-your-store/order-management/orders.md" sourcestartlinenumber="32">Payment method</strong>  — set a specific payment method that was used during checkout.</li>
+<li sourcefile="en/running-your-store/order-management/orders.md" sourcestartlinenumber="33"><strong sourcefile="en/running-your-store/order-management/orders.md" sourcestartlinenumber="33">Order notes</strong> — search in order notes. Leave empty to load all orders.</li>
+<li sourcefile="en/running-your-store/order-management/orders.md" sourcestartlinenumber="34"><strong sourcefile="en/running-your-store/order-management/orders.md" sourcestartlinenumber="34">Go directly to order #</strong> — enter the order number and click <strong sourcefile="en/running-your-store/order-management/orders.md" sourcestartlinenumber="34">Go</strong> to display the required order.</li>
+</ul>
+<h3 id="export-orders" sourcefile="en/running-your-store/order-management/orders.md" sourcestartlinenumber="36">Export orders</h3>
+<p sourcefile="en/running-your-store/order-management/orders.md" sourcestartlinenumber="38">You can export orders to an external file by clicking the <strong sourcefile="en/running-your-store/order-management/orders.md" sourcestartlinenumber="38">Export</strong> button at the top of the page. After clicking the <strong sourcefile="en/running-your-store/order-management/orders.md" sourcestartlinenumber="38">Export</strong> button, you will see the dropdown menu enabling you to <strong sourcefile="en/running-your-store/order-management/orders.md" sourcestartlinenumber="38">Export to XML (all found)</strong> or <strong sourcefile="en/running-your-store/order-management/orders.md" sourcestartlinenumber="38">Export to XML (selected)</strong> and <strong sourcefile="en/running-your-store/order-management/orders.md" sourcestartlinenumber="38">Export to Excel (all found)</strong> or <strong sourcefile="en/running-your-store/order-management/orders.md" sourcestartlinenumber="38">Export to Excel (selected)</strong>.</p>
+<h3 id="import-orders" sourcefile="en/running-your-store/order-management/orders.md" sourcestartlinenumber="40">Import orders</h3>
+<p sourcefile="en/running-your-store/order-management/orders.md" sourcestartlinenumber="42">You can import orders from Excel by clicking the <strong sourcefile="en/running-your-store/order-management/orders.md" sourcestartlinenumber="42">Import</strong>, choose the file, and click the <strong sourcefile="en/running-your-store/order-management/orders.md" sourcestartlinenumber="42">Import from Excel</strong> button. Imported orders are distinguished by order GUID. If the order GUID already exists, then its details will be updated.</p>
+<div class="WARNING" sourcefile="en/running-your-store/order-management/orders.md" sourcestartlinenumber="44">
+<h5>Warning</h5>
+<p sourcefile="en/running-your-store/order-management/orders.md" sourcestartlinenumber="46">Import requires a lot of memory resources. That's why it's not recommended to import more than 500 - 1,000 records at once. If you have more records, it's better to split them to multiple Excel files and import separately.</p>
+</div>
+<h2 id="order-details" sourcefile="en/running-your-store/order-management/orders.md" sourcestartlinenumber="48">Order details</h2>
+<p sourcefile="en/running-your-store/order-management/orders.md" sourcestartlinenumber="50">To view the full order information, click <strong sourcefile="en/running-your-store/order-management/orders.md" sourcestartlinenumber="50">View</strong> beside the order in the list.</p>
+<p sourcefile="en/running-your-store/order-management/orders.md" sourcestartlinenumber="52">Click the <strong sourcefile="en/running-your-store/order-management/orders.md" sourcestartlinenumber="52">Invoice (PDF)</strong> button in the top right corner to generate an invoice for the order in PDF. Click <strong sourcefile="en/running-your-store/order-management/orders.md" sourcestartlinenumber="52">Delete</strong> if you want to delete the order.</p>
+<h3 id="info" sourcefile="en/running-your-store/order-management/orders.md" sourcestartlinenumber="54">Info</h3>
+<p sourcefile="en/running-your-store/order-management/orders.md" sourcestartlinenumber="56">In the <strong sourcefile="en/running-your-store/order-management/orders.md" sourcestartlinenumber="56">Info</strong> panel, a store owner can perform the following:</p>
+<ul sourcefile="en/running-your-store/order-management/orders.md" sourcestartlinenumber="58">
+<li sourcefile="en/running-your-store/order-management/orders.md" sourcestartlinenumber="58">View the <strong sourcefile="en/running-your-store/order-management/orders.md" sourcestartlinenumber="58">Order #</strong>, which is a unique order number.</li>
+<li sourcefile="en/running-your-store/order-management/orders.md" sourcestartlinenumber="59">View the <strong sourcefile="en/running-your-store/order-management/orders.md" sourcestartlinenumber="59">Created on</strong> — the date/time the order was placed/created.</li>
+<li sourcefile="en/running-your-store/order-management/orders.md" sourcestartlinenumber="60">View the <strong sourcefile="en/running-your-store/order-management/orders.md" sourcestartlinenumber="60">Customer</strong> who placed the order.</li>
+<li sourcefile="en/running-your-store/order-management/orders.md" sourcestartlinenumber="61">View the <strong sourcefile="en/running-your-store/order-management/orders.md" sourcestartlinenumber="61">Order status</strong>. The order status will only be <em sourcefile="en/running-your-store/order-management/orders.md" sourcestartlinenumber="61">Completed</em> when the payment status is set to <em sourcefile="en/running-your-store/order-management/orders.md" sourcestartlinenumber="61">Paid</em> and the shipping status is set to <em sourcefile="en/running-your-store/order-management/orders.md" sourcestartlinenumber="61">Delivered</em>. The order status can be changed manually by clicking the <strong sourcefile="en/running-your-store/order-management/orders.md" sourcestartlinenumber="61">Change status</strong> button. However, this option is only recommended for advanced users because all appropriate actions (such as inventory adjustment, sending notification emails, reward points, gift card activation/deactivation) must be performed manually in this case.</li>
+<li sourcefile="en/running-your-store/order-management/orders.md" sourcestartlinenumber="62"><strong sourcefile="en/running-your-store/order-management/orders.md" sourcestartlinenumber="62">Cancel order</strong>. A confirmation message will be displayed; click <strong sourcefile="en/running-your-store/order-management/orders.md" sourcestartlinenumber="62">Yes</strong> to remove the order from the system.</li>
+</ul>
+<div class="NOTE" sourcefile="en/running-your-store/order-management/orders.md" sourcestartlinenumber="64">
+<h5>Note</h5>
+<p sourcefile="en/running-your-store/order-management/orders.md" sourcestartlinenumber="66">When a customer uses the Manual Credit Card payment method, which enables storing credit card information in the database, the <strong sourcefile="en/running-your-store/order-management/orders.md" sourcestartlinenumber="66">Edit credit card</strong> button becomes visible. If a different payment method is used, this button will not be visible.</p>
+</div>
+<ul sourcefile="en/running-your-store/order-management/orders.md" sourcestartlinenumber="68">
+<li sourcefile="en/running-your-store/order-management/orders.md" sourcestartlinenumber="68"><p sourcefile="en/running-your-store/order-management/orders.md" sourcestartlinenumber="68">View the <strong sourcefile="en/running-your-store/order-management/orders.md" sourcestartlinenumber="68">Order subtotal</strong>, <strong sourcefile="en/running-your-store/order-management/orders.md" sourcestartlinenumber="68">Order shipping</strong>, <strong sourcefile="en/running-your-store/order-management/orders.md" sourcestartlinenumber="68">Order tax</strong>, <strong sourcefile="en/running-your-store/order-management/orders.md" sourcestartlinenumber="68">Order total</strong>, <strong sourcefile="en/running-your-store/order-management/orders.md" sourcestartlinenumber="68">Profit</strong>. If you click the <strong sourcefile="en/running-your-store/order-management/orders.md" sourcestartlinenumber="68">Edit order totals</strong> button, you will be able to edit the order totals as on the screenshot below:
+<img src="_static/orders/edit-totals.jpg" sourcefile="en/running-your-store/order-management/orders.md" sourcestartlinenumber="69" alt="Order totals"></p>
+</li>
+<li sourcefile="en/running-your-store/order-management/orders.md" sourcestartlinenumber="71"><p sourcefile="en/running-your-store/order-management/orders.md" sourcestartlinenumber="71">View the <strong sourcefile="en/running-your-store/order-management/orders.md" sourcestartlinenumber="71">Payment method</strong> used for this order.</p>
+</li>
+<li sourcefile="en/running-your-store/order-management/orders.md" sourcestartlinenumber="72"><p sourcefile="en/running-your-store/order-management/orders.md" sourcestartlinenumber="72">View the <strong sourcefile="en/running-your-store/order-management/orders.md" sourcestartlinenumber="72">Payment status</strong>. Can be one of the following: <em sourcefile="en/running-your-store/order-management/orders.md" sourcestartlinenumber="72">Pending</em>, <em sourcefile="en/running-your-store/order-management/orders.md" sourcestartlinenumber="72">Authorized</em>, <em sourcefile="en/running-your-store/order-management/orders.md" sourcestartlinenumber="72">Paid (captured)</em>, <em sourcefile="en/running-your-store/order-management/orders.md" sourcestartlinenumber="72">Refunded</em>, <em sourcefile="en/running-your-store/order-management/orders.md" sourcestartlinenumber="72">Partially refunded</em>, or <em sourcefile="en/running-your-store/order-management/orders.md" sourcestartlinenumber="72">Voided</em>.</p>
+</li>
+</ul>
+<div class="NOTE" sourcefile="en/running-your-store/order-management/orders.md" sourcestartlinenumber="74">
+<h5>Note</h5>
+<p sourcefile="en/running-your-store/order-management/orders.md" sourcestartlinenumber="76">Not all of the payment gateways support all of these statuses. Read more about payment methods in the <a class="xref" href="../../getting-started/configure-payments/payment-methods/index.html" sourcefile="en/running-your-store/order-management/orders.md" sourcestartlinenumber="76">Payment methods</a> chapter.</p>
+</div>
+<p sourcefile="en/running-your-store/order-management/orders.md" sourcestartlinenumber="78">If the payment status is <em sourcefile="en/running-your-store/order-management/orders.md" sourcestartlinenumber="78">Authorized</em>, the relevant buttons will be available to <strong sourcefile="en/running-your-store/order-management/orders.md" sourcestartlinenumber="78">Void</strong> and <strong sourcefile="en/running-your-store/order-management/orders.md" sourcestartlinenumber="78">Capture</strong> the order. <strong sourcefile="en/running-your-store/order-management/orders.md" sourcestartlinenumber="78">Capture</strong> is used to collect the funds from the customer. <strong sourcefile="en/running-your-store/order-management/orders.md" sourcestartlinenumber="78">Void</strong> cancels an order that has not been captured.</p>
+<p sourcefile="en/running-your-store/order-management/orders.md" sourcestartlinenumber="80">If the payment status is <em sourcefile="en/running-your-store/order-management/orders.md" sourcestartlinenumber="80">Pending</em>, the owner can click <strong sourcefile="en/running-your-store/order-management/orders.md" sourcestartlinenumber="80">Mark as paid</strong> to indicate the payment has been issued for the order.</p>
+<p sourcefile="en/running-your-store/order-management/orders.md" sourcestartlinenumber="82">If the payment status is <em sourcefile="en/running-your-store/order-management/orders.md" sourcestartlinenumber="82">Paid</em>, the <strong sourcefile="en/running-your-store/order-management/orders.md" sourcestartlinenumber="82">Refund</strong> and <strong sourcefile="en/running-your-store/order-management/orders.md" sourcestartlinenumber="82">Partial refund</strong> buttons will be available. After clicking <strong sourcefile="en/running-your-store/order-management/orders.md" sourcestartlinenumber="82">Refund</strong>, a confirmation window will be displayed. After clicking the <strong sourcefile="en/running-your-store/order-management/orders.md" sourcestartlinenumber="82">Partial refund</strong> button, the <em sourcefile="en/running-your-store/order-management/orders.md" sourcestartlinenumber="82">Partial refund</em> window will be displayed. This window enables the owner to refund part of the total order as follows:</p>
+<p sourcefile="en/running-your-store/order-management/orders.md" sourcestartlinenumber="84"><img src="_static/orders/refund.png" sourcefile="en/running-your-store/order-management/orders.md" sourcestartlinenumber="84" alt="Refund"></p>
+<ul sourcefile="en/running-your-store/order-management/orders.md" sourcestartlinenumber="86">
+<li sourcefile="en/running-your-store/order-management/orders.md" sourcestartlinenumber="86">View the <strong sourcefile="en/running-your-store/order-management/orders.md" sourcestartlinenumber="86">Store</strong> in which this order was placed.</li>
+<li sourcefile="en/running-your-store/order-management/orders.md" sourcestartlinenumber="87">View the <strong sourcefile="en/running-your-store/order-management/orders.md" sourcestartlinenumber="87">Order GUID</strong> displayed for internal usage.</li>
+<li sourcefile="en/running-your-store/order-management/orders.md" sourcestartlinenumber="88">View the <strong sourcefile="en/running-your-store/order-management/orders.md" sourcestartlinenumber="88">Customer IP address</strong>, which a customer used when placing the order.</li>
+</ul>
+<h3 id="billing--shipping" sourcefile="en/running-your-store/order-management/orders.md" sourcestartlinenumber="90">Billing &amp; shipping</h3>
+<p sourcefile="en/running-your-store/order-management/orders.md" sourcestartlinenumber="92">In the <strong sourcefile="en/running-your-store/order-management/orders.md" sourcestartlinenumber="92">Billing &amp; shipping panel</strong>, view and edit the billing and shipping information if needed.</p>
+<ul sourcefile="en/running-your-store/order-management/orders.md" sourcestartlinenumber="94">
+<li sourcefile="en/running-your-store/order-management/orders.md" sourcestartlinenumber="94">View the <strong sourcefile="en/running-your-store/order-management/orders.md" sourcestartlinenumber="94">Billing address</strong> and <strong sourcefile="en/running-your-store/order-management/orders.md" sourcestartlinenumber="94">Shipping address</strong>. Optionally, you can click the <strong sourcefile="en/running-your-store/order-management/orders.md" sourcestartlinenumber="94">View address on Google maps</strong> link to locate the required shipping address. Click the <strong sourcefile="en/running-your-store/order-management/orders.md" sourcestartlinenumber="94">Edit</strong> button in order to edit the billing or shipping address.</li>
+<li sourcefile="en/running-your-store/order-management/orders.md" sourcestartlinenumber="95">View and edit the <strong sourcefile="en/running-your-store/order-management/orders.md" sourcestartlinenumber="95">Shipping method</strong> if needed.</li>
+<li sourcefile="en/running-your-store/order-management/orders.md" sourcestartlinenumber="96">View the <strong sourcefile="en/running-your-store/order-management/orders.md" sourcestartlinenumber="96">Shipping status</strong>.</li>
+</ul>
+<div class="NOTE" sourcefile="en/running-your-store/order-management/orders.md" sourcestartlinenumber="98">
+<h5>Note</h5>
+<p sourcefile="en/running-your-store/order-management/orders.md" sourcestartlinenumber="100">Store owners can create several shipments per order. If you create a shipment but do not ship all products, then the shipping status of the order will be <strong sourcefile="en/running-your-store/order-management/orders.md" sourcestartlinenumber="100">Partially shipped</strong>. Once all the products are shipped, the status changes to <strong sourcefile="en/running-your-store/order-management/orders.md" sourcestartlinenumber="100">Shipped</strong>. Once all the shipments are delivered, the status changes to <strong sourcefile="en/running-your-store/order-management/orders.md" sourcestartlinenumber="100">Delivered</strong>.</p>
+</div>
+<ul sourcefile="en/running-your-store/order-management/orders.md" sourcestartlinenumber="102">
+<li sourcefile="en/running-your-store/order-management/orders.md" sourcestartlinenumber="102">View the list of <strong sourcefile="en/running-your-store/order-management/orders.md" sourcestartlinenumber="102">Shipments</strong>.
+<img src="_static/orders/shipments.jpg" sourcefile="en/running-your-store/order-management/orders.md" sourcestartlinenumber="103" alt="Shipments panel">
+Click <strong sourcefile="en/running-your-store/order-management/orders.md" sourcestartlinenumber="104">View</strong> beside the shipment to view its details. The shipment information window will be displayed:
+<img src="_static/orders/shipment-details.jpg" sourcefile="en/running-your-store/order-management/orders.md" sourcestartlinenumber="105" alt="Shipment details"></li>
+</ul>
+<p sourcefile="en/running-your-store/order-management/orders.md" sourcestartlinenumber="107"><strong sourcefile="en/running-your-store/order-management/orders.md" sourcestartlinenumber="107">Add shipment</strong> button enables creating several shipments per order and is visible when there is at least one unshipped product in the order. Click <strong sourcefile="en/running-your-store/order-management/orders.md" sourcestartlinenumber="107">Add shipment</strong> button to add a new shipment to the order, and you will see the <strong sourcefile="en/running-your-store/order-management/orders.md" sourcestartlinenumber="107">Add a new shipment to order</strong> window:
+<img src="_static/orders/add-shipment.jpg" sourcefile="en/running-your-store/order-management/orders.md" sourcestartlinenumber="108" alt="Add shipment"></p>
+<ul sourcefile="en/running-your-store/order-management/orders.md" sourcestartlinenumber="110">
+<li sourcefile="en/running-your-store/order-management/orders.md" sourcestartlinenumber="110">In the <strong sourcefile="en/running-your-store/order-management/orders.md" sourcestartlinenumber="110">Tracking number</strong> field, enter the tracking number of the shipment. A tracking number enables your customers and you to check up on the progress of a shipment via telephone or online system operated by your shipping agent (post office or a private courier service, such as FedEx or UPS). Whenever a shipment passes certain points along its route, it will be identified by the shipping agent's system, and the tracking database will be updated with the new location and time information.</li>
+<li sourcefile="en/running-your-store/order-management/orders.md" sourcestartlinenumber="111">Fill the <strong sourcefile="en/running-your-store/order-management/orders.md" sourcestartlinenumber="111">Admin comment</strong> field if needed.</li>
+<li sourcefile="en/running-your-store/order-management/orders.md" sourcestartlinenumber="112">Select the <strong sourcefile="en/running-your-store/order-management/orders.md" sourcestartlinenumber="112">Shipped</strong> checkbox to mark the shipment as shipped using the current date.</li>
+<li sourcefile="en/running-your-store/order-management/orders.md" sourcestartlinenumber="113">If the previous checkbox is selected, the <strong sourcefile="en/running-your-store/order-management/orders.md" sourcestartlinenumber="113">Delivered</strong> checkbox will be available. Select this checkbox to mark the shipment as delivered using the current date.</li>
+<li sourcefile="en/running-your-store/order-management/orders.md" sourcestartlinenumber="114">In the <strong sourcefile="en/running-your-store/order-management/orders.md" sourcestartlinenumber="114">Products shipped</strong> panel: in the <strong sourcefile="en/running-your-store/order-management/orders.md" sourcestartlinenumber="114">Qty to ship</strong> column, enter the required quantity of the specific order item to ship.</li>
+</ul>
+<h3 id="products" sourcefile="en/running-your-store/order-management/orders.md" sourcestartlinenumber="116">Products</h3>
+<p sourcefile="en/running-your-store/order-management/orders.md" sourcestartlinenumber="118">In the <strong sourcefile="en/running-your-store/order-management/orders.md" sourcestartlinenumber="118">Products</strong> panel, a store owner can:</p>
+<ul sourcefile="en/running-your-store/order-management/orders.md" sourcestartlinenumber="120">
+<li sourcefile="en/running-your-store/order-management/orders.md" sourcestartlinenumber="120"><strong sourcefile="en/running-your-store/order-management/orders.md" sourcestartlinenumber="120">View the product information</strong>, including price, quantity, and total price.</li>
+<li sourcefile="en/running-your-store/order-management/orders.md" sourcestartlinenumber="121">Click the <strong sourcefile="en/running-your-store/order-management/orders.md" sourcestartlinenumber="121">Product name</strong> link to view a product details page. If the product is downloadable, click <strong sourcefile="en/running-your-store/order-management/orders.md" sourcestartlinenumber="121">Reset</strong> to reset the number of downloads or <strong sourcefile="en/running-your-store/order-management/orders.md" sourcestartlinenumber="121">Upload license file</strong>. In addition, when the <em sourcefile="en/running-your-store/order-management/orders.md" sourcestartlinenumber="121">Download activation type</em> of a product is set to <em sourcefile="en/running-your-store/order-management/orders.md" sourcestartlinenumber="121">Manually</em>, the administrator has the option to click <strong sourcefile="en/running-your-store/order-management/orders.md" sourcestartlinenumber="121">Activate</strong> to enable downloading the product from the site or <strong sourcefile="en/running-your-store/order-management/orders.md" sourcestartlinenumber="121">Deactivate</strong> to disable downloading the product from the site.</li>
+<li sourcefile="en/running-your-store/order-management/orders.md" sourcestartlinenumber="122"><strong sourcefile="en/running-your-store/order-management/orders.md" sourcestartlinenumber="122">Edit</strong> the product's <strong sourcefile="en/running-your-store/order-management/orders.md" sourcestartlinenumber="122">Price</strong>, <strong sourcefile="en/running-your-store/order-management/orders.md" sourcestartlinenumber="122">Quantity</strong>, <strong sourcefile="en/running-your-store/order-management/orders.md" sourcestartlinenumber="122">Discount</strong>, and <strong sourcefile="en/running-your-store/order-management/orders.md" sourcestartlinenumber="122">Total</strong>.</li>
+<li sourcefile="en/running-your-store/order-management/orders.md" sourcestartlinenumber="123"><strong sourcefile="en/running-your-store/order-management/orders.md" sourcestartlinenumber="123">Delete</strong> a product from the system.
+<img src="_static/orders/products.jpg" sourcefile="en/running-your-store/order-management/orders.md" sourcestartlinenumber="124" alt="Products"></li>
+<li sourcefile="en/running-your-store/order-management/orders.md" sourcestartlinenumber="125">Click <strong sourcefile="en/running-your-store/order-management/orders.md" sourcestartlinenumber="125">Add product</strong>. Select the product from the list. Then, in the <em sourcefile="en/running-your-store/order-management/orders.md" sourcestartlinenumber="125">Add a new product to order</em> window, find the required product. Then proceed to fill the required values and click <strong sourcefile="en/running-your-store/order-management/orders.md" sourcestartlinenumber="125">Add product</strong>. Do not forget to update order totals after adding a new product to the order.
+<img src="_static/orders/add-product.jpg" sourcefile="en/running-your-store/order-management/orders.md" sourcestartlinenumber="126" alt="Add product"></li>
+</ul>
+<h3 id="order-notes" sourcefile="en/running-your-store/order-management/orders.md" sourcestartlinenumber="128">Order notes</h3>
+<p sourcefile="en/running-your-store/order-management/orders.md" sourcestartlinenumber="130">In the <strong sourcefile="en/running-your-store/order-management/orders.md" sourcestartlinenumber="130">Order notes</strong> panel, a store owner can view the notes that were added to the order for information purposes, delete notes, and add new ones. A note may contain an <strong sourcefile="en/running-your-store/order-management/orders.md" sourcestartlinenumber="130">Attached file</strong> and can be <strong sourcefile="en/running-your-store/order-management/orders.md" sourcestartlinenumber="130">Displayed to a customer</strong> in the public store.
+<img src="_static/orders/note.jpg" sourcefile="en/running-your-store/order-management/orders.md" sourcestartlinenumber="131" alt="Products"></p>
+<h2 id="see-also" sourcefile="en/running-your-store/order-management/orders.md" sourcestartlinenumber="133">See also</h2>
+<ul sourcefile="en/running-your-store/order-management/orders.md" sourcestartlinenumber="135">
+<li sourcefile="en/running-your-store/order-management/orders.md" sourcestartlinenumber="135"><a class="xref" href="../catalog/products/add-products.html" sourcefile="en/running-your-store/order-management/orders.md" sourcestartlinenumber="135">Adding products</a></li>
+<li sourcefile="en/running-your-store/order-management/orders.md" sourcestartlinenumber="136"><a class="xref" href="shipping-management.html" sourcefile="en/running-your-store/order-management/orders.md" sourcestartlinenumber="136">Shipments</a></li>
+<li sourcefile="en/running-your-store/order-management/orders.md" sourcestartlinenumber="137"><a href="https://www.youtube.com/watch?v=z6TUJOO3gVg&amp;index=5&amp;list=PLnL_aDfmRHwsbhj621A-RFb1KnzeFxYz4" sourcefile="en/running-your-store/order-management/orders.md" sourcestartlinenumber="137">YouTube tutorial on managing orders</a></li>
+</ul>
+            </article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/nopSolutions/nopCommerce-Docs/blob/master/en/running-your-store/order-management/orders.md/#L1" class="contribution-link">Improve this Doc</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../../../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../../../styles/docfx.js"></script>
+    <script type="text/javascript" src="../../../styles/main.js"></script>
+  </body>
+</html>

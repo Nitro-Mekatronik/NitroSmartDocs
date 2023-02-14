@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Catalog settings </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Catalog settings ">
+    <meta name="generator" content="docfx 2.59.4.0">
+    
+    <link rel="shortcut icon" href="../../../favicon.ico">
+    <link rel="stylesheet" href="../../../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../../../styles/docfx.css">
+    <link rel="stylesheet" href="../../../styles/main.css">
+    <link rel="preload" href="../../../fonts/fonts.css" )"="" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <meta property="docfx:navrel" content="/">
+    <meta property="docfx:tocrel" content="../../toc.html">
+    
+    <meta property="docfx:rel" content="../../../">
+    
+    <script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-7490022-8"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'UA-7490022-8');
+    </script>
+    <script>
+      /*! loadCSS. [c]2017 Filament Group, Inc. MIT License
+      - testing support for link[rel=preload]
+      - enabling async CSS loading in browsers that do not support rel=preload
+      - applying rel preload css once loaded, whether supported or not.
+      */
+      !function(n){"use strict";n.loadCSS||(n.loadCSS=function(){});var o=loadCSS.relpreload={};if(o.support=function(){var e;try{e=n.document.createElement("link").relList.supports("preload")}catch(t){e=!1}return function(){return e}}(),o.bindMediaToggle=function(t){var e=t.media||"all";function a(){t.addEventListener?t.removeEventListener("load",a):t.attachEvent&&t.detachEvent("onload",a),t.setAttribute("onload",null),t.media=e}t.addEventListener?t.addEventListener("load",a):t.attachEvent&&t.attachEvent("onload",a),setTimeout(function(){t.rel="stylesheet",t.media="only x"}),setTimeout(a,3e3)},o.poly=function(){if(!o.support())for(var t=n.document.getElementsByTagName("link"),e=0;e<t.length;e++){var a=t[e];"preload"!==a.rel||"style"!==a.getAttribute("as")||a.getAttribute("data-loadcss")||(a.setAttribute("data-loadcss",!0),o.bindMediaToggle(a))}},!o.support()){o.poly();var t=n.setInterval(o.poly,500);n.addEventListener?n.addEventListener("load",function(){o.poly(),n.clearInterval(t)}):n.attachEvent&&n.attachEvent("onload",function(){o.poly(),n.clearInterval(t)})}"undefined"!=typeof exports?exports.loadCSS=loadCSS:n.loadCSS=loadCSS}("undefined"!=typeof global?global:this);
+    </script>
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="170">
+    <div id="wrapper">
+      <header>
+        <div class="container">
+          <div id="header" class="header navbar-header">
+            <div class="header-logo">
+              <a href="https://www.nopcommerce.com/">
+                <img id="logo" class="svg" src="../../../logo.png" alt="">
+              </a>
+            </div>  </div>
+          <div class="navbar-collapse collapse in">
+            <form class="navbar-form navbar-right" role="search" id="search">
+              <div class="form-group">
+                <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+              </div>
+        
+              <div class="form-group lang-container">
+                    
+                    <select id="lang-switcher" class="select-css">
+                        <option value="/en/index.html" selected="">
+                          English
+                        
+                    </select>        </div>
+            </form>
+          </div>
+        </div>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div class="container body-content">
+        
+        <div id="search-results">
+          <div class="search-list">Search Results for <span></span></div>
+          <div class="sr-items">
+            <p><i class="glyphicon glyphicon-refresh index-loading"></i></p>
+          </div>
+          <ul id="pagination" data-first="First" data-prev="Previous" data-next="Next" data-last="Last"></ul>
+        </div>
+      </div>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="en/running-your-store/catalog/catalog-settings">
+<h1 id="catalog-settings" sourcefile="en/running-your-store/catalog/catalog-settings.md" sourcestartlinenumber="8">Catalog settings</h1>
+
+<p sourcefile="en/running-your-store/catalog/catalog-settings.md" sourcestartlinenumber="10">Catalog settings include enabling options for product sorting, changing view modes, comparing products, and more.</p>
+<p sourcefile="en/running-your-store/catalog/catalog-settings.md" sourcestartlinenumber="12">To define catalog settings, go to <strong sourcefile="en/running-your-store/catalog/catalog-settings.md" sourcestartlinenumber="12">Configuration → Settings → Catalog settings</strong>. The catalog settings page is available in <em sourcefile="en/running-your-store/catalog/catalog-settings.md" sourcestartlinenumber="12">advanced</em> and <em sourcefile="en/running-your-store/catalog/catalog-settings.md" sourcestartlinenumber="12">basic</em> modes (advanced mode by default).</p>
+<p sourcefile="en/running-your-store/catalog/catalog-settings.md" sourcestartlinenumber="14">This page enables multi-store configuration; it means that the same settings can be defined for all stores or differ from store to store. If you want to manage settings for a certain store, choose its name from the multi-store configuration dropdown list and select all the checkboxes needed on the left to set custom values for them. For further details, refer to <a class="xref" href="../../getting-started/advanced-configuration/multi-store.html" sourcefile="en/running-your-store/catalog/catalog-settings.md" sourcestartlinenumber="14">Multi-store</a>.</p>
+<h2 id="set-up-a-search" sourcefile="en/running-your-store/catalog/catalog-settings.md" sourcestartlinenumber="16">Set up a search</h2>
+<p sourcefile="en/running-your-store/catalog/catalog-settings.md" sourcestartlinenumber="18"><img src="_static/catalog-settings/search.jpg" sourcefile="en/running-your-store/catalog/catalog-settings.md" sourcestartlinenumber="18" alt="Search"></p>
+<p sourcefile="en/running-your-store/catalog/catalog-settings.md" sourcestartlinenumber="20">The top panel on the page sets up <em sourcefile="en/running-your-store/catalog/catalog-settings.md" sourcestartlinenumber="20">Search</em>:</p>
+<ul sourcefile="en/running-your-store/catalog/catalog-settings.md" sourcestartlinenumber="22">
+<li sourcefile="en/running-your-store/catalog/catalog-settings.md" sourcestartlinenumber="22"><p sourcefile="en/running-your-store/catalog/catalog-settings.md" sourcestartlinenumber="22">Select the <strong sourcefile="en/running-your-store/catalog/catalog-settings.md" sourcestartlinenumber="22">Search enabled</strong> checkbox if you want the search functionality to be enabled in the public store.</p>
+</li>
+<li sourcefile="en/running-your-store/catalog/catalog-settings.md" sourcestartlinenumber="23"><p sourcefile="en/running-your-store/catalog/catalog-settings.md" sourcestartlinenumber="23">Select the <strong sourcefile="en/running-your-store/catalog/catalog-settings.md" sourcestartlinenumber="23">Search autocomplete enabled</strong> checkbox to display the autocomplete search box in the public store as follows:</p>
+<p sourcefile="en/running-your-store/catalog/catalog-settings.md" sourcestartlinenumber="25"><img src="_static/catalog-settings/search.png" sourcefile="en/running-your-store/catalog/catalog-settings.md" sourcestartlinenumber="25" alt="Search"></p>
+<p sourcefile="en/running-your-store/catalog/catalog-settings.md" sourcestartlinenumber="27">When this option is enabled, the following additional fields will be displayed:</p>
+<ul sourcefile="en/running-your-store/catalog/catalog-settings.md" sourcestartlinenumber="29">
+<li sourcefile="en/running-your-store/catalog/catalog-settings.md" sourcestartlinenumber="29"><strong sourcefile="en/running-your-store/catalog/catalog-settings.md" sourcestartlinenumber="29">Number of 'autocomplete' products to display</strong> sets up the number of results that will be visible in the autocomplete dropdown list of the search box in the public store.</li>
+<li sourcefile="en/running-your-store/catalog/catalog-settings.md" sourcestartlinenumber="30">Select the <strong sourcefile="en/running-your-store/catalog/catalog-settings.md" sourcestartlinenumber="30">Show a link to all search results in the autocomplete box</strong> checkbox to display the link to all results in the autocomplete search box. Displayed if the number of items found is greater than the displayed quantity in the autocomplete box.</li>
+<li sourcefile="en/running-your-store/catalog/catalog-settings.md" sourcestartlinenumber="31">Select the <strong sourcefile="en/running-your-store/catalog/catalog-settings.md" sourcestartlinenumber="31">Show product images in autocomplete box</strong> checkbox to enable displaying product images in the autocomplete search box.</li>
+</ul>
+</li>
+<li sourcefile="en/running-your-store/catalog/catalog-settings.md" sourcestartlinenumber="33"><p sourcefile="en/running-your-store/catalog/catalog-settings.md" sourcestartlinenumber="33"><strong sourcefile="en/running-your-store/catalog/catalog-settings.md" sourcestartlinenumber="33">Search term minimum length</strong> is a minimum number of chars required for the search.</p>
+</li>
+<li sourcefile="en/running-your-store/catalog/catalog-settings.md" sourcestartlinenumber="34"><p sourcefile="en/running-your-store/catalog/catalog-settings.md" sourcestartlinenumber="34">Select the <strong sourcefile="en/running-your-store/catalog/catalog-settings.md" sourcestartlinenumber="34">Search page. Allow customers to select page size</strong> checkbox if you want to allow customers to select the page size from the predefined list of options.</p>
+<ul sourcefile="en/running-your-store/catalog/catalog-settings.md" sourcestartlinenumber="35">
+<li sourcefile="en/running-your-store/catalog/catalog-settings.md" sourcestartlinenumber="35">In the <strong sourcefile="en/running-your-store/catalog/catalog-settings.md" sourcestartlinenumber="35">Search page. Page size options</strong> field, enter a comma-separated list of page size options for customers or the number of products that you want to display on the search products page.</li>
+<li sourcefile="en/running-your-store/catalog/catalog-settings.md" sourcestartlinenumber="36">If the <strong sourcefile="en/running-your-store/catalog/catalog-settings.md" sourcestartlinenumber="36">Search page. Allow customers to select page size</strong> setting is disabled, the <strong sourcefile="en/running-your-store/catalog/catalog-settings.md" sourcestartlinenumber="36">Search page. Products per page</strong> field will be displayed. In this field, enter the number of products you want to be displayed on the search page.</li>
+</ul>
+</li>
+<li sourcefile="en/running-your-store/catalog/catalog-settings.md" sourcestartlinenumber="37"><p sourcefile="en/running-your-store/catalog/catalog-settings.md" sourcestartlinenumber="37">Select the <strong sourcefile="en/running-your-store/catalog/catalog-settings.md" sourcestartlinenumber="37">Search page. Price range filtering</strong> checkbox if you want to enable filtering by price range.</p>
+<ul sourcefile="en/running-your-store/catalog/catalog-settings.md" sourcestartlinenumber="38">
+<li sourcefile="en/running-your-store/catalog/catalog-settings.md" sourcestartlinenumber="38">If you want the price range to be entered manually, select the <strong sourcefile="en/running-your-store/catalog/catalog-settings.md" sourcestartlinenumber="38">Search page. Enter price range manually</strong> checkbox.
+<ul sourcefile="en/running-your-store/catalog/catalog-settings.md" sourcestartlinenumber="39">
+<li sourcefile="en/running-your-store/catalog/catalog-settings.md" sourcestartlinenumber="39">If the setting above is enabled, enter the <strong sourcefile="en/running-your-store/catalog/catalog-settings.md" sourcestartlinenumber="39">Search page. Price 'from'</strong>.</li>
+<li sourcefile="en/running-your-store/catalog/catalog-settings.md" sourcestartlinenumber="40">And the <strong sourcefile="en/running-your-store/catalog/catalog-settings.md" sourcestartlinenumber="40">Search page. Price 'to'</strong>.</li>
+</ul>
+</li>
+</ul>
+</li>
+<li sourcefile="en/running-your-store/catalog/catalog-settings.md" sourcestartlinenumber="41"><p sourcefile="en/running-your-store/catalog/catalog-settings.md" sourcestartlinenumber="41">If the <strong sourcefile="en/running-your-store/catalog/catalog-settings.md" sourcestartlinenumber="41">Allow customers to search with manufacturer name</strong> is enabled, customers can search by manufacturer name.</p>
+</li>
+<li sourcefile="en/running-your-store/catalog/catalog-settings.md" sourcestartlinenumber="42"><p sourcefile="en/running-your-store/catalog/catalog-settings.md" sourcestartlinenumber="42">If the <strong sourcefile="en/running-your-store/catalog/catalog-settings.md" sourcestartlinenumber="42">Allow customers to search with category name</strong> is enabled, customers can search by category name.</p>
+</li>
+</ul>
+<h2 id="product-reviews" sourcefile="en/running-your-store/catalog/catalog-settings.md" sourcestartlinenumber="44">Product reviews</h2>
+<p sourcefile="en/running-your-store/catalog/catalog-settings.md" sourcestartlinenumber="46"><img src="_static/catalog-settings/product-reviews.jpg" sourcefile="en/running-your-store/catalog/catalog-settings.md" sourcestartlinenumber="46" alt="Product reviews"></p>
+<p sourcefile="en/running-your-store/catalog/catalog-settings.md" sourcestartlinenumber="48">The second panel sets up <em sourcefile="en/running-your-store/catalog/catalog-settings.md" sourcestartlinenumber="48">Product reviews</em>. Define the following:</p>
+<ul sourcefile="en/running-your-store/catalog/catalog-settings.md" sourcestartlinenumber="50">
+<li sourcefile="en/running-your-store/catalog/catalog-settings.md" sourcestartlinenumber="50"><strong sourcefile="en/running-your-store/catalog/catalog-settings.md" sourcestartlinenumber="50">Product reviews must be approved</strong> to enforce product reviews to be approved by the store administrator prior to being published.</li>
+<li sourcefile="en/running-your-store/catalog/catalog-settings.md" sourcestartlinenumber="51"><strong sourcefile="en/running-your-store/catalog/catalog-settings.md" sourcestartlinenumber="51">One review per product from customer</strong> to restrict customer to add just 1 review per product.</li>
+<li sourcefile="en/running-your-store/catalog/catalog-settings.md" sourcestartlinenumber="52"><strong sourcefile="en/running-your-store/catalog/catalog-settings.md" sourcestartlinenumber="52">Allow anonymous users to write product reviews</strong> to allow anonymous users to write product reviews.</li>
+<li sourcefile="en/running-your-store/catalog/catalog-settings.md" sourcestartlinenumber="53"><strong sourcefile="en/running-your-store/catalog/catalog-settings.md" sourcestartlinenumber="53">Product review possible only after product purchasing</strong> to allow reviewing the product only by customers who have already ordered it.</li>
+<li sourcefile="en/running-your-store/catalog/catalog-settings.md" sourcestartlinenumber="54"><strong sourcefile="en/running-your-store/catalog/catalog-settings.md" sourcestartlinenumber="54">Notify about new product reviews</strong> to notify the store owner about new public reviews.</li>
+<li sourcefile="en/running-your-store/catalog/catalog-settings.md" sourcestartlinenumber="55"><strong sourcefile="en/running-your-store/catalog/catalog-settings.md" sourcestartlinenumber="55">Notify customer about product review reply</strong> to notify a customer about product review reply.</li>
+<li sourcefile="en/running-your-store/catalog/catalog-settings.md" sourcestartlinenumber="56"><strong sourcefile="en/running-your-store/catalog/catalog-settings.md" sourcestartlinenumber="56">Reviews per store</strong> allows only displaying reviews of the current store (on the product details page). Clear this checkbox if you want your customers to see the product's reviews written in all of your stores.</li>
+<li sourcefile="en/running-your-store/catalog/catalog-settings.md" sourcestartlinenumber="57"><strong sourcefile="en/running-your-store/catalog/catalog-settings.md" sourcestartlinenumber="57">Show product reviews tab on 'My account' page</strong> to allow customers to see all their reviews on the 'My account' page.</li>
+<li sourcefile="en/running-your-store/catalog/catalog-settings.md" sourcestartlinenumber="58"><strong sourcefile="en/running-your-store/catalog/catalog-settings.md" sourcestartlinenumber="58">Product reviews page size</strong> is the number of reviews per page.</li>
+<li sourcefile="en/running-your-store/catalog/catalog-settings.md" sourcestartlinenumber="59"><strong sourcefile="en/running-your-store/catalog/catalog-settings.md" sourcestartlinenumber="59">Sort by ascending</strong> to sort product reviews by creation date in ascending order.</li>
+</ul>
+<h2 id="review-types" sourcefile="en/running-your-store/catalog/catalog-settings.md" sourcestartlinenumber="61">Review types</h2>
+<p sourcefile="en/running-your-store/catalog/catalog-settings.md" sourcestartlinenumber="63">The next block sets up <em sourcefile="en/running-your-store/catalog/catalog-settings.md" sourcestartlinenumber="63">Review types</em>. You can configure a list of review types if you think that a basic review is not enough.</p>
+<p sourcefile="en/running-your-store/catalog/catalog-settings.md" sourcestartlinenumber="65"><img src="_static/catalog-settings/review_types.png" sourcefile="en/running-your-store/catalog/catalog-settings.md" sourcestartlinenumber="65" alt="Review types"></p>
+<p sourcefile="en/running-your-store/catalog/catalog-settings.md" sourcestartlinenumber="67">Click <strong sourcefile="en/running-your-store/catalog/catalog-settings.md" sourcestartlinenumber="67">Add new button</strong> to create a new review type.</p>
+<p sourcefile="en/running-your-store/catalog/catalog-settings.md" sourcestartlinenumber="69"><img src="_static/catalog-settings/quality_rating.png" sourcefile="en/running-your-store/catalog/catalog-settings.md" sourcestartlinenumber="69" alt="Quality rating"></p>
+<p sourcefile="en/running-your-store/catalog/catalog-settings.md" sourcestartlinenumber="71">Define the following:</p>
+<ul sourcefile="en/running-your-store/catalog/catalog-settings.md" sourcestartlinenumber="73">
+<li sourcefile="en/running-your-store/catalog/catalog-settings.md" sourcestartlinenumber="73">Enter your review type <strong sourcefile="en/running-your-store/catalog/catalog-settings.md" sourcestartlinenumber="73">Name</strong>.</li>
+<li sourcefile="en/running-your-store/catalog/catalog-settings.md" sourcestartlinenumber="74">Enter the review type <strong sourcefile="en/running-your-store/catalog/catalog-settings.md" sourcestartlinenumber="74">Description</strong>.</li>
+<li sourcefile="en/running-your-store/catalog/catalog-settings.md" sourcestartlinenumber="75">Define the <strong sourcefile="en/running-your-store/catalog/catalog-settings.md" sourcestartlinenumber="75">Display order</strong>.</li>
+<li sourcefile="en/running-your-store/catalog/catalog-settings.md" sourcestartlinenumber="76">When <strong sourcefile="en/running-your-store/catalog/catalog-settings.md" sourcestartlinenumber="76">Required</strong>, customers have to choose an appropriate rating value before they can continue.</li>
+<li sourcefile="en/running-your-store/catalog/catalog-settings.md" sourcestartlinenumber="77"><strong sourcefile="en/running-your-store/catalog/catalog-settings.md" sourcestartlinenumber="77">Visible to all customers</strong> sets the visibility of the review type to all customers.</li>
+</ul>
+<p sourcefile="en/running-your-store/catalog/catalog-settings.md" sourcestartlinenumber="79">Click the <strong sourcefile="en/running-your-store/catalog/catalog-settings.md" sourcestartlinenumber="79">Save</strong> button to add a new review type.</p>
+<p sourcefile="en/running-your-store/catalog/catalog-settings.md" sourcestartlinenumber="81">Now customers will be able to fill additional ratings on the product review page in the public store.</p>
+<p sourcefile="en/running-your-store/catalog/catalog-settings.md" sourcestartlinenumber="83"><img src="_static/catalog-settings/product_reviews.png" sourcefile="en/running-your-store/catalog/catalog-settings.md" sourcestartlinenumber="83" alt="Product reviews"></p>
+<p sourcefile="en/running-your-store/catalog/catalog-settings.md" sourcestartlinenumber="85">On this page, you can also see the feedback left by all customers (if this setting is active). On the customer personal account page, there is also an opportunity to view all the reviews left for the products.</p>
+<p sourcefile="en/running-your-store/catalog/catalog-settings.md" sourcestartlinenumber="87"><img src="_static/catalog-settings/my_account.png" sourcefile="en/running-your-store/catalog/catalog-settings.md" sourcestartlinenumber="87" alt="My account"></p>
+<h2 id="performance" sourcefile="en/running-your-store/catalog/catalog-settings.md" sourcestartlinenumber="89">Performance</h2>
+<p sourcefile="en/running-your-store/catalog/catalog-settings.md" sourcestartlinenumber="91"><img src="_static/catalog-settings/performance.jpg" sourcefile="en/running-your-store/catalog/catalog-settings.md" sourcestartlinenumber="91" alt="Performance"></p>
+<p sourcefile="en/running-your-store/catalog/catalog-settings.md" sourcestartlinenumber="93">The next panel sets up <em sourcefile="en/running-your-store/catalog/catalog-settings.md" sourcestartlinenumber="93">Performance</em>. Having the following settings enabled can significantly improve the store performance:</p>
+<ul sourcefile="en/running-your-store/catalog/catalog-settings.md" sourcestartlinenumber="95">
+<li sourcefile="en/running-your-store/catalog/catalog-settings.md" sourcestartlinenumber="95"><strong sourcefile="en/running-your-store/catalog/catalog-settings.md" sourcestartlinenumber="95">Ignore ACL rules (sitewide)</strong> turns off the <a class="xref" href="../customer-management/access-control-list.html" sourcefile="en/running-your-store/catalog/catalog-settings.md" sourcestartlinenumber="95">ACL rules</a> configured for entities.</li>
+<li sourcefile="en/running-your-store/catalog/catalog-settings.md" sourcestartlinenumber="96"><strong sourcefile="en/running-your-store/catalog/catalog-settings.md" sourcestartlinenumber="96">Ignore limit per store (sitewide)</strong> allows ignoring limit per stores rules configured for entities. It is recommended to enable this setting if you only have one store or no store-specific limitations. Read more about multi-store in the <a class="xref" href="../../getting-started/advanced-configuration/multi-store.html" sourcefile="en/running-your-store/catalog/catalog-settings.md" sourcestartlinenumber="96">Multi-store</a> section.</li>
+<li sourcefile="en/running-your-store/catalog/catalog-settings.md" sourcestartlinenumber="97"><strong sourcefile="en/running-your-store/catalog/catalog-settings.md" sourcestartlinenumber="97">Ignore discounts (sitewide)</strong>.</li>
+<li sourcefile="en/running-your-store/catalog/catalog-settings.md" sourcestartlinenumber="98"><strong sourcefile="en/running-your-store/catalog/catalog-settings.md" sourcestartlinenumber="98">Ignore featured products (sitewide)</strong>.</li>
+<li sourcefile="en/running-your-store/catalog/catalog-settings.md" sourcestartlinenumber="99"><strong sourcefile="en/running-your-store/catalog/catalog-settings.md" sourcestartlinenumber="99">Cache product prices</strong>. You should not enable it if you use complex discounts, discount requirement rules or coupon codes.</li>
+</ul>
+<h2 id="share" sourcefile="en/running-your-store/catalog/catalog-settings.md" sourcestartlinenumber="101">Share</h2>
+<p sourcefile="en/running-your-store/catalog/catalog-settings.md" sourcestartlinenumber="103"><img src="_static/catalog-settings/share.jpg" sourcefile="en/running-your-store/catalog/catalog-settings.md" sourcestartlinenumber="103" alt="Share"></p>
+<p sourcefile="en/running-your-store/catalog/catalog-settings.md" sourcestartlinenumber="105">Sharing options in the <em sourcefile="en/running-your-store/catalog/catalog-settings.md" sourcestartlinenumber="105">Share</em> panel allow to set up an opportunity for shoppers to share the products across their social media networks. The options will appear as small icons on product pages. To set up the sharing options:</p>
+<ul sourcefile="en/running-your-store/catalog/catalog-settings.md" sourcestartlinenumber="107">
+<li sourcefile="en/running-your-store/catalog/catalog-settings.md" sourcestartlinenumber="107"><p sourcefile="en/running-your-store/catalog/catalog-settings.md" sourcestartlinenumber="107">Select the <strong sourcefile="en/running-your-store/catalog/catalog-settings.md" sourcestartlinenumber="107">Show a share button</strong> to display a share button on the product details page. When this field is selected, the <strong sourcefile="en/running-your-store/catalog/catalog-settings.md" sourcestartlinenumber="107">Share button code</strong> field will be displayed.</p>
+</li>
+<li sourcefile="en/running-your-store/catalog/catalog-settings.md" sourcestartlinenumber="108"><p sourcefile="en/running-your-store/catalog/catalog-settings.md" sourcestartlinenumber="108">The <strong sourcefile="en/running-your-store/catalog/catalog-settings.md" sourcestartlinenumber="108">Share button code</strong> field displays the page's button code.</p>
+<div class="TIP" sourcefile="en/running-your-store/catalog/catalog-settings.md" sourcestartlinenumber="110">
+<h5>Tip</h5>
+<p sourcefile="en/running-your-store/catalog/catalog-settings.md" sourcestartlinenumber="112">By default, the AddThis service is used (<a href="http://www.addthis.com/" sourcefile="en/running-your-store/catalog/catalog-settings.md" sourcestartlinenumber="112">http://www.addthis.com/</a>).</p>
+</div>
+</li>
+</ul>
+<p sourcefile="en/running-your-store/catalog/catalog-settings.md" sourcestartlinenumber="114">This is what share links look like:
+<img src="_static/catalog-settings/zzz.png" sourcefile="en/running-your-store/catalog/catalog-settings.md" sourcestartlinenumber="115" alt="Share"></p>
+<ul sourcefile="en/running-your-store/catalog/catalog-settings.md" sourcestartlinenumber="117">
+<li sourcefile="en/running-your-store/catalog/catalog-settings.md" sourcestartlinenumber="117">Select the <strong sourcefile="en/running-your-store/catalog/catalog-settings.md" sourcestartlinenumber="117">'Email a friend' enabled</strong> checkbox to allow customers to use the &quot;Email a friend&quot; option.</li>
+<li sourcefile="en/running-your-store/catalog/catalog-settings.md" sourcestartlinenumber="118"><strong sourcefile="en/running-your-store/catalog/catalog-settings.md" sourcestartlinenumber="118">Allow anonymous users to email a friend</strong> if needed.</li>
+</ul>
+<h2 id="compare-products" sourcefile="en/running-your-store/catalog/catalog-settings.md" sourcestartlinenumber="120">Compare products</h2>
+<p sourcefile="en/running-your-store/catalog/catalog-settings.md" sourcestartlinenumber="122"><img src="_static/catalog-settings/compare-products.jpg" sourcefile="en/running-your-store/catalog/catalog-settings.md" sourcestartlinenumber="122" alt="Compare products"></p>
+<p sourcefile="en/running-your-store/catalog/catalog-settings.md" sourcestartlinenumber="124">Compare products option enables customers to compare various offers based on their characteristics and prices so that they can make the best shopping decisions. Set up the <em sourcefile="en/running-your-store/catalog/catalog-settings.md" sourcestartlinenumber="124">Compare products</em> block as follows:</p>
+<ul sourcefile="en/running-your-store/catalog/catalog-settings.md" sourcestartlinenumber="126">
+<li sourcefile="en/running-your-store/catalog/catalog-settings.md" sourcestartlinenumber="126">Select the <strong sourcefile="en/running-your-store/catalog/catalog-settings.md" sourcestartlinenumber="126">'Compare products' enabled</strong> checkbox to enable customers to compare product options in your public store. The <em sourcefile="en/running-your-store/catalog/catalog-settings.md" sourcestartlinenumber="126">Add to compare list</em> button will appear on product pages.</li>
+<li sourcefile="en/running-your-store/catalog/catalog-settings.md" sourcestartlinenumber="127">Select the <strong sourcefile="en/running-your-store/catalog/catalog-settings.md" sourcestartlinenumber="127">Include short description in compare products</strong> checkbox to display short product descriptions on the compare products page.</li>
+<li sourcefile="en/running-your-store/catalog/catalog-settings.md" sourcestartlinenumber="128">Select the <strong sourcefile="en/running-your-store/catalog/catalog-settings.md" sourcestartlinenumber="128">Include full description in compare products</strong> checkbox to display full product descriptions on the compare products page.</li>
+</ul>
+<p sourcefile="en/running-your-store/catalog/catalog-settings.md" sourcestartlinenumber="130"><img src="_static/catalog-settings/compare_product.png" sourcefile="en/running-your-store/catalog/catalog-settings.md" sourcestartlinenumber="130" alt="compare_product"></p>
+<h2 id="additional-sections" sourcefile="en/running-your-store/catalog/catalog-settings.md" sourcestartlinenumber="132">Additional sections</h2>
+<p sourcefile="en/running-your-store/catalog/catalog-settings.md" sourcestartlinenumber="134"><img src="_static/catalog-settings/additional-sections.jpg" sourcefile="en/running-your-store/catalog/catalog-settings.md" sourcestartlinenumber="134" alt="Additional sections"></p>
+<p sourcefile="en/running-your-store/catalog/catalog-settings.md" sourcestartlinenumber="136">The <em sourcefile="en/running-your-store/catalog/catalog-settings.md" sourcestartlinenumber="136">Additional sections</em> panel allows you to set the following options:</p>
+<ul sourcefile="en/running-your-store/catalog/catalog-settings.md" sourcestartlinenumber="138">
+<li sourcefile="en/running-your-store/catalog/catalog-settings.md" sourcestartlinenumber="138">Select the <strong sourcefile="en/running-your-store/catalog/catalog-settings.md" sourcestartlinenumber="138">Remove required products</strong> checkbox to automatically remove the required product from the cart when the main product is removed.</li>
+<li sourcefile="en/running-your-store/catalog/catalog-settings.md" sourcestartlinenumber="139"><strong sourcefile="en/running-your-store/catalog/catalog-settings.md" sourcestartlinenumber="139">Show best sellers on home page</strong> allows you to show bestsellers on the home page.
+<ul sourcefile="en/running-your-store/catalog/catalog-settings.md" sourcestartlinenumber="140">
+<li sourcefile="en/running-your-store/catalog/catalog-settings.md" sourcestartlinenumber="140">If the previous checkbox is selected, you will be able to enter the <strong sourcefile="en/running-your-store/catalog/catalog-settings.md" sourcestartlinenumber="140">Number of best sellers on home page</strong>.</li>
+</ul>
+</li>
+<li sourcefile="en/running-your-store/catalog/catalog-settings.md" sourcestartlinenumber="141">Select the <strong sourcefile="en/running-your-store/catalog/catalog-settings.md" sourcestartlinenumber="141">'Products also purchased' enabled</strong> checkbox to enable customers to view a list of products also purchased by those who purchased the above.
+<ul sourcefile="en/running-your-store/catalog/catalog-settings.md" sourcestartlinenumber="142">
+<li sourcefile="en/running-your-store/catalog/catalog-settings.md" sourcestartlinenumber="142">When the previous option is enabled, the <strong sourcefile="en/running-your-store/catalog/catalog-settings.md" sourcestartlinenumber="142">Number of also purchased products to display</strong> field will appear. Here, the store owner can set the number of products to be displayed.</li>
+</ul>
+</li>
+<li sourcefile="en/running-your-store/catalog/catalog-settings.md" sourcestartlinenumber="143">Select the <strong sourcefile="en/running-your-store/catalog/catalog-settings.md" sourcestartlinenumber="143">'Recently viewed products' enabled</strong> checkbox to enable customers to see products recently viewed in your store.
+<ul sourcefile="en/running-your-store/catalog/catalog-settings.md" sourcestartlinenumber="144">
+<li sourcefile="en/running-your-store/catalog/catalog-settings.md" sourcestartlinenumber="144">In the <strong sourcefile="en/running-your-store/catalog/catalog-settings.md" sourcestartlinenumber="144">Number of 'Recently viewed products'</strong> field, enter the number of recently viewed products to be displayed when the previous checkbox is selected.</li>
+</ul>
+</li>
+<li sourcefile="en/running-your-store/catalog/catalog-settings.md" sourcestartlinenumber="145">Select the <strong sourcefile="en/running-your-store/catalog/catalog-settings.md" sourcestartlinenumber="145">'New products' page enabled</strong> checkbox if you want the 'New products' page to be enabled in the store.
+<ul sourcefile="en/running-your-store/catalog/catalog-settings.md" sourcestartlinenumber="146">
+<li sourcefile="en/running-your-store/catalog/catalog-settings.md" sourcestartlinenumber="146">In the <strong sourcefile="en/running-your-store/catalog/catalog-settings.md" sourcestartlinenumber="146">Number of products on 'New products' page</strong> field, enter the number of recently added products to display when the <em sourcefile="en/running-your-store/catalog/catalog-settings.md" sourcestartlinenumber="146">'New products' page enabled</em> is selected.</li>
+</ul>
+</li>
+<li sourcefile="en/running-your-store/catalog/catalog-settings.md" sourcestartlinenumber="147">Select the <strong sourcefile="en/running-your-store/catalog/catalog-settings.md" sourcestartlinenumber="147">Display the date for a pre-order availability</strong> checkbox if needed.</li>
+</ul>
+<h2 id="product-fields" sourcefile="en/running-your-store/catalog/catalog-settings.md" sourcestartlinenumber="149">Product fields</h2>
+<p sourcefile="en/running-your-store/catalog/catalog-settings.md" sourcestartlinenumber="151"><img src="_static/catalog-settings/product-fields.jpg" sourcefile="en/running-your-store/catalog/catalog-settings.md" sourcestartlinenumber="151" alt="Product fields"></p>
+<p sourcefile="en/running-your-store/catalog/catalog-settings.md" sourcestartlinenumber="153">In the <em sourcefile="en/running-your-store/catalog/catalog-settings.md" sourcestartlinenumber="153">Product fields</em> panel, you can set the following options:</p>
+<ul sourcefile="en/running-your-store/catalog/catalog-settings.md" sourcestartlinenumber="155">
+<li sourcefile="en/running-your-store/catalog/catalog-settings.md" sourcestartlinenumber="155"><strong sourcefile="en/running-your-store/catalog/catalog-settings.md" sourcestartlinenumber="155">Show SKU on product details page</strong>.</li>
+<li sourcefile="en/running-your-store/catalog/catalog-settings.md" sourcestartlinenumber="156"><strong sourcefile="en/running-your-store/catalog/catalog-settings.md" sourcestartlinenumber="156">Show SKU on catalog pages</strong>.</li>
+<li sourcefile="en/running-your-store/catalog/catalog-settings.md" sourcestartlinenumber="157"><strong sourcefile="en/running-your-store/catalog/catalog-settings.md" sourcestartlinenumber="157">Show GTIN</strong> in the public store.</li>
+<li sourcefile="en/running-your-store/catalog/catalog-settings.md" sourcestartlinenumber="158"><strong sourcefile="en/running-your-store/catalog/catalog-settings.md" sourcestartlinenumber="158">Show manufacturer part number</strong> in the public store.</li>
+</ul>
+<h2 id="product-page" sourcefile="en/running-your-store/catalog/catalog-settings.md" sourcestartlinenumber="160">Product page</h2>
+<p sourcefile="en/running-your-store/catalog/catalog-settings.md" sourcestartlinenumber="162"><img src="_static/catalog-settings/product-page.jpg" sourcefile="en/running-your-store/catalog/catalog-settings.md" sourcestartlinenumber="162" alt="Product page"></p>
+<p sourcefile="en/running-your-store/catalog/catalog-settings.md" sourcestartlinenumber="164">In the <em sourcefile="en/running-your-store/catalog/catalog-settings.md" sourcestartlinenumber="164">Product page</em> panel, you can set the following options:</p>
+<ul sourcefile="en/running-your-store/catalog/catalog-settings.md" sourcestartlinenumber="166">
+<li sourcefile="en/running-your-store/catalog/catalog-settings.md" sourcestartlinenumber="166"><p sourcefile="en/running-your-store/catalog/catalog-settings.md" sourcestartlinenumber="166"><strong sourcefile="en/running-your-store/catalog/catalog-settings.md" sourcestartlinenumber="166">Show &quot;free shipping&quot; icon</strong> for products with this option enabled.</p>
+</li>
+<li sourcefile="en/running-your-store/catalog/catalog-settings.md" sourcestartlinenumber="167"><p sourcefile="en/running-your-store/catalog/catalog-settings.md" sourcestartlinenumber="167"><strong sourcefile="en/running-your-store/catalog/catalog-settings.md" sourcestartlinenumber="167">Allow viewing of unpublished product details page</strong>. In this case, SEO will not be affected, and search crawlers will index the page, even though a product is temporarily unpublished and invisible to customers. Note that a store owner always has access to unpublished products.</p>
+</li>
+<li sourcefile="en/running-your-store/catalog/catalog-settings.md" sourcestartlinenumber="168"><p sourcefile="en/running-your-store/catalog/catalog-settings.md" sourcestartlinenumber="168">Select the <strong sourcefile="en/running-your-store/catalog/catalog-settings.md" sourcestartlinenumber="168">Discontinued message for unpublished products</strong> checkbox to display the &quot;a product has been discontinued&quot; message when customers try to access details pages of unpublished products.</p>
+</li>
+<li sourcefile="en/running-your-store/catalog/catalog-settings.md" sourcestartlinenumber="169"><p sourcefile="en/running-your-store/catalog/catalog-settings.md" sourcestartlinenumber="169">Select the <strong sourcefile="en/running-your-store/catalog/catalog-settings.md" sourcestartlinenumber="169">Display type for attribute value when out of stock</strong>. If the attribute combination is out of stock, you can show it as disabled or as usual.</p>
+<div class="NOTE" sourcefile="en/running-your-store/catalog/catalog-settings.md" sourcestartlinenumber="171">
+<h5>Note</h5>
+<p sourcefile="en/running-your-store/catalog/catalog-settings.md" sourcestartlinenumber="173">Note that the <strong sourcefile="en/running-your-store/catalog/catalog-settings.md" sourcestartlinenumber="173">Allow only existing attribute combinations</strong> option should be enabled for a product.</p>
+</div>
+</li>
+</ul>
+<h2 id="catalog-pages" sourcefile="en/running-your-store/catalog/catalog-settings.md" sourcestartlinenumber="175">Catalog pages</h2>
+<p sourcefile="en/running-your-store/catalog/catalog-settings.md" sourcestartlinenumber="177"><img src="_static/catalog-settings/catalog-pages.jpg" sourcefile="en/running-your-store/catalog/catalog-settings.md" sourcestartlinenumber="177" alt="Catalog pages"></p>
+<p sourcefile="en/running-your-store/catalog/catalog-settings.md" sourcestartlinenumber="179">The <em sourcefile="en/running-your-store/catalog/catalog-settings.md" sourcestartlinenumber="179">Catalog pages</em> panel enables you to set:</p>
+<ul sourcefile="en/running-your-store/catalog/catalog-settings.md" sourcestartlinenumber="181">
+<li sourcefile="en/running-your-store/catalog/catalog-settings.md" sourcestartlinenumber="181"><strong sourcefile="en/running-your-store/catalog/catalog-settings.md" sourcestartlinenumber="181">Allow view mode changing</strong> on the categories and manufacturers pages.</li>
+<li sourcefile="en/running-your-store/catalog/catalog-settings.md" sourcestartlinenumber="182">The <strong sourcefile="en/running-your-store/catalog/catalog-settings.md" sourcestartlinenumber="182">Default view mode</strong> to either <em sourcefile="en/running-your-store/catalog/catalog-settings.md" sourcestartlinenumber="182">Grid</em> or <em sourcefile="en/running-your-store/catalog/catalog-settings.md" sourcestartlinenumber="182">List</em>.</li>
+<li sourcefile="en/running-your-store/catalog/catalog-settings.md" sourcestartlinenumber="183"><strong sourcefile="en/running-your-store/catalog/catalog-settings.md" sourcestartlinenumber="183">Include products from subcategories</strong> when viewing a category details page.</li>
+<li sourcefile="en/running-your-store/catalog/catalog-settings.md" sourcestartlinenumber="184">To <strong sourcefile="en/running-your-store/catalog/catalog-settings.md" sourcestartlinenumber="184">Show number of distinct products beside each category</strong> in the category navigation area located in the left column in the public store.
+<ul sourcefile="en/running-your-store/catalog/catalog-settings.md" sourcestartlinenumber="185">
+<li sourcefile="en/running-your-store/catalog/catalog-settings.md" sourcestartlinenumber="185">If needed, turn on the <strong sourcefile="en/running-your-store/catalog/catalog-settings.md" sourcestartlinenumber="185">Show the number of distinct products besides each category</strong> setting.</li>
+</ul>
+</li>
+<li sourcefile="en/running-your-store/catalog/catalog-settings.md" sourcestartlinenumber="186"><strong sourcefile="en/running-your-store/catalog/catalog-settings.md" sourcestartlinenumber="186">Category breadcrumb enabled</strong>. Select to enable the category path (breadcrumb). This is the bar at the top of the screen that indicates in which categories and subcategories the product was viewed on the product pages. Each subelement of the bar is a separate hyperlink.</li>
+<li sourcefile="en/running-your-store/catalog/catalog-settings.md" sourcestartlinenumber="187"><strong sourcefile="en/running-your-store/catalog/catalog-settings.md" sourcestartlinenumber="187">Number of manufacturers to display</strong> in the manufacturer navigation block.</li>
+<li sourcefile="en/running-your-store/catalog/catalog-settings.md" sourcestartlinenumber="188"><strong sourcefile="en/running-your-store/catalog/catalog-settings.md" sourcestartlinenumber="188">Use AJAX products loading</strong> to load products asynchronously (applicable to 'paging,' 'filtering,' 'view modes') on catalog pages.</li>
+<li sourcefile="en/running-your-store/catalog/catalog-settings.md" sourcestartlinenumber="189"><strong sourcefile="en/running-your-store/catalog/catalog-settings.md" sourcestartlinenumber="189">Enable manufacturer filtering</strong> to enable the manufacturer filtering on catalog pages.</li>
+<li sourcefile="en/running-your-store/catalog/catalog-settings.md" sourcestartlinenumber="190"><strong sourcefile="en/running-your-store/catalog/catalog-settings.md" sourcestartlinenumber="190">Enable price range filtering</strong> to enable the price range filtering on catalog pages.</li>
+<li sourcefile="en/running-your-store/catalog/catalog-settings.md" sourcestartlinenumber="191"><strong sourcefile="en/running-your-store/catalog/catalog-settings.md" sourcestartlinenumber="191">Enable specification attribute filtering</strong> on the catalog pages if needed. If turned off, the specification attribute filtering won't be displayed on the catalog pages even if you have such attributes created.</li>
+<li sourcefile="en/running-your-store/catalog/catalog-settings.md" sourcestartlinenumber="192"><strong sourcefile="en/running-your-store/catalog/catalog-settings.md" sourcestartlinenumber="192">Display all pictures on catalog pages</strong> - On the pages of the catalog it becomes possible to view all the pictures of the product.</li>
+<li sourcefile="en/running-your-store/catalog/catalog-settings.md" sourcestartlinenumber="193"><strong sourcefile="en/running-your-store/catalog/catalog-settings.md" sourcestartlinenumber="193">Display 'From' prices</strong> - Check to display 'From' prices on catalog pages. This will display the minimum possible price of a product based on price adjustments of attributes and combinations instead of the fixed base price. If enabled, it is also recommended to enable setting 'Cache product prices'. But please note that it can affect performance if you use some complex discounts, discount requirement rules, etc.</li>
+</ul>
+<div class="TIP" sourcefile="en/running-your-store/catalog/catalog-settings.md" sourcestartlinenumber="195">
+<h5>Tip</h5>
+<p sourcefile="en/running-your-store/catalog/catalog-settings.md" sourcestartlinenumber="197">To display a short description of the product on the catalog pages you need to activate this setting -  <code sourcefile="en/running-your-store/catalog/catalog-settings.md" sourcestartlinenumber="197">catalogsettings.showshortdescriptiononcatalogpages</code></p>
+</div>
+<h2 id="tags" sourcefile="en/running-your-store/catalog/catalog-settings.md" sourcestartlinenumber="199">Tags</h2>
+<p sourcefile="en/running-your-store/catalog/catalog-settings.md" sourcestartlinenumber="201"><img src="_static/catalog-settings/tags.jpg" sourcefile="en/running-your-store/catalog/catalog-settings.md" sourcestartlinenumber="201" alt="Tags"></p>
+<p sourcefile="en/running-your-store/catalog/catalog-settings.md" sourcestartlinenumber="203">In the <em sourcefile="en/running-your-store/catalog/catalog-settings.md" sourcestartlinenumber="203">Tags</em> panel, you can define:</p>
+<ul sourcefile="en/running-your-store/catalog/catalog-settings.md" sourcestartlinenumber="205">
+<li sourcefile="en/running-your-store/catalog/catalog-settings.md" sourcestartlinenumber="205"><strong sourcefile="en/running-your-store/catalog/catalog-settings.md" sourcestartlinenumber="205">Number of product tags (cloud)</strong> — the number of tags that appear in the tag cloud.</li>
+<li sourcefile="en/running-your-store/catalog/catalog-settings.md" sourcestartlinenumber="206">To <strong sourcefile="en/running-your-store/catalog/catalog-settings.md" sourcestartlinenumber="206">Allow customers to select 'Products by tag' page size</strong> on the product tag page from a list of options predefined by the store owner. When disabled, customers will not be able to select page size, and the store owner enters it.
+<ul sourcefile="en/running-your-store/catalog/catalog-settings.md" sourcestartlinenumber="207">
+<li sourcefile="en/running-your-store/catalog/catalog-settings.md" sourcestartlinenumber="207">If the previous option is selected, the <strong sourcefile="en/running-your-store/catalog/catalog-settings.md" sourcestartlinenumber="207">'Products by tag' page size options</strong> field becomes visible. You can enter values that can be selected by shop users. Numbers should be separated with commas. The first value will be the default.</li>
+<li sourcefile="en/running-your-store/catalog/catalog-settings.md" sourcestartlinenumber="208">If the <strong sourcefile="en/running-your-store/catalog/catalog-settings.md" sourcestartlinenumber="208">Allow customers to select 'Products by tag' page size</strong> setting is disabled, the <strong sourcefile="en/running-your-store/catalog/catalog-settings.md" sourcestartlinenumber="208">'Products by tag' page. Products per page</strong> field will be displayed. In this field, enter the number of products you want to be displayed on the search page.</li>
+</ul>
+</li>
+<li sourcefile="en/running-your-store/catalog/catalog-settings.md" sourcestartlinenumber="209">Select the <strong sourcefile="en/running-your-store/catalog/catalog-settings.md" sourcestartlinenumber="209">'Products by tag' page. Price range filtering</strong> checkbox if you want to enable filtering by price range.
+<ul sourcefile="en/running-your-store/catalog/catalog-settings.md" sourcestartlinenumber="210">
+<li sourcefile="en/running-your-store/catalog/catalog-settings.md" sourcestartlinenumber="210">If you want the price range to be entered manually, select the <strong sourcefile="en/running-your-store/catalog/catalog-settings.md" sourcestartlinenumber="210">'Products by tag' page. Enter price range manually</strong> checkbox.
+<ul sourcefile="en/running-your-store/catalog/catalog-settings.md" sourcestartlinenumber="211">
+<li sourcefile="en/running-your-store/catalog/catalog-settings.md" sourcestartlinenumber="211">If the setting above is enabled, enter the <strong sourcefile="en/running-your-store/catalog/catalog-settings.md" sourcestartlinenumber="211">'Products by tag' page. Price 'from'</strong>.</li>
+<li sourcefile="en/running-your-store/catalog/catalog-settings.md" sourcestartlinenumber="212">And the <strong sourcefile="en/running-your-store/catalog/catalog-settings.md" sourcestartlinenumber="212">'Products by tag' page. Price 'to'</strong>.</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h2 id="tax" sourcefile="en/running-your-store/catalog/catalog-settings.md" sourcestartlinenumber="214">Tax</h2>
+<p sourcefile="en/running-your-store/catalog/catalog-settings.md" sourcestartlinenumber="216"><img src="_static/catalog-settings/tax.jpg" sourcefile="en/running-your-store/catalog/catalog-settings.md" sourcestartlinenumber="216" alt="Tax"></p>
+<p sourcefile="en/running-your-store/catalog/catalog-settings.md" sourcestartlinenumber="218">Some tax/shipping info options specific to Germany are available in the <em sourcefile="en/running-your-store/catalog/catalog-settings.md" sourcestartlinenumber="218">Tax</em> panel:</p>
+<ul sourcefile="en/running-your-store/catalog/catalog-settings.md" sourcestartlinenumber="220">
+<li sourcefile="en/running-your-store/catalog/catalog-settings.md" sourcestartlinenumber="220"><strong sourcefile="en/running-your-store/catalog/catalog-settings.md" sourcestartlinenumber="220">Display tax/shipping info (footer)</strong>.</li>
+<li sourcefile="en/running-your-store/catalog/catalog-settings.md" sourcestartlinenumber="221"><strong sourcefile="en/running-your-store/catalog/catalog-settings.md" sourcestartlinenumber="221">Display tax/shipping info (product details page)</strong>.</li>
+<li sourcefile="en/running-your-store/catalog/catalog-settings.md" sourcestartlinenumber="222"><strong sourcefile="en/running-your-store/catalog/catalog-settings.md" sourcestartlinenumber="222">Display tax/shipping info (product boxes)</strong>.</li>
+<li sourcefile="en/running-your-store/catalog/catalog-settings.md" sourcestartlinenumber="223"><strong sourcefile="en/running-your-store/catalog/catalog-settings.md" sourcestartlinenumber="223">Display tax/shipping info (shopping cart)</strong>.</li>
+<li sourcefile="en/running-your-store/catalog/catalog-settings.md" sourcestartlinenumber="224"><strong sourcefile="en/running-your-store/catalog/catalog-settings.md" sourcestartlinenumber="224">Display tax/shipping info (wishlist)</strong>.</li>
+<li sourcefile="en/running-your-store/catalog/catalog-settings.md" sourcestartlinenumber="225"><strong sourcefile="en/running-your-store/catalog/catalog-settings.md" sourcestartlinenumber="225">Display tax/shipping info (order details page)</strong>.</li>
+</ul>
+<h2 id="exportimport" sourcefile="en/running-your-store/catalog/catalog-settings.md" sourcestartlinenumber="227">Export/import</h2>
+<p sourcefile="en/running-your-store/catalog/catalog-settings.md" sourcestartlinenumber="229"><img src="_static/catalog-settings/import-export.jpg" sourcefile="en/running-your-store/catalog/catalog-settings.md" sourcestartlinenumber="229" alt="Export/import"></p>
+<p sourcefile="en/running-your-store/catalog/catalog-settings.md" sourcestartlinenumber="231">In the <em sourcefile="en/running-your-store/catalog/catalog-settings.md" sourcestartlinenumber="231">Export/import</em> panel, you can define:</p>
+<ul sourcefile="en/running-your-store/catalog/catalog-settings.md" sourcestartlinenumber="233">
+<li sourcefile="en/running-your-store/catalog/catalog-settings.md" sourcestartlinenumber="233">Select the <strong sourcefile="en/running-your-store/catalog/catalog-settings.md" sourcestartlinenumber="233">Export/import products with attributes</strong> checkbox if you need product attributes to be exported/imported whenever you export/import the product.</li>
+<li sourcefile="en/running-your-store/catalog/catalog-settings.md" sourcestartlinenumber="234">Select the <strong sourcefile="en/running-your-store/catalog/catalog-settings.md" sourcestartlinenumber="234">Export/import products with specification attributes</strong> checkbox if products should be exported/imported with specification attributes.</li>
+<li sourcefile="en/running-your-store/catalog/catalog-settings.md" sourcestartlinenumber="235">Select the <strong sourcefile="en/running-your-store/catalog/catalog-settings.md" sourcestartlinenumber="235">Export/import products with category breadcrumb</strong> checkbox if products should be exported/imported with full category names including names of all its parents.</li>
+<li sourcefile="en/running-your-store/catalog/catalog-settings.md" sourcestartlinenumber="236">Select the <strong sourcefile="en/running-your-store/catalog/catalog-settings.md" sourcestartlinenumber="236">Export/import categories using name of category</strong> checkbox if categories should be exported/imported using the category names.</li>
+<li sourcefile="en/running-your-store/catalog/catalog-settings.md" sourcestartlinenumber="237">Select the <strong sourcefile="en/running-your-store/catalog/catalog-settings.md" sourcestartlinenumber="237">Export/import products. Allow download images</strong> checkbox if images can be downloaded from a remote server when exporting products.</li>
+<li sourcefile="en/running-your-store/catalog/catalog-settings.md" sourcestartlinenumber="238">Select the <strong sourcefile="en/running-your-store/catalog/catalog-settings.md" sourcestartlinenumber="238">Export/import products. Allow splitting file</strong> checkbox if you want to import products from individual optimal-size files automatically created from the main file. This function will help you import a large amount of data with a smaller delay.</li>
+<li sourcefile="en/running-your-store/catalog/catalog-settings.md" sourcestartlinenumber="239">Select the <strong sourcefile="en/running-your-store/catalog/catalog-settings.md" sourcestartlinenumber="239">Export/import related entities using name</strong> checkbox if related entities should be exported/imported using names.</li>
+<li sourcefile="en/running-your-store/catalog/catalog-settings.md" sourcestartlinenumber="240">Select the <strong sourcefile="en/running-your-store/catalog/catalog-settings.md" sourcestartlinenumber="240">Export/import products with &quot;limited to stores&quot;</strong> checkbox if products should be exported/imported with their &quot;limited to stores&quot; properties.</li>
+</ul>
+<div class="NOTE" sourcefile="en/running-your-store/catalog/catalog-settings.md" sourcestartlinenumber="242">
+<h5>Note</h5>
+<p sourcefile="en/running-your-store/catalog/catalog-settings.md" sourcestartlinenumber="244">When you have two or more languages, Export/Import to Excel/XML supports multilingual data.</p>
+</div>
+<h2 id="product-sorting" sourcefile="en/running-your-store/catalog/catalog-settings.md" sourcestartlinenumber="246">Product sorting</h2>
+<p sourcefile="en/running-your-store/catalog/catalog-settings.md" sourcestartlinenumber="248">In the <em sourcefile="en/running-your-store/catalog/catalog-settings.md" sourcestartlinenumber="248">Product sorting</em> panel, you can define:</p>
+<ul sourcefile="en/running-your-store/catalog/catalog-settings.md" sourcestartlinenumber="250">
+<li sourcefile="en/running-your-store/catalog/catalog-settings.md" sourcestartlinenumber="250"><p sourcefile="en/running-your-store/catalog/catalog-settings.md" sourcestartlinenumber="250">Select the <strong sourcefile="en/running-your-store/catalog/catalog-settings.md" sourcestartlinenumber="250">Allow product sorting</strong> checkbox to enable a product sorting option on the categories and manufacturers pages. You can activate/deactivate sorting by <em sourcefile="en/running-your-store/catalog/catalog-settings.md" sourcestartlinenumber="250">Position</em>, <em sourcefile="en/running-your-store/catalog/catalog-settings.md" sourcestartlinenumber="250">Name</em>, <em sourcefile="en/running-your-store/catalog/catalog-settings.md" sourcestartlinenumber="250">Price</em>, and <em sourcefile="en/running-your-store/catalog/catalog-settings.md" sourcestartlinenumber="250">Date of creation</em>.</p>
+<div class="NOTE" sourcefile="en/running-your-store/catalog/catalog-settings.md" sourcestartlinenumber="252">
+<h5>Note</h5>
+<p sourcefile="en/running-your-store/catalog/catalog-settings.md" sourcestartlinenumber="253">Selecting the value &quot;Position&quot; means that there will be no restrictions on the sorting of products.</p>
+</div>
+<p sourcefile="en/running-your-store/catalog/catalog-settings.md" sourcestartlinenumber="255"><img src="_static/catalog-settings/product_sorting.jpg" sourcefile="en/running-your-store/catalog/catalog-settings.md" sourcestartlinenumber="255" alt="product_sorting"></p>
+<p sourcefile="en/running-your-store/catalog/catalog-settings.md" sourcestartlinenumber="257">You can edit the <strong sourcefile="en/running-your-store/catalog/catalog-settings.md" sourcestartlinenumber="257">Display order</strong> and <strong sourcefile="en/running-your-store/catalog/catalog-settings.md" sourcestartlinenumber="257">Is active</strong> property of each option by clicking the <strong sourcefile="en/running-your-store/catalog/catalog-settings.md" sourcestartlinenumber="257">Edit</strong> button.</p>
+</li>
+</ul>
+            </article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/nopSolutions/nopCommerce-Docs/blob/master/en/running-your-store/catalog/catalog-settings.md/#L1" class="contribution-link">Improve this Doc</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../../../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../../../styles/docfx.js"></script>
+    <script type="text/javascript" src="../../../styles/main.js"></script>
+  </body>
+</html>

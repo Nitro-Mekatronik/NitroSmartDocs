@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Discounts </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Discounts ">
+    <meta name="generator" content="docfx 2.59.4.0">
+    
+    <link rel="shortcut icon" href="../../../favicon.ico">
+    <link rel="stylesheet" href="../../../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../../../styles/docfx.css">
+    <link rel="stylesheet" href="../../../styles/main.css">
+    <link rel="preload" href="../../../fonts/fonts.css" )"="" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <meta property="docfx:navrel" content="/">
+    <meta property="docfx:tocrel" content="../../toc.html">
+    
+    <meta property="docfx:rel" content="../../../">
+    
+    <script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-7490022-8"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'UA-7490022-8');
+    </script>
+    <script>
+      /*! loadCSS. [c]2017 Filament Group, Inc. MIT License
+      - testing support for link[rel=preload]
+      - enabling async CSS loading in browsers that do not support rel=preload
+      - applying rel preload css once loaded, whether supported or not.
+      */
+      !function(n){"use strict";n.loadCSS||(n.loadCSS=function(){});var o=loadCSS.relpreload={};if(o.support=function(){var e;try{e=n.document.createElement("link").relList.supports("preload")}catch(t){e=!1}return function(){return e}}(),o.bindMediaToggle=function(t){var e=t.media||"all";function a(){t.addEventListener?t.removeEventListener("load",a):t.attachEvent&&t.detachEvent("onload",a),t.setAttribute("onload",null),t.media=e}t.addEventListener?t.addEventListener("load",a):t.attachEvent&&t.attachEvent("onload",a),setTimeout(function(){t.rel="stylesheet",t.media="only x"}),setTimeout(a,3e3)},o.poly=function(){if(!o.support())for(var t=n.document.getElementsByTagName("link"),e=0;e<t.length;e++){var a=t[e];"preload"!==a.rel||"style"!==a.getAttribute("as")||a.getAttribute("data-loadcss")||(a.setAttribute("data-loadcss",!0),o.bindMediaToggle(a))}},!o.support()){o.poly();var t=n.setInterval(o.poly,500);n.addEventListener?n.addEventListener("load",function(){o.poly(),n.clearInterval(t)}):n.attachEvent&&n.attachEvent("onload",function(){o.poly(),n.clearInterval(t)})}"undefined"!=typeof exports?exports.loadCSS=loadCSS:n.loadCSS=loadCSS}("undefined"!=typeof global?global:this);
+    </script>
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="170">
+    <div id="wrapper">
+      <header>
+        <div class="container">
+          <div id="header" class="header navbar-header">
+            <div class="header-logo">
+              <a href="https://www.nopcommerce.com/">
+                <img id="logo" class="svg" src="../../../logo.png" alt="">
+              </a>
+            </div>  </div>
+          <div class="navbar-collapse collapse in">
+            <form class="navbar-form navbar-right" role="search" id="search">
+              <div class="form-group">
+                <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+              </div>
+        
+              <div class="form-group lang-container">
+                    
+                    <select id="lang-switcher" class="select-css">
+                        <option value="/en/index.html" selected="">
+                          English
+                        
+                    </select>        </div>
+            </form>
+          </div>
+        </div>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div class="container body-content">
+        
+        <div id="search-results">
+          <div class="search-list">Search Results for <span></span></div>
+          <div class="sr-items">
+            <p><i class="glyphicon glyphicon-refresh index-loading"></i></p>
+          </div>
+          <ul id="pagination" data-first="First" data-prev="Previous" data-next="Next" data-last="Last"></ul>
+        </div>
+      </div>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="en/running-your-store/promotional-tools/discounts">
+<h1 id="discounts" sourcefile="en/running-your-store/promotional-tools/discounts.md" sourcestartlinenumber="8">Discounts</h1>
+
+<p sourcefile="en/running-your-store/promotional-tools/discounts.md" sourcestartlinenumber="10">In nopCommerce, you can use discounts to enable access to special offers. They can be applied to certain categories, products, the total amount, and more. You can use various requirements available out of the box and via plugins from the <a href="http://www.nopcommerce.com/marketplace" sourcefile="en/running-your-store/promotional-tools/discounts.md" sourcestartlinenumber="10">nopCommerce marketplace</a> for your discounts.</p>
+<p sourcefile="en/running-your-store/promotional-tools/discounts.md" sourcestartlinenumber="12">Products in nopCommerce can have any number of discounts attached. In the case of several discounts applied, nopCommerce will automatically calculate the best possible price for the customer based on all the available discounts and group memberships.</p>
+<p sourcefile="en/running-your-store/promotional-tools/discounts.md" sourcestartlinenumber="14">The most common way of using discounts is a coupon code. A coupon code is entered by your customer on the shopping cart page just before checking out.</p>
+<p sourcefile="en/running-your-store/promotional-tools/discounts.md" sourcestartlinenumber="16">To see the list of discounts, go to the <strong sourcefile="en/running-your-store/promotional-tools/discounts.md" sourcestartlinenumber="16">Promotions → Discounts</strong> page:</p>
+<p sourcefile="en/running-your-store/promotional-tools/discounts.md" sourcestartlinenumber="18"><img src="_static/discounts/list.jpg" sourcefile="en/running-your-store/promotional-tools/discounts.md" sourcestartlinenumber="18" alt="Discounts"></p>
+<p sourcefile="en/running-your-store/promotional-tools/discounts.md" sourcestartlinenumber="20">The top area of the page enables you to search for discounts by various search criteria:</p>
+<ul sourcefile="en/running-your-store/promotional-tools/discounts.md" sourcestartlinenumber="22">
+<li sourcefile="en/running-your-store/promotional-tools/discounts.md" sourcestartlinenumber="22"><strong sourcefile="en/running-your-store/promotional-tools/discounts.md" sourcestartlinenumber="22">Start date</strong> and <strong sourcefile="en/running-your-store/promotional-tools/discounts.md" sourcestartlinenumber="22">End date</strong> for discounts created between these dates.</li>
+<li sourcefile="en/running-your-store/promotional-tools/discounts.md" sourcestartlinenumber="23"><strong sourcefile="en/running-your-store/promotional-tools/discounts.md" sourcestartlinenumber="23">Discount type</strong>.</li>
+<li sourcefile="en/running-your-store/promotional-tools/discounts.md" sourcestartlinenumber="24"><strong sourcefile="en/running-your-store/promotional-tools/discounts.md" sourcestartlinenumber="24">Coupon code</strong>.</li>
+<li sourcefile="en/running-your-store/promotional-tools/discounts.md" sourcestartlinenumber="25"><strong sourcefile="en/running-your-store/promotional-tools/discounts.md" sourcestartlinenumber="25">Discount name</strong> is a full discount name or its fragment.</li>
+<li sourcefile="en/running-your-store/promotional-tools/discounts.md" sourcestartlinenumber="26"><strong sourcefile="en/running-your-store/promotional-tools/discounts.md" sourcestartlinenumber="26">Is Active</strong>.</li>
+</ul>
+<div class="NOTE" sourcefile="en/running-your-store/promotional-tools/discounts.md" sourcestartlinenumber="28">
+<h5>Note</h5>
+<p sourcefile="en/running-your-store/promotional-tools/discounts.md" sourcestartlinenumber="30">By default, there are no discounts available in nopCommerce, so you can create them from scratch and follow your own marketing strategy.</p>
+</div>
+<h2 id="adding-a-new-discount" sourcefile="en/running-your-store/promotional-tools/discounts.md" sourcestartlinenumber="32">Adding a new discount</h2>
+<p sourcefile="en/running-your-store/promotional-tools/discounts.md" sourcestartlinenumber="34">To add a new discount, go to <strong sourcefile="en/running-your-store/promotional-tools/discounts.md" sourcestartlinenumber="34">Promotions → Discounts</strong> and click <strong sourcefile="en/running-your-store/promotional-tools/discounts.md" sourcestartlinenumber="34">Add new</strong>.</p>
+<p sourcefile="en/running-your-store/promotional-tools/discounts.md" sourcestartlinenumber="36"><img src="_static/discounts/add-new.jpg" sourcefile="en/running-your-store/promotional-tools/discounts.md" sourcestartlinenumber="36" alt="Add a new discount"></p>
+<p sourcefile="en/running-your-store/promotional-tools/discounts.md" sourcestartlinenumber="38">This page is available in two modes: advanced and basic. Stay in the basic mode, which only displays the main fields, or switch to the advanced mode displaying all the available fields.</p>
+<ul sourcefile="en/running-your-store/promotional-tools/discounts.md" sourcestartlinenumber="40">
+<li sourcefile="en/running-your-store/promotional-tools/discounts.md" sourcestartlinenumber="40"><p sourcefile="en/running-your-store/promotional-tools/discounts.md" sourcestartlinenumber="40">Select the <strong sourcefile="en/running-your-store/promotional-tools/discounts.md" sourcestartlinenumber="40">Is active</strong> checkbox if you want to set active this discount.</p>
+</li>
+<li sourcefile="en/running-your-store/promotional-tools/discounts.md" sourcestartlinenumber="41"><p sourcefile="en/running-your-store/promotional-tools/discounts.md" sourcestartlinenumber="41">Enter the <strong sourcefile="en/running-your-store/promotional-tools/discounts.md" sourcestartlinenumber="41">Name</strong> of the discount.</p>
+</li>
+<li sourcefile="en/running-your-store/promotional-tools/discounts.md" sourcestartlinenumber="42"><p sourcefile="en/running-your-store/promotional-tools/discounts.md" sourcestartlinenumber="42">From the <strong sourcefile="en/running-your-store/promotional-tools/discounts.md" sourcestartlinenumber="42">Discount type</strong> dropdown list, assign the discount to the required option as follows:</p>
+<ul sourcefile="en/running-your-store/promotional-tools/discounts.md" sourcestartlinenumber="43">
+<li sourcefile="en/running-your-store/promotional-tools/discounts.md" sourcestartlinenumber="43"><em sourcefile="en/running-your-store/promotional-tools/discounts.md" sourcestartlinenumber="43">Assigned to order total</em>: these discounts are applied to the entire customer order (order total).</li>
+<li sourcefile="en/running-your-store/promotional-tools/discounts.md" sourcestartlinenumber="44"><em sourcefile="en/running-your-store/promotional-tools/discounts.md" sourcestartlinenumber="44">Assigned to products</em>: after this discount is created, the store owner can assign it to a product on the product details page or add products in the <em sourcefile="en/running-your-store/promotional-tools/discounts.md" sourcestartlinenumber="44">Applied to products</em> panel, which will be displayed below after you save the new discount.</li>
+<li sourcefile="en/running-your-store/promotional-tools/discounts.md" sourcestartlinenumber="45"><em sourcefile="en/running-your-store/promotional-tools/discounts.md" sourcestartlinenumber="45">Assigned to categories</em>: after this discount is created, the store owner can assign it to a category on the category edit page or add categories in the <em sourcefile="en/running-your-store/promotional-tools/discounts.md" sourcestartlinenumber="45">Applied to categories</em> panel, which will be displayed below after you save the new discount. This enables applying the discount to all products in this category.
+<ul sourcefile="en/running-your-store/promotional-tools/discounts.md" sourcestartlinenumber="46">
+<li sourcefile="en/running-your-store/promotional-tools/discounts.md" sourcestartlinenumber="46">If selected, the <strong sourcefile="en/running-your-store/promotional-tools/discounts.md" sourcestartlinenumber="46">Apply to subcategories</strong> field will be displayed to allow applying this discount to subcategories.</li>
+</ul>
+</li>
+<li sourcefile="en/running-your-store/promotional-tools/discounts.md" sourcestartlinenumber="47"><em sourcefile="en/running-your-store/promotional-tools/discounts.md" sourcestartlinenumber="47">Assigned to manufacturers</em>: after this discount is created, the store owner can assign it to a manufacturer on the manufacturer edit page or add the manufacturer in the <em sourcefile="en/running-your-store/promotional-tools/discounts.md" sourcestartlinenumber="47">Applied to manufacturer</em> panel, which will be displayed below after you save the new discount. This enables applying the discount to all products by this manufacturer.</li>
+<li sourcefile="en/running-your-store/promotional-tools/discounts.md" sourcestartlinenumber="48"><em sourcefile="en/running-your-store/promotional-tools/discounts.md" sourcestartlinenumber="48">Assigned to shipping</em>: these discounts are applied to the shipping fee.</li>
+<li sourcefile="en/running-your-store/promotional-tools/discounts.md" sourcestartlinenumber="49"><em sourcefile="en/running-your-store/promotional-tools/discounts.md" sourcestartlinenumber="49">Assigned to order subtotal</em>: these discounts are applied to order subtotal values.</li>
+</ul>
+</li>
+<li sourcefile="en/running-your-store/promotional-tools/discounts.md" sourcestartlinenumber="51"><p sourcefile="en/running-your-store/promotional-tools/discounts.md" sourcestartlinenumber="51">Select the <strong sourcefile="en/running-your-store/promotional-tools/discounts.md" sourcestartlinenumber="51">Use percentage</strong> checkbox if you want to apply a percentage discount.</p>
+<ul sourcefile="en/running-your-store/promotional-tools/discounts.md" sourcestartlinenumber="52">
+<li sourcefile="en/running-your-store/promotional-tools/discounts.md" sourcestartlinenumber="52">If the previous checkbox is selected, the <strong sourcefile="en/running-your-store/promotional-tools/discounts.md" sourcestartlinenumber="52">Discount percentage</strong> field will be displayed.</li>
+<li sourcefile="en/running-your-store/promotional-tools/discounts.md" sourcestartlinenumber="53">You can also set the <strong sourcefile="en/running-your-store/promotional-tools/discounts.md" sourcestartlinenumber="53">Maximum discount amount</strong>. Leave this field empty to allow any discount amount. If you're using <em sourcefile="en/running-your-store/promotional-tools/discounts.md" sourcestartlinenumber="53">Assigned to products</em> discount type, then it will be applied to each product separately.</li>
+</ul>
+</li>
+<li sourcefile="en/running-your-store/promotional-tools/discounts.md" sourcestartlinenumber="55"><p sourcefile="en/running-your-store/promotional-tools/discounts.md" sourcestartlinenumber="55">You can apply <strong sourcefile="en/running-your-store/promotional-tools/discounts.md" sourcestartlinenumber="55">Discount amount</strong> to the order or SKU if the <strong sourcefile="en/running-your-store/promotional-tools/discounts.md" sourcestartlinenumber="55">Use percentage</strong> checkbox is clear.</p>
+</li>
+<li sourcefile="en/running-your-store/promotional-tools/discounts.md" sourcestartlinenumber="56"><p sourcefile="en/running-your-store/promotional-tools/discounts.md" sourcestartlinenumber="56">Select the <strong sourcefile="en/running-your-store/promotional-tools/discounts.md" sourcestartlinenumber="56">Requires coupon code</strong> checkbox to enable a customer to apply a coupon code to get the discount.</p>
+<ul sourcefile="en/running-your-store/promotional-tools/discounts.md" sourcestartlinenumber="57">
+<li sourcefile="en/running-your-store/promotional-tools/discounts.md" sourcestartlinenumber="57">After selecting the checkbox, the <strong sourcefile="en/running-your-store/promotional-tools/discounts.md" sourcestartlinenumber="57">Coupon code</strong> option appears. You can enter the required coupon code in this field. This enables customers to enter the coupon code during checkout to apply the discount.
+<div class="NOTE" sourcefile="en/running-your-store/promotional-tools/discounts.md" sourcestartlinenumber="58">
+<h5>Note</h5>
+<p sourcefile="en/running-your-store/promotional-tools/discounts.md" sourcestartlinenumber="60">A customer can apply an unlimited number of coupon codes to an order if they fit it.</p>
+</div>
+</li>
+</ul>
+</li>
+<li sourcefile="en/running-your-store/promotional-tools/discounts.md" sourcestartlinenumber="62"><p sourcefile="en/running-your-store/promotional-tools/discounts.md" sourcestartlinenumber="62">If you want to specify the <strong sourcefile="en/running-your-store/promotional-tools/discounts.md" sourcestartlinenumber="62">Start date</strong> and <strong sourcefile="en/running-your-store/promotional-tools/discounts.md" sourcestartlinenumber="62">End date</strong> for your discount, select them in the calendar field in Coordinated Universal Time (UTC).</p>
+</li>
+<li sourcefile="en/running-your-store/promotional-tools/discounts.md" sourcestartlinenumber="63"><p sourcefile="en/running-your-store/promotional-tools/discounts.md" sourcestartlinenumber="63">The <strong sourcefile="en/running-your-store/promotional-tools/discounts.md" sourcestartlinenumber="63">Cumulative with other discounts</strong> option allows customers to use several discounts at the same time. If selected, this discount can be used simultaneously with other ones.</p>
+<div class="NOTE" sourcefile="en/running-your-store/promotional-tools/discounts.md" sourcestartlinenumber="64">
+<h5>Note</h5>
+<p sourcefile="en/running-your-store/promotional-tools/discounts.md" sourcestartlinenumber="66">This feature only works for discounts of the same type. Right now, discounts of distinct types are already cumulative.</p>
+</div>
+</li>
+<li sourcefile="en/running-your-store/promotional-tools/discounts.md" sourcestartlinenumber="68"><p sourcefile="en/running-your-store/promotional-tools/discounts.md" sourcestartlinenumber="68">You can also limit the number of times the discount will be used. From the <strong sourcefile="en/running-your-store/promotional-tools/discounts.md" sourcestartlinenumber="68">Discount limitation</strong> dropdown list, select the required limitation regarding the discount:</p>
+<ul sourcefile="en/running-your-store/promotional-tools/discounts.md" sourcestartlinenumber="69">
+<li sourcefile="en/running-your-store/promotional-tools/discounts.md" sourcestartlinenumber="69"><em sourcefile="en/running-your-store/promotional-tools/discounts.md" sourcestartlinenumber="69">Unlimited</em>.</li>
+<li sourcefile="en/running-your-store/promotional-tools/discounts.md" sourcestartlinenumber="70"><em sourcefile="en/running-your-store/promotional-tools/discounts.md" sourcestartlinenumber="70">N times only</em>: select this option and enter the number of times this discount will be available.</li>
+<li sourcefile="en/running-your-store/promotional-tools/discounts.md" sourcestartlinenumber="71"><em sourcefile="en/running-your-store/promotional-tools/discounts.md" sourcestartlinenumber="71">N times per customer</em>: select this option and enter the number of times this discount will be available for one customer.</li>
+</ul>
+</li>
+<li sourcefile="en/running-your-store/promotional-tools/discounts.md" sourcestartlinenumber="73"><p sourcefile="en/running-your-store/promotional-tools/discounts.md" sourcestartlinenumber="73">In the <strong sourcefile="en/running-your-store/promotional-tools/discounts.md" sourcestartlinenumber="73">Maximum discounted quantity</strong> field (only visible when the <strong sourcefile="en/running-your-store/promotional-tools/discounts.md" sourcestartlinenumber="73">Discount type</strong> is set to <em sourcefile="en/running-your-store/promotional-tools/discounts.md" sourcestartlinenumber="73">Assigned to products</em>, <em sourcefile="en/running-your-store/promotional-tools/discounts.md" sourcestartlinenumber="73">categories</em> or <em sourcefile="en/running-your-store/promotional-tools/discounts.md" sourcestartlinenumber="73">manufacturers</em>), specify the maximum product quantity that can be discounted. It can be used for scenarios like &quot;buy 2 and get 1 for free.&quot;</p>
+</li>
+<li sourcefile="en/running-your-store/promotional-tools/discounts.md" sourcestartlinenumber="74"><p sourcefile="en/running-your-store/promotional-tools/discounts.md" sourcestartlinenumber="74">Enter the <strong sourcefile="en/running-your-store/promotional-tools/discounts.md" sourcestartlinenumber="74">Admin comment</strong> if needed. It won't be visible to customers.</p>
+</li>
+</ul>
+<p sourcefile="en/running-your-store/promotional-tools/discounts.md" sourcestartlinenumber="76">Click <strong sourcefile="en/running-your-store/promotional-tools/discounts.md" sourcestartlinenumber="76">Save</strong> to save the changes or <strong sourcefile="en/running-your-store/promotional-tools/discounts.md" sourcestartlinenumber="76">Save and continue edit</strong> to proceed to editing other panels.</p>
+<h2 id="adding-discount-requirements" sourcefile="en/running-your-store/promotional-tools/discounts.md" sourcestartlinenumber="78">Adding discount requirements</h2>
+<p sourcefile="en/running-your-store/promotional-tools/discounts.md" sourcestartlinenumber="80">After creating the discount, it's allowed to add discount requirements if you want some specific rules to be applied to the discount.
+Set up requirements if you want to limit the discount to certain user categories depending on a customer role, the amount spent or others. You can use a single requirement type or group several types and apply them simultaneously.</p>
+<p sourcefile="en/running-your-store/promotional-tools/discounts.md" sourcestartlinenumber="83">To add discount requirements, go to the <em sourcefile="en/running-your-store/promotional-tools/discounts.md" sourcestartlinenumber="83">Requirements</em> panel:</p>
+<p sourcefile="en/running-your-store/promotional-tools/discounts.md" sourcestartlinenumber="85"><img src="_static/discounts/requirements.jpg" sourcefile="en/running-your-store/promotional-tools/discounts.md" sourcestartlinenumber="85" alt="Requirements"></p>
+<p sourcefile="en/running-your-store/promotional-tools/discounts.md" sourcestartlinenumber="87">To add a new requirement, select the <strong sourcefile="en/running-your-store/promotional-tools/discounts.md" sourcestartlinenumber="87">Discount requirement type</strong> from the dropdown list.</p>
+<ul sourcefile="en/running-your-store/promotional-tools/discounts.md" sourcestartlinenumber="89">
+<li sourcefile="en/running-your-store/promotional-tools/discounts.md" sourcestartlinenumber="89"><p sourcefile="en/running-your-store/promotional-tools/discounts.md" sourcestartlinenumber="89">There is one requirement type available in nopCommerce out of the box: <em sourcefile="en/running-your-store/promotional-tools/discounts.md" sourcestartlinenumber="89">Must be assigned to a customer role</em>. This allows you to configure discounts for certain customer groups (roles). Other requirements are available as plugins on our <a href="https://www.nopcommerce.com/en/extensions?searchterm=discount+requirement&amp;category=discounts-promotions" sourcefile="en/running-your-store/promotional-tools/discounts.md" sourcestartlinenumber="89">marketplace</a>.</p>
+</li>
+<li sourcefile="en/running-your-store/promotional-tools/discounts.md" sourcestartlinenumber="91"><p sourcefile="en/running-your-store/promotional-tools/discounts.md" sourcestartlinenumber="91">Also, you can create a group of requirements to deal with complex requirements with multiple rules. Requirement group is a useful feature for creating discount requirement templates. You can create a requirement group just once and then use it whenever you want this limitation to be applied. You can include one requirement group into another if needed.
+The requirements are set using Boolean logic. For instance, if you want the discount to be assigned to a particular customer role or in case a customer had spent a certain amount. Such requirements and more are available as plugins on our <a href="https://www.nopcommerce.com/en/extensions?searchterm=discount+requirement&amp;category=discounts-promotions" sourcefile="en/running-your-store/promotional-tools/discounts.md" sourcestartlinenumber="92">marketplace</a>.</p>
+</li>
+</ul>
+<p sourcefile="en/running-your-store/promotional-tools/discounts.md" sourcestartlinenumber="94"><img src="_static/discounts/discount-requirenents-group.png" sourcefile="en/running-your-store/promotional-tools/discounts.md" sourcestartlinenumber="94" alt="Group requirements"></p>
+<p sourcefile="en/running-your-store/promotional-tools/discounts.md" sourcestartlinenumber="96">You can set an unlimited number of requirement groups, one inside another. For example, more complex case, when you want your customers to get a discount if they are vendors and have spent a certain amount or if they are forum moderators and they put a certain product to the cart at the same time.</p>
+<p sourcefile="en/running-your-store/promotional-tools/discounts.md" sourcestartlinenumber="98">When customers apply a discount while proceeding to the checkout, it will be displayed as follows:</p>
+<p sourcefile="en/running-your-store/promotional-tools/discounts.md" sourcestartlinenumber="100"><img src="_static/discounts/discount-in-shopping-cart.png" sourcefile="en/running-your-store/promotional-tools/discounts.md" sourcestartlinenumber="100" alt="discount-in-shopping-cart"></p>
+<p sourcefile="en/running-your-store/promotional-tools/discounts.md" sourcestartlinenumber="102"><img src="_static/discounts/coupone-code.png" sourcefile="en/running-your-store/promotional-tools/discounts.md" sourcestartlinenumber="102" alt="coupone-code"></p>
+<h2 id="common-type-of-discounts" sourcefile="en/running-your-store/promotional-tools/discounts.md" sourcestartlinenumber="104">Common type of discounts</h2>
+<h3 id="black-friday-sale" sourcefile="en/running-your-store/promotional-tools/discounts.md" sourcestartlinenumber="106">Black Friday sale</h3>
+<p sourcefile="en/running-your-store/promotional-tools/discounts.md" sourcestartlinenumber="108">Black Friday is always the day after Thanksgiving. It's a quite common discount campaign; almost every online store has a Black Friday sale.</p>
+<p sourcefile="en/running-your-store/promotional-tools/discounts.md" sourcestartlinenumber="110"><img src="_static/discounts/Black-friday.png" sourcefile="en/running-your-store/promotional-tools/discounts.md" sourcestartlinenumber="110" alt="Black Friday"></p>
+<ul sourcefile="en/running-your-store/promotional-tools/discounts.md" sourcestartlinenumber="112">
+<li sourcefile="en/running-your-store/promotional-tools/discounts.md" sourcestartlinenumber="112"><strong sourcefile="en/running-your-store/promotional-tools/discounts.md" sourcestartlinenumber="112">Name</strong> — you can enter any name; it's internal only.</li>
+<li sourcefile="en/running-your-store/promotional-tools/discounts.md" sourcestartlinenumber="113"><strong sourcefile="en/running-your-store/promotional-tools/discounts.md" sourcestartlinenumber="113">Discount type</strong> — here, it's <em sourcefile="en/running-your-store/promotional-tools/discounts.md" sourcestartlinenumber="113">Assigned to subtotal</em> type when a discount is applied to the entire order amount before all the fees are added (like shipping fee and taxes). It's relevant here because we want all the products in the cart to be discounted.</li>
+<li sourcefile="en/running-your-store/promotional-tools/discounts.md" sourcestartlinenumber="114">We can apply the discount in % or just enter the amount in chosen currency. We have 10% here.</li>
+<li sourcefile="en/running-your-store/promotional-tools/discounts.md" sourcestartlinenumber="115">The <strong sourcefile="en/running-your-store/promotional-tools/discounts.md" sourcestartlinenumber="115">Maximum discount amount</strong> can be limited as well, so even if the total cost of products in the cart is $300, a customer will only have a $10 discount anyway.</li>
+<li sourcefile="en/running-your-store/promotional-tools/discounts.md" sourcestartlinenumber="116">This discount will require a <strong sourcefile="en/running-your-store/promotional-tools/discounts.md" sourcestartlinenumber="116">Coupon code</strong>. You can apply discounts without entering coupon codes, but it's not recommended considering marketing purposes. Coupon codes allow you to check campaigns' results.</li>
+<li sourcefile="en/running-your-store/promotional-tools/discounts.md" sourcestartlinenumber="117">Discounts are often time-based. Here, we entered Black Friday weekend dates in the <strong sourcefile="en/running-your-store/promotional-tools/discounts.md" sourcestartlinenumber="117">Start date</strong> and <strong sourcefile="en/running-your-store/promotional-tools/discounts.md" sourcestartlinenumber="117">End date</strong> fields.</li>
+<li sourcefile="en/running-your-store/promotional-tools/discounts.md" sourcestartlinenumber="118"><strong sourcefile="en/running-your-store/promotional-tools/discounts.md" sourcestartlinenumber="118">Cumulative with other discounts</strong> option allows customers to use several discounts at the same time.</li>
+<li sourcefile="en/running-your-store/promotional-tools/discounts.md" sourcestartlinenumber="119">The last setting is for <strong sourcefile="en/running-your-store/promotional-tools/discounts.md" sourcestartlinenumber="119">Discount limitation</strong> usage. For instance, this discount can be applied once per customer.</li>
+</ul>
+<h3 id="buy-one-item-and-get-50-off-the-second" sourcefile="en/running-your-store/promotional-tools/discounts.md" sourcestartlinenumber="121">Buy one item and get 50% off the second</h3>
+<p sourcefile="en/running-your-store/promotional-tools/discounts.md" sourcestartlinenumber="123">Often, you need to sell more items of a certain product. In this case, to encourage your customers to buy several items, you can offer them a discount. Let's see how to use the discount &quot;Buy one item and get 50% off the second&quot; in your nopCommerce store.</p>
+<p sourcefile="en/running-your-store/promotional-tools/discounts.md" sourcestartlinenumber="125"><img src="_static/discounts/buy_1.png" sourcefile="en/running-your-store/promotional-tools/discounts.md" sourcestartlinenumber="125" alt="Edit discount details"></p>
+<ul sourcefile="en/running-your-store/promotional-tools/discounts.md" sourcestartlinenumber="127">
+<li sourcefile="en/running-your-store/promotional-tools/discounts.md" sourcestartlinenumber="127">The <strong sourcefile="en/running-your-store/promotional-tools/discounts.md" sourcestartlinenumber="127">Discount type</strong> is <em sourcefile="en/running-your-store/promotional-tools/discounts.md" sourcestartlinenumber="127">Assigned to products</em>. In the <em sourcefile="en/running-your-store/promotional-tools/discounts.md" sourcestartlinenumber="127">Applied to products</em> panel, you can add them; here, it will be an &quot;Oversized T-shirt.&quot;</li>
+<li sourcefile="en/running-your-store/promotional-tools/discounts.md" sourcestartlinenumber="128">We want our customers to get a 50% discount on the 2nd T-shirt.</li>
+<li sourcefile="en/running-your-store/promotional-tools/discounts.md" sourcestartlinenumber="129">This discount can be used once per customer, so the <strong sourcefile="en/running-your-store/promotional-tools/discounts.md" sourcestartlinenumber="129">Maximum discounted quantity</strong> is 1.</li>
+<li sourcefile="en/running-your-store/promotional-tools/discounts.md" sourcestartlinenumber="130">You can set up requirements for the product quantity in the <em sourcefile="en/running-your-store/promotional-tools/discounts.md" sourcestartlinenumber="130">Requirements</em> panel. Add a requirement type <em sourcefile="en/running-your-store/promotional-tools/discounts.md" sourcestartlinenumber="130">Customer has all of these products</em> and add a T-shirt with a quantity 2. This requirement type can be downloaded as a plugin <a href="https://www.nopcommerce.com/en/has-all-products-discount-requirement-rule" sourcefile="en/running-your-store/promotional-tools/discounts.md" sourcestartlinenumber="130">here</a>.     Read about how to install plugins in the <a class="xref" href="../../getting-started/advanced-configuration/plugins-in-nopcommerce.html" sourcefile="en/running-your-store/promotional-tools/discounts.md" sourcestartlinenumber="130">Plugins</a> section.</li>
+</ul>
+<p sourcefile="en/running-your-store/promotional-tools/discounts.md" sourcestartlinenumber="132"><img src="_static/discounts/buy_2.png" sourcefile="en/running-your-store/promotional-tools/discounts.md" sourcestartlinenumber="132" alt="Buy one item and get 50% on the second"></p>
+<p sourcefile="en/running-your-store/promotional-tools/discounts.md" sourcestartlinenumber="134">You can use this scenario to set up another popular discount, &quot;Buy one and get the second for free,&quot; if you set up a 100% discount.</p>
+<h2 id="see-also" sourcefile="en/running-your-store/promotional-tools/discounts.md" sourcestartlinenumber="136">See also</h2>
+<ul sourcefile="en/running-your-store/promotional-tools/discounts.md" sourcestartlinenumber="138">
+<li sourcefile="en/running-your-store/promotional-tools/discounts.md" sourcestartlinenumber="138">More plugins on discount types and discount requirement types on the <a href="http://www.nopcommerce.com/marketplace" sourcefile="en/running-your-store/promotional-tools/discounts.md" sourcestartlinenumber="138">nopCommerce marketplace</a></li>
+<li sourcefile="en/running-your-store/promotional-tools/discounts.md" sourcestartlinenumber="139">How to <a class="xref" href="../../getting-started/advanced-configuration/plugins-in-nopcommerce.html" sourcefile="en/running-your-store/promotional-tools/discounts.md" sourcestartlinenumber="139">install plugins</a></li>
+</ul>
+<h2 id="tutorials" sourcefile="en/running-your-store/promotional-tools/discounts.md" sourcestartlinenumber="141">Tutorials</h2>
+<ul sourcefile="en/running-your-store/promotional-tools/discounts.md" sourcestartlinenumber="143">
+<li sourcefile="en/running-your-store/promotional-tools/discounts.md" sourcestartlinenumber="143"><a href="https://www.youtube.com/watch?v=cAXxnV79dzw&amp;index=7&amp;list=PLnL_aDfmRHwsbhj621A-RFb1KnzeFxYz4" sourcefile="en/running-your-store/promotional-tools/discounts.md" sourcestartlinenumber="143">Using discounts in nopCommerce</a></li>
+<li sourcefile="en/running-your-store/promotional-tools/discounts.md" sourcestartlinenumber="144"><a href="https://www.youtube.com/watch?v=gBtZG3OcjnQ" sourcefile="en/running-your-store/promotional-tools/discounts.md" sourcestartlinenumber="144">Configuring discounts with boolean logic</a></li>
+</ul>
+            </article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/nopSolutions/nopCommerce-Docs/blob/master/en/running-your-store/promotional-tools/discounts.md/#L1" class="contribution-link">Improve this Doc</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../../../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../../../styles/docfx.js"></script>
+    <script type="text/javascript" src="../../../styles/main.js"></script>
+  </body>
+</html>

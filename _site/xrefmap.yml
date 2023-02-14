@@ -1,0 +1,585 @@
+### YamlMime:XRefMap
+sorted: true
+references:
+- uid: en/developer/contribute/index
+  name: Contribute
+  href: en/developer/contribute/index.html
+- uid: en/developer/contribute/possible-ways
+  name: Possible ways to contribute
+  href: en/developer/contribute/possible-ways.html
+- uid: en/developer/contribute/sharing
+  name: Sharing your plugins and themes
+  href: en/developer/contribute/sharing.html
+- uid: en/developer/contribute/source-code
+  name: Working with source code and contributions
+  href: en/developer/contribute/source-code.html
+- uid: en/developer/copyright-notice
+  name: Copyright notice
+  href: en/developer/copyright-notice.html
+- uid: en/developer/design/contributing-theme
+  name: Contributing a Theme
+  href: en/developer/design/contributing-theme.html
+- uid: en/developer/design/customizing-theme
+  name: Customizing nopCommerce Themes
+  href: en/developer/design/customizing-theme.html
+- uid: en/developer/design/entity-events-system
+  name: Entity events system
+  href: en/developer/design/entity-events-system.html
+- uid: en/developer/design/index
+  name: Designer's Guide
+  href: en/developer/design/index.html
+- uid: en/developer/design/installing-theme
+  name: Installing / Applying theme in nopCommerce
+  href: en/developer/design/installing-theme.html
+- uid: en/developer/design/new-theme
+  name: Creating / Writing your own theme (using current / default theme)
+  href: en/developer/design/new-theme.html
+- uid: en/developer/design/overview
+  name: Overview (Designer's Guide)
+  href: en/developer/design/overview.html
+- uid: en/developer/design/responsive
+  name: Responsive Design
+  href: en/developer/design/responsive.html
+- uid: en/developer/design/right-to-left-theme
+  name: Right To Left Theme
+  href: en/developer/design/right-to-left-theme.html
+- uid: en/developer/design/tips-and-tricks
+  name: Tips and Tricks
+  href: en/developer/design/tips-and-tricks.html
+- uid: en/developer/design/understanding-layout
+  name: Understanding Layout / Design
+  href: en/developer/design/understanding-layout.html
+- uid: en/developer/design/widgets
+  name: Widgets (Designer's Guide)
+  href: en/developer/design/widgets.html
+- uid: en/developer/index
+  name: Developers guide
+  href: en/developer/index.html
+- uid: en/developer/mobile-app/index
+  name: Web API documentation
+  href: en/developer/mobile-app/index.html
+- uid: en/developer/plugins/how-to-write-plugin-3.90
+  name: How to write a plugin for nopCommerce
+  href: en/developer/plugins/how-to-write-plugin-3.90.html
+- uid: en/developer/plugins/how-to-write-plugin-4.00
+  name: How to write a plugin for nopCommerce
+  href: en/developer/plugins/how-to-write-plugin-4.00.html
+- uid: en/developer/plugins/how-to-write-plugin-4.10
+  name: How to write a plugin for nopCommerce
+  href: en/developer/plugins/how-to-write-plugin-4.10.html
+- uid: en/developer/plugins/how-to-write-plugin-4.20
+  name: How to write a plugin for nopCommerce
+  href: en/developer/plugins/how-to-write-plugin-4.20.html
+- uid: en/developer/plugins/how-to-write-plugin-4.30
+  name: How to write a plugin for nopCommerce
+  href: en/developer/plugins/how-to-write-plugin-4.30.html
+- uid: en/developer/plugins/how-to-write-plugin-4.40
+  name: How to write a plugin for nopCommerce
+  href: en/developer/plugins/how-to-write-plugin-4.40.html
+- uid: en/developer/plugins/how-to-write-plugin-4.50
+  name: How to write a plugin for nopCommerce
+  href: en/developer/plugins/how-to-write-plugin-4.50.html
+- uid: en/developer/plugins/how-to-write-plugin-4.60
+  name: How to write a plugin for nopCommerce
+  href: en/developer/plugins/how-to-write-plugin-4.60.html
+- uid: en/developer/plugins/how-to-write-tax-plugin-4.20
+  name: How to write a Tax Plugin for nopCommerce 4.20
+  href: en/developer/plugins/how-to-write-tax-plugin-4.20.html
+- uid: en/developer/plugins/how-to-write-widget-for-nopCommerce
+  name: How to write a widget for nopCommerce
+  href: en/developer/plugins/how-to-write-widget-for-nopCommerce.html
+- uid: en/developer/plugins/index
+  name: Creating a nopCommerce plugin
+  href: en/developer/plugins/index.html
+- uid: en/developer/plugins/menu-item
+  name: How to add a menu item into the administration area from a plugin
+  href: en/developer/plugins/menu-item.html
+- uid: en/developer/plugins/payment-method
+  name: How to code my own payment method
+  href: en/developer/plugins/payment-method.html
+- uid: en/developer/plugins/plugin_json
+  name: Description of the structure of the plugin.json file
+  href: en/developer/plugins/plugin.json.html
+- uid: en/developer/plugins/plugin-with-data-access
+  name: Plugin with data access
+  href: en/developer/plugins/plugin-with-data-access.html
+- uid: en/developer/plugins/plugin-with-data-access-4.20
+  name: Plugin with data access
+  href: en/developer/plugins/plugin-with-data-access-4.20.html
+- uid: en/developer/plugins/resource-files
+  name: Adding CSS and JS resource files into nopCommerce Plugin
+  href: en/developer/plugins/resource-files.html
+- uid: en/developer/plugins/shipping-plugin
+  name: How to code my own shipping rate computation method
+  href: en/developer/plugins/shipping-plugin.html
+- uid: en/developer/tutorials/appsettings-json-file
+  name: The settings from the appsettings.json file
+  href: en/developer/tutorials/appsettings-json-file.html
+- uid: en/developer/tutorials/architecture-of-nopCommerce
+  name: Architecture of nopCommerce
+  href: en/developer/tutorials/architecture-of-nopCommerce.html
+- uid: en/developer/tutorials/azure-deploy
+  name: Step by step to deploy on Azure with GIT and automatic builds
+  href: en/developer/tutorials/azure-deploy.html
+- uid: en/developer/tutorials/azure-publish
+  name: How to deploy nopCommerce to Azure
+  href: en/developer/tutorials/azure-publish.html
+- uid: en/developer/tutorials/code-style
+  name: Configuring code style
+  href: en/developer/tutorials/code-style.html
+- uid: en/developer/tutorials/coding-standards
+  name: Coding Standards
+  href: en/developer/tutorials/coding-standards.html
+- uid: en/developer/tutorials/csp-headers
+  name: Content Security Policy (CSP) Headers
+  href: en/developer/tutorials/csp-headers.html
+- uid: en/developer/tutorials/data-validation
+  name: Data Validation
+  href: en/developer/tutorials/data-validation.html
+- uid: en/developer/tutorials/db-schema
+  name: Default database schema
+  href: en/developer/tutorials/db-schema.html
+- uid: en/developer/tutorials/description-of-plugin-system
+  name: Description of plugin system
+  href: en/developer/tutorials/description-of-plugin-system.html
+- uid: en/developer/tutorials/description-of-the-web-config-file-in-project
+  name: Description of the web.config file in project
+  href: en/developer/tutorials/description-of-the-web-config-file-in-project.html
+- uid: en/developer/tutorials/docker
+  name: Docker
+  href: en/developer/tutorials/docker.html
+- uid: en/developer/tutorials/entity-event
+  name: Entity events and how they work
+  href: en/developer/tutorials/entity-event.html
+- uid: en/developer/tutorials/events
+  name: Exposing and Handling Events
+  href: en/developer/tutorials/events.html
+- uid: en/developer/tutorials/guide-to-creating-a-page-containing-a-reporting-table-of-datatables
+  name: Guide to creating a page containing a reporting table of DataTables
+  href: en/developer/tutorials/guide-to-creating-a-page-containing-a-reporting-table-of-datatables.html
+- uid: en/developer/tutorials/guide-to-expanding-the-functionality-of-the-basic-functions-of-nop-commerce-through-a-plugin
+  name: A guide to expand the basic functionality of nopCommerce through a plugin
+  href: en/developer/tutorials/guide-to-expanding-the-functionality-of-the-basic-functions-of-nop-commerce-through-a-plugin.html
+- uid: en/developer/tutorials/index
+  name: Developer tutorials
+  href: en/developer/tutorials/index.html
+- uid: en/developer/tutorials/instruction-on-how-to-start-developing-on-nopcommerce
+  name: Instruction on how to start developing on nopCommerce
+  href: en/developer/tutorials/instruction-on-how-to-start-developing-on-nopcommerce.html
+- uid: en/developer/tutorials/inversion-of-control
+  name: Inversion of Control and Dependency Injection
+  href: en/developer/tutorials/inversion-of-control.html
+- uid: en/developer/tutorials/migrations
+  name: How do migrations work?
+  href: en/developer/tutorials/migrations.html
+- uid: en/developer/tutorials/register-new-routes
+  name: How do I register new routes?
+  href: en/developer/tutorials/register-new-routes.html
+- uid: en/developer/tutorials/scheduled-tasks
+  name: Scheduled Tasks
+  href: en/developer/tutorials/scheduled-tasks.html
+- uid: en/developer/tutorials/settings
+  name: Settings API
+  href: en/developer/tutorials/settings.html
+- uid: en/developer/tutorials/source-code-organization
+  name: Source code organization
+  href: en/developer/tutorials/source-code-organization.html
+- uid: en/developer/tutorials/system-requirements-for-developing
+  name: System requirements for developing
+  href: en/developer/tutorials/system-requirements-for-developing.html
+- uid: en/developer/tutorials/type-finder
+  name: How and when to use the ITypeFinder interface
+  href: en/developer/tutorials/type-finder.html
+- uid: en/developer/tutorials/unit-tests
+  name: UNIT testing
+  href: en/developer/tutorials/unit-tests.html
+- uid: en/developer/tutorials/update-existing-entity
+  name: Updating an existing entity. How to add a new property.
+  href: en/developer/tutorials/update-existing-entity.html
+- uid: en/developer/web-api/index
+  name: Web API documentation
+  href: en/developer/web-api/index.html
+- uid: en/getting-started/admin-area-overview
+  name: Admin area overview
+  href: en/getting-started/admin-area-overview.html
+- uid: en/getting-started/advanced-configuration/all-settings
+  name: All settings
+  href: en/getting-started/advanced-configuration/all-settings.html
+- uid: en/getting-started/advanced-configuration/configure-analytics
+  name: Configure analytics
+  href: en/getting-started/advanced-configuration/configure-analytics.html
+- uid: en/getting-started/advanced-configuration/custom-html
+  name: Custom HTML
+  href: en/getting-started/advanced-configuration/custom-html.html
+- uid: en/getting-started/advanced-configuration/external-authentication-methods
+  name: External authentication methods
+  href: en/getting-started/advanced-configuration/external-authentication-methods.html
+- uid: en/getting-started/advanced-configuration/gdpr-settings
+  name: GDPR settings
+  href: en/getting-started/advanced-configuration/gdpr-settings.html
+- uid: en/getting-started/advanced-configuration/how-to-install-and-configure-ssl-certificates
+  name: How to install and configure SSL certificates
+  href: en/getting-started/advanced-configuration/how-to-install-and-configure-ssl-certificates.html
+- uid: en/getting-started/advanced-configuration/index
+  name: Advanced configuration
+  href: en/getting-started/advanced-configuration/index.html
+- uid: en/getting-started/advanced-configuration/localization
+  name: Localization
+  href: en/getting-started/advanced-configuration/localization.html
+- uid: en/getting-started/advanced-configuration/multi-factor-authentication
+  name: Multi-factor authentication
+  href: en/getting-started/advanced-configuration/multi-factor-authentication.html
+- uid: en/getting-started/advanced-configuration/multi-store
+  name: Multi-store
+  href: en/getting-started/advanced-configuration/multi-store.html
+- uid: en/getting-started/advanced-configuration/pdf-settings
+  name: PDF settings
+  href: en/getting-started/advanced-configuration/pdf-settings.html
+- uid: en/getting-started/advanced-configuration/plugins-in-nopcommerce
+  name: Plugins in nopCommerce
+  href: en/getting-started/advanced-configuration/plugins-in-nopcommerce.html
+- uid: en/getting-started/advanced-configuration/robots-txt
+  name: robots.txt
+  href: en/getting-started/advanced-configuration/robots-txt.html
+- uid: en/getting-started/advanced-configuration/security-settings
+  name: Security settings
+  href: en/getting-started/advanced-configuration/security-settings.html
+- uid: en/getting-started/advanced-configuration/your-store-information
+  name: Your store information
+  href: en/getting-started/advanced-configuration/your-store-information.html
+- uid: en/getting-started/configure-payments/advanced-configuration/currencies
+  name: Currencies
+  href: en/getting-started/configure-payments/advanced-configuration/currencies.html
+- uid: en/getting-started/configure-payments/advanced-configuration/index
+  name: Advanced configuration
+  href: en/getting-started/configure-payments/advanced-configuration/index.html
+- uid: en/getting-started/configure-payments/advanced-configuration/payment-method-restrictions
+  name: Payment method restrictions
+  href: en/getting-started/configure-payments/advanced-configuration/payment-method-restrictions.html
+- uid: en/getting-started/configure-payments/index
+  name: Configure payments
+  href: en/getting-started/configure-payments/index.html
+- uid: en/getting-started/configure-payments/payment-methods/check-money-order
+  name: Check/money order
+  href: en/getting-started/configure-payments/payment-methods/check-money-order.html
+- uid: en/getting-started/configure-payments/payment-methods/credit-card-manual-processing
+  name: Credit card (manual processing)
+  href: en/getting-started/configure-payments/payment-methods/credit-card-manual-processing.html
+- uid: en/getting-started/configure-payments/payment-methods/cybersource
+  name: CyberSource
+  href: en/getting-started/configure-payments/payment-methods/cybersource.html
+- uid: en/getting-started/configure-payments/payment-methods/index
+  name: Payment methods
+  href: en/getting-started/configure-payments/payment-methods/index.html
+- uid: en/getting-started/configure-payments/payment-methods/paypal-commerce
+  name: PayPal Commerce
+  href: en/getting-started/configure-payments/payment-methods/paypal-commerce.html
+- uid: en/getting-started/configure-payments/payment-methods/paypal-smart-payment-buttons
+  name: PayPal Smart Payment Buttons
+  href: en/getting-started/configure-payments/payment-methods/paypal-smart-payment-buttons.html
+- uid: en/getting-started/configure-payments/payment-methods/paypal-standard
+  name: PayPal Standard
+  href: en/getting-started/configure-payments/payment-methods/paypal-standard.html
+- uid: en/getting-started/configure-payments/payment-methods/paypal-zettle
+  name: PayPal Zettle
+  href: en/getting-started/configure-payments/payment-methods/paypal-zettle.html
+- uid: en/getting-started/configure-shipping/advanced-configuration/countries-states
+  name: Countries, states
+  href: en/getting-started/configure-shipping/advanced-configuration/countries-states.html
+- uid: en/getting-started/configure-shipping/advanced-configuration/dates-and-ranges
+  name: Dates and ranges
+  href: en/getting-started/configure-shipping/advanced-configuration/dates-and-ranges.html
+- uid: en/getting-started/configure-shipping/advanced-configuration/index
+  name: Advanced configuration
+  href: en/getting-started/configure-shipping/advanced-configuration/index.html
+- uid: en/getting-started/configure-shipping/advanced-configuration/measures
+  name: Measures
+  href: en/getting-started/configure-shipping/advanced-configuration/measures.html
+- uid: en/getting-started/configure-shipping/advanced-configuration/pickup-points
+  name: Pickup points
+  href: en/getting-started/configure-shipping/advanced-configuration/pickup-points.html
+- uid: en/getting-started/configure-shipping/advanced-configuration/warehouses
+  name: Warehouses
+  href: en/getting-started/configure-shipping/advanced-configuration/warehouses.html
+- uid: en/getting-started/configure-shipping/index
+  name: Configure shipping
+  href: en/getting-started/configure-shipping/index.html
+- uid: en/getting-started/configure-shipping/shipping-providers/index
+  name: Shipping providers
+  href: en/getting-started/configure-shipping/shipping-providers/index.html
+- uid: en/getting-started/configure-shipping/shipping-providers/manual
+  name: Manual (fixed or by weight and by total)
+  href: en/getting-started/configure-shipping/shipping-providers/manual.html
+- uid: en/getting-started/configure-shipping/shipping-providers/ups
+  name: UPS
+  href: en/getting-started/configure-shipping/shipping-providers/ups.html
+- uid: en/getting-started/configure-shipping/shipping-settings
+  name: Shipping settings
+  href: en/getting-started/configure-shipping/shipping-settings.html
+- uid: en/getting-started/configure-taxes/index
+  name: Configure taxes
+  href: en/getting-started/configure-taxes/index.html
+- uid: en/getting-started/configure-taxes/tax-providers/avalara
+  name: Avalara
+  href: en/getting-started/configure-taxes/tax-providers/avalara.html
+- uid: en/getting-started/configure-taxes/tax-providers/index
+  name: Tax providers
+  href: en/getting-started/configure-taxes/tax-providers/index.html
+- uid: en/getting-started/configure-taxes/tax-providers/manual
+  name: Manual (fixed or by country/state/zip)
+  href: en/getting-started/configure-taxes/tax-providers/manual.html
+- uid: en/getting-started/configure-taxes/tax-settings
+  name: Tax settings
+  href: en/getting-started/configure-taxes/tax-settings.html
+- uid: en/getting-started/design-your-store/adding-a-favicon
+  name: Adding a favicon
+  href: en/getting-started/design-your-store/adding-a-favicon.html
+- uid: en/getting-started/design-your-store/choose-and-install-a-theme
+  name: Choose and install a theme
+  href: en/getting-started/design-your-store/choose-and-install-a-theme.html
+- uid: en/getting-started/design-your-store/index
+  name: Design your store
+  href: en/getting-started/design-your-store/index.html
+- uid: en/getting-started/design-your-store/media-settings
+  name: Media settings
+  href: en/getting-started/design-your-store/media-settings.html
+- uid: en/getting-started/design-your-store/nivo-slider
+  name: Nivo slider
+  href: en/getting-started/design-your-store/nivo-slider.html
+- uid: en/getting-started/design-your-store/top-menu-and-footer
+  name: Top menu & footer
+  href: en/getting-started/design-your-store/top-menu-and-footer.html
+- uid: en/getting-started/design-your-store/uploading-your-logo
+  name: Uploading your logo
+  href: en/getting-started/design-your-store/uploading-your-logo.html
+- uid: en/getting-started/email-accounts
+  name: Email accounts
+  href: en/getting-started/email-accounts.html
+- uid: en/getting-started/index
+  name: Getting started
+  href: en/getting-started/index.html
+- uid: en/index
+  name: nopCommerce Documentation
+  href: en/index.html
+- uid: en/installation-and-upgrading/index
+  name: Installation & upgrading
+  href: en/installation-and-upgrading/index.html
+- uid: en/installation-and-upgrading/installing-nopcommerce/choose-a-hosting-company
+  name: Choose a hosting company
+  href: en/installation-and-upgrading/installing-nopcommerce/choose-a-hosting-company.html
+- uid: en/installation-and-upgrading/installing-nopcommerce/everleap-fully-managed-hosting
+  name: Fully-managed Private Cloud hosting for nopCommerce
+  href: en/installation-and-upgrading/installing-nopcommerce/everleap-fully-managed-hosting.html
+- uid: en/installation-and-upgrading/installing-nopcommerce/index
+  name: Installing nopCommerce
+  href: en/installation-and-upgrading/installing-nopcommerce/index.html
+- uid: en/installation-and-upgrading/installing-nopcommerce/installing-local
+  name: Installing local
+  href: en/installation-and-upgrading/installing-nopcommerce/installing-local.html
+- uid: en/installation-and-upgrading/installing-nopcommerce/installing-on-linux
+  name: Installing on Linux
+  href: en/installation-and-upgrading/installing-nopcommerce/installing-on-linux.html
+- uid: en/installation-and-upgrading/installing-nopcommerce/installing-on-microsoft-azure
+  name: Installing on Microsoft Azure
+  href: en/installation-and-upgrading/installing-nopcommerce/installing-on-microsoft-azure.html
+- uid: en/installation-and-upgrading/installing-nopcommerce/installing-on-windows
+  name: Installing on Windows
+  href: en/installation-and-upgrading/installing-nopcommerce/installing-on-windows.html
+- uid: en/installation-and-upgrading/installing-nopcommerce/pre-installed-nopcommerce
+  name: Pre-installed nopCommerce
+  href: en/installation-and-upgrading/installing-nopcommerce/pre-installed-nopcommerce.html
+- uid: en/installation-and-upgrading/installing-nopcommerce/web-farms
+  name: Load balancing and web farms in nopCommerce
+  href: en/installation-and-upgrading/installing-nopcommerce/web-farms.html
+- uid: en/installation-and-upgrading/technology-and-system-requirements
+  name: Technology & system requirements
+  href: en/installation-and-upgrading/technology-and-system-requirements.html
+- uid: en/installation-and-upgrading/upgrading-nopcommerce
+  name: Upgrading nopCommerce
+  href: en/installation-and-upgrading/upgrading-nopcommerce.html
+- uid: en/running-your-store/catalog/catalog-settings
+  name: Catalog settings
+  href: en/running-your-store/catalog/catalog-settings.html
+- uid: en/running-your-store/catalog/categories
+  name: Categories
+  href: en/running-your-store/catalog/categories.html
+- uid: en/running-your-store/catalog/index
+  name: Catalog
+  href: en/running-your-store/catalog/index.html
+- uid: en/running-your-store/catalog/manufacturers
+  name: Manufacturers
+  href: en/running-your-store/catalog/manufacturers.html
+- uid: en/running-your-store/catalog/products/add-products
+  name: Add products
+  href: en/running-your-store/catalog/products/add-products.html
+- uid: en/running-your-store/catalog/products/downloadable-products
+  name: Downloadable products
+  href: en/running-your-store/catalog/products/downloadable-products.html
+- uid: en/running-your-store/catalog/products/grouped-products-variants
+  name: Grouped products (variants)
+  href: en/running-your-store/catalog/products/grouped-products-variants.html
+- uid: en/running-your-store/catalog/products/import-export-products
+  name: Import/export products
+  href: en/running-your-store/catalog/products/import-export-products.html
+- uid: en/running-your-store/catalog/products/index
+  name: Products
+  href: en/running-your-store/catalog/products/index.html
+- uid: en/running-your-store/catalog/products/product-attributes
+  name: Product attributes
+  href: en/running-your-store/catalog/products/product-attributes.html
+- uid: en/running-your-store/catalog/products/product-reviews
+  name: Product reviews
+  href: en/running-your-store/catalog/products/product-reviews.html
+- uid: en/running-your-store/catalog/products/product-tags
+  name: Product tags
+  href: en/running-your-store/catalog/products/product-tags.html
+- uid: en/running-your-store/catalog/products/recurring-products
+  name: Recurring product
+  href: en/running-your-store/catalog/products/recurring-products.html
+- uid: en/running-your-store/catalog/products/rental-products
+  name: Rental products
+  href: en/running-your-store/catalog/products/rental-products.html
+- uid: en/running-your-store/catalog/products/specification-attributes
+  name: Specification attributes
+  href: en/running-your-store/catalog/products/specification-attributes.html
+- uid: en/running-your-store/content-management/blog
+  name: Blog
+  href: en/running-your-store/content-management/blog.html
+- uid: en/running-your-store/content-management/forums
+  name: Forums
+  href: en/running-your-store/content-management/forums.html
+- uid: en/running-your-store/content-management/index
+  name: Content management
+  href: en/running-your-store/content-management/index.html
+- uid: en/running-your-store/content-management/message-templates
+  name: Message templates
+  href: en/running-your-store/content-management/message-templates.html
+- uid: en/running-your-store/content-management/news
+  name: News
+  href: en/running-your-store/content-management/news.html
+- uid: en/running-your-store/content-management/polls
+  name: Polls
+  href: en/running-your-store/content-management/polls.html
+- uid: en/running-your-store/content-management/topics-pages
+  name: Topics (pages)
+  href: en/running-your-store/content-management/topics-pages.html
+- uid: en/running-your-store/customer-management/access-control-list
+  name: Access control list
+  href: en/running-your-store/customer-management/access-control-list.html
+- uid: en/running-your-store/customer-management/activity-log
+  name: Activity log
+  href: en/running-your-store/customer-management/activity-log.html
+- uid: en/running-your-store/customer-management/customer-roles
+  name: Customer roles
+  href: en/running-your-store/customer-management/customer-roles.html
+- uid: en/running-your-store/customer-management/customer-settings
+  name: Customer settings
+  href: en/running-your-store/customer-management/customer-settings.html
+- uid: en/running-your-store/customer-management/index
+  name: Customer management
+  href: en/running-your-store/customer-management/index.html
+- uid: en/running-your-store/customer-management/managing-customers
+  name: Managing customers
+  href: en/running-your-store/customer-management/managing-customers.html
+- uid: en/running-your-store/customer-management/online-customers
+  name: Online customers
+  href: en/running-your-store/customer-management/online-customers.html
+- uid: en/running-your-store/index
+  name: Running your store
+  href: en/running-your-store/index.html
+- uid: en/running-your-store/order-management/checkout-attributes
+  name: Checkout attributes
+  href: en/running-your-store/order-management/checkout-attributes.html
+- uid: en/running-your-store/order-management/index
+  name: Order management
+  href: en/running-your-store/order-management/index.html
+- uid: en/running-your-store/order-management/inventory-management
+  name: Inventory management
+  href: en/running-your-store/order-management/inventory-management.html
+- uid: en/running-your-store/order-management/orders
+  name: Order management
+  href: en/running-your-store/order-management/orders.html
+- uid: en/running-your-store/order-management/order-settings
+  name: Order settings
+  href: en/running-your-store/order-management/order-settings.html
+- uid: en/running-your-store/order-management/return-requests
+  name: Return requests
+  href: en/running-your-store/order-management/return-requests.html
+- uid: en/running-your-store/order-management/shipping-management
+  name: Shipping management
+  href: en/running-your-store/order-management/shipping-management.html
+- uid: en/running-your-store/order-management/shopping-carts-and-wishlists
+  name: Shopping carts and wishlists
+  href: en/running-your-store/order-management/shopping-carts-and-wishlists.html
+- uid: en/running-your-store/promotional-tools/affiliates
+  name: Affiliates
+  href: en/running-your-store/promotional-tools/affiliates.html
+- uid: en/running-your-store/promotional-tools/cross-sells-and-related-products
+  name: Cross-sells and related products
+  href: en/running-your-store/promotional-tools/cross-sells-and-related-products.html
+- uid: en/running-your-store/promotional-tools/discounts
+  name: Discounts
+  href: en/running-your-store/promotional-tools/discounts.html
+- uid: en/running-your-store/promotional-tools/email-campaigns
+  name: Email campaigns
+  href: en/running-your-store/promotional-tools/email-campaigns.html
+- uid: en/running-your-store/promotional-tools/facebook-pixel
+  name: Facebook Pixel
+  href: en/running-your-store/promotional-tools/facebook-pixel.html
+- uid: en/running-your-store/promotional-tools/gift-cards
+  name: Gift cards
+  href: en/running-your-store/promotional-tools/gift-cards.html
+- uid: en/running-your-store/promotional-tools/index
+  name: Promotional tools
+  href: en/running-your-store/promotional-tools/index.html
+- uid: en/running-your-store/promotional-tools/reward-points
+  name: Reward points
+  href: en/running-your-store/promotional-tools/reward-points.html
+- uid: en/running-your-store/promotional-tools/sendinblue-integration/index
+  name: Sendinblue integration
+  href: en/running-your-store/promotional-tools/sendinblue-integration/index.html
+- uid: en/running-your-store/promotional-tools/sendinblue-integration/recover-abandoned-carts
+  name: Recover abandoned carts
+  href: en/running-your-store/promotional-tools/sendinblue-integration/recover-abandoned-carts.html
+- uid: en/running-your-store/promotional-tools/sendinblue-integration/send-an-order-confirmation-email
+  name: Send an order confirmation email
+  href: en/running-your-store/promotional-tools/sendinblue-integration/send-an-order-confirmation-email.html
+- uid: en/running-your-store/promotional-tools/sendinblue-integration/set-up-sendinblue-plugin
+  name: Sendinblue integration
+  href: en/running-your-store/promotional-tools/sendinblue-integration/set-up-sendinblue-plugin.html
+- uid: en/running-your-store/promotional-tools/tier-prices
+  name: Tier prices
+  href: en/running-your-store/promotional-tools/tier-prices.html
+- uid: en/running-your-store/reports
+  name: Reports
+  href: en/running-your-store/reports.html
+- uid: en/running-your-store/search-engine-optimization
+  name: Search engine optimization
+  href: en/running-your-store/search-engine-optimization.html
+- uid: en/running-your-store/system-administration/index
+  name: System administration
+  href: en/running-your-store/system-administration/index.html
+- uid: en/running-your-store/system-administration/log
+  name: Log
+  href: en/running-your-store/system-administration/log.html
+- uid: en/running-your-store/system-administration/maintenance
+  name: Maintenance
+  href: en/running-your-store/system-administration/maintenance.html
+- uid: en/running-your-store/system-administration/message-queue
+  name: Message queue
+  href: en/running-your-store/system-administration/message-queue.html
+- uid: en/running-your-store/system-administration/schedule-tasks
+  name: Schedule tasks
+  href: en/running-your-store/system-administration/schedule-tasks.html
+- uid: en/running-your-store/system-administration/system-information
+  name: System information
+  href: en/running-your-store/system-administration/system-information.html
+- uid: en/running-your-store/system-administration/templates
+  name: Templates
+  href: en/running-your-store/system-administration/templates.html
+- uid: en/running-your-store/system-administration/warnings
+  name: Warnings
+  href: en/running-your-store/system-administration/warnings.html
+- uid: en/running-your-store/vendor-management
+  name: Vendor management
+  href: en/running-your-store/vendor-management.html

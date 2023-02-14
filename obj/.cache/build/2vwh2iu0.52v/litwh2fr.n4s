@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Vendor management </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Vendor management ">
+    <meta name="generator" content="docfx 2.59.4.0">
+    
+    <link rel="shortcut icon" href="../../favicon.ico">
+    <link rel="stylesheet" href="../../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../../styles/docfx.css">
+    <link rel="stylesheet" href="../../styles/main.css">
+    <link rel="preload" href="../../fonts/fonts.css" )"="" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <meta property="docfx:navrel" content="/">
+    <meta property="docfx:tocrel" content="../toc.html">
+    
+    <meta property="docfx:rel" content="../../">
+    
+    <script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-7490022-8"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'UA-7490022-8');
+    </script>
+    <script>
+      /*! loadCSS. [c]2017 Filament Group, Inc. MIT License
+      - testing support for link[rel=preload]
+      - enabling async CSS loading in browsers that do not support rel=preload
+      - applying rel preload css once loaded, whether supported or not.
+      */
+      !function(n){"use strict";n.loadCSS||(n.loadCSS=function(){});var o=loadCSS.relpreload={};if(o.support=function(){var e;try{e=n.document.createElement("link").relList.supports("preload")}catch(t){e=!1}return function(){return e}}(),o.bindMediaToggle=function(t){var e=t.media||"all";function a(){t.addEventListener?t.removeEventListener("load",a):t.attachEvent&&t.detachEvent("onload",a),t.setAttribute("onload",null),t.media=e}t.addEventListener?t.addEventListener("load",a):t.attachEvent&&t.attachEvent("onload",a),setTimeout(function(){t.rel="stylesheet",t.media="only x"}),setTimeout(a,3e3)},o.poly=function(){if(!o.support())for(var t=n.document.getElementsByTagName("link"),e=0;e<t.length;e++){var a=t[e];"preload"!==a.rel||"style"!==a.getAttribute("as")||a.getAttribute("data-loadcss")||(a.setAttribute("data-loadcss",!0),o.bindMediaToggle(a))}},!o.support()){o.poly();var t=n.setInterval(o.poly,500);n.addEventListener?n.addEventListener("load",function(){o.poly(),n.clearInterval(t)}):n.attachEvent&&n.attachEvent("onload",function(){o.poly(),n.clearInterval(t)})}"undefined"!=typeof exports?exports.loadCSS=loadCSS:n.loadCSS=loadCSS}("undefined"!=typeof global?global:this);
+    </script>
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="170">
+    <div id="wrapper">
+      <header>
+        <div class="container">
+          <div id="header" class="header navbar-header">
+            <div class="header-logo">
+              <a href="https://www.nopcommerce.com/">
+                <img id="logo" class="svg" src="../../logo.png" alt="">
+              </a>
+            </div>  </div>
+          <div class="navbar-collapse collapse in">
+            <form class="navbar-form navbar-right" role="search" id="search">
+              <div class="form-group">
+                <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+              </div>
+        
+              <div class="form-group lang-container">
+                    
+                    <select id="lang-switcher" class="select-css">
+                        <option value="/en/index.html" selected="">
+                          English
+                        
+                    </select>        </div>
+            </form>
+          </div>
+        </div>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div class="container body-content">
+        
+        <div id="search-results">
+          <div class="search-list">Search Results for <span></span></div>
+          <div class="sr-items">
+            <p><i class="glyphicon glyphicon-refresh index-loading"></i></p>
+          </div>
+          <ul id="pagination" data-first="First" data-prev="Previous" data-next="Next" data-last="Last"></ul>
+        </div>
+      </div>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="en/running-your-store/vendor-management">
+<h1 id="vendor-management" sourcefile="en/running-your-store/vendor-management.md" sourcestartlinenumber="8">Vendor management</h1>
+
+<p sourcefile="en/running-your-store/vendor-management.md" sourcestartlinenumber="10"><em sourcefile="en/running-your-store/vendor-management.md" sourcestartlinenumber="10">Vendors</em> represent a special category of customers that should be considered separately.</p>
+<p sourcefile="en/running-your-store/vendor-management.md" sourcestartlinenumber="12">nopCommerce has tools for <a href="https://www.nopcommerce.com/multi-vendor-marketplace" sourcefile="en/running-your-store/vendor-management.md" sourcestartlinenumber="12">multi-vendor</a> and drop shipping that enable you to sell online without having to keep stocks or ship orders. In this case, each product is assigned to a particular vendor whose details (including email address) are stored.</p>
+<p sourcefile="en/running-your-store/vendor-management.md" sourcestartlinenumber="14">Whenever an order is placed, an email is sent to the vendor of each product in the order. The email includes the products, quantities, and more information if required. The vendor ships the item to the customer on behalf of the merchant, who typically pays each of their vendors at the end of the month.</p>
+<p sourcefile="en/running-your-store/vendor-management.md" sourcestartlinenumber="16">Products from multiple independent vendors appear in the common product catalog, and your website visitors can shop at one web store even if your products are supplied by hundreds of vendors from all over the world.</p>
+<p sourcefile="en/running-your-store/vendor-management.md" sourcestartlinenumber="18">Each vendor can be provided with administrator panel access to manage their products, review sales reports and order details regarding their products. Vendors can't see each other's activities.</p>
+<p sourcefile="en/running-your-store/vendor-management.md" sourcestartlinenumber="20">The money goes to the merchant account of the store administrator, who then manually distributes funds among the vendors according to the order history, which is tracked and managed separately for each provider. In this manner, the customer only sees one charge from the main company.</p>
+<p sourcefile="en/running-your-store/vendor-management.md" sourcestartlinenumber="22">The following procedure describes how to set up and provide a vendor record with access to the vendor portal site.</p>
+<h2 id="set-up-a-vendor-account" sourcefile="en/running-your-store/vendor-management.md" sourcestartlinenumber="24">Set up a vendor account</h2>
+<p sourcefile="en/running-your-store/vendor-management.md" sourcestartlinenumber="26">Go to <strong sourcefile="en/running-your-store/vendor-management.md" sourcestartlinenumber="26">Customers → Vendors</strong>. The <em sourcefile="en/running-your-store/vendor-management.md" sourcestartlinenumber="26">Vendors</em> window will be displayed:</p>
+<p sourcefile="en/running-your-store/vendor-management.md" sourcestartlinenumber="28"><img src="_static/vendor-management/vendor1.png" sourcefile="en/running-your-store/vendor-management.md" sourcestartlinenumber="28" alt="Vendors"></p>
+<p sourcefile="en/running-your-store/vendor-management.md" sourcestartlinenumber="30">Click <strong sourcefile="en/running-your-store/vendor-management.md" sourcestartlinenumber="30">Add new</strong>.</p>
+<h3 id="vendor-info" sourcefile="en/running-your-store/vendor-management.md" sourcestartlinenumber="32">Vendor info</h3>
+<p sourcefile="en/running-your-store/vendor-management.md" sourcestartlinenumber="34"><img src="_static/vendor-management/vendor2.png" sourcefile="en/running-your-store/vendor-management.md" sourcestartlinenumber="34" alt="Add vendor"></p>
+<p sourcefile="en/running-your-store/vendor-management.md" sourcestartlinenumber="36">In the <em sourcefile="en/running-your-store/vendor-management.md" sourcestartlinenumber="36">Vendor info</em> panel, define the following vendor's details:</p>
+<ul sourcefile="en/running-your-store/vendor-management.md" sourcestartlinenumber="38">
+<li sourcefile="en/running-your-store/vendor-management.md" sourcestartlinenumber="38"><strong sourcefile="en/running-your-store/vendor-management.md" sourcestartlinenumber="38">Name</strong> of the vendor.</li>
+<li sourcefile="en/running-your-store/vendor-management.md" sourcestartlinenumber="39"><strong sourcefile="en/running-your-store/vendor-management.md" sourcestartlinenumber="39">Description</strong> for the vendor.</li>
+<li sourcefile="en/running-your-store/vendor-management.md" sourcestartlinenumber="40">Vendor's <strong sourcefile="en/running-your-store/vendor-management.md" sourcestartlinenumber="40">Email</strong>. &quot;Order placed&quot; notifications will be sent to this email.</li>
+<li sourcefile="en/running-your-store/vendor-management.md" sourcestartlinenumber="41">Select the <strong sourcefile="en/running-your-store/vendor-management.md" sourcestartlinenumber="41">Active</strong> checkbox to activate the vendor.</li>
+<li sourcefile="en/running-your-store/vendor-management.md" sourcestartlinenumber="42">Upload a vendor <strong sourcefile="en/running-your-store/vendor-management.md" sourcestartlinenumber="42">Picture</strong>.</li>
+<li sourcefile="en/running-your-store/vendor-management.md" sourcestartlinenumber="43"><strong sourcefile="en/running-your-store/vendor-management.md" sourcestartlinenumber="43">Admin comment</strong> — an optional comment or information for internal use.</li>
+</ul>
+<div class="NOTE" sourcefile="en/running-your-store/vendor-management.md" sourcestartlinenumber="45">
+<h5>Note</h5>
+<p sourcefile="en/running-your-store/vendor-management.md" sourcestartlinenumber="47">Some vendor message templates, such as <em sourcefile="en/running-your-store/vendor-management.md" sourcestartlinenumber="47">OrderPaid.VendorNotification</em> and <em sourcefile="en/running-your-store/vendor-management.md" sourcestartlinenumber="47">OrderPlaced.VendorNotification</em>, are disabled by default. See how to change this in the <a class="xref" href="content-management/message-templates.html" sourcefile="en/running-your-store/vendor-management.md" sourcestartlinenumber="47">Message templates</a> section.</p>
+</div>
+<h3 id="vendor-attributes" sourcefile="en/running-your-store/vendor-management.md" sourcestartlinenumber="49">Vendor attributes</h3>
+<p sourcefile="en/running-your-store/vendor-management.md" sourcestartlinenumber="51">When you create some additional vendor attributes, the <em sourcefile="en/running-your-store/vendor-management.md" sourcestartlinenumber="51">Vendor attributes</em> panel will be displayed as well.</p>
+<p sourcefile="en/running-your-store/vendor-management.md" sourcestartlinenumber="53">A store owner is able to create attributes for a vendor, much like for a product. This would allow multi-vendor stores to collect and display more information about a vendor to customers.</p>
+<p sourcefile="en/running-your-store/vendor-management.md" sourcestartlinenumber="55">Learn more about vendor attributes and how to create them in the <a href="#vendor-attributes" sourcefile="en/running-your-store/vendor-management.md" sourcestartlinenumber="55">Vendor attributes</a> section below.</p>
+<h3 id="address-optional" sourcefile="en/running-your-store/vendor-management.md" sourcestartlinenumber="57">Address (optional)</h3>
+<p sourcefile="en/running-your-store/vendor-management.md" sourcestartlinenumber="59">In the <em sourcefile="en/running-your-store/vendor-management.md" sourcestartlinenumber="59">Address (optional)</em> panel, enter the vendor's address.</p>
+<p sourcefile="en/running-your-store/vendor-management.md" sourcestartlinenumber="61"><img src="_static/vendor-management/address.jpg" sourcefile="en/running-your-store/vendor-management.md" sourcestartlinenumber="61" alt="Address (optional)"></p>
+<h3 id="display" sourcefile="en/running-your-store/vendor-management.md" sourcestartlinenumber="63">Display</h3>
+<p sourcefile="en/running-your-store/vendor-management.md" sourcestartlinenumber="65">In the <em sourcefile="en/running-your-store/vendor-management.md" sourcestartlinenumber="65">Display</em> panel, define the following display parameters:</p>
+<p sourcefile="en/running-your-store/vendor-management.md" sourcestartlinenumber="67"><img src="_static/vendor-management/vendor4.png" sourcefile="en/running-your-store/vendor-management.md" sourcestartlinenumber="67" alt="Display"></p>
+<ul sourcefile="en/running-your-store/vendor-management.md" sourcestartlinenumber="69">
+<li sourcefile="en/running-your-store/vendor-management.md" sourcestartlinenumber="69"><strong sourcefile="en/running-your-store/vendor-management.md" sourcestartlinenumber="69">Allow customers to select page size</strong> from a predefined list of options.
+<ul sourcefile="en/running-your-store/vendor-management.md" sourcestartlinenumber="70">
+<li sourcefile="en/running-your-store/vendor-management.md" sourcestartlinenumber="70">If the previous checkbox is selected, define <strong sourcefile="en/running-your-store/vendor-management.md" sourcestartlinenumber="70">Page size options</strong> (comma-separated).</li>
+</ul>
+</li>
+<li sourcefile="en/running-your-store/vendor-management.md" sourcestartlinenumber="71">If the previous checkbox is clear, enter the <strong sourcefile="en/running-your-store/vendor-management.md" sourcestartlinenumber="71">Page size</strong>.</li>
+<li sourcefile="en/running-your-store/vendor-management.md" sourcestartlinenumber="72"><strong sourcefile="en/running-your-store/vendor-management.md" sourcestartlinenumber="72">Display order</strong> of the vendor.</li>
+</ul>
+<h3 id="seo" sourcefile="en/running-your-store/vendor-management.md" sourcestartlinenumber="74">SEO</h3>
+<p sourcefile="en/running-your-store/vendor-management.md" sourcestartlinenumber="76">Refer to the <a class="xref" href="search-engine-optimization.html#seo-panels" sourcefile="en/running-your-store/vendor-management.md" sourcestartlinenumber="76">SEO panels</a> section in order to set up SEO.</p>
+<p sourcefile="en/running-your-store/vendor-management.md" sourcestartlinenumber="78"><img src="_static/vendor-management/seo.jpg" sourcefile="en/running-your-store/vendor-management.md" sourcestartlinenumber="78" alt="SEO"></p>
+<h2 id="assigning-a-vendor-to-a-customer-record" sourcefile="en/running-your-store/vendor-management.md" sourcestartlinenumber="80">Assigning a vendor to a customer record</h2>
+<p sourcefile="en/running-your-store/vendor-management.md" sourcestartlinenumber="82">This step is optional and only required if you want your vendors to be able to log in to their administration portal and manage their products, orders and/or other data.</p>
+<p sourcefile="en/running-your-store/vendor-management.md" sourcestartlinenumber="84">If you do not want vendors to have access to the admin area, ignore this step to allow the store owner to manage all vendor mappings.</p>
+<p sourcefile="en/running-your-store/vendor-management.md" sourcestartlinenumber="86">Go to <strong sourcefile="en/running-your-store/vendor-management.md" sourcestartlinenumber="86">Customers → Customers</strong>. The <em sourcefile="en/running-your-store/vendor-management.md" sourcestartlinenumber="86">Customers</em> window will be displayed:</p>
+<p sourcefile="en/running-your-store/vendor-management.md" sourcestartlinenumber="88"><img src="_static/vendor-management/vendor7.png" sourcefile="en/running-your-store/vendor-management.md" sourcestartlinenumber="88" alt="Customers"></p>
+<p sourcefile="en/running-your-store/vendor-management.md" sourcestartlinenumber="90">Create a new customer or click <strong sourcefile="en/running-your-store/vendor-management.md" sourcestartlinenumber="90">Edit</strong> beside a customer record you want to assign a vendor to. For more information about creating a customer, refer to <a class="xref" href="customer-management/managing-customers.html#add-a-new-customer" sourcefile="en/running-your-store/vendor-management.md" sourcestartlinenumber="90">Add a new customer</a>.</p>
+<ul sourcefile="en/running-your-store/vendor-management.md" sourcestartlinenumber="92">
+<li sourcefile="en/running-your-store/vendor-management.md" sourcestartlinenumber="92"><p sourcefile="en/running-your-store/vendor-management.md" sourcestartlinenumber="92">In the <em sourcefile="en/running-your-store/vendor-management.md" sourcestartlinenumber="92">Customer info</em> panel, ensure the <em sourcefile="en/running-your-store/vendor-management.md" sourcestartlinenumber="92">Vendors</em> customer role is selected in the <strong sourcefile="en/running-your-store/vendor-management.md" sourcestartlinenumber="92">Customer roles</strong> field.</p>
+<div class="NOTE" sourcefile="en/running-your-store/vendor-management.md" sourcestartlinenumber="93">
+<h5>Note</h5>
+<p sourcefile="en/running-your-store/vendor-management.md" sourcestartlinenumber="95">A vendor customer account cannot belong to the default <em sourcefile="en/running-your-store/vendor-management.md" sourcestartlinenumber="95">Administrators</em> customer role.</p>
+</div>
+</li>
+<li sourcefile="en/running-your-store/vendor-management.md" sourcestartlinenumber="97"><p sourcefile="en/running-your-store/vendor-management.md" sourcestartlinenumber="97">In the <em sourcefile="en/running-your-store/vendor-management.md" sourcestartlinenumber="97">Customer info</em> panel, find the <strong sourcefile="en/running-your-store/vendor-management.md" sourcestartlinenumber="97">Manager of vendor</strong> field. Select the vendor record created previously.</p>
+</li>
+</ul>
+<p sourcefile="en/running-your-store/vendor-management.md" sourcestartlinenumber="99"><img src="_static/vendor-management/edit-customer.jpg" sourcefile="en/running-your-store/vendor-management.md" sourcestartlinenumber="99" alt="Edit customer"></p>
+<p sourcefile="en/running-your-store/vendor-management.md" sourcestartlinenumber="101">After the vendor's customer account is set up, the vendor can use this customer account to manage products, orders, shipments and view reports. The <em sourcefile="en/running-your-store/vendor-management.md" sourcestartlinenumber="101">Administration</em> link at the top of the public store will be displayed after logging in.</p>
+<div class="TIP" sourcefile="en/running-your-store/vendor-management.md" sourcestartlinenumber="103">
+<h5>Tip</h5>
+<p sourcefile="en/running-your-store/vendor-management.md" sourcestartlinenumber="105"><a href="https://www.youtube.com/watch?v=MH6r6tqfLF8&amp;list=PLnL_aDfmRHwsbhj621A-RFb1KnzeFxYz4&amp;index=9" sourcefile="en/running-your-store/vendor-management.md" sourcestartlinenumber="105">YouTube tutorial: Managing vendors</a></p>
+</div>
+<h2 id="vendor-settings" sourcefile="en/running-your-store/vendor-management.md" sourcestartlinenumber="107">Vendor settings</h2>
+<p sourcefile="en/running-your-store/vendor-management.md" sourcestartlinenumber="109">This section describes how to define the vendor settings of your store. This includes the number of vendors to display, whether or not to show the vendor on the product details pages of the store, and more.</p>
+<p sourcefile="en/running-your-store/vendor-management.md" sourcestartlinenumber="111">Go to <strong sourcefile="en/running-your-store/vendor-management.md" sourcestartlinenumber="111">Configuration → Settings → Vendor settings</strong>.</p>
+<p sourcefile="en/running-your-store/vendor-management.md" sourcestartlinenumber="113">This page enables multi-store configuration; it means that the same settings can be defined for all stores or differ from store to store. If you want to manage settings for a certain store, choose its name from the multi-store configuration dropdown list and select all the checkboxes needed on the left to set custom values for them. For further details, refer to <a class="xref" href="../getting-started/advanced-configuration/multi-store.html" sourcefile="en/running-your-store/vendor-management.md" sourcestartlinenumber="113">Multi-store</a>.</p>
+<h3 id="common" sourcefile="en/running-your-store/vendor-management.md" sourcestartlinenumber="115">Common</h3>
+<p sourcefile="en/running-your-store/vendor-management.md" sourcestartlinenumber="117">In the <em sourcefile="en/running-your-store/vendor-management.md" sourcestartlinenumber="117">Common</em> panel, define the following vendor settings:
+<img src="_static/vendor-management/vendorsettings1.png" sourcefile="en/running-your-store/vendor-management.md" sourcestartlinenumber="118" alt="Common"></p>
+<ul sourcefile="en/running-your-store/vendor-management.md" sourcestartlinenumber="120">
+<li sourcefile="en/running-your-store/vendor-management.md" sourcestartlinenumber="120"><p sourcefile="en/running-your-store/vendor-management.md" sourcestartlinenumber="120"><strong sourcefile="en/running-your-store/vendor-management.md" sourcestartlinenumber="120">Allow customers to apply for vendor account</strong>. Firstly, a vendor request is filled by a user, thus creating a vendor account. Then, the request is presented to the store owner (via email notification) to be accepted.</p>
+<div class="NOTE" sourcefile="en/running-your-store/vendor-management.md" sourcestartlinenumber="122">
+<h5>Note</h5>
+<p sourcefile="en/running-your-store/vendor-management.md" sourcestartlinenumber="124">A store owner has to add an appropriate customer record to the &quot;Vendors&quot; role manually in order to grant access to the admin area. Read about it in the <a href="#assigning-a-vendor-to-a-customer-record" sourcefile="en/running-your-store/vendor-management.md" sourcestartlinenumber="124">Assigning a vendor to a customer record</a> section above.</p>
+</div>
+<ul sourcefile="en/running-your-store/vendor-management.md" sourcestartlinenumber="126">
+<li sourcefile="en/running-your-store/vendor-management.md" sourcestartlinenumber="126">If the previous checkbox is selected, you can select <strong sourcefile="en/running-your-store/vendor-management.md" sourcestartlinenumber="126">Terms of service</strong> to require vendors to accept terms of service during registration.
+<div class="NOTE" sourcefile="en/running-your-store/vendor-management.md" sourcestartlinenumber="127">
+<h5>Note</h5>
+<p sourcefile="en/running-your-store/vendor-management.md" sourcestartlinenumber="129">To edit these terms of service, go to <strong sourcefile="en/running-your-store/vendor-management.md" sourcestartlinenumber="129">Content management → Topics (pages)</strong>. Find the <strong sourcefile="en/running-your-store/vendor-management.md" sourcestartlinenumber="129">VendorTermsOfService</strong> item and click <strong sourcefile="en/running-your-store/vendor-management.md" sourcestartlinenumber="129">Edit</strong>. Read more about it in the <a class="xref" href="content-management/topics-pages.html" sourcefile="en/running-your-store/vendor-management.md" sourcestartlinenumber="129">Topics (pages)</a> section.</p>
+</div>
+</li>
+</ul>
+</li>
+<li sourcefile="en/running-your-store/vendor-management.md" sourcestartlinenumber="131"><p sourcefile="en/running-your-store/vendor-management.md" sourcestartlinenumber="131"><strong sourcefile="en/running-your-store/vendor-management.md" sourcestartlinenumber="131">Allow vendors to edit info</strong> allows vendors to provide personal information in the public store.</p>
+<ul sourcefile="en/running-your-store/vendor-management.md" sourcestartlinenumber="132">
+<li sourcefile="en/running-your-store/vendor-management.md" sourcestartlinenumber="132">Choose whether to <strong sourcefile="en/running-your-store/vendor-management.md" sourcestartlinenumber="132">Notify about vendor information changes</strong> to notify the admin about vendor information changes.</li>
+</ul>
+</li>
+<li sourcefile="en/running-your-store/vendor-management.md" sourcestartlinenumber="134"><p sourcefile="en/running-your-store/vendor-management.md" sourcestartlinenumber="134"><strong sourcefile="en/running-your-store/vendor-management.md" sourcestartlinenumber="134">Maximum number of products</strong> per vendor.</p>
+</li>
+<li sourcefile="en/running-your-store/vendor-management.md" sourcestartlinenumber="135"><p sourcefile="en/running-your-store/vendor-management.md" sourcestartlinenumber="135"><strong sourcefile="en/running-your-store/vendor-management.md" sourcestartlinenumber="135">Allow vendors to import products</strong> allows vendors to import products.</p>
+</li>
+</ul>
+<h3 id="catalog" sourcefile="en/running-your-store/vendor-management.md" sourcestartlinenumber="137">Catalog</h3>
+<p sourcefile="en/running-your-store/vendor-management.md" sourcestartlinenumber="139">In the <em sourcefile="en/running-your-store/vendor-management.md" sourcestartlinenumber="139">Catalog</em> panel, define the following vendor settings:
+<img src="_static/vendor-management/vendorsettings2.png" sourcefile="en/running-your-store/vendor-management.md" sourcestartlinenumber="140" alt="Catalog"></p>
+<ul sourcefile="en/running-your-store/vendor-management.md" sourcestartlinenumber="142">
+<li sourcefile="en/running-your-store/vendor-management.md" sourcestartlinenumber="142"><strong sourcefile="en/running-your-store/vendor-management.md" sourcestartlinenumber="142">Allow customers to contact vendors</strong> (send emails using contact forms). This functionality is available on a vendor details page in the public store.</li>
+<li sourcefile="en/running-your-store/vendor-management.md" sourcestartlinenumber="143"><strong sourcefile="en/running-your-store/vendor-management.md" sourcestartlinenumber="143">Allow search by vendor</strong> to customers on an advanced search page.</li>
+<li sourcefile="en/running-your-store/vendor-management.md" sourcestartlinenumber="144">Choose whether to <strong sourcefile="en/running-your-store/vendor-management.md" sourcestartlinenumber="144">Show vendor on product details page</strong> (if associated).</li>
+<li sourcefile="en/running-your-store/vendor-management.md" sourcestartlinenumber="145">Choose whether to <strong sourcefile="en/running-your-store/vendor-management.md" sourcestartlinenumber="145">Show vendor name on order details page</strong> (if associated).</li>
+<li sourcefile="en/running-your-store/vendor-management.md" sourcestartlinenumber="146"><strong sourcefile="en/running-your-store/vendor-management.md" sourcestartlinenumber="146">Number of vendors to display</strong> in the vendor navigation block in the public store.</li>
+</ul>
+<h3 id="vendor-attributes-1" sourcefile="en/running-your-store/vendor-management.md" sourcestartlinenumber="148"><em sourcefile="en/running-your-store/vendor-management.md" sourcestartlinenumber="148">Vendor attributes</em></h3>
+<p sourcefile="en/running-your-store/vendor-management.md" sourcestartlinenumber="150">You can create any number of vendor attributes, such as business name or website.</p>
+<p sourcefile="en/running-your-store/vendor-management.md" sourcestartlinenumber="152"><img src="_static/vendor-management/vendorsettings3.png" sourcefile="en/running-your-store/vendor-management.md" sourcestartlinenumber="152" alt="Vendor attributes"></p>
+<h4 id="add-a-new-attribute" sourcefile="en/running-your-store/vendor-management.md" sourcestartlinenumber="154">Add a new attribute</h4>
+<p sourcefile="en/running-your-store/vendor-management.md" sourcestartlinenumber="156">Click <strong sourcefile="en/running-your-store/vendor-management.md" sourcestartlinenumber="156">Add new</strong> to create a new vendor attribute and its values. The <em sourcefile="en/running-your-store/vendor-management.md" sourcestartlinenumber="156">Add new vendor attribute</em> window will be displayed as follows:</p>
+<p sourcefile="en/running-your-store/vendor-management.md" sourcestartlinenumber="158"><img src="_static/vendor-management/vendorsettings4.png" sourcefile="en/running-your-store/vendor-management.md" sourcestartlinenumber="158" alt="Add new"></p>
+<p sourcefile="en/running-your-store/vendor-management.md" sourcestartlinenumber="160">In the <em sourcefile="en/running-your-store/vendor-management.md" sourcestartlinenumber="160">Attribute info</em> panel, define the following information:</p>
+<ul sourcefile="en/running-your-store/vendor-management.md" sourcestartlinenumber="162">
+<li sourcefile="en/running-your-store/vendor-management.md" sourcestartlinenumber="162"><strong sourcefile="en/running-your-store/vendor-management.md" sourcestartlinenumber="162">Name</strong> — the name of the vendor attribute.</li>
+<li sourcefile="en/running-your-store/vendor-management.md" sourcestartlinenumber="163"><strong sourcefile="en/running-your-store/vendor-management.md" sourcestartlinenumber="163">Required</strong> — when an attribute is required, vendors must choose an appropriate attribute value before they can continue.</li>
+<li sourcefile="en/running-your-store/vendor-management.md" sourcestartlinenumber="164">From the <strong sourcefile="en/running-your-store/vendor-management.md" sourcestartlinenumber="164">Control type</strong> dropdown list, select the required method for displaying the attribute value: <em sourcefile="en/running-your-store/vendor-management.md" sourcestartlinenumber="164">Drop-down list, Radio button list, Checkbox, Textbox, Multiline textbox, Read-only checkbox</em>.</li>
+<li sourcefile="en/running-your-store/vendor-management.md" sourcestartlinenumber="165"><strong sourcefile="en/running-your-store/vendor-management.md" sourcestartlinenumber="165">Display order</strong> — the vendor attribute display order.</li>
+</ul>
+<div class="NOTE" sourcefile="en/running-your-store/vendor-management.md" sourcestartlinenumber="167">
+<h5>Note</h5>
+<p sourcefile="en/running-your-store/vendor-management.md" sourcestartlinenumber="169">Dropdown lists, radio lists, checkboxes, and read-only checkboxes require the store owner to define values. Textbox and multiline textbox control types do not require the store owner to define values since vendors will be required to fill these textbox fields.</p>
+</div>
+<p sourcefile="en/running-your-store/vendor-management.md" sourcestartlinenumber="171">Click <strong sourcefile="en/running-your-store/vendor-management.md" sourcestartlinenumber="171">Save and continue edit</strong> to proceed to the <em sourcefile="en/running-your-store/vendor-management.md" sourcestartlinenumber="171">Values</em> panel.</p>
+<h4 id="add-a-new-attribute-value" sourcefile="en/running-your-store/vendor-management.md" sourcestartlinenumber="173">Add a new attribute value</h4>
+<p sourcefile="en/running-your-store/vendor-management.md" sourcestartlinenumber="175">In the <em sourcefile="en/running-your-store/vendor-management.md" sourcestartlinenumber="175">Values</em> panel, click <strong sourcefile="en/running-your-store/vendor-management.md" sourcestartlinenumber="175">Add a new attribute value</strong> to create a new attribute value.</p>
+<p sourcefile="en/running-your-store/vendor-management.md" sourcestartlinenumber="177"><img src="_static/vendor-management/vendorsettings5.png" sourcefile="en/running-your-store/vendor-management.md" sourcestartlinenumber="177" alt="Add a new attribute values"></p>
+<p sourcefile="en/running-your-store/vendor-management.md" sourcestartlinenumber="179">In the <em sourcefile="en/running-your-store/vendor-management.md" sourcestartlinenumber="179">Add a new attribute value</em> window, define the following information:</p>
+<ul sourcefile="en/running-your-store/vendor-management.md" sourcestartlinenumber="181">
+<li sourcefile="en/running-your-store/vendor-management.md" sourcestartlinenumber="181"><strong sourcefile="en/running-your-store/vendor-management.md" sourcestartlinenumber="181">Name</strong> — the attribute value name.</li>
+<li sourcefile="en/running-your-store/vendor-management.md" sourcestartlinenumber="182">Select the <strong sourcefile="en/running-your-store/vendor-management.md" sourcestartlinenumber="182">Pre-selected</strong> checkbox to indicate the attribute value is preselected for a customer.</li>
+<li sourcefile="en/running-your-store/vendor-management.md" sourcestartlinenumber="183"><strong sourcefile="en/running-your-store/vendor-management.md" sourcestartlinenumber="183">Display order</strong> — display order number of the attribute value.</li>
+</ul>
+<p sourcefile="en/running-your-store/vendor-management.md" sourcestartlinenumber="185">You can edit and remove attribute values by clicking the corresponding buttons beside the attribute values in the <em sourcefile="en/running-your-store/vendor-management.md" sourcestartlinenumber="185">Values</em> panel.</p>
+<p sourcefile="en/running-your-store/vendor-management.md" sourcestartlinenumber="187">Click <strong sourcefile="en/running-your-store/vendor-management.md" sourcestartlinenumber="187">Save</strong>. The new attribute will be displayed in the <em sourcefile="en/running-your-store/vendor-management.md" sourcestartlinenumber="187">Edit vendor details</em> page.</p>
+            </article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/nopSolutions/nopCommerce-Docs/blob/master/en/running-your-store/vendor-management.md/#L1" class="contribution-link">Improve this Doc</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../../styles/docfx.js"></script>
+    <script type="text/javascript" src="../../styles/main.js"></script>
+  </body>
+</html>
