@@ -81,7 +81,7 @@ a:active {
 }
 
 a {
-  color: #25c8e0;
+  color: #FF8500;
   cursor: pointer;
 }
 
@@ -91,7 +91,7 @@ a {
   }
 
   button:hover, button:focus, a:hover, a:focus {
-    color: #25c8e0;
+    color: #FF8500;
   }
 
 /* HEADER */
@@ -197,15 +197,15 @@ header {
 }
 
 .toc .nav > li > a:hover, .toc .nav > li > a:focus {
-  color: #25c8e0;
+  color: #FF8500;
 }
 
 .toc .nav > li.active > a {
-  color: #25c8e0;
+  color: #FF8500;
 }
 
 .toc .nav > li.active > a:hover, .toc .nav > li.active > a:focus {
-  color: #25c8e0;
+  color: #FF8500;
 }
 
 .sidefilter {
@@ -290,7 +290,7 @@ pre {
       margin: 0 5px;
       font-size: 11px;
       line-height: 32px;
-      color: #25c8e0;
+      color: #FF8500;
       text-transform: uppercase;
   }
 
@@ -759,6 +759,6 @@ pre {
 }
 
 .form-control:focus {
-  border-color: #25c8e0;
+  border-color: #FF8500;
   box-shadow: none;
 }

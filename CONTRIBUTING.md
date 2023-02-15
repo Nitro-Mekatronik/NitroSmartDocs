@@ -1,6 +1,6 @@
-# Contribute to the nopCommerce documentation
+# Contribute to the nitrosmart documentation
 
-This document covers the process of contributing to the articles and code samples hosted on the [nopCommerce documentation site](http://docs.nopcommerce.com). Typo corrections and new articles are welcome contributions.
+This document covers the process of contributing to the articles and code samples hosted on the [nitrosmart documentation site](http://docs.nitrosmart.com). Typo corrections and new articles are welcome contributions.
 
 ## How to make a simple correction or suggestion
 
@@ -8,7 +8,7 @@ Articles are stored in the repository as Markdown files. Simple changes to the c
 
 ## Docs Authoring Pack extension in Visual Studio Code
 
-If you use Visual Studio Code to contribute to the nopCommerce documentation, you can boost your productivity by installing the [Docs Authoring Pack](https://marketplace.visualstudio.com/items?itemName=docsmsft.docs-authoring-pack) extension. The extension provides a variety of tools that helps with Markdown linting, code spell checking, and article templates.
+If you use Visual Studio Code to contribute to the nitrosmart documentation, you can boost your productivity by installing the [Docs Authoring Pack](https://marketplace.visualstudio.com/items?itemName=docsmsft.docs-authoring-pack) extension. The extension provides a variety of tools that helps with Markdown linting, code spell checking, and article templates.
 
 ## Folder structure conventions
 
@@ -40,7 +40,7 @@ Test your changes with the [DocFX command-line tool](https://dotnet.github.io/do
 
 ## Forking and submitting pull requests
 
-If you want to contribute some changes to the nopCommerce documentation (article fix or new post), then you should follow the approach below. Here is a short list of steps to contribute:
+If you want to contribute some changes to the nitrosmart documentation (article fix or new post), then you should follow the approach below. Here is a short list of steps to contribute:
 
 - First of all, you have to create a fork. Please find more about repository forking on GitHub at [https://help.github.com/articles/fork-a-repo/](https://help.github.com/articles/fork-a-repo/).
 - Clone it locally.
@@ -54,13 +54,13 @@ If you delete an article, change its file name or move it to another folder, cre
 
 ## Microsoft writing style guide
 
-The [Microsoft Writing Style Guide](https://docs.microsoft.com/style-guide/welcome/) provides writing style and terminology guidance for all forms of technology communication, including the nopCommerce documentation.
+The [Microsoft Writing Style Guide](https://docs.microsoft.com/style-guide/welcome/) provides writing style and terminology guidance for all forms of technology communication, including the nitrosmart documentation.
 
 ## Markdown syntax
 
 Articles are written in [DocFx-flavored Markdown](https://dotnet.github.io/docfx/spec/docfx_flavored_markdown.html), which is a superset of [GitHub-flavored Markdown (GFM)](https://guides.github.com/features/mastering-markdown/).
 
-## nopCommerce documentation style guide
+## nitrosmart documentation style guide
 
 Please follow these simple rules to make the docs consistent and easy to read. These rules are conventions to ensure a homogeneous style throughout the document.
 
@@ -91,13 +91,13 @@ For more information, see the [DocFX Cross Reference](https://dotnet.github.io/d
 Do use explicitly named anchors when building links to a specific section of the document. Anchors are automatically created for all headers from their title by lowercasing and removing spaces. Anchors can be linked using the following syntax:
 
 ```
-[nopCommerce documentation style guide](#nopcommerce-documentation-style-guide)
+[nitrosmart documentation style guide](#nitrosmart-documentation-style-guide)
 ```
 
 If the anchor is in another document, use the uid and the anchor name like this:
 
 ```
-[nopCommerce documentation style guide](xref:uid_of_the_topic#nopcommerce-documentation-style-guide)
+[nitrosmart documentation style guide](xref:uid_of_the_topic#nitrosmart-documentation-style-guide)
 ```
 
 > [!NOTE]
@@ -148,7 +148,7 @@ Try to break code lines so that the code blocks have no horizontal scroll bars.
 
 ### Writing style
 	
-1. Write headers and button and field names as presented in the nopCommerce admin area or public site. Don't use capital letters and the CAPSLOCK key unnecessarily. For example:
+1. Write headers and button and field names as presented in the nitrosmart admin area or public site. Don't use capital letters and the CAPSLOCK key unnecessarily. For example:
 	* If you are referring to a message template list page, write: **Content management → Message templates** and not **Content Management → Message Templates**
 	* Use the **Edit** button, not the **EDIT** button
 	* Follow correct brand name spelling: **PayPal Smart Payment Buttons**
